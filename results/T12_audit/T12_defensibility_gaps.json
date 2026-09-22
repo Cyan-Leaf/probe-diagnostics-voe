@@ -1,0 +1,123 @@
+{
+  "Q4_baseline_stability": {
+    "question": "how stable is the random-init lower bound?",
+    "per_timestep": {
+      "200": {
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "aucs": [
+          0.8607804232804233,
+          0.871031746031746,
+          0.8665343915343915
+        ],
+        "mean": 0.8661155202821869,
+        "sd_across_inits": 0.005138481719573362,
+        "range": 0.010251322751322789
+      },
+      "400": {
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "aucs": [
+          0.8691137566137567,
+          0.8576719576719578,
+          0.8580687830687831
+        ],
+        "mean": 0.8616181657848325,
+        "sd_across_inits": 0.006494403668150004,
+        "range": 0.011441798941798864
+      },
+      "600": {
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "aucs": [
+          0.8203042328042327,
+          0.8388227513227514,
+          0.8466931216931217
+        ],
+        "mean": 0.8352733686067019,
+        "sd_across_inits": 0.013547765588696742,
+        "range": 0.026388888888889017
+      },
+      "800": {
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "aucs": [
+          0.8091931216931216,
+          0.774074074074074,
+          0.7898809523809522
+        ],
+        "mean": 0.7910493827160492,
+        "sd_across_inits": 0.017588655392133154,
+        "range": 0.035119047619047605
+      },
+      "950": {
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "aucs": [
+          0.6953703703703703,
+          0.7187830687830689,
+          0.6911375661375662
+        ],
+        "mean": 0.7017636684303351,
+        "sd_across_inits": 0.014890404601396377,
+        "range": 0.027645502645502695
+      }
+    },
+    "sd_across_inits_range": [
+      0.005138481719573362,
+      0.017588655392133154
+    ],
+    "sd_across_inits_max": 0.017588655392133154,
+    "reported_cv_sd_at_best_layer": 0.026788367822054657,
+    "margin_real_minus_random": 0.11640211640211628,
+    "margin_over_max_init_sd": 6.618022458622917,
+    "reading": "Three independent random initialisations give a spread of 0.0051-0.0176 AUC across timesteps. The trained-minus-random margin is 0.1164, i.e. 7x the largest initialisation spread, so the D1 conclusion does not hinge on which random initialisation was drawn. Note this is the spread across *initialisations*; the 0.0268 quoted in E1 is the across-fold sd, a different quantity."
+  },
+  "Q1_nonlinear_probe": {
+    "question": "would a non-linear probe change the conclusion?",
+    "setup": "same folds, same scaling, PCA to 256 dims, one hidden layer of 256 with alpha=1.0 and early stopping; layer 16 / t=600 to match the fixed cell",
+    "mlp": {
+      "trained": {
+        "auc_mean": 0.8776416140815618,
+        "auc_sd": 0.054096337684177646,
+        "per_seed": [
+          0.9271827318701437,
+          0.8199215182097355,
+          0.8858205921648061
+        ]
+      },
+      "random-init": {
+        "auc_mean": 0.7117654218107544,
+        "auc_sd": 0.04175293372049992,
+        "per_seed": [
+          0.6866720646101664,
+          0.7599638891820375,
+          0.6886603116400589
+        ]
+      }
+    },
+    "linear_reference": {
+      "real": 0.9686287477954144,
+      "random": 0.8352733686067019,
+      "training_share": 0.28456508444277184
+    },
+    "mlp_training_share": 0.4392423559416892,
+    "share_change": 0.15467727149891736,
+    "reading": "A one-hidden-layer MLP reaches 0.8776 on the trained backbone and 0.7118 on the random-initialised one, a training share of 43.9% against 28.5% for the linear probe (+15.5 points). The D1 verdict is unchanged: a stronger readout raises both sides, so the share attributable to training stays below the 50% threshold."
+  }
+}

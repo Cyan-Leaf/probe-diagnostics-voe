@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+cache/
+*.pt
+*.npy
+*.mp4
+data/
+results/L0_smoke.json
+humaneval/data/

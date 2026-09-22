@@ -1,0 +1,4556 @@
+[
+ {
+  "clip_id": "intphys2/0/1_Possible/083861b17a8b",
+  "scene_index": "0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/0/2_Possible/66a6de26327f",
+  "scene_index": "0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/100/1_Possible/5d7d3c161038",
+  "scene_index": "100",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/100/2_Possible/1e679cf4237a",
+  "scene_index": "100",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/101/1_Possible/e853c91d3233",
+  "scene_index": "101",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/101/2_Possible/7fa2f0ef2997",
+  "scene_index": "101",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/102/1_Possible/81b578958250",
+  "scene_index": "102",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/102/2_Possible/433588f036b0",
+  "scene_index": "102",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/103/1_Possible/813b2d9fff60",
+  "scene_index": "103",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/103/2_Possible/d4670d8b6e7c",
+  "scene_index": "103",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/104/1_Possible/7faa38e394de",
+  "scene_index": "104",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/104/2_Possible/c04ddf75dc7e",
+  "scene_index": "104",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/105/1_Possible/277f8147b3a5",
+  "scene_index": "105",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/105/2_Possible/d386d692a5ed",
+  "scene_index": "105",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/106/1_Possible/56d63802e768",
+  "scene_index": "106",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/106/2_Possible/efdc091fa333",
+  "scene_index": "106",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/107/1_Possible/5379e746e423",
+  "scene_index": "107",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/107/2_Possible/b4fe108c05e8",
+  "scene_index": "107",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/108/1_Possible/aca6ec7e5484",
+  "scene_index": "108",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/108/2_Possible/eebb916391ab",
+  "scene_index": "108",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/109/1_Possible/f3da1fee9d5b",
+  "scene_index": "109",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/109/2_Possible/19106a00496b",
+  "scene_index": "109",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/10/1_Possible/28440beabcd7",
+  "scene_index": "10",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/10/2_Possible/4cbfcd331842",
+  "scene_index": "10",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/110/1_Possible/60f9ae3cbb37",
+  "scene_index": "110",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/110/2_Possible/0dbf29e70d66",
+  "scene_index": "110",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/111/1_Possible/78415f5a8b78",
+  "scene_index": "111",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/111/2_Possible/032d6cbf50b6",
+  "scene_index": "111",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/112/1_Possible/6166be0c8596",
+  "scene_index": "112",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/112/2_Possible/90148e35612f",
+  "scene_index": "112",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/113/1_Possible/1196c2cd68ae",
+  "scene_index": "113",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/113/2_Possible/a193e9c4cad2",
+  "scene_index": "113",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/114/1_Possible/90a77bdf4193",
+  "scene_index": "114",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/114/2_Possible/efb886e62a4c",
+  "scene_index": "114",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/115/1_Possible/874e017a4472",
+  "scene_index": "115",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/115/2_Possible/26099f756e4d",
+  "scene_index": "115",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/116/1_Possible/afb40b3827ce",
+  "scene_index": "116",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/116/2_Possible/0f80d0ded8bf",
+  "scene_index": "116",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/117/1_Possible/e87e71357e32",
+  "scene_index": "117",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/117/2_Possible/84f144af8fc2",
+  "scene_index": "117",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/118/1_Possible/4b7383c2c004",
+  "scene_index": "118",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/118/2_Possible/a53eacbcbd14",
+  "scene_index": "118",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/119/1_Possible/04fc8ee6b1e2",
+  "scene_index": "119",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/119/2_Possible/d886ee6373a2",
+  "scene_index": "119",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/11/1_Possible/74eb28d52933",
+  "scene_index": "11",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/11/2_Possible/bbd0ca4a4c71",
+  "scene_index": "11",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/120/1_Possible/1fa7c34af124",
+  "scene_index": "120",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/120/2_Possible/872b21663bf8",
+  "scene_index": "120",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/121/1_Possible/3d89f3f3e83d",
+  "scene_index": "121",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/121/2_Possible/5128118325df",
+  "scene_index": "121",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/122/1_Possible/7c249631156b",
+  "scene_index": "122",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/122/2_Possible/64ad256c44f2",
+  "scene_index": "122",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/123/1_Possible/da2fda1055be",
+  "scene_index": "123",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/123/2_Possible/3751c5dcedf9",
+  "scene_index": "123",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/124/1_Possible/9d636c504fc5",
+  "scene_index": "124",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/124/2_Possible/336809b2bedc",
+  "scene_index": "124",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/125/1_Possible/4d9a30dcabd3",
+  "scene_index": "125",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/125/2_Possible/bd288ea0f502",
+  "scene_index": "125",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/126/1_Possible/3fb245c63a57",
+  "scene_index": "126",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/126/2_Possible/9aaf4adb4cfe",
+  "scene_index": "126",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/127/1_Possible/8173249b58d1",
+  "scene_index": "127",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/127/2_Possible/d0830bc3c8f0",
+  "scene_index": "127",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/128/1_Possible/c9e05af1c291",
+  "scene_index": "128",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/128/2_Possible/780fe29f730d",
+  "scene_index": "128",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/129/1_Possible/ecb29276eb64",
+  "scene_index": "129",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/129/2_Possible/bd0ced8cffc6",
+  "scene_index": "129",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/12/1_Possible/8558d9be4c61",
+  "scene_index": "12",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/12/2_Possible/311fc90782be",
+  "scene_index": "12",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/130/1_Possible/c99d46743f5a",
+  "scene_index": "130",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/130/2_Possible/2b9e4ebde2c9",
+  "scene_index": "130",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/131/1_Possible/622f2a20333a",
+  "scene_index": "131",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/131/2_Possible/da808df98e41",
+  "scene_index": "131",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/132/1_Possible/8e2d98ffd205",
+  "scene_index": "132",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/132/2_Possible/acaab01518fc",
+  "scene_index": "132",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/133/1_Possible/04dff7b8e811",
+  "scene_index": "133",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/133/2_Possible/3f0c9e69a182",
+  "scene_index": "133",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/134/1_Possible/545d90569da0",
+  "scene_index": "134",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/134/2_Possible/9e7a1649b07e",
+  "scene_index": "134",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/135/1_Possible/d05677fe29d2",
+  "scene_index": "135",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/135/2_Possible/e2261b2a693e",
+  "scene_index": "135",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/136/1_Possible/a414841e5010",
+  "scene_index": "136",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/136/2_Possible/753659868d88",
+  "scene_index": "136",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/137/1_Possible/a8a911809f32",
+  "scene_index": "137",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/137/2_Possible/0a1dce7d446d",
+  "scene_index": "137",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/138/1_Possible/8d63ba3bb078",
+  "scene_index": "138",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/138/2_Possible/2ce1d2aabe8f",
+  "scene_index": "138",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/139/1_Possible/6d2841272198",
+  "scene_index": "139",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/139/2_Possible/29313191cd00",
+  "scene_index": "139",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/13/1_Possible/bb710c8543f5",
+  "scene_index": "13",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/13/2_Possible/d3cbe2f5a048",
+  "scene_index": "13",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/140/1_Possible/bbe246226e7e",
+  "scene_index": "140",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/140/2_Possible/237cf0a9b322",
+  "scene_index": "140",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/141/1_Possible/e7c0f0ec770e",
+  "scene_index": "141",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/141/2_Possible/9e9ed7bc2c5d",
+  "scene_index": "141",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/142/1_Possible/73443250b4e4",
+  "scene_index": "142",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/142/2_Possible/7213bc33b047",
+  "scene_index": "142",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/143/1_Possible/0888ee8fb44d",
+  "scene_index": "143",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/143/2_Possible/75909d864e36",
+  "scene_index": "143",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/144/1_Possible/a7be3417b0df",
+  "scene_index": "144",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/144/2_Possible/d60ae8971655",
+  "scene_index": "144",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/145/1_Possible/06a0a4f3030d",
+  "scene_index": "145",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/145/2_Possible/01abadb6e2a7",
+  "scene_index": "145",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/146/1_Possible/573f5be3ea74",
+  "scene_index": "146",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/146/2_Possible/9a43fc373daf",
+  "scene_index": "146",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/147/1_Possible/9895771e3170",
+  "scene_index": "147",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/147/2_Possible/235a3b536424",
+  "scene_index": "147",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/148/1_Possible/092ede317038",
+  "scene_index": "148",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/148/2_Possible/750b40a5eb33",
+  "scene_index": "148",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/149/1_Possible/7dbca8c06d1f",
+  "scene_index": "149",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/149/2_Possible/761398d09aa9",
+  "scene_index": "149",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/14/1_Possible/6de8d0db1b8b",
+  "scene_index": "14",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/14/2_Possible/c0d5fe94e25b",
+  "scene_index": "14",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/150/1_Possible/a81c7a961154",
+  "scene_index": "150",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/150/2_Possible/c2953be7e837",
+  "scene_index": "150",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/151/1_Possible/22b69cdb5057",
+  "scene_index": "151",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/151/2_Possible/6e44237ff081",
+  "scene_index": "151",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/152/1_Possible/8a78104b84b1",
+  "scene_index": "152",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/152/2_Possible/3eda4eba7bdb",
+  "scene_index": "152",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/153/1_Possible/17cd9d91a753",
+  "scene_index": "153",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/153/2_Possible/fea7f9879c19",
+  "scene_index": "153",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/154_0/1_Possible/48d4b04bdb05",
+  "scene_index": "154_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/154_0/2_Possible/794b79e0448a",
+  "scene_index": "154_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/154/1_Possible/e0eba25316e8",
+  "scene_index": "154",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/154/2_Possible/dedf19b3ad11",
+  "scene_index": "154",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/155_0/1_Possible/837d1871ebdc",
+  "scene_index": "155_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/155_0/2_Possible/c54703bdc006",
+  "scene_index": "155_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/155/1_Possible/6fbde8278ff9",
+  "scene_index": "155",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/155/2_Possible/f2326fe4ebf5",
+  "scene_index": "155",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/156_0/1_Possible/5c93a17f46df",
+  "scene_index": "156_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/156_0/2_Possible/f4a4bd2cd447",
+  "scene_index": "156_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/156/1_Possible/16ff47bcb1d4",
+  "scene_index": "156",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/156/2_Possible/3bf6eb22f58f",
+  "scene_index": "156",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/157/1_Possible/a77ea32e4cc9",
+  "scene_index": "157",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/157/2_Possible/8cb8917ed2cf",
+  "scene_index": "157",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/158/1_Possible/267710b75cac",
+  "scene_index": "158",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/158/2_Possible/86d8faca7af7",
+  "scene_index": "158",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/159/1_Possible/dd8777fa1f83",
+  "scene_index": "159",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/159/2_Possible/da9b377f9d7c",
+  "scene_index": "159",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/15/1_Possible/ac3133d6c700",
+  "scene_index": "15",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/15/2_Possible/b5fa4e5e9749",
+  "scene_index": "15",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/160/1_Possible/44e8f0632e3c",
+  "scene_index": "160",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/160/2_Possible/39a5335228bc",
+  "scene_index": "160",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/161/1_Possible/14ee35ab38bb",
+  "scene_index": "161",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/161/2_Possible/546089ee7bb1",
+  "scene_index": "161",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/162/1_Possible/8cea59b219a3",
+  "scene_index": "162",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/162/2_Possible/023a7804c368",
+  "scene_index": "162",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/163/1_Possible/2b8051d9ad04",
+  "scene_index": "163",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/163/2_Possible/2e76e8944e7a",
+  "scene_index": "163",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/164/1_Possible/ca3e63b54d1a",
+  "scene_index": "164",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/164/2_Possible/50be537fec9a",
+  "scene_index": "164",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/165/1_Possible/f240043e2628",
+  "scene_index": "165",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/165/2_Possible/730f9737891b",
+  "scene_index": "165",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/166/1_Possible/37dcf598f77a",
+  "scene_index": "166",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/166/2_Possible/300f4afd7e5e",
+  "scene_index": "166",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/167/1_Possible/054d4f27f541",
+  "scene_index": "167",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/167/2_Possible/5a69f4582f6e",
+  "scene_index": "167",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/168/1_Possible/8f17ec48bffc",
+  "scene_index": "168",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/168/2_Possible/04e2a9705a1b",
+  "scene_index": "168",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/169/1_Possible/1399af7e89a1",
+  "scene_index": "169",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/169/2_Possible/d887d9566254",
+  "scene_index": "169",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/16/1_Possible/be3111c6d941",
+  "scene_index": "16",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/16/2_Possible/0e9e5372d8d1",
+  "scene_index": "16",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/170/1_Possible/025a169284bb",
+  "scene_index": "170",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/170/2_Possible/035aeaccbff2",
+  "scene_index": "170",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/171/1_Possible/280498cc280e",
+  "scene_index": "171",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/171/2_Possible/7f2137da3c82",
+  "scene_index": "171",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/172/1_Possible/ba8fe56ebba8",
+  "scene_index": "172",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/172/2_Possible/e8f96a9153d8",
+  "scene_index": "172",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/173/1_Possible/5bb77926628d",
+  "scene_index": "173",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/173/2_Possible/a436f0756190",
+  "scene_index": "173",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/174/1_Possible/9204bd502b58",
+  "scene_index": "174",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/174/2_Possible/cb5a77a2e9f1",
+  "scene_index": "174",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/175/1_Possible/4a7688e24f1c",
+  "scene_index": "175",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/175/2_Possible/7944177052c9",
+  "scene_index": "175",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/176/1_Possible/b81f5acefbf2",
+  "scene_index": "176",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/176/2_Possible/d72f329f04d0",
+  "scene_index": "176",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/177/1_Possible/5da78c7d053d",
+  "scene_index": "177",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/177/2_Possible/28913f224c57",
+  "scene_index": "177",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/178/1_Possible/5998f4add3af",
+  "scene_index": "178",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/178/2_Possible/796cf2b7f770",
+  "scene_index": "178",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/179/1_Possible/ea99e68648af",
+  "scene_index": "179",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/179/2_Possible/572c9b970b84",
+  "scene_index": "179",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/17/1_Possible/69cf2d9aa1fd",
+  "scene_index": "17",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/17/2_Possible/8ad6ed8bf5c3",
+  "scene_index": "17",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/180/1_Possible/a70db97dc4a5",
+  "scene_index": "180",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/180/2_Possible/0384a3bdda23",
+  "scene_index": "180",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/181/1_Possible/fddd6ac32722",
+  "scene_index": "181",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/181/2_Possible/c38e7faedd42",
+  "scene_index": "181",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/182/1_Possible/9175c7b48bd8",
+  "scene_index": "182",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/182/2_Possible/293d34cbbcb2",
+  "scene_index": "182",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/183/1_Possible/482241bd7da6",
+  "scene_index": "183",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/183/2_Possible/a88592af947c",
+  "scene_index": "183",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/184/1_Possible/b6d4c06d5067",
+  "scene_index": "184",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/184/2_Possible/8e41050f412a",
+  "scene_index": "184",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/185/1_Possible/1107d5f328fd",
+  "scene_index": "185",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/185/2_Possible/0ee7090ddee2",
+  "scene_index": "185",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/186/1_Possible/a11ca197eb99",
+  "scene_index": "186",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/186/2_Possible/7630b511cf2e",
+  "scene_index": "186",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/187/1_Possible/65c3778f85b2",
+  "scene_index": "187",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/187/2_Possible/beba5e802202",
+  "scene_index": "187",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/188/1_Possible/b5e1280e5ebb",
+  "scene_index": "188",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/188/2_Possible/1046176cc096",
+  "scene_index": "188",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/189/1_Possible/1a5767d98dae",
+  "scene_index": "189",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/189/2_Possible/4e31508efdd1",
+  "scene_index": "189",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/18/1_Possible/42f17bdf4c0b",
+  "scene_index": "18",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/18/2_Possible/1c4a5d80e8d2",
+  "scene_index": "18",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/190/1_Possible/660f5cbc3360",
+  "scene_index": "190",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/190/2_Possible/6425c353b1ac",
+  "scene_index": "190",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/191/1_Possible/3eb03c8afff1",
+  "scene_index": "191",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/191/2_Possible/39acaae32085",
+  "scene_index": "191",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/192/1_Possible/ee89b1b50f14",
+  "scene_index": "192",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/192/2_Possible/7a2209eb0ed1",
+  "scene_index": "192",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/193/1_Possible/9ba999469154",
+  "scene_index": "193",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/193/2_Possible/42806e7d0968",
+  "scene_index": "193",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/194/1_Possible/dce156565788",
+  "scene_index": "194",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/194/2_Possible/c016efebaa2c",
+  "scene_index": "194",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/195/1_Possible/4a406dcdde61",
+  "scene_index": "195",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/195/2_Possible/ef3899788870",
+  "scene_index": "195",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/196_0/1_Possible/e877859e0655",
+  "scene_index": "196_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/196_0/2_Possible/33ae41587ddf",
+  "scene_index": "196_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/196_1/1_Possible/b863febc1e09",
+  "scene_index": "196_1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/196_1/2_Possible/92736ebe4a3d",
+  "scene_index": "196_1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/196/1_Possible/8211887a5b42",
+  "scene_index": "196",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/196/2_Possible/9330d38bba5d",
+  "scene_index": "196",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/197_0/1_Possible/d147e9d5b2cb",
+  "scene_index": "197_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/197_0/2_Possible/cbe7f931e6cb",
+  "scene_index": "197_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/197_1/1_Possible/9f1dde55f5bf",
+  "scene_index": "197_1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/197_1/2_Possible/b60bb2343cf6",
+  "scene_index": "197_1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/197/1_Possible/d8426fa9e4be",
+  "scene_index": "197",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/197/2_Possible/921712765a41",
+  "scene_index": "197",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/198_0/1_Possible/e10a88bfed19",
+  "scene_index": "198_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/198_0/2_Possible/1765ce13766b",
+  "scene_index": "198_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/198_1/1_Possible/08c22a49ea31",
+  "scene_index": "198_1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/198_1/2_Possible/8803c3766022",
+  "scene_index": "198_1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/198/1_Possible/46f2d89cf158",
+  "scene_index": "198",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/198/2_Possible/92e90104a8ba",
+  "scene_index": "198",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/199/1_Possible/0e819813b171",
+  "scene_index": "199",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/199/2_Possible/236d6f21bbfe",
+  "scene_index": "199",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/19/1_Possible/d62b063856a3",
+  "scene_index": "19",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/19/2_Possible/19c71d123e53",
+  "scene_index": "19",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/1/1_Possible/099631878708",
+  "scene_index": "1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/1/2_Possible/e02457c36124",
+  "scene_index": "1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/200/1_Possible/355184642c6c",
+  "scene_index": "200",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/200/2_Possible/32932587022a",
+  "scene_index": "200",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/201/1_Possible/0c2783c55646",
+  "scene_index": "201",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/201/2_Possible/a68f60d990f0",
+  "scene_index": "201",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/202/1_Possible/ddb0df8083b1",
+  "scene_index": "202",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/202/2_Possible/ab82289d3620",
+  "scene_index": "202",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/203/1_Possible/afd2ecb268b5",
+  "scene_index": "203",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/203/2_Possible/3e627edd2410",
+  "scene_index": "203",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/204/1_Possible/cc186586edaa",
+  "scene_index": "204",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/204/2_Possible/1771bb49c28d",
+  "scene_index": "204",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/205/1_Possible/1b9074e0ce55",
+  "scene_index": "205",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/205/2_Possible/af420074a013",
+  "scene_index": "205",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/206/1_Possible/09acaff581f6",
+  "scene_index": "206",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/206/2_Possible/fe75e20a9f23",
+  "scene_index": "206",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/207/1_Possible/36c54fb7151d",
+  "scene_index": "207",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/207/2_Possible/db35758f43c7",
+  "scene_index": "207",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/208/1_Possible/c84e6e48f834",
+  "scene_index": "208",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/208/2_Possible/4a223671eefb",
+  "scene_index": "208",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/209/1_Possible/8ef93ab9cfae",
+  "scene_index": "209",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/209/2_Possible/26ab6ff9796c",
+  "scene_index": "209",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/20/1_Possible/c2a806e6b3de",
+  "scene_index": "20",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/20/2_Possible/51c4ce467dc5",
+  "scene_index": "20",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/210/1_Possible/5dcb6b4a72cc",
+  "scene_index": "210",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/210/2_Possible/1b0bc631ccfd",
+  "scene_index": "210",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/211/1_Possible/d122fab5a89d",
+  "scene_index": "211",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/211/2_Possible/10016ee86022",
+  "scene_index": "211",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/212/1_Possible/db09bece6b56",
+  "scene_index": "212",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/212/2_Possible/a8b92f2572a0",
+  "scene_index": "212",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/213/1_Possible/95814f30cb1d",
+  "scene_index": "213",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/213/2_Possible/7697af9d9b6e",
+  "scene_index": "213",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/214_0/1_Possible/e097c9854697",
+  "scene_index": "214_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/214_0/2_Possible/d166742c209b",
+  "scene_index": "214_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/214_1/1_Possible/3bf662b4993f",
+  "scene_index": "214_1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/214_1/2_Possible/a5107a340ef4",
+  "scene_index": "214_1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/214/1_Possible/80b491030bca",
+  "scene_index": "214",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/214/2_Possible/03ab813637dc",
+  "scene_index": "214",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/215_0/1_Possible/060dd649ccf6",
+  "scene_index": "215_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/215_0/2_Possible/2232ed665c42",
+  "scene_index": "215_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/215_1/1_Possible/ef82b3c0977b",
+  "scene_index": "215_1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/215_1/2_Possible/4e6654de0d24",
+  "scene_index": "215_1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/215/1_Possible/bdca8d05b9de",
+  "scene_index": "215",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/215/2_Possible/9535d8012ec6",
+  "scene_index": "215",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/216_0/1_Possible/4599df227663",
+  "scene_index": "216_0",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/216_0/2_Possible/0720cddf31e4",
+  "scene_index": "216_0",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/216_1/1_Possible/dcfe8779a02e",
+  "scene_index": "216_1",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/216_1/2_Possible/9fc4e0153981",
+  "scene_index": "216_1",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/216/1_Possible/2eeb21f61ce1",
+  "scene_index": "216",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/216/2_Possible/fc785e2ff531",
+  "scene_index": "216",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Unknown"
+ },
+ {
+  "clip_id": "intphys2/217/1_Possible/c4f2c57a5ca7",
+  "scene_index": "217",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/217/2_Possible/a725ea8ee8de",
+  "scene_index": "217",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/218/1_Possible/a476dcbd6618",
+  "scene_index": "218",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/218/2_Possible/ba74d77b55eb",
+  "scene_index": "218",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/219/1_Possible/5c3d70650ec9",
+  "scene_index": "219",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/219/2_Possible/1657a4e3b50d",
+  "scene_index": "219",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/21/1_Possible/13da28398342",
+  "scene_index": "21",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/21/2_Possible/600caba51ba5",
+  "scene_index": "21",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/220/1_Possible/cd7f37ebec41",
+  "scene_index": "220",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/220/2_Possible/d7cebc7b8444",
+  "scene_index": "220",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/221/1_Possible/daf309043b93",
+  "scene_index": "221",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/221/2_Possible/85c5b9d31a5b",
+  "scene_index": "221",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/222/1_Possible/25cea8546181",
+  "scene_index": "222",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/222/2_Possible/e4355d4d0345",
+  "scene_index": "222",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/223/1_Possible/73dba92ed2b3",
+  "scene_index": "223",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/223/2_Possible/662410b20966",
+  "scene_index": "223",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/224/1_Possible/4b601904369b",
+  "scene_index": "224",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/224/2_Possible/1f3a56c6d384",
+  "scene_index": "224",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/225/1_Possible/fa8950b8ef80",
+  "scene_index": "225",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/225/2_Possible/c20e0dd0b3eb",
+  "scene_index": "225",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/226/1_Possible/4b69efb2d2ce",
+  "scene_index": "226",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/226/2_Possible/22ea71cffe2c",
+  "scene_index": "226",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/227/1_Possible/21b115e7e3c2",
+  "scene_index": "227",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/227/2_Possible/413fd56e6ebe",
+  "scene_index": "227",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/228/1_Possible/2dd47968d4e3",
+  "scene_index": "228",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/228/2_Possible/2532343845ea",
+  "scene_index": "228",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/229/1_Possible/73dd19367dbd",
+  "scene_index": "229",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/229/2_Possible/9cddda7cf55d",
+  "scene_index": "229",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/22/1_Possible/01a4f78a7964",
+  "scene_index": "22",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/22/2_Possible/b422a01f841b",
+  "scene_index": "22",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/230/1_Possible/e2b6fbb86130",
+  "scene_index": "230",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/230/2_Possible/def2da1f26c2",
+  "scene_index": "230",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/231/1_Possible/832182b7e82b",
+  "scene_index": "231",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/231/2_Possible/108ef22995f6",
+  "scene_index": "231",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/232/1_Possible/b283bfc10b94",
+  "scene_index": "232",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/232/2_Possible/4b8074034c68",
+  "scene_index": "232",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/233/1_Possible/ea635800c1ac",
+  "scene_index": "233",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/233/2_Possible/fc8936a9a561",
+  "scene_index": "233",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/234/1_Possible/b59861279a59",
+  "scene_index": "234",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/234/2_Possible/58fc52e59be3",
+  "scene_index": "234",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/235/1_Possible/12caa65786fd",
+  "scene_index": "235",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/235/2_Possible/500efd4d450f",
+  "scene_index": "235",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/236/1_Possible/c348b028c538",
+  "scene_index": "236",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/236/2_Possible/d833404a2f84",
+  "scene_index": "236",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/237/1_Possible/04b12306cdd2",
+  "scene_index": "237",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/237/2_Possible/d7ab82095005",
+  "scene_index": "237",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Hard"
+ },
+ {
+  "clip_id": "intphys2/23/1_Possible/b12944af215c",
+  "scene_index": "23",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/23/2_Possible/3090638b5ea8",
+  "scene_index": "23",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/24/1_Possible/c92fb5f45718",
+  "scene_index": "24",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/24/2_Possible/3d7737fad31a",
+  "scene_index": "24",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/25/1_Possible/922472d7f270",
+  "scene_index": "25",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/25/2_Possible/f582c9e60f63",
+  "scene_index": "25",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/26/1_Possible/995e33842530",
+  "scene_index": "26",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/26/2_Possible/68950acf11d4",
+  "scene_index": "26",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/27/1_Possible/8c67b7baf0d0",
+  "scene_index": "27",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/27/2_Possible/be7ac9e3e2ef",
+  "scene_index": "27",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/28/1_Possible/138211cfd8c0",
+  "scene_index": "28",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/28/2_Possible/905b755853e3",
+  "scene_index": "28",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/29/1_Possible/a660e36bc82e",
+  "scene_index": "29",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/29/2_Possible/f3e8905d9c9f",
+  "scene_index": "29",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/2/1_Possible/6da0a69fafee",
+  "scene_index": "2",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/2/2_Possible/0e2b9d1ce271",
+  "scene_index": "2",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/30/1_Possible/f5974605ec11",
+  "scene_index": "30",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/30/2_Possible/687ebbe1597e",
+  "scene_index": "30",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/31/1_Possible/b584436476e8",
+  "scene_index": "31",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/31/2_Possible/20748d38940c",
+  "scene_index": "31",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/32/1_Possible/12e87463f18a",
+  "scene_index": "32",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/32/2_Possible/391ed3de0c90",
+  "scene_index": "32",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/33/1_Possible/3908ee9dfac8",
+  "scene_index": "33",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/33/2_Possible/c6a55f6de2d4",
+  "scene_index": "33",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/34/1_Possible/e0dfcff406c7",
+  "scene_index": "34",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/34/2_Possible/7a57d6f32184",
+  "scene_index": "34",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/35/1_Possible/943d00a354ee",
+  "scene_index": "35",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/35/2_Possible/b6ab6b570b37",
+  "scene_index": "35",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/36/1_Possible/40fdc1249bb5",
+  "scene_index": "36",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/36/2_Possible/7eb31487b580",
+  "scene_index": "36",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/37/1_Possible/69cf950c2c55",
+  "scene_index": "37",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/37/2_Possible/a3707729c60e",
+  "scene_index": "37",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/38/1_Possible/cb746a741302",
+  "scene_index": "38",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/38/2_Possible/4244feececd5",
+  "scene_index": "38",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/39/1_Possible/cc367e867ea2",
+  "scene_index": "39",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/39/2_Possible/4c5949850177",
+  "scene_index": "39",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/3/1_Possible/9b747136a92a",
+  "scene_index": "3",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/3/2_Possible/8b2c654f070b",
+  "scene_index": "3",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/40/1_Possible/c25a07990709",
+  "scene_index": "40",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/40/2_Possible/057e16d57ba1",
+  "scene_index": "40",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/41/1_Possible/1782cda36606",
+  "scene_index": "41",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/41/2_Possible/e45c92c15d9b",
+  "scene_index": "41",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/42/1_Possible/eaa1ce033a34",
+  "scene_index": "42",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/42/2_Possible/602ec5fd6c00",
+  "scene_index": "42",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/43/1_Possible/eb38558a2cb0",
+  "scene_index": "43",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/43/2_Possible/ea84a0887471",
+  "scene_index": "43",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/44/1_Possible/447f82c487fb",
+  "scene_index": "44",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/44/2_Possible/af618bed69c3",
+  "scene_index": "44",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/45/1_Possible/62722005780b",
+  "scene_index": "45",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/45/2_Possible/6a8f271e7af6",
+  "scene_index": "45",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/46/1_Possible/9db189d01d74",
+  "scene_index": "46",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/46/2_Possible/d0e0676715b9",
+  "scene_index": "46",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/47/1_Possible/6a5a8a4f1ace",
+  "scene_index": "47",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/47/2_Possible/e059baf945d5",
+  "scene_index": "47",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/48/1_Possible/2c22df2321d2",
+  "scene_index": "48",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/48/2_Possible/5c0a86914ebf",
+  "scene_index": "48",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/49/1_Possible/e24456a3ae5a",
+  "scene_index": "49",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/49/2_Possible/9f5ac5b50c74",
+  "scene_index": "49",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/4/1_Possible/5c2b4ec97fdb",
+  "scene_index": "4",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/4/2_Possible/e9e46d920dde",
+  "scene_index": "4",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/50/1_Possible/891710949ce6",
+  "scene_index": "50",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/50/2_Possible/adf91dce95f9",
+  "scene_index": "50",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/51/1_Possible/169563f9cfe9",
+  "scene_index": "51",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/51/2_Possible/1d71f0ffa16a",
+  "scene_index": "51",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/52/1_Possible/d3c198d161d4",
+  "scene_index": "52",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/52/2_Possible/3d810cf16a5b",
+  "scene_index": "52",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/53/1_Possible/c79bc7980b1a",
+  "scene_index": "53",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/53/2_Possible/e77c16509a79",
+  "scene_index": "53",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/54/1_Possible/135810d4a724",
+  "scene_index": "54",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/54/2_Possible/1b5d77851eab",
+  "scene_index": "54",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/55/1_Possible/f38b00f6e60f",
+  "scene_index": "55",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/55/2_Possible/bb4685021666",
+  "scene_index": "55",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/56/1_Possible/338857ebc717",
+  "scene_index": "56",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/56/2_Possible/0381787a41bc",
+  "scene_index": "56",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/57/1_Possible/c308dfea1753",
+  "scene_index": "57",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/57/2_Possible/29bb6f59e9c8",
+  "scene_index": "57",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/58/1_Possible/f97d88f01416",
+  "scene_index": "58",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/58/2_Possible/a600f4ac3311",
+  "scene_index": "58",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/59/1_Possible/d94d4a17781d",
+  "scene_index": "59",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/59/2_Possible/b96ed0d5d98e",
+  "scene_index": "59",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/5/1_Possible/69558fc766fe",
+  "scene_index": "5",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/5/2_Possible/f56265fa0769",
+  "scene_index": "5",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/60/1_Possible/8efa26d02a54",
+  "scene_index": "60",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/60/2_Possible/48b168ca1e31",
+  "scene_index": "60",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/61/1_Possible/cd6736300dc2",
+  "scene_index": "61",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/61/2_Possible/0f8eb818bd7b",
+  "scene_index": "61",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/62/1_Possible/16071c0bdcaa",
+  "scene_index": "62",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/62/2_Possible/69c70405df23",
+  "scene_index": "62",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/63/1_Possible/575f0b182059",
+  "scene_index": "63",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/63/2_Possible/05c99568a549",
+  "scene_index": "63",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/64/1_Possible/db990a2fb632",
+  "scene_index": "64",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/64/2_Possible/d0dcce9768fe",
+  "scene_index": "64",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/65/1_Possible/e27791affc0d",
+  "scene_index": "65",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/65/2_Possible/253669d64140",
+  "scene_index": "65",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/66/1_Possible/cfcdb0a2e0ba",
+  "scene_index": "66",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/66/2_Possible/b8721a63a577",
+  "scene_index": "66",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/67/1_Possible/dfe65086cc42",
+  "scene_index": "67",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/67/2_Possible/d2a57ab15ffc",
+  "scene_index": "67",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/68/1_Possible/3399d5edde82",
+  "scene_index": "68",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/68/2_Possible/0d76b0db92f6",
+  "scene_index": "68",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/69/1_Possible/b8ef9a57b5fd",
+  "scene_index": "69",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/69/2_Possible/7d58767ffb9d",
+  "scene_index": "69",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/6/1_Possible/1222df32fcf7",
+  "scene_index": "6",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/6/2_Possible/163b62fb148e",
+  "scene_index": "6",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/70/1_Possible/518d33fee8de",
+  "scene_index": "70",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/70/2_Possible/d2f17e7e3e4a",
+  "scene_index": "70",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/71/1_Possible/0ac5b45e1b50",
+  "scene_index": "71",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/71/2_Possible/9ae663078971",
+  "scene_index": "71",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/72/1_Possible/9f626d0937a7",
+  "scene_index": "72",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/72/2_Possible/45967df4de46",
+  "scene_index": "72",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/73/1_Possible/6de22b6769ad",
+  "scene_index": "73",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/73/2_Possible/40b790e8068d",
+  "scene_index": "73",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/74/1_Possible/b614f7931cbb",
+  "scene_index": "74",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/74/2_Possible/55a4c9ba6ce1",
+  "scene_index": "74",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/75/1_Possible/3ee0ada755d1",
+  "scene_index": "75",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/75/2_Possible/c7b02ae3ce2f",
+  "scene_index": "75",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/76/1_Possible/89a593fc7a15",
+  "scene_index": "76",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/76/2_Possible/bea91d70cc78",
+  "scene_index": "76",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/77/1_Possible/aea1c46ab860",
+  "scene_index": "77",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/77/2_Possible/89c5923fd9ff",
+  "scene_index": "77",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/78/1_Possible/c320551c3617",
+  "scene_index": "78",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/78/2_Possible/a24a88d52c9c",
+  "scene_index": "78",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/79/1_Possible/4b0b930f37b3",
+  "scene_index": "79",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/79/2_Possible/40e53df1d2fe",
+  "scene_index": "79",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/7/1_Possible/fc19ad3c022c",
+  "scene_index": "7",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/7/2_Possible/4290feb21f16",
+  "scene_index": "7",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "solidity",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/80/1_Possible/10cbf2ecd8d5",
+  "scene_index": "80",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/80/2_Possible/5c6f78915da9",
+  "scene_index": "80",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/81/1_Possible/1f635e609b78",
+  "scene_index": "81",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/81/2_Possible/1b7e4519e38a",
+  "scene_index": "81",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/82/1_Possible/86feb4b11451",
+  "scene_index": "82",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/82/2_Possible/723151be65fc",
+  "scene_index": "82",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/83/1_Possible/d17d01fe503a",
+  "scene_index": "83",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/83/2_Possible/33db250e6f4f",
+  "scene_index": "83",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/84/1_Possible/ff97d752d3f8",
+  "scene_index": "84",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/84/2_Possible/c509687969a4",
+  "scene_index": "84",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/85/1_Possible/8034e1021d7f",
+  "scene_index": "85",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/85/2_Possible/6b50b490538d",
+  "scene_index": "85",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/86/1_Possible/0add65242fd5",
+  "scene_index": "86",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/86/2_Possible/5b7c057294db",
+  "scene_index": "86",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/87/1_Possible/38c6574d191d",
+  "scene_index": "87",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/87/2_Possible/36530927e8fc",
+  "scene_index": "87",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/88/1_Possible/2eb700c36863",
+  "scene_index": "88",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/88/2_Possible/0b9bd952a7a8",
+  "scene_index": "88",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/89/1_Possible/17df8a24eddc",
+  "scene_index": "89",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/89/2_Possible/ca44bd6f25dd",
+  "scene_index": "89",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/8/1_Possible/96e30cf23179",
+  "scene_index": "8",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/8/2_Possible/e42b33f945f2",
+  "scene_index": "8",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/90/1_Possible/6d7c99bc64bd",
+  "scene_index": "90",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/90/2_Possible/cda41e6c6115",
+  "scene_index": "90",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/91/1_Possible/8be356120646",
+  "scene_index": "91",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/91/2_Possible/0dd95d15d636",
+  "scene_index": "91",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/92/1_Possible/7564993d86a8",
+  "scene_index": "92",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/92/2_Possible/96469303e3d7",
+  "scene_index": "92",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "continuity",
+  "camera": "Moving",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/93/1_Possible/2d71c4ce1323",
+  "scene_index": "93",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/93/2_Possible/e40af30878e1",
+  "scene_index": "93",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/94/1_Possible/238744758b3f",
+  "scene_index": "94",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/94/2_Possible/1e01f9b6aac8",
+  "scene_index": "94",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/95/1_Possible/d4ba68f63e9c",
+  "scene_index": "95",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/95/2_Possible/053141d1afd7",
+  "scene_index": "95",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/96/1_Possible/2535be14aabd",
+  "scene_index": "96",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/96/2_Possible/1c14c973c403",
+  "scene_index": "96",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "permanence",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/97/1_Possible/15660a01d0da",
+  "scene_index": "97",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/97/2_Possible/f084a168738c",
+  "scene_index": "97",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/98/1_Possible/06e7bef92998",
+  "scene_index": "98",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/98/2_Possible/d8e23aee137b",
+  "scene_index": "98",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/99/1_Possible/463d8917b88b",
+  "scene_index": "99",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/99/2_Possible/618f6fe978d5",
+  "scene_index": "99",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Fixed",
+  "difficulty": "Medium"
+ },
+ {
+  "clip_id": "intphys2/9/1_Possible/abcd8b553e38",
+  "scene_index": "9",
+  "type": "1_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ },
+ {
+  "clip_id": "intphys2/9/2_Possible/8d74bb344adc",
+  "scene_index": "9",
+  "type": "2_Possible",
+  "label": 0,
+  "condition": "immutability",
+  "camera": "Moving",
+  "difficulty": "Easy"
+ }
+]

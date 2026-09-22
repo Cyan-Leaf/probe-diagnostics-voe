@@ -1,0 +1,14 @@
+{
+  "note": "prompt embeds computed on faulty physical GPU0 vs healthy GPU1",
+  "shape": [
+    1,
+    226,
+    4096
+  ],
+  "max_abs_diff": 0.002960205078125,
+  "mean_abs_diff": 5.293052254273789e-07,
+  "n_elements_differing": 2995,
+  "frac_differing": 0.003235403448343277,
+  "gpu0_absmax": 0.75,
+  "gpu1_absmax": 0.75
+}

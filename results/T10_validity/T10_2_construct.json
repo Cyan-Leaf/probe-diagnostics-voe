@@ -1,0 +1,586 @@
+{
+  "prereg": "results/T10_validity/T10_PREREG.md",
+  "cases": {
+    "A1": {
+      "case": "A1_positive",
+      "truth": "representation genuinely encodes physics",
+      "expectation": "D1-D6 all pass",
+      "real": {
+        "auc_mean": 0.8999058092463604,
+        "auc_sd": 0.009864426285099695,
+        "dprime_mean": 1.8238519916836269,
+        "dprime_sd": 0.0645845906577224,
+        "per_seed_auc": [
+          0.8885250109840153,
+          0.9060023845930075,
+          0.9051900321620584
+        ]
+      },
+      "random": {
+        "auc_mean": 0.5677332738413087,
+        "auc_sd": 0.03954819670061446,
+        "dprime_mean": 0.21644449678421782,
+        "dprime_sd": 0.11685747064835832,
+        "per_seed_auc": [
+          0.586394228774951,
+          0.5223072781901766,
+          0.5944983145587985
+        ]
+      },
+      "appearance": {
+        "auc_mean": 0.5117457826482686,
+        "auc_sd": 0.03301152707962776,
+        "dprime_mean": 0.036784126651429126,
+        "dprime_sd": 0.11382395168276761,
+        "per_seed_auc": [
+          0.48854231346435545,
+          0.5495383588361417,
+          0.49715667564430854
+        ]
+      },
+      "checks": {
+        "D1": {
+          "metric": "training-increment share",
+          "value": 0.8306269319544147,
+          "value_dprime": 0.8813256241344373,
+          "threshold": 0.5,
+          "interpretable": true,
+          "passed": true
+        },
+        "D2": {
+          "metric": "AUC(appearance) < AUC(physics), same representation",
+          "appearance_auc": 0.5117457826482686,
+          "physics_auc": 0.8999058092463604,
+          "passed": true
+        },
+        "D3": {
+          "metric": "not saturated (effect > 2x floor AND auc < 0.99)",
+          "effect": 0.33217253540505176,
+          "floor": 0.009864426285099695,
+          "effect_over_2x_floor": 16.83689075292708,
+          "real_auc": 0.8999058092463604,
+          "passed": true
+        },
+        "D4": {
+          "metric": "effect > 2x seed-spread floor",
+          "effect": 0.33217253540505176,
+          "floor": 0.009864426285099695,
+          "passed": true
+        },
+        "D5": {
+          "metric": "AUC and d' agree in direction",
+          "auc_above_chance": 0.39990580924636043,
+          "dprime": 1.8238519916836269,
+          "passed": true
+        },
+        "D6": {
+          "metric": "bounded statistic usable (baseline off the boundary)",
+          "real_auc": 0.8999058092463604,
+          "at_boundary": false,
+          "passed": true
+        }
+      },
+      "n_pass": 6,
+      "n_fail": 0,
+      "failed_checks": [],
+      "protocol_correct": true
+    },
+    "A2": {
+      "case": "A2_negative_appearance_only",
+      "truth": "encodes no physics at all (appearance only)",
+      "expectation": "D1 or D2 must fail",
+      "real": {
+        "auc_mean": 0.5326431087406825,
+        "auc_sd": 0.030784931499235148,
+        "dprime_mean": 0.10341992885373243,
+        "dprime_sd": 0.12750588424559034,
+        "per_seed_auc": [
+          0.5494505709917128,
+          0.4971129344844741,
+          0.551365820745861
+        ]
+      },
+      "random": {
+        "auc_mean": 0.4963058735831536,
+        "auc_sd": 0.033856302410257846,
+        "dprime_mean": -0.01597406187057243,
+        "dprime_sd": 0.12293848829365528,
+        "per_seed_auc": [
+          0.5294804321668967,
+          0.461806706898403,
+          0.49763048168416113
+        ]
+      },
+      "appearance": {
+        "auc_mean": 0.9991111040164057,
+        "auc_sd": 0.0005325115914595846,
+        "dprime_mean": 4.420360076270119,
+        "dprime_sd": 0.21547934569194185,
+        "per_seed_auc": [
+          0.9985411871533932,
+          0.9995959741083507,
+          0.9991961507874729
+        ]
+      },
+      "checks": {
+        "D1": {
+          "metric": "training-increment share",
+          "value": 1.1131671142657589,
+          "value_dprime": 1.1544582562338122,
+          "threshold": 0.5,
+          "interpretable": false,
+          "passed": false
+        },
+        "D2": {
+          "metric": "AUC(appearance) < AUC(physics), same representation",
+          "appearance_auc": 0.9991111040164057,
+          "physics_auc": 0.5326431087406825,
+          "passed": false
+        },
+        "D3": {
+          "metric": "not saturated (effect > 2x floor AND auc < 0.99)",
+          "effect": 0.03633723515752896,
+          "floor": 0.030784931499235148,
+          "effect_over_2x_floor": 0.5901789185145947,
+          "real_auc": 0.5326431087406825,
+          "passed": false
+        },
+        "D4": {
+          "metric": "effect > 2x seed-spread floor",
+          "effect": 0.03633723515752896,
+          "floor": 0.030784931499235148,
+          "passed": false
+        },
+        "D5": {
+          "metric": "AUC and d' agree in direction",
+          "auc_above_chance": 0.03264310874068255,
+          "dprime": 0.10341992885373243,
+          "passed": true
+        },
+        "D6": {
+          "metric": "bounded statistic usable (baseline off the boundary)",
+          "real_auc": 0.5326431087406825,
+          "at_boundary": false,
+          "passed": true
+        }
+      },
+      "n_pass": 2,
+      "n_fail": 4,
+      "failed_checks": [
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "protocol_correct": true
+    },
+    "A3": {
+      "case": "A3_mixed_physics_plus_artefact",
+      "truth": "physics partly encoded, plus an exploitable edit artefact",
+      "expectation": "D2 fails, D1 passes",
+      "real": {
+        "auc_mean": 0.996959971895809,
+        "auc_sd": 0.001904319460122368,
+        "dprime_mean": 3.768720440345996,
+        "dprime_sd": 0.19237600314175676,
+        "per_seed_auc": [
+          0.9991348954364575,
+          0.9961530690327584,
+          0.9955919512182112
+        ]
+      },
+      "random": {
+        "auc_mean": 0.7075143817013304,
+        "auc_sd": 0.02023903592360377,
+        "dprime_mean": 0.7715662088138759,
+        "dprime_sd": 0.08611159278635648,
+        "per_seed_auc": [
+          0.7295287079556554,
+          0.6897141592638846,
+          0.7033002778844513
+        ]
+      },
+      "appearance": {
+        "auc_mean": 0.9999123563250306,
+        "auc_sd": 0.00012383895733009893,
+        "dprime_mean": 5.213699226610074,
+        "dprime_sd": 0.16770841994180333,
+        "per_seed_auc": [
+          0.9999663865546218,
+          0.9997706824204702,
+          1.0
+        ]
+      },
+      "checks": {
+        "D1": {
+          "metric": "training-increment share",
+          "value": 0.5824324021314996,
+          "value_dprime": 0.7952710419818138,
+          "threshold": 0.5,
+          "interpretable": true,
+          "passed": true
+        },
+        "D2": {
+          "metric": "AUC(appearance) < AUC(physics), same representation",
+          "appearance_auc": 0.9999123563250306,
+          "physics_auc": 0.996959971895809,
+          "passed": false
+        },
+        "D3": {
+          "metric": "not saturated (effect > 2x floor AND auc < 0.99)",
+          "effect": 0.2894455901944786,
+          "floor": 0.001904319460122368,
+          "effect_over_2x_floor": 75.99712029826114,
+          "real_auc": 0.996959971895809,
+          "passed": false
+        },
+        "D4": {
+          "metric": "effect > 2x seed-spread floor",
+          "effect": 0.2894455901944786,
+          "floor": 0.001904319460122368,
+          "passed": true
+        },
+        "D5": {
+          "metric": "AUC and d' agree in direction",
+          "auc_above_chance": 0.496959971895809,
+          "dprime": 3.768720440345996,
+          "passed": true
+        },
+        "D6": {
+          "metric": "bounded statistic usable (baseline off the boundary)",
+          "real_auc": 0.996959971895809,
+          "at_boundary": true,
+          "passed": false
+        }
+      },
+      "n_pass": 3,
+      "n_fail": 3,
+      "failed_checks": [
+        "D2",
+        "D3",
+        "D6"
+      ],
+      "protocol_correct": true
+    },
+    "A4": {
+      "case": "A4_saturated",
+      "truth": "AUC is inflated; the statistic has no resolution left",
+      "expectation": "D3 or D6 must trigger",
+      "real": {
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "dprime_mean": 14.848270537098154,
+        "dprime_sd": 0.3814484521483372,
+        "per_seed_auc": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "random": {
+        "auc_mean": 0.9964372317775533,
+        "auc_sd": 0.0011884633183483029,
+        "dprime_mean": 3.9034164274104586,
+        "dprime_sd": 0.15868820146812646,
+        "per_seed_auc": [
+          0.9951356904721299,
+          0.9974647486734673,
+          0.9967112561870625
+        ]
+      },
+      "appearance": {
+        "auc_mean": 0.5061397881487196,
+        "auc_sd": 0.03403666276092012,
+        "dprime_mean": 0.021907364572779975,
+        "dprime_sd": 0.11631592712758647,
+        "per_seed_auc": [
+          0.48073415133094877,
+          0.5448120044195743,
+          0.49287320869563606
+        ]
+      },
+      "checks": {
+        "D1": {
+          "metric": "training-increment share",
+          "value": 0.007125536444893443,
+          "value_dprime": 0.7371130585438999,
+          "threshold": 0.5,
+          "interpretable": true,
+          "passed": false
+        },
+        "D2": {
+          "metric": "AUC(appearance) < AUC(physics), same representation",
+          "appearance_auc": 0.5061397881487196,
+          "physics_auc": 1.0,
+          "passed": true
+        },
+        "D3": {
+          "metric": "not saturated (effect > 2x floor AND auc < 0.99)",
+          "effect": 0.0035627682224467216,
+          "floor": 1e-06,
+          "effect_over_2x_floor": 1781.3841112233608,
+          "real_auc": 1.0,
+          "passed": false
+        },
+        "D4": {
+          "metric": "effect > 2x seed-spread floor",
+          "effect": 0.0035627682224467216,
+          "floor": 1e-06,
+          "passed": true
+        },
+        "D5": {
+          "metric": "AUC and d' agree in direction",
+          "auc_above_chance": 0.5,
+          "dprime": 14.848270537098154,
+          "passed": true
+        },
+        "D6": {
+          "metric": "bounded statistic usable (baseline off the boundary)",
+          "real_auc": 1.0,
+          "at_boundary": true,
+          "passed": false
+        }
+      },
+      "n_pass": 3,
+      "n_fail": 3,
+      "failed_checks": [
+        "D1",
+        "D3",
+        "D6"
+      ],
+      "protocol_correct": true
+    },
+    "C1": {
+      "case": "C1_correlated_pseudo_signal",
+      "truth": "NOT physics: a label-correlated batch identifier",
+      "expectation": "attack succeeds if all six pass",
+      "real": {
+        "auc_mean": 0.5258792551033807,
+        "auc_sd": 0.03717840366323068,
+        "dprime_mean": 0.08638189440112826,
+        "dprime_sd": 0.1481945471607715,
+        "per_seed_auc": [
+          0.547422778640131,
+          0.48294942834094473,
+          0.5472655583290663
+        ]
+      },
+      "random": {
+        "auc_mean": 0.4917038355153609,
+        "auc_sd": 0.03602837940776338,
+        "dprime_mean": -0.016125536078521217,
+        "dprime_sd": 0.11628059960518795,
+        "per_seed_auc": [
+          0.5281678732158452,
+          0.45612752109905463,
+          0.4908161122311828
+        ]
+      },
+      "appearance": {
+        "auc_mean": 0.5021328180520676,
+        "auc_sd": 0.03366770432701229,
+        "dprime_mean": 0.011091197410099304,
+        "dprime_sd": 0.1218412117403769,
+        "per_seed_auc": [
+          0.4736009496121876,
+          0.5392671513665694,
+          0.49353035317744565
+        ]
+      },
+      "checks": {
+        "D1": {
+          "metric": "training-increment share",
+          "value": 1.320571996817456,
+          "value_dprime": 1.1866772683131916,
+          "threshold": 0.5,
+          "interpretable": false,
+          "passed": false
+        },
+        "D2": {
+          "metric": "AUC(appearance) < AUC(physics), same representation",
+          "appearance_auc": 0.5021328180520676,
+          "physics_auc": 0.5258792551033807,
+          "passed": true
+        },
+        "D3": {
+          "metric": "not saturated (effect > 2x floor AND auc < 0.99)",
+          "effect": 0.03417541958801984,
+          "floor": 0.03717840366323068,
+          "effect_over_2x_floor": 0.4596138647800419,
+          "real_auc": 0.5258792551033807,
+          "passed": false
+        },
+        "D4": {
+          "metric": "effect > 2x seed-spread floor",
+          "effect": 0.03417541958801984,
+          "floor": 0.03717840366323068,
+          "passed": false
+        },
+        "D5": {
+          "metric": "AUC and d' agree in direction",
+          "auc_above_chance": 0.02587925510338074,
+          "dprime": 0.08638189440112826,
+          "passed": true
+        },
+        "D6": {
+          "metric": "bounded statistic usable (baseline off the boundary)",
+          "real_auc": 0.5258792551033807,
+          "at_boundary": false,
+          "passed": true
+        }
+      },
+      "n_pass": 3,
+      "n_fail": 3,
+      "failed_checks": [
+        "D1",
+        "D3",
+        "D4"
+      ],
+      "attack_succeeded": false
+    },
+    "C2": {
+      "case": "C2_pipeline_leak",
+      "truth": "NOT physics: the two classes went through different render pipelines",
+      "expectation": "attack succeeds if all six pass",
+      "real": {
+        "auc_mean": 0.8100065539783653,
+        "auc_sd": 0.01668589879371487,
+        "dprime_mean": 1.2343599078080485,
+        "dprime_sd": 0.0964285111183787,
+        "per_seed_auc": [
+          0.8292555617462234,
+          0.7996567959880705,
+          0.8011073042008021
+        ]
+      },
+      "random": {
+        "auc_mean": 0.5317170049892812,
+        "auc_sd": 0.028957734773285334,
+        "dprime_mean": 0.099347192633528,
+        "dprime_sd": 0.11042965263464352,
+        "per_seed_auc": [
+          0.564469577472869,
+          0.5095095824962549,
+          0.5211718549987199
+        ]
+      },
+      "appearance": {
+        "auc_mean": 0.5084956429487977,
+        "auc_sd": 0.027321317135543095,
+        "dprime_mean": 0.033338964684420005,
+        "dprime_sd": 0.10564927228351276,
+        "per_seed_auc": [
+          0.488767973412964,
+          0.539680093585742,
+          0.49703886184768703
+        ]
+      },
+      "checks": {
+        "D1": {
+          "metric": "training-increment share",
+          "value": 0.8976892437200065,
+          "value_dprime": 0.9195152143186934,
+          "threshold": 0.5,
+          "interpretable": true,
+          "passed": true
+        },
+        "D2": {
+          "metric": "AUC(appearance) < AUC(physics), same representation",
+          "appearance_auc": 0.5084956429487977,
+          "physics_auc": 0.8100065539783653,
+          "passed": true
+        },
+        "D3": {
+          "metric": "not saturated (effect > 2x floor AND auc < 0.99)",
+          "effect": 0.2782895489890841,
+          "floor": 0.01668589879371487,
+          "effect_over_2x_floor": 8.339063793612015,
+          "real_auc": 0.8100065539783653,
+          "passed": true
+        },
+        "D4": {
+          "metric": "effect > 2x seed-spread floor",
+          "effect": 0.2782895489890841,
+          "floor": 0.01668589879371487,
+          "passed": true
+        },
+        "D5": {
+          "metric": "AUC and d' agree in direction",
+          "auc_above_chance": 0.3100065539783653,
+          "dprime": 1.2343599078080485,
+          "passed": true
+        },
+        "D6": {
+          "metric": "bounded statistic usable (baseline off the boundary)",
+          "real_auc": 0.8100065539783653,
+          "at_boundary": false,
+          "passed": true
+        }
+      },
+      "n_pass": 6,
+      "n_fail": 0,
+      "failed_checks": [],
+      "attack_succeeded": true
+    }
+  },
+  "summary": {
+    "construct_validity": {
+      "A1": {
+        "truth": "representation genuinely encodes physics",
+        "expectation": "D1-D6 all pass",
+        "failed_checks": [],
+        "protocol_correct": true
+      },
+      "A2": {
+        "truth": "encodes no physics at all (appearance only)",
+        "expectation": "D1 or D2 must fail",
+        "failed_checks": [
+          "D1",
+          "D2",
+          "D3",
+          "D4"
+        ],
+        "protocol_correct": true
+      },
+      "A3": {
+        "truth": "physics partly encoded, plus an exploitable edit artefact",
+        "expectation": "D2 fails, D1 passes",
+        "failed_checks": [
+          "D2",
+          "D3",
+          "D6"
+        ],
+        "protocol_correct": true
+      },
+      "A4": {
+        "truth": "AUC is inflated; the statistic has no resolution left",
+        "expectation": "D3 or D6 must trigger",
+        "failed_checks": [
+          "D1",
+          "D3",
+          "D6"
+        ],
+        "protocol_correct": true
+      }
+    },
+    "n_correct": 4,
+    "attacks": {
+      "C1": {
+        "truth": "NOT physics: a label-correlated batch identifier",
+        "failed_checks": [
+          "D1",
+          "D3",
+          "D4"
+        ],
+        "attack_succeeded": false
+      },
+      "C2": {
+        "truth": "NOT physics: the two classes went through different render pipelines",
+        "failed_checks": [],
+        "attack_succeeded": true
+      }
+    },
+    "any_attack_succeeded": true,
+    "sufficiency_wording": "minimal necessary (boundary identified)"
+  }
+}

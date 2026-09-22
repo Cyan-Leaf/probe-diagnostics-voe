@@ -1,0 +1,111 @@
+{
+  "per_scenario": {
+    "shadow_camera": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 13.353,
+      "trans_px_per_frame_range": [
+        12.576,
+        15.92
+      ],
+      "max_excursion_px_median": 397.32,
+      "jitter_px_std_median": 5.3,
+      "ransac_inlier_median": 0.677
+    },
+    "shadow": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 7.896,
+      "trans_px_per_frame_range": [
+        5.154,
+        15.459
+      ],
+      "max_excursion_px_median": 247.61,
+      "jitter_px_std_median": 15.395,
+      "ransac_inlier_median": 0.302
+    },
+    "pendulum": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 0.389,
+      "trans_px_per_frame_range": [
+        0.259,
+        1.652
+      ],
+      "max_excursion_px_median": 53.96,
+      "jitter_px_std_median": 3.288,
+      "ransac_inlier_median": 0.612
+    },
+    "ball_drop": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 19.16,
+      "trans_px_per_frame_range": [
+        15.485,
+        21.645
+      ],
+      "max_excursion_px_median": 350.91,
+      "jitter_px_std_median": 9.451,
+      "ransac_inlier_median": 0.712
+    },
+    "block_slide": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 4.049,
+      "trans_px_per_frame_range": [
+        0.0,
+        15.388
+      ],
+      "max_excursion_px_median": 69.99,
+      "jitter_px_std_median": 8.105,
+      "ransac_inlier_median": 0.762
+    },
+    "cloth_drape": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 3.154,
+      "trans_px_per_frame_range": [
+        0.845,
+        7.336
+      ],
+      "max_excursion_px_median": 185.08,
+      "jitter_px_std_median": 9.535,
+      "ransac_inlier_median": 0.716
+    },
+    "fluid": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 0.518,
+      "trans_px_per_frame_range": [
+        0.249,
+        3.478
+      ],
+      "max_excursion_px_median": 150.22,
+      "jitter_px_std_median": 12.587,
+      "ransac_inlier_median": 0.226
+    },
+    "flag": {
+      "n_clips": 5,
+      "trans_px_per_frame_median": 1.643,
+      "trans_px_per_frame_range": [
+        0.608,
+        2.501
+      ],
+      "max_excursion_px_median": 53.35,
+      "jitter_px_std_median": 1.797,
+      "ransac_inlier_median": 0.667
+    }
+  },
+  "verdict": {
+    "shadow_camera_trans_px_per_frame": 13.353,
+    "static_scenarios": {
+      "shadow": 7.896,
+      "pendulum": 0.389,
+      "ball_drop": 19.16,
+      "block_slide": 4.049,
+      "cloth_drape": 3.154,
+      "fluid": 0.518,
+      "flag": 1.643
+    },
+    "static_median": 3.154,
+    "worst_static_scenario": "ball_drop",
+    "worst_static_value": 19.16,
+    "ratio_vs_static_median": 4.23,
+    "ratio_vs_worst_static": 0.7,
+    "estimator_is_camera_specific": false,
+    "conclusion": "NOT USABLE as a camera-motion ruler: the static-camera scenario 'ball_drop' reports 19.16 px/frame vs shadow_camera's 13.353, i.e. the estimator is dominated by CONTENT motion in at least one scenario. A.5 strengths must not be frozen from this measurement."
+  }
+}

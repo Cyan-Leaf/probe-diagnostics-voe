@@ -1,0 +1,261 @@
+{
+  "source": "shadow_camera valid clips, first 49 frames, resized to 512x512",
+  "method": "goodFeaturesToTrack + calcOpticalFlowPyrLK + estimateAffinePartial2D(RANSAC); jitter = std of de-trended per-frame translation",
+  "M1_per_clip": [
+    {
+      "clip_id": "shadow_camera_videos/subgroup_000/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.6767267267267267,
+      "trans_px_per_frame_median": 12.618115866045045,
+      "trans_px_per_frame_p90": 19.52745417834687,
+      "trans_px_per_frame_max": 21.01576581421027,
+      "rot_deg_per_frame_median": 2.0892782257254634,
+      "rot_deg_per_frame_p90": 3.262199377445911,
+      "jitter_px_std": 5.47619260206981,
+      "path_length_px": 584.4464585679243,
+      "net_displacement_px": 210.48658555415074,
+      "max_excursion_px": 391.2636124084362,
+      "oscillation_ratio": 1.4937408949693651
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_001/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.6799019607843138,
+      "trans_px_per_frame_median": 12.57551833935149,
+      "trans_px_per_frame_p90": 19.024362330987646,
+      "trans_px_per_frame_max": 20.93512289868642,
+      "rot_deg_per_frame_median": 1.3925444968716025,
+      "rot_deg_per_frame_p90": 2.803611413552736,
+      "jitter_px_std": 4.825157248459783,
+      "path_length_px": 602.0671606345368,
+      "net_displacement_px": 221.07385567302788,
+      "max_excursion_px": 388.0090768114994,
+      "oscillation_ratio": 1.5516831863369782
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_002/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.6978938130759105,
+      "trans_px_per_frame_median": 13.352595797045609,
+      "trans_px_per_frame_p90": 19.947638535170608,
+      "trans_px_per_frame_max": 22.58184079647299,
+      "rot_deg_per_frame_median": 1.6763791023744332,
+      "rot_deg_per_frame_p90": 2.607055561671845,
+      "jitter_px_std": 5.299663324207718,
+      "path_length_px": 582.2230163369795,
+      "net_displacement_px": 221.23906168352974,
+      "max_excursion_px": 397.3157797918893,
+      "oscillation_ratio": 1.4653911219985853
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_003/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.6091269841269842,
+      "trans_px_per_frame_median": 15.920377574365723,
+      "trans_px_per_frame_p90": 22.04799017736722,
+      "trans_px_per_frame_max": 27.5543055634483,
+      "rot_deg_per_frame_median": 2.1833922728700452,
+      "rot_deg_per_frame_p90": 2.8940853622621066,
+      "jitter_px_std": 3.01567427882436,
+      "path_length_px": 814.5116592795462,
+      "net_displacement_px": 789.10440416307,
+      "max_excursion_px": 789.10440416307,
+      "oscillation_ratio": 1.032197583719512
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_004/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.4965753424657534,
+      "trans_px_per_frame_median": 15.027149856874974,
+      "trans_px_per_frame_p90": 24.851537595339956,
+      "trans_px_per_frame_max": 27.776357107157555,
+      "rot_deg_per_frame_median": 2.1709740338696353,
+      "rot_deg_per_frame_p90": 3.6443706403153433,
+      "jitter_px_std": 5.727860582563033,
+      "path_length_px": 785.0438228006867,
+      "net_displacement_px": 726.2529891169656,
+      "max_excursion_px": 726.2529891169656,
+      "oscillation_ratio": 1.0809509008082756
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_005/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.5594117647058824,
+      "trans_px_per_frame_median": 12.826373645808726,
+      "trans_px_per_frame_p90": 16.660261484300865,
+      "trans_px_per_frame_max": 23.094566350001013,
+      "rot_deg_per_frame_median": 1.7104994404018596,
+      "rot_deg_per_frame_p90": 2.3506285317834243,
+      "jitter_px_std": 3.6615753428034243,
+      "path_length_px": 625.0594603517186,
+      "net_displacement_px": 582.222272161054,
+      "max_excursion_px": 582.222272161054,
+      "oscillation_ratio": 1.0735753169174795
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_006/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.7609523809523809,
+      "trans_px_per_frame_median": 15.25471247411552,
+      "trans_px_per_frame_p90": 21.18303959802732,
+      "trans_px_per_frame_max": 23.695693423231184,
+      "rot_deg_per_frame_median": 2.1523512090472394,
+      "rot_deg_per_frame_p90": 3.230274440996471,
+      "jitter_px_std": 4.709001265045121,
+      "path_length_px": 714.971811121659,
+      "net_displacement_px": 689.9399214256028,
+      "max_excursion_px": 689.9399214256028,
+      "oscillation_ratio": 1.0362812600325164
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_007/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 45,
+      "ransac_inlier_ratio_median": 0.6206896551724138,
+      "trans_px_per_frame_median": 11.996399264840258,
+      "trans_px_per_frame_p90": 16.17752568608687,
+      "trans_px_per_frame_max": 24.73128543274763,
+      "rot_deg_per_frame_median": 1.68982459418939,
+      "rot_deg_per_frame_p90": 2.381327246543672,
+      "jitter_px_std": 3.206468556897228,
+      "path_length_px": 546.5744593320692,
+      "net_displacement_px": 461.80147640090377,
+      "max_excursion_px": 461.80147640090377,
+      "oscillation_ratio": 1.1835701860285337
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_008/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.6865566037735849,
+      "trans_px_per_frame_median": 10.103069790469032,
+      "trans_px_per_frame_p90": 19.696175998037255,
+      "trans_px_per_frame_max": 26.27113936722922,
+      "rot_deg_per_frame_median": 1.266902993611593,
+      "rot_deg_per_frame_p90": 2.4802274751859277,
+      "jitter_px_std": 5.80327387121947,
+      "path_length_px": 538.9797202398761,
+      "net_displacement_px": 217.81019816171062,
+      "max_excursion_px": 366.44039227478174,
+      "oscillation_ratio": 1.470852372179846
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_009/valid_00",
+      "n_frames": 49,
+      "n_pairs_ok": 48,
+      "ransac_inlier_ratio_median": 0.5381274131274132,
+      "trans_px_per_frame_median": 11.330553252596138,
+      "trans_px_per_frame_p90": 14.09638848180011,
+      "trans_px_per_frame_max": 18.180633923767775,
+      "rot_deg_per_frame_median": 1.735518773869742,
+      "rot_deg_per_frame_p90": 2.3259753134118686,
+      "jitter_px_std": 2.4332875143140655,
+      "path_length_px": 533.3832533561675,
+      "net_displacement_px": 496.5301835267061,
+      "max_excursion_px": 496.5301835267061,
+      "oscillation_ratio": 1.074221207596495
+    }
+  ],
+  "M2_aggregate": {
+    "trans_px_per_frame": {
+      "median": 12.722244755926885,
+      "p90": 15.32127898414054,
+      "min": 10.103069790469032,
+      "max": 15.920377574365723
+    },
+    "rot_deg_per_frame": {
+      "median": 1.723009107135801,
+      "p90": 2.172215857769676,
+      "min": 1.266902993611593,
+      "max": 2.1833922728700452
+    },
+    "jitter_px_std": {
+      "median": 4.767079256752452,
+      "p90": 5.735401911428677,
+      "min": 2.4332875143140655,
+      "max": 5.80327387121947
+    },
+    "path_length_px": {
+      "median": 593.2568096012305,
+      "p90": 787.9906064485726,
+      "min": 533.3832533561675,
+      "max": 814.5116592795462
+    },
+    "net_displacement_px": {
+      "median": 479.1658299638049,
+      "p90": 732.5381306215761,
+      "min": 210.48658555415074,
+      "max": 789.10440416307
+    },
+    "max_excursion_px": {
+      "median": 479.1658299638049,
+      "p90": 732.5381306215761,
+      "min": 366.44039227478174,
+      "max": 789.10440416307
+    },
+    "oscillation_ratio": {
+      "median": 1.1322605434184045,
+      "p90": 1.4995351241061263,
+      "min": 1.032197583719512,
+      "max": 1.5516831863369782
+    },
+    "ransac_inlier_ratio": {
+      "median": 0.6487081909495702,
+      "p90": 0.7041996698635575,
+      "min": 0.4965753424657534,
+      "max": 0.7609523809523809
+    }
+  },
+  "M3_levels": {
+    "level_1": {
+      "scale": 0.5,
+      "trans_px_per_frame": 6.3611,
+      "rot_deg_per_frame": 0.8615,
+      "jitter_px_std": 2.3835,
+      "path_length_px": 305.33,
+      "max_excursion_px": 239.58
+    },
+    "level_2": {
+      "scale": 1.0,
+      "trans_px_per_frame": 12.7222,
+      "rot_deg_per_frame": 1.723,
+      "jitter_px_std": 4.7671,
+      "path_length_px": 610.67,
+      "max_excursion_px": 479.17
+    },
+    "level_3": {
+      "scale": 2.0,
+      "trans_px_per_frame": 25.4445,
+      "rot_deg_per_frame": 3.446,
+      "jitter_px_std": 9.5342,
+      "path_length_px": 1221.34,
+      "max_excursion_px": 958.33
+    }
+  },
+  "M3_rails": {
+    "rail1_level1_excursion_gt_32px": {
+      "value_px": 239.58,
+      "threshold_px": 32,
+      "passed": true,
+      "action": "kept 0.5x/1x/2x"
+    },
+    "rail2_level3_overlap_ge_70pct": {
+      "max_excursion_px": 958.33,
+      "overlap_fraction": 0.0,
+      "threshold": 0.7,
+      "passed": false,
+      "rate_cap_px_per_frame_implied_by_rail2": 4.078,
+      "measured_rate_px_per_frame": 12.722,
+      "measured_over_cap": 3.12
+    }
+  },
+  "conflict": "PREREG A.5 M3 (calibrate to shadow_camera's real motion) and A.1 rail 2 (keep >=70% frame overlap) cannot both be satisfied: the measured motion is 12.72 px/frame but rail 2 caps it at 4.08 px/frame. Owner decision required before S4.",
+  "status": "MEASURED BUT RAILS CONFLICT -- do not freeze A.5 yet, see 'conflict'"
+}

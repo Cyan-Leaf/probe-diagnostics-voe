@@ -1,0 +1,323 @@
+{
+  "prereg": "results/T10_validity/T10_PREREG.md",
+  "units": [
+    {
+      "dataset": "LikePhys",
+      "unit": "ball_collision",
+      "real_auc": 0.9800000000000001,
+      "random_auc": 0.75,
+      "delta": 0.2300000000000001,
+      "saturated": false,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "ball_drop",
+      "real_auc": 1.0,
+      "random_auc": 1.0,
+      "delta": 0.0,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "block_slide",
+      "real_auc": 1.0,
+      "random_auc": 0.75,
+      "delta": 0.25,
+      "saturated": false,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "cloth_drape",
+      "real_auc": 1.0,
+      "random_auc": 0.9625,
+      "delta": 0.03749999999999998,
+      "saturated": false,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "faucet",
+      "real_auc": 1.0,
+      "random_auc": 0.9857142857142858,
+      "delta": 0.014285714285714235,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "flag",
+      "real_auc": 0.99,
+      "random_auc": 0.95,
+      "delta": 0.040000000000000036,
+      "saturated": false,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "fluid",
+      "real_auc": 1.0,
+      "random_auc": 1.0,
+      "delta": 0.0,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "pendulum",
+      "real_auc": 1.0,
+      "random_auc": 1.0,
+      "delta": 0.0,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "pyramid",
+      "real_auc": 1.0,
+      "random_auc": 0.9800000000000001,
+      "delta": 0.019999999999999907,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "river",
+      "real_auc": 1.0,
+      "random_auc": 1.0,
+      "delta": 0.0,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "shadow",
+      "real_auc": 1.0,
+      "random_auc": 0.97,
+      "delta": 0.030000000000000027,
+      "saturated": false,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "LikePhys",
+      "unit": "shadow_camera",
+      "real_auc": 0.5,
+      "random_auc": 0.68,
+      "delta": -0.18000000000000005,
+      "saturated": true,
+      "source": "T4_caliper/E1_per_scenario_table.json"
+    },
+    {
+      "dataset": "IntPhys2",
+      "unit": "pooled",
+      "real_auc": 0.6457915442778419,
+      "random_auc": 0.5167775881071384,
+      "delta": 0.12901395617070355,
+      "saturated": false,
+      "source": "E7_intphys2/E7_verdict.json"
+    },
+    {
+      "dataset": "IntPhys2",
+      "unit": "cond:solidity",
+      "real_auc": 0.5640884353741497,
+      "random_auc": 0.5251900982615268,
+      "delta": 0.038898337112622805,
+      "saturated": true,
+      "source": "E7_intphys2/E7_verdict.json"
+    },
+    {
+      "dataset": "IntPhys2",
+      "unit": "cond:permanence",
+      "real_auc": 0.5819444444444445,
+      "random_auc": 0.5300925925925926,
+      "delta": 0.05185185185185193,
+      "saturated": false,
+      "source": "E7_intphys2/E7_verdict.json"
+    },
+    {
+      "dataset": "IntPhys2",
+      "unit": "cond:immutability",
+      "real_auc": 0.5923611111111112,
+      "random_auc": 0.5070601851851851,
+      "delta": 0.08530092592592609,
+      "saturated": false,
+      "source": "E7_intphys2/E7_verdict.json"
+    },
+    {
+      "dataset": "IntPhys2",
+      "unit": "cond:continuity",
+      "real_auc": 0.6322916666666667,
+      "random_auc": 0.520949074074074,
+      "delta": 0.11134259259259272,
+      "saturated": false,
+      "source": "E7_intphys2/E7_verdict.json"
+    }
+  ],
+  "ablation": {
+    "D1": {
+      "removing_it_means": "high real AUC is read as 'encodes physics'",
+      "missed_units": [
+        "ball_collision",
+        "ball_drop",
+        "cloth_drape",
+        "faucet",
+        "flag",
+        "fluid",
+        "pendulum",
+        "pyramid",
+        "river",
+        "shadow"
+      ],
+      "n_missed": 10,
+      "evidence": {
+        "E1_best_real": 0.9740079365079366,
+        "E1_random_lower_bound": 0.8576058201058203,
+        "training_share": 0.246
+      },
+      "source": "T4_caliper/E1_summary.json"
+    },
+    "D2": {
+      "removing_it_means": "a probe that scores a physics-legal recolour higher than the violation still reads as a physics probe",
+      "missed_units": [
+        "LikePhys t=200",
+        "LikePhys t=400",
+        "LikePhys t=600",
+        "LikePhys t=800",
+        "LikePhys t=950",
+        "IntPhys2 pooled"
+      ],
+      "n_missed": 6,
+      "evidence": {
+        "LikePhys_appearance_vs_physics": "1.0000 vs 0.9686 (all 5 timesteps)",
+        "IntPhys2_appearance_vs_physics": "1.0000 vs 0.6458"
+      },
+      "source": "E3_readout_grid/E3_summary.json + E7_intphys2/E7_verdict.json"
+    },
+    "D3": {
+      "removing_it_means": "saturated units stay in the pool and distort the global mean",
+      "missed_units": [
+        "ball_drop",
+        "faucet",
+        "fluid",
+        "pendulum",
+        "pyramid",
+        "river",
+        "shadow_camera",
+        "cond:solidity"
+      ],
+      "n_missed": 8,
+      "evidence": {
+        "LikePhys_saturated": 7,
+        "IntPhys2_saturated": 1
+      },
+      "source": "T4_caliper/E1_per_scenario_table.json + E7_intphys2/E7_verdict.json"
+    },
+    "D4": {
+      "removing_it_means": "effects inside the noise floor are reported as findings",
+      "missed_units": [
+        "LikePhys denoising t=800 (p=0.127)",
+        "LikePhys denoising t=950 (p=0.883)",
+        "IntPhys2 cond:solidity"
+      ],
+      "n_missed": 3,
+      "evidence": {
+        "E0_t800_p": 0.1274632991566102,
+        "E0_t950_p": 0.8834030213646259
+      },
+      "source": "T3_null_floor/E0_null_floor.json + E7_intphys2/E7_verdict.json"
+    },
+    "D5": {
+      "removing_it_means": "the denoising-error readout's complexity effect is read as physics",
+      "missed_units": [
+        "LikePhys denoising main effect (all 12 scenarios pooled)"
+      ],
+      "n_missed": 1,
+      "evidence": {
+        "temporal_grad_variance_explained": 0.563,
+        "pooled_intercept": -0.008998704325203215,
+        "within_scenario_intercept": 0.0011206831848119656,
+        "share_explained": 0.9849232002966518
+      },
+      "source": "E4_complexity/E4_decomposition.json"
+    },
+    "D6": {
+      "removing_it_means": "a saturated bounded statistic is used and reports 'no effect'",
+      "missed_units": [
+        "S4 ball_drop",
+        "S4 cloth_drape",
+        "S4 faucet",
+        "S4 fluid",
+        "S4 pendulum",
+        "S4 pyramid",
+        "S4 river"
+      ],
+      "n_missed": 7,
+      "evidence": {
+        "auc_max_drop": 0.019999999999999907,
+        "auc_threshold": 0.2486,
+        "dprime_retained_L3": 0.7540787141920238,
+        "n_scenarios_dprime_down": 7
+      },
+      "source": "E10_S4/S4_exploratory_dprime.json + S4_verdict.json"
+    }
+  },
+  "d3_vs_d6": {
+    "question": "does applying D3 (drop saturated units) make D6 unnecessary?",
+    "setup": "S4's 7 units are exactly the saturated ones (real AUC = 1.0000, sd = 0.0000), i.e. the units D3 would discard. If D3 subsumed D6, there would be nothing left to measure on them. But the question S4 asks is whether camera motion degrades them -- which requires measuring ON those units.",
+    "auc_on_those_units": {
+      "max_drop_L0_to_L3": 0.019999999999999907,
+      "n_units_with_zero_drop": 5,
+      "verdict": "no decay detected"
+    },
+    "dprime_on_those_units": {
+      "mean_retained_L3": 0.7540787141920238,
+      "n_units_declining": 7,
+      "per_unit": {
+        "ball_drop": 0.8436318981605109,
+        "cloth_drape": 0.7899684400774362,
+        "faucet": 0.703471093751226,
+        "fluid": 0.7266665155073707,
+        "pendulum": 0.6322610517621199,
+        "pyramid": 0.8765622411059364,
+        "river": 0.7059897589795667
+      },
+      "verdict": "monotone decline in 7/7"
+    },
+    "conclusion": "D3 and D6 act at different levels. D3 is a *data* operation: drop units where the effect cannot be resolved. D6 is a *statistic* operation: on a unit whose baseline sits at the bound, do not use the bounded statistic at all. S4 is the empirical proof that the first does not substitute for the second -- had we only applied D3 we would have discarded the 7 units and never asked the question; having kept them, AUC said 'no decay' and d' said 'decline in 7/7'. Neither check makes the other redundant."
+  },
+  "summary": {
+    "n_units": 17,
+    "units": [
+      "LikePhys/ball_collision",
+      "LikePhys/ball_drop",
+      "LikePhys/block_slide",
+      "LikePhys/cloth_drape",
+      "LikePhys/faucet",
+      "LikePhys/flag",
+      "LikePhys/fluid",
+      "LikePhys/pendulum",
+      "LikePhys/pyramid",
+      "LikePhys/river",
+      "LikePhys/shadow",
+      "LikePhys/shadow_camera",
+      "IntPhys2/pooled",
+      "IntPhys2/cond:solidity",
+      "IntPhys2/cond:permanence",
+      "IntPhys2/cond:immutability",
+      "IntPhys2/cond:continuity"
+    ],
+    "per_check_missed": {
+      "D1": 10,
+      "D2": 6,
+      "D3": 8,
+      "D4": 3,
+      "D5": 1,
+      "D6": 7
+    },
+    "removable_checks": [],
+    "all_checks_necessary": true,
+    "reading": "every check catches at least one unit the other five miss, so no check is removable on the evidence available"
+  }
+}

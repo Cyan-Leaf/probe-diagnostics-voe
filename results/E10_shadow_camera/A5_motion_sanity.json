@@ -1,0 +1,68 @@
+{
+  "shadow_camera": [
+    {
+      "clip_id": "shadow_camera_videos/subgroup_000/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.577,
+      "ncc_after_best_horizontal_shift": 0.6269,
+      "best_shift_px": 48,
+      "ncc_frame0_vs_frame1": 0.9588
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_001/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.7304,
+      "ncc_after_best_horizontal_shift": 0.7312,
+      "best_shift_px": 8,
+      "ncc_frame0_vs_frame1": 0.9734
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_002/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.7975,
+      "ncc_after_best_horizontal_shift": 0.9528,
+      "best_shift_px": 240,
+      "ncc_frame0_vs_frame1": 0.9732
+    },
+    {
+      "clip_id": "shadow_camera_videos/subgroup_003/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": -0.2898,
+      "ncc_after_best_horizontal_shift": -0.0031,
+      "best_shift_px": -240,
+      "ncc_frame0_vs_frame1": 0.9929
+    }
+  ],
+  "shadow": [
+    {
+      "clip_id": "shadow_videos/subgroup_000/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.6651,
+      "ncc_after_best_horizontal_shift": 0.889,
+      "best_shift_px": 240,
+      "ncc_frame0_vs_frame1": 0.9901
+    },
+    {
+      "clip_id": "shadow_videos/subgroup_001/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.7964,
+      "ncc_after_best_horizontal_shift": 0.9799,
+      "best_shift_px": -240,
+      "ncc_frame0_vs_frame1": 0.9874
+    },
+    {
+      "clip_id": "shadow_videos/subgroup_002/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.1678,
+      "ncc_after_best_horizontal_shift": 0.6853,
+      "best_shift_px": -240,
+      "ncc_frame0_vs_frame1": 0.9584
+    },
+    {
+      "clip_id": "shadow_videos/subgroup_003/valid_00",
+      "ncc_frame0_vs_frame48_unaligned": 0.2947,
+      "ncc_after_best_horizontal_shift": 0.6629,
+      "best_shift_px": 240,
+      "ncc_frame0_vs_frame1": 0.9607
+    }
+  ],
+  "summary": {
+    "mean_ncc_0_48_shadow_camera": 0.4538,
+    "mean_ncc_0_48_shadow_static": 0.481,
+    "mean_abs_best_shift_shadow_camera_px": 134.0,
+    "interpretation": "If shadow_camera's first/last frames decorrelate strongly while the static `shadow` control stays correlated, the large measured camera motion is real and not an optical-flow artefact."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "out": "../results/T2_env/prompt_embeds_empty_gpu1.pt",
+  "shape": [
+    1,
+    226,
+    4096
+  ],
+  "dtype_saved": "float16",
+  "prompts": [
+    ""
+  ],
+  "seq_lens": [
+    1
+  ],
+  "peak_vram_GB": 10.64,
+  "preflight": {
+    "device": "cuda:0",
+    "physical_device": "physical cuda:1 (CUDA_VISIBLE_DEVICES=1)",
+    "n": 16777216,
+    "max_abs_diff": 0.0,
+    "n_wrong": 0,
+    "healthy": true
+  }
+}

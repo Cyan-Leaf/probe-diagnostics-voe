@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>物理视频配对评测</title>
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --line:#2a2f3a; --fg:#e6e9ef; --dim:#9aa3b2;
+          --accent:#4c8dff; --ok:#3fb950; --warn:#d29922; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+  .wrap { max-width:1180px; margin:0 auto; padding:20px 18px 60px; }
+  h1 { font-size:19px; margin:0 0 4px; }
+  .sub { color:var(--dim); font-size:13px; margin-bottom:18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
+          padding:18px; margin-bottom:16px; }
+  input[type=text] { background:#0c0e13; border:1px solid var(--line); color:var(--fg);
+                     padding:9px 12px; border-radius:7px; font-size:15px; width:260px; }
+  button { background:var(--accent); color:#fff; border:0; padding:9px 18px;
+           border-radius:7px; font-size:15px; cursor:pointer; }
+  button:hover { filter:brightness(1.1); }
+  button.ghost { background:transparent; border:1px solid var(--line); color:var(--dim); }
+  .bar { height:6px; background:#0c0e13; border-radius:3px; overflow:hidden; margin:10px 0 0; }
+  .bar > div { height:100%; background:var(--ok); transition:width .2s; }
+  .vids { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:6px 0 4px; }
+  .vid { position:relative; }
+  .vid video { width:100%; border-radius:9px; background:#000; display:block;
+               border:2px solid transparent; }
+  .vid.sel video { border-color:var(--accent); }
+  .tag { position:absolute; top:8px; left:8px; background:rgba(0,0,0,.72);
+         padding:3px 9px; border-radius:5px; font-size:13px; letter-spacing:.5px; }
+  .choose { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:10px 0 18px; }
+  .choose button { width:100%; padding:13px; font-size:16px; background:#222732;
+                   border:1px solid var(--line); }
+  .choose button.sel { background:var(--accent); border-color:var(--accent); }
+  .conf { display:flex; gap:9px; flex-wrap:wrap; }
+  .conf button { flex:1; min-width:150px; text-align:left; background:#222732;
+                 border:1px solid var(--line); padding:10px 12px; font-size:14px; }
+  .conf button.sel { background:var(--accent); border-color:var(--accent); }
+  .conf .n { font-weight:700; margin-right:8px; }
+  label.row { display:flex; align-items:center; gap:8px; color:var(--dim); font-size:14px;
+              margin:14px 0 0; cursor:pointer; }
+  .foot { display:flex; justify-content:space-between; align-items:center; margin-top:16px;
+          gap:12px; flex-wrap:wrap; }
+  .hint { color:var(--dim); font-size:13px; }
+  kbd { background:#0c0e13; border:1px solid var(--line); border-radius:4px;
+        padding:1px 6px; font-size:12px; }
+  .rules { color:var(--dim); font-size:13.5px; }
+  .rules b { color:var(--warn); }
+  .done { text-align:center; padding:40px 20px; }
+  .err { color:#f85149; font-size:13px; margin-top:8px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  td,th { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div id="login" class="card">
+  <h1>物理视频配对评测</h1>
+  <div class="sub">每题两条视频，判断<b>哪一条看起来更不对</b>。全部 <span id="np">…</span> 对。</div>
+  <div class="rules">
+    <p><b>三条请先读：</b></p>
+    <p>1. <b>看整体感觉，不要逐帧抠物理。</b>题目问的是「哪条看起来更不对」,
+       靠的是<b>直觉和违和感</b>,不是物理知识。看一两遍的第一印象就够,
+       不用反复慢放找证据。</p>
+    <p style="margin-left:1.2em">下面这些<b>都算「不对」</b>,不用管它属于哪一类:
+       动作突然断掉或跳一下 · 东西凭空出现或消失 · 穿过了本该挡住它的东西 ·
+       运动方式说不出哪里别扭(太飘/太僵/太快) · 颜色材质中途变了 ·
+       <b>就是觉得假但指不出哪一帧</b>。</p>
+    <p style="margin-left:1.2em">为什么这样限定:我们要测的是<b>普通人能不能察觉异常</b>,
+       用来对照模型探针的高分是否真对应「可辨识的物理异常」。
+       若抱着找 bug 的心态逐帧检查,测到的就变成「专家标注能力」了。</p>
+    <p>2. <b>每题必须二选一。</b>如果两条看完<b>都没有任何「咦」的感觉</b>,
+       就随便选一个,确定度填 <b>1(完全分不出,纯猜)</b>。
+       <b>这种情况的比例本身就是我们要的数据</b>,不是你没做好。</p>
+    <p>3. 做完之前<b>不要和别人讨论</b>。答案写在服务器上，中途关掉可以接着做。</p>
+  </div>
+  <div style="margin-top:16px">
+    <input type="text" id="name" placeholder="你的姓名/工号" autocomplete="off">
+    <button onclick="login()">开始</button>
+    <div class="err" id="loginErr"></div>
+  </div>
+</div>
+
+<div id="main" style="display:none">
+  <div class="card" style="padding:12px 18px">
+    <div class="foot" style="margin:0">
+      <div><b id="who"></b> &nbsp;<span class="hint"><span id="prog"></span></span></div>
+      <div>
+        <button class="ghost" onclick="showProgress()">进度</button>
+        <button class="ghost" onclick="logout()">换人</button>
+      </div>
+    </div>
+    <div class="bar"><div id="barIn" style="width:0%"></div></div>
+  </div>
+
+  <div class="card" id="task">
+    <div class="sub">第 <b id="idx"></b> / <span id="tot"></span> 题 &nbsp;·&nbsp;
+      <span class="hint">哪一条看起来更不对？</span></div>
+
+    <div class="vids">
+      <div class="vid" id="vL"><span class="tag">左</span>
+        <video id="videoL" loop muted playsinline controls preload="auto"></video></div>
+      <div class="vid" id="vR"><span class="tag">右</span>
+        <video id="videoR" loop muted playsinline controls preload="auto"></video></div>
+    </div>
+    <div class="hint" style="margin-bottom:10px">
+      <kbd>空格</kbd> 重播 &nbsp; <kbd>1</kbd>/<kbd>←</kbd> 选左 &nbsp;
+      <kbd>2</kbd>/<kbd>→</kbd> 选右 &nbsp; 然后 <kbd>1</kbd>–<kbd>5</kbd> 填确定度 &nbsp;
+      <kbd>Enter</kbd> 下一题
+    </div>
+
+    <div class="choose">
+      <button id="cL" onclick="choose('left')">① 左边更不对</button>
+      <button id="cR" onclick="choose('right')">② 右边更不对</button>
+    </div>
+
+    <div class="sub" style="margin:0 0 8px">你的确定度（必填）</div>
+    <div class="conf" id="conf"></div>
+
+    <label class="row"><input type="checkbox" id="same"> 两条看起来完全一样（可选）</label>
+
+    <div class="foot">
+      <input type="text" id="notes" placeholder="备注：哪里不对（可留空）" style="width:400px">
+      <div>
+        <button class="ghost" onclick="prev()">上一题</button>
+        <button id="next" onclick="submit()">提交并下一题</button>
+      </div>
+    </div>
+    <div class="err" id="err"></div>
+  </div>
+</div>
+
+<div id="done" class="card done" style="display:none">
+  <h1>全部做完了，谢谢！</h1>
+  <div class="sub">答案已保存在服务器。可以关掉页面了。</div>
+  <button class="ghost" onclick="logout()">换个人继续</button>
+</div>
+
+<div id="progress" class="card" style="display:none">
+  <h1>进度</h1>
+  <table id="progTable"></table>
+  <div style="margin-top:14px"><button class="ghost" onclick="hideProgress()">返回</button></div>
+</div>
+
+</div>
+<script>
+let S = { name:null, order:[], done:new Set(), i:0, choice:null, conf:null, t0:0, meta:null };
+
+async function j(url, opt) {
+  const r = await fetch(url, Object.assign({headers:{'Content-Type':'application/json'}}, opt||{}));
+  return r.json();
+}
+
+(async () => {
+  S.meta = await j('/api/meta');
+  document.getElementById('np').textContent = S.meta.n_pairs;
+  const cw = document.getElementById('conf');
+  for (let k=1;k<=5;k++){
+    const b=document.createElement('button');
+    b.innerHTML = `<span class="n">${k}</span>${S.meta.conf_labels[k]}`;
+    b.onclick = () => setConf(k); b.id = 'conf'+k; cw.appendChild(b);
+  }
+  const saved = localStorage.getItem('he_name');
+  if (saved) { document.getElementById('name').value = saved; }
+})();
+
+async function login(){
+  const name = document.getElementById('name').value.trim();
+  if(!name){ document.getElementById('loginErr').textContent='请填写姓名'; return; }
+  const r = await j('/api/login',{method:'POST',body:JSON.stringify({name})});
+  if(r.error){ document.getElementById('loginErr').textContent=r.error; return; }
+  localStorage.setItem('he_name', name);
+  S.name=r.name; S.order=r.order; S.done=new Set(r.done);
+  document.getElementById('login').style.display='none';
+  document.getElementById('main').style.display='';
+  document.getElementById('who').textContent=S.name;
+  document.getElementById('tot').textContent=S.order.length;
+  S.i = S.order.findIndex(p => !S.done.has(p));
+  if(S.i<0) return finish();
+  render();
+}
+
+function logout(){ localStorage.removeItem('he_name'); location.reload(); }
+
+async function render(){
+  document.getElementById('done').style.display='none';
+  document.getElementById('main').style.display='';
+  document.getElementById('progress').style.display='none';
+  const pid = S.order[S.i];
+  document.getElementById('idx').textContent = S.i+1;
+  document.getElementById('prog').textContent = `已完成 ${S.done.size} / ${S.order.length}`;
+  document.getElementById('barIn').style.width = (100*S.done.size/S.order.length)+'%';
+  const L=document.getElementById('videoL'), R=document.getElementById('videoR');
+  L.src=`/video/${pid}/left`; R.src=`/video/${pid}/right`;
+  for(const v of [L,R]){
+    v.onerror = () => { document.getElementById('err').textContent =
+      '视频加载失败。若是刚部署，先在服务器上跑 humaneval/transcode.py'; };
+  }
+  L.load(); R.load(); L.play().catch(()=>{}); R.play().catch(()=>{});
+  S.choice=null; S.conf=null; S.t0=Date.now();
+  document.getElementById('same').checked=false;
+  document.getElementById('notes').value='';
+  document.getElementById('err').textContent='';
+  paint();
+}
+
+function choose(c){ S.choice=c; paint(); }
+function setConf(k){ S.conf=k; paint(); }
+
+function paint(){
+  document.getElementById('cL').className = S.choice==='left'?'sel':'';
+  document.getElementById('cR').className = S.choice==='right'?'sel':'';
+  document.getElementById('vL').className = 'vid'+(S.choice==='left'?' sel':'');
+  document.getElementById('vR').className = 'vid'+(S.choice==='right'?' sel':'');
+  for(let k=1;k<=5;k++) document.getElementById('conf'+k).className = (S.conf===k?'sel':'');
+}
+
+async function submit(){
+  const e=document.getElementById('err');
+  if(!S.choice){ e.textContent='请先选左或右（实在分不出也要选一个，确定度填 1）'; return; }
+  if(!S.conf){ e.textContent='请填确定度 1–5'; return; }
+  const r = await j('/api/answer',{method:'POST',body:JSON.stringify({
+    rater:S.name, pair_id:S.order[S.i], choice:S.choice, confidence:S.conf,
+    same_look:document.getElementById('same').checked,
+    notes:document.getElementById('notes').value, ms_spent:Date.now()-S.t0 })});
+  if(r.error){ e.textContent=r.error; return; }
+  S.done.add(S.order[S.i]);
+  if(S.done.size>=S.order.length) return finish();
+  let n=S.i+1; while(n<S.order.length && S.done.has(S.order[n])) n++;
+  if(n>=S.order.length){ n=S.order.findIndex(p=>!S.done.has(p)); }
+  if(n<0) return finish();
+  S.i=n; render();
+}
+
+function prev(){ if(S.i>0){ S.i--; render(); } }
+
+function finish(){
+  document.getElementById('main').style.display='none';
+  document.getElementById('done').style.display='';
+}
+
+async function showProgress(){
+  const r=await j('/api/progress');
+  let h='<tr><th>评测人</th><th>已完成</th><th>平均确定度</th></tr>';
+  for(const x of r.raters) h+=`<tr><td>${x.name}</td><td>${x.n_done} / ${r.n_total}</td>`
+    +`<td>${x.mean_confidence??'-'}</td></tr>`;
+  document.getElementById('progTable').innerHTML=h;
+  document.getElementById('main').style.display='none';
+  document.getElementById('progress').style.display='';
+}
+function hideProgress(){
+  document.getElementById('progress').style.display='none';
+  document.getElementById('main').style.display='';
+}
+
+document.addEventListener('keydown', ev=>{
+  if(document.getElementById('main').style.display==='none') return;
+  if(ev.target.tagName==='INPUT') { if(ev.key==='Enter') submit(); return; }
+  if(ev.code==='Space'){ ev.preventDefault();
+    for(const v of [videoL,videoR]){ v.currentTime=0; v.play().catch(()=>{}); } return; }
+  if(ev.key==='ArrowLeft') return choose('left');
+  if(ev.key==='ArrowRight') return choose('right');
+  if(ev.key==='Enter') return submit();
+  if(/^[1-5]$/.test(ev.key)){
+    const k=+ev.key;
+    if(!S.choice && k<=2) return choose(k===1?'left':'right');
+    return setConf(k);
+  }
+});
+</script>
+</body>
+</html>

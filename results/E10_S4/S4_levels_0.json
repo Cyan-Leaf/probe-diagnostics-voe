@@ -1,0 +1,372 @@
+{
+  "args": {
+    "levels": [
+      0
+    ],
+    "threads": 8
+  },
+  "env": {
+    "python": "3.11.10",
+    "cuda_visible_devices": null,
+    "platform": "Linux-4.18.0-2.4.3.3.kwai.x86_64-x86_64-with-glibc2.35",
+    "torch": "2.5.1+cu124",
+    "diffusers": "0.36.0",
+    "transformers": "4.57.6",
+    "cuda": "12.4",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "repo": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "revision": "b8fff7315c768468a5333511427288870b2e9635",
+    "code_rev": ""
+  },
+  "preflight": {
+    "device": "cuda:0",
+    "physical_device": "physical cuda:0 (CUDA_VISIBLE_DEVICES unset)",
+    "n": 16777216,
+    "max_abs_diff": 0.0,
+    "n_wrong": 0,
+    "healthy": true
+  },
+  "protocol": {
+    "layer": 16,
+    "t": 600,
+    "feature_seed": 0,
+    "downsample": "4 positives per subgroup + all negatives -> n=50",
+    "n_resample": 25,
+    "s3_seed": 2026,
+    "identical_to": "e10_s1s3.s3_downsample (verbatim reuse of _match_design/_probe_auc)",
+    "permutation_floor_sd": 0.1243,
+    "threshold_2x_floor": 0.2486
+  },
+  "camera_levels": {
+    "0": {
+      "cum_px": 0.0,
+      "rot_deg_total": 0.0,
+      "jitter_px": 0.0
+    },
+    "1": {
+      "cum_px": 32.0,
+      "rot_deg_total": 0.895,
+      "jitter_px": 0.25
+    },
+    "2": {
+      "cum_px": 64.0,
+      "rot_deg_total": 1.79,
+      "jitter_px": 0.5
+    },
+    "3": {
+      "cum_px": 128.0,
+      "rot_deg_total": 3.581,
+      "jitter_px": 1.0
+    }
+  },
+  "crop": {
+    "crop_px": 352,
+    "crop_scale_linear": 0.6875,
+    "effective_fov_area_frac": 0.47265625,
+    "upsample_factor": 1.4545454545454546,
+    "crop_shared_across_levels": true,
+    "set_by_level": 3
+  },
+  "started": "2026-09-17 20:32:06",
+  "levels": {
+    "0": {
+      "real": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9995,
+          "auc_sd": 0.002499999999999991,
+          "auc_ci95": [
+            0.9984999999999999,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "random": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.996,
+          "auc_sd": 0.00595119035711902,
+          "auc_ci95": [
+            0.9935,
+            0.998
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.946,
+          "auc_sd": 0.03417936755802638,
+          "auc_ci95": [
+            0.931,
+            0.9574999999999999
+          ],
+          "auc_min": 0.8375,
+          "auc_max": 0.975,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9789999999999999,
+          "auc_sd": 0.017199806200458582,
+          "auc_ci95": [
+            0.9725,
+            0.9854999999999999
+          ],
+          "auc_min": 0.95,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9954999999999999,
+          "auc_sd": 0.0071078008788466466,
+          "auc_ci95": [
+            0.9925,
+            0.998
+          ],
+          "auc_min": 0.975,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.98,
+          "auc_sd": 0.019094065395649337,
+          "auc_ci95": [
+            0.9725,
+            0.987
+          ],
+          "auc_min": 0.925,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9470000000000001,
+          "auc_sd": 0.024811791551599013,
+          "auc_ci95": [
+            0.9369999999999998,
+            0.956
+          ],
+          "auc_min": 0.875,
+          "auc_max": 0.9875,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9930000000000001,
+          "auc_sd": 0.00813300887330963,
+          "auc_ci95": [
+            0.9895000000000002,
+            0.996
+          ],
+          "auc_min": 0.975,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "margin": {
+        "ball_drop": 0.0040000000000000036,
+        "cloth_drape": 0.05400000000000005,
+        "faucet": 0.02100000000000013,
+        "fluid": 0.0045000000000000595,
+        "pendulum": 0.020000000000000018,
+        "pyramid": 0.05249999999999999,
+        "river": 0.006999999999999895
+      }
+    }
+  },
+  "finished": "2026-09-17 20:41:09",
+  "zero_level_gate": {
+    "baseline_from_S3": 1.0,
+    "per_scenario_drop": {
+      "ball_drop": 0.0,
+      "cloth_drape": 0.0,
+      "faucet": 0.0,
+      "fluid": 0.0,
+      "pendulum": 0.0,
+      "pyramid": 0.0004999999999999449,
+      "river": 0.0
+    },
+    "max_drop": 0.0004999999999999449,
+    "mean_drop": 7.142857142856356e-05,
+    "threshold": 0.2486,
+    "passed": true,
+    "meaning": "identity transform through the crop+resample pipeline; a drop beyond 2x the permutation floor would mean S4 measures the resampler, not camera motion -> S4 void (A.3 item 1)"
+  }
+}

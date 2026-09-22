@@ -1,0 +1,1221 @@
+[
+  {
+    "openalex_id": "W7211931686",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1016/j.isci.2026.117333",
+    "title": "Coordinated action of RAB11, Sec4, myosin V, and the exocyst governs Aspergillus nidulans tip growth.",
+    "date": "2026-09-18",
+    "abstract": "",
+    "found_by": [
+      "sweep:video",
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213378569",
+    "arxiv_id": "",
+    "doi": "",
+    "title": "Generation of aphid-resistant wheat through plant-mediated RNA interference",
+    "date": "2026-09-18",
+    "abstract": "Aphids (Aphididae) are major agricultural pests that cause substantial economic losses through direct feeding damages and efficient transmission of plant viruses. Current control strategies heavily rely on chemical insecticides, which pose environmental risks and can lead to resistance, underscoring the urgent need for sustainable and targeted alternatives. In this study, we explored plant-mediated RNA interference (RNAi) as a sustainable strategy for aphid control by targeting two distinct genetic elements: the endosymbiotic bacterial gene Smrrl from Buchnera aphidicola, which is essential for aphid survival, nutrient provision, and stress tolerance, and SmDSR32, a novel aphid gene encoding a salivary peptide that is crucial for successful feeding. Initial in vitro double-stranded RNA (dsRNA) feeding assays confirmed that silencing these two genes significantly increased aphid mortality, demonstrating their importance as RNAi targets. Transgenic wheat lines expressing dsRNA targeting either Smrrl or SmDSR32 were generated. Aphids feeding on these transgenic plants exhibited significantly reduced expression of the target genes, confirming successful uptake and RNAi silencing. This ",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7212229481",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.5281/zenodo.22709202",
+    "title": "MODELING FAKE NEWS PROPAGATION ON SOCIAL MEDIA USING EPIDEMIOLOGICAL MODELS",
+    "date": "2026-09-17",
+    "abstract": "This study models the spread of fake news on social media using three epidemiological models: SIR (Susceptible– Infected–Recovered), SEIR (Susceptible–Exposed–Infected–Recovered), and an adapted SEIZ (Susceptible–Exposed– Infected–Skeptic) model. Three real-world case studies (Charlie Hebdo, an earthquake event, and anti-vaccination) are used to capture different dissemination dynamics. The models are fitted to empirical data using nonlinear least squares optimization and evaluated through relative error. Results show that the adapted SEIZ model consistently provides the best or comparable accuracy across all scenarios, highlighting the importance of incorporating skeptical user behaviour in modelling information diffusion.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7212315845",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.5281/zenodo.22709203",
+    "title": "MODELING FAKE NEWS PROPAGATION ON SOCIAL MEDIA USING EPIDEMIOLOGICAL MODELS",
+    "date": "2026-09-17",
+    "abstract": "This study models the spread of fake news on social media using three epidemiological models: SIR (Susceptible– Infected–Recovered), SEIR (Susceptible–Exposed–Infected–Recovered), and an adapted SEIZ (Susceptible–Exposed– Infected–Skeptic) model. Three real-world case studies (Charlie Hebdo, an earthquake event, and anti-vaccination) are used to capture different dissemination dynamics. The models are fitted to empirical data using nonlinear least squares optimization and evaluated through relative error. Results show that the adapted SEIZ model consistently provides the best or comparable accuracy across all scenarios, highlighting the importance of incorporating skeptical user behaviour in modelling information diffusion.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7204146082",
+    "arxiv_id": "2608.20983",
+    "doi": "https://doi.org/10.1145/3834580.3838746",
+    "title": "Beyond Truth Discovery: A Two-Stage Framework to Assess the Severity of False Claim during Disasters",
+    "date": "2026-09-16",
+    "abstract": "False information spreads rapidly on social media during disasters and can undermine emergency response efforts, public trust, and crisis communication. Existing research primarily focuses on determining whether social media posts contain false information, but provides limited insight into the specific false claims embedded within posts and the severity of individual false claims. To address the limitations, we propose a two-stage framework to assess the severity of false claims during disasters. In the first stage, we develop a false claim extraction agent that identifies false claims from multimodal social media posts containing text, images, videos, and links. A subsequent verification step validates extracted claims with supporting evidence. In the second stage, we define false claim severity as the combination of two complementary dimensions: believability, which determines the likelihood that a claim will be believed, and harmfulness, which captures the potential consequences if it is believed. Human annotators assess both dimensions to construct a claim-level severity benchmark using false claims extracted from Reddit posts related to hurricanes and wildfires. Building upon",
+    "found_by": [
+      "\"text-to-video\" \"verifier\"",
+      "\"text-to-video\" \"plausibility\"",
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4232216697",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.14209/jcis",
+    "title": "Journal of Communication and Information Systems",
+    "date": "2026-09-16",
+    "abstract": "With the increasing tendency of incorporating technology into environments and activities in everyday life, new methods are being proposed to better integrate devices and mankind.Networks designed for monitoring areas through video and image systems are being implemented in several applications.Recent studies have shown interest from both the academy and industry to integrate wireless surveillance networks with lowcost and long range transmission technologies, such as LoRa (Long Range).With the intention to explore this topic, this work presents the development of a system prototype for intelligent monitoring as a basis to future implementation of low-cost LoRabased Wireless Image Sensor Networks (WISN).The developed system consists of a processing unit, a data routing interface and multiple sensor nodes.Its operation is autonomous and initiated through the detection of human presence, by the sensor node, capturing an image of the individuals present at each detection.The data is transmitted through LoRa devices to the central hub, where python-based methods of facial detection and recognition are employed.Several tests were performed to both adjust the system and to verify its eff",
+    "found_by": [
+      "sweep:video",
+      "sweep:diffusion model",
+      "sweep:physics video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213250069",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.58545/jrcnp.v4i2.986",
+    "title": "The Impact of Animation Videos Demonstrating the Heimlich Manoeuvre on Mothers’ Proficiency in Assisting Choking Toddlers: A Preliminary Study",
+    "date": "2026-09-16",
+    "abstract": "Background: Choking caused by a foreign object entering the mouth is a critical emergency requiring immediate intervention; a delay in providing aid risks airway obstruction, leading to oxygen deprivation that can result in permanent brain damage, disability, or death. Choking incidents frequently affect children aged 1 to 2 years. Many mothers are unaware of the correct way to handle a choking, such as performing the Heimlich manoeuvre. Purpose: To evaluate the effect of animation videos demonstrating the Heimlich manoeuvre on mothers' proficiency in assisting choking toddlers. Methods: Utilizing a quasi-experimental research design, based on the G*Power formula, a sample size of 40 respondents was determined using simple random sampling, divided into a treatment group of 20 respondents and a control group of 20 respondents mothers with toddlers. Maternal proficiency was measured using validated and reliable questionnaires and observation sheets. The intervention involved watching the video twice daily over four consecutive days, with each session lasting two minutes and seventeen seconds. Results: A significant difference in proficiency (knowledge, attitudes, and skills) (p < 0.0",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213308144",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1080/13527258.2026.2723872",
+    "title": "White backlash against the restitution of cultural heritage: an African video game as a site of contestation",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213315175",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.62007/joupi.v4i3.1017",
+    "title": "Pengaruh Media Video Animasi terhadap Pengelolaan Emosi pada Anak Usia 5-6 Tahun di SPS Al-Ihsan Jatiwaringin",
+    "date": "2026-09-16",
+    "abstract": "This study aims to determine the effect of animated video of children aged 5-6 years employed a quantitative approach with a one-group pretest-posttest design. The subjects consisted of children aged 5-6 years. Data collection was conducted using an emotional management observation sheet that had undergone content validation by a lecturer. The intervention involved the use of animated video media featuring content related to emotional management and children’s social behavior. The results showed an increase in emotional management scores follwing the intervention the average pretest score wa 33.65, while the average posttest score was 53.75. these findings indicate an improvement in children’s emotional management after using the animated video media. Thus, animated video media can serve as a tool to support the stimulation of emotional management skills in children aged 5-6 years. Its use could be considered as part of learning activities tailored to children's developmental needs. Future research is recommended to include a comparison group and a larger sample size, as well as follow-up assessments to evaluate the sustainability of changes in emotional management skills after the",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213355141",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1080/10447318.2026.2730818",
+    "title": "Swiping Control and Thematic Consistency in Short-Form Video Platforms: Implications for Perceived Agency and User Experience",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213329232",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1186/s12909-026-10396-3",
+    "title": "Interactive 360 video for catheterization-laboratory education in undergraduate cardiology clerkship: a retrospective two-period crossover study",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213314387",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-10203187/v1",
+    "title": "Uniportal video-assisted thoracoscopic bullectomy and partial pleurectomy for primary spontaneous pneumothorax in a resource-limited tertiary centre in the Gaza Strip: a retrospective observational study",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213312386",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1186/s40359-026-05600-4",
+    "title": "When does awe protect? The moderating roles of awe and dark triad traits in the association between preference for solitude and problematic short video use",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213262224",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.70594/brain/17.3/4",
+    "title": "A Survey on Deep Learning-Based Number Plate Recognition Systems in Vehicles for Real-Time Applications",
+    "date": "2026-09-16",
+    "abstract": "Innovation is integral to human existence, and research on modernisation aimed at enhancing daily life has proliferated in recent decades. One notable advancement is the evolution of AI, and we are in the era of machine intelligence. These developments are essential for society, as access to these amenities is not restricted to any specific group. A prevalent application of intelligent technology is traffic monitoring. A paramount application is Automatic Number Plate Recognition (ANPR) systems; various technologies are being developed to enhance performance. Research into innovative technologies, their enhancement, and the advancement of existing methods commenced several years ago and remains essential. Real-time video-based ANPR systems are complex and essential for modern intelligent transportation applications. This study presents a systematic review of real-time video-based automatic number plate recognition systems, tracing the evolution from traditional image processing to deep learning, end-to-end methods, and Transformer-based methods. We compare detection and recognition techniques and identify the limitations of current ANPR systems. The review concludes with proposed d",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213330197",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3389/fonc.2026.1967046",
+    "title": "Laparoscopic hemicolectomy with intracorporeal anastomosis for ascending colon cancer in situs inversus totalis: a case report and literature review",
+    "date": "2026-09-16",
+    "abstract": "Ascending colon cancer complicated by situs inversus totalis (SIT) represents an extremely rare clinical entity. This congenital anatomical variant substantially increases surgical complexity, and published clinical reports regarding this condition remain scarce. Herein, we report a patient who underwent laparoscopic radical right hemicolectomy (LRH) with intracorporeal anastomosis (IA), accompanied by an operative video. We further reviewed the available published literature to accumulate additional surgical experience for managing this rare disease.",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213353518",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.54536/ajiri.v5i3.8354",
+    "title": "A Review on the Effect of Technology Integration on Students’ Performance in Organic Chemistry Assessments and Laboratory Activities",
+    "date": "2026-09-16",
+    "abstract": "This study was conducted to determine the effect of technology integration in teaching organic chemistry. Specifically, it reviewed its effect in terms of students’ performance in assessments and laboratory activities. The research used in this meta-analytic review includes those that are published in a peer-reviewed journal published from 2014-2024. These were then classified into three distinct groups: videos, meetings, and applications. For developing countries like the Philippines, determining and adapting best practices in technology integration can bridge significant gaps in educational quality. Based on a thorough investigation and analysis of available research about technology integration in organic chemistry, it was found that there is no significant difference between the effect of active learning in organic chemistry for both online and in-person classes. The reasons for this advantage include effective content delivery, reduced difficulties and increased comprehension in understanding material, and drawing stronger connections between lecture topics and laboratory activities. The integration of technology in teaching organic chemistry has also shown to yield positive r",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213332045",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1017/9781009686860",
+    "title": "Reimagining Change",
+    "date": "2026-09-16",
+    "abstract": "How do organisations change, and how do we, as individuals, make sense of it? This textbook addresses that vital question by offering a comprehensive framework of perspectives on organisational transformation. Built on the idea that all change theories rest on important underlying beliefs and assumptions, it invites students and practitioners to explore seven distinct ways of understanding change. Rather than advocating for a single model, the book encourages readers to navigate between perspectives, deepening their ability to interpret, communicate, and act in times of transformation. Drawing on decades of research and practice, it blends conceptual rigour with illustrative examples, accessible language, and real-world case studies, making it an ideal resource for management students, change practitioners, and educators alike. Supplementary materials include lecture slides, tutorial slides, and teaching schedules for instructors, and reading lists, video resources, and extra cases for students.",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213342821",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.4320/fzpy3235",
+    "title": "Dreaming trans-affirming mental health care into existence: A wish list from trans folks",
+    "date": "2026-09-16",
+    "abstract": "Therapists have a lot of power to help or to harm. In this time of intense escalation of anti-trans discourse, policy and legislation, it matters more than ever to listen to the people who are most directly affected: trans and gender-expansive people. This video and the document it describes set out a wish list for trans-affirming mental health care, as defined by trans and gender-expansive folks. There are examples of helpful and unhelpful experiences with therapists that you can learn from, as well as ideas about what supportive care might look like, what you can do to create a welcoming space, how you can engage with the broader political context so that your therapy can be useful and informed, and how you can respond when you misstep or make a mistake. There isn’t one single way to be trans, and there isn’t one single way of supporting trans and gender-expansive people. This wish list isn’t a checklist of acceptable therapeutic methods or a glossary of acceptable language; it’s an invitation to a range of practices and approaches. This work is part of “narrative projects in support of trans lives”, a collection of work being undertaken by Tiffany Sostar, Elliot Trimble, and Nat",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213325126",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-10712140/v1",
+    "title": "Explicit emotional language differs across event types in near-death experience narratives",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213358689",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1038/s41598-026-69657-2",
+    "title": "Gendered prototypes relate to aesthetic evaluation of sport movements and judgments of female athletes",
+    "date": "2026-09-16",
+    "abstract": "Abstract Despite increasing visibility of women in sport, athletes are often evaluated relative to gendered expectations that may shape how their performances are perceived. The present study examined whether aesthetic evaluations of sport movements differ systematically as a function of athlete sex and sport gender-typing. Drawing on processing fluency theory, we tested whether performances that align with gendered prototypes are evaluated differently than those that deviate from them. A total of 117 participants first categorized 15 sports as masculine, feminine, or gender-neutral and subsequently evaluated 60 video clips showing female and male athletes performing prototypical movements. In addition to rating aesthetic appeal, participants completed a forced-choice task selecting the most aesthetically pleasing performance within each sport. Aesthetic evaluations varied as a function of athlete sex and sport gender-typing. Movements performed by female athletes received higher aesthetic ratings in feminine and neutral sports, whereas no significant differences in aesthetic ratings emerged in masculine sports. Forced-choice judgments showed stronger alignment with gender-typical ",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213275487",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1142/s0219455428500265",
+    "title": "Target-free Full-Field Modal Identification of Bridges Based on Computer Vision",
+    "date": "2026-09-16",
+    "abstract": "Full-field mode shape is critical for bridge condition assessment, as it can capture minute distortions induced by local degradation. However, existing computer vision-based measurement methods often fail to balance implementation efficiency and spatial resolution due to their reliance on artificial targets, typically measuring responses only at sparse and discrete points. This paper proposes a targetfree full-field modal identification framework for bridges based on Recurrent All-Pairs Field Transforms (RAFT). Firstly, dense optical flow is estimated from naturally distributed surface textures in video sequences. Secondly, a displacement extraction procedure is used to obtain physically consistent displacement responses for modal identification. To balance field of view (FOV) and local spatial resolution, a segmental stitching strategy with overlapping FOVs is then introduced for global mode shape reconstruction. Finally, laboratory experiments on a simply supported beam are conducted for validation. The identified displacement responses agree well with the measurements obtained from eddy current displacement sensor. Compared with KLT and Canny-Zernike, it yields smoother and more",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213274308",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.61132/bima.v4i3.3015",
+    "title": "Konstruksi Wacana Ekoteologi Islam Model Van Dijk dalam Dakwah Digital Nasaruddin Umar di Berbagai Kanal Youtube",
+    "date": "2026-09-16",
+    "abstract": "This study aims to analyze the construction of Islamic ecotheological discourse in Nasaruddin Umar’s digital preaching across various YouTube channels using van Dijk’s Critical Discourse Analysis model. The study is motivated by the predominance of normative-theological approaches in Islamic ecotheology, while the construction of ecological discourse in digital preaching, particularly across textual, social-cognitive, and social-contextual dimensions, remains underexplored. Employing a qualitative approach, the study examines a corpus of nine preaching videos by Nasaruddin Umar published on various YouTube channels between June 2025 and 2026. The data were analyzed through van Dijk’s three dimensions: text structure, social cognition, and social context. The findings indicate that Islamic ecotheological discourse is constructed through the concepts of khalifah, amanah, and taskhir, ecological responsibility, prohibitions against environmental destruction, and the relationship between faith and ecological behavior. This construction draws on the Qur’an, hadith, Islamic knowledge, spiritual understandings of nature, and awareness of the ecological crisis. Within the social context, t",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213343620",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-10938232/v1",
+    "title": "WolverBear-Enhanced Evolution Transformer for Optimized Scene Understanding and Classification",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213241534",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-11035031/v1",
+    "title": "Effects of Multimodal Glosses on Intentional Vocabulary Learning, Retention, and Learner Processing in Instagram Reels-Based Instruction",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213266728",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3389/fmed.2026.1958448",
+    "title": "Endoscopic transgastric necrosectomy for infected necrotizing pancreatitis extending from the lesser Sac to the paracolic gutter in a pediatric patient: a case report",
+    "date": "2026-09-16",
+    "abstract": "Endoscopic transgastric necrosectomy (ETN) has emerged as a preferred minimally invasive approach for managing walled-off necrosis (WON); however, its conventional indication remains confined to necrosis limited to the lesser sac. The applicability of this technique for extensive necrosis extending to the paracolic gutter and pelvic cavity remains poorly characterized, particularly in pediatric patients. We herein report the case of a 7-year-old boy with infected necrotizing pancreatitis, in whom imaging demonstrated necrosis extending from the lesser sac to the bilateral paracolic gutters, iliac fossae, and pelvic cavity. Following initial conservative management and CT-guided percutaneous drainage, endoscopic ultrasonography (EUS)-guided transmural drainage was performed at week 4, followed by ETN on day 40. During the procedure, the conventional indication was extended by leveraging the flexibility of the endoscope to navigate from the pancreatic tail into the left paracolic gutter and pelvic cavity, thereby achieving successful debridement without the need for additional percutaneous sinus endoscopy or video-assisted retroperitoneal debridement. The patient recovered uneventful",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213346976",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.35870/ljit.v4i2.8618",
+    "title": "Edukasi Pijat Perineum dan Peningkatan Pengetahuan Ibu Hamil Trimester III di Rumah Bersalin Papilio Sidoarjo",
+    "date": "2026-09-16",
+    "abstract": "Perineal trauma is a common morbidity associated with vaginal birth and may affect women’s postpartum health and quality of life. Adequate antenatal education is therefore needed to improve pregnant women’s understanding of perineal trauma prevention, including antenatal perineal massage. This community service activity aimed to provide evidence-based education on perineal trauma and antenatal perineal massage and to describe changes in third-trimester pregnant women’s knowledge scores before and immediately after the educational activity. The activity was conducted at Papilio Maternity Home, Sidoarjo, on November 16, 2025, involving 20 participants. An educational approach combining an interactive lecture, demonstration, guided practice using a perineal model, discussion, leaflet distribution, and an instructional video was implemented. Knowledge was evaluated using a one-group pre-test–post-test design. The mean knowledge score increased from 7.90 before education to 9.00 immediately afterward, representing an increase of 1.1 points or 13.9% relative to the baseline mean score. These descriptive findings indicate an immediate improvement in participants’ knowledge following the e",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213265827",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.67014/jadeia.v1i1.0015",
+    "title": "Ultra-lightweight ByteTrack-YOLOX-S for UAV-Based Vehicle Tracking on UAVDT",
+    "date": "2026-09-16",
+    "abstract": "Unmanned aerial vehicle (UAV)traffic videos contain small targets, frequent occlusion,moving-camera effects, and large confidence variations, which make lightweight multi-object tracking difficult. This short communication evaluates the authors’ existing YOLOX-S detector and ByteTrack association pipeline on UAVDT under a 10 GB VRAM constraint; it does not introduce a new detector or a new association algorithm. Across 20 evaluated files, 16,583 frames, and 340,906 ground-truth object instances, the training protocol produced 74.8% IDF1, 62.7% recall, 97.4% precision, and 61.0% MOTA, whereas the test protocol produced 48.0% IDF1, 37.2% recall, 78.9% precision, and 27.2% MOTA. On the test protocol, false negatives account for 86.23% of the errors counted by MOTA,while identity switches account for only 0.052%; consequently, the low switch count mainly reflects limited detector coverage rather than consistently strong identity preservation. The revised analysis further explains the two-confidence threshold mechanism, the train-totest degradation, the algorithmic complexity, and the limitations of inferring edge-device latency from desktop-GPU experiments. The results position ByteTra",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213357885",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1140/epjs/s11734-026-02581-8",
+    "title": "Uncrushing the bitcrusher: the simulated quantum gate distortion effects",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4396241983",
+    "arxiv_id": "2404.16944",
+    "doi": "https://doi.org/10.1007/s11263-026-03029-1",
+    "title": "Constellation Dataset: Benchmarking High-Altitude Object Detection for an Urban Intersection",
+    "date": "2026-09-16",
+    "abstract": "Abstract As smart cities evolve, privacy-preserving edge processing at traffic intersections has become essential for real-time safety applications while reducing data transmission and centralized computation. High-altitude cameras with on-device inference provide an optimal solution that respects privacy while delivering low-latency results. We introduce Constellation, a dataset of 13K images for research on object detection in dense urban streetscapes from high-elevation cameras across varied temporal conditions. The dataset addresses challenges in small object detection, particularly for pedestrians observed from elevated positions with limited pixel footprints. Our evaluation of contemporary object detection architectures reveals a 10% lower average precision (AP) for small pedestrians compared to vehicles. Pretraining models on structurally similar datasets increases mean AP by 1.8%. Domain-specific data augmentations and pseudo-labeled data from top-performing models further enhance performance. We evaluate deployment viability on resource-constrained edge devices including Jetson Orin, Raspberry Pi 5, and mobile platforms, demonstrating feasibility of privacy-preserving on-d",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213325372",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s00024-026-04125-6",
+    "title": "Bridging the Gap in Tsunami Runup Observations under Rough Sea States: High-Frequency Automated Image Analysis during the 2025 Kamchatka Event",
+    "date": "2026-09-16",
+    "abstract": "Abstract Following the 2025 Kamchatka Earthquake (Mw 8.8), tsunamis were observed along the Pacific coast of Japan, as well as in many other coastal regions. This study applies an automated image analysis method to video footage from the Hasaki Oceanographical Research Station to perform continuous high-frequency wave runup monitoring over a five-day daylight period spanning from the day preceding to three days following the tsunami onset. The analysis successfully extracted water-level fluctuations in the tsunami-period band (600–6000 s) from the runup time series. Error propagation analysis confirmed vertical uncertainties in the tsunami-period band within 0.05–0.1 m. Comparison with offshore wave gauge data also showed good agreement in phase and temporal variation, supporting the validity of the method. Results suggest that an approximate linear separation of the tsunami-band component and swash components was possible in the present case, since the time scale of the tsunami-band component was sufficiently longer than those of the short-period runup components. Importantly, a negative correlation between tsunami-band water-level fluctuations and swash heights was identified. Th",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4415346124",
+    "arxiv_id": "2507.04157",
+    "doi": "https://doi.org/10.1038/s41377-026-02417-z",
+    "title": "Hyperspectral dual-comb compressive ghost imaging with deep learning reconstruction",
+    "date": "2026-09-16",
+    "abstract": "Abstract Ghost imaging reframes image formation by replacing pixelated sensors with correlation measurements between structured illumination and a single-pixel detector, enabling capabilities that are difficult or impossible for conventional cameras. This powerful technique is inherently suited to imaging through scattering media, photon-starved scenes, and size-, access-, or cost-constrained platforms. Yet its broader adoption has been limited by a fundamental speed bottleneck: slow, sequential pattern projection via spatial light modulators or wavelength sweeps, which precludes real-time capture of dynamic scenes. Here, we overcome this fundamental bottleneck by combining dual-comb interferometry with compressive ghost imaging and deep learning reconstruction. Our method, hyperspectral dual-comb compressive ghost imaging, utilizes optical frequency combs to create wavelength-multiplexed speckle patterns that are delivered through a single-core fiber and detected by a single-pixel detector. This approach enables the simultaneous illumination and detection of hyperspectral speckle patterns without slow spatial light modulation or wavelength scanning, thereby allowing snapshot compr",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213334503",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1177/10783903261485882",
+    "title": "Sex-Stratified Effects of a Baduanjin Qigong Program for People with Chronic Schizophrenia: A Multicenter Randomized Controlled Trial",
+    "date": "2026-09-16",
+    "abstract": "Background: People with schizophrenia have a higher risk of metabolic syndrome because of atypical antipsychotic side effects, a lack of exercise, and dietary intake and lifestyle behaviors. Aim: This study aimed to evaluate the sex-stratified effects of a Baduanjin qigong intervention on body mass index (BMI) and fasting blood glucose (FBG) in individuals with schizophrenia. Methods: This study involved 91 participants from three rehabilitation facilities who were randomly assigned to two groups. The experimental group (EG) practiced Baduanjin for 12 weeks and participated in 60-min sessions three times per week. Each session included a 10-min warm-up, two 20-min Baduanjin sets, and a 10-min cool-down, guided by an instructional video. The control group (CG) received standard care, consisting of 30 min of activities such as walking and dancing. Metabolic parameters and BMI were measured before the intervention, immediately postintervention, and at 3-month follow-up. Analyses were performed using generalized estimating equations (GEEs) stratified by sex. Results: Male participants in the EG exhibited significant improvements in BMI ( p = .009) and FBG levels ( p = .030) immediately",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213352715",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3390/bdcc10090318",
+    "title": "Improving Adversarial Transferability in No-Reference Image Quality Assessment via Consensus-Guided Distillation and Local Perceptual Attack",
+    "date": "2026-09-16",
+    "abstract": "No-reference image quality assessment (NR-IQA) metrics are widely used to evaluate and train image and video processing algorithms, but the growing reliance on deep neural networks makes these metrics vulnerable to adversarial attacks. Among such attacks, transferable black-box methods are particularly relevant in real-world scenarios where the attacker cannot interact with the target metric to generate adversarial examples and must rely on a substitute white-box model. In this paper, we examine adversarial transferability across modern NR-IQA metrics and introduce two complementary techniques, Consensus-Guided Distillation (CGD) and Local Perceptual Attack (LPA), which together form a two-stage transferable attack pipeline. CGD distills an ensemble of NR-IQA metrics into a single white-box substitute, excluding training samples for which the teacher metrics show high disagreement, thereby improving transferability and reducing the computational cost of both training and attack generation. LPA optimizes adversarial examples over random multi-scale image partitions, encouraging perturbations to exploit local distortion-sensitive features shared across NR-IQA metrics. Experiments usi",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213245148",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1111/eje.70306",
+    "title": "Effectiveness of Flipped Classroom and Traditional Didactic Classroom in Paediatric Dentistry Education—A Systematic Review With Meta‐Analysis of Randomised Controlled Trials",
+    "date": "2026-09-16",
+    "abstract": "ABSTRACT Introduction The flipped classroom (FC) is a contemporary teaching strategy that has gained considerable attention in recent years. This model relies on technology‐based resources, including videos and handouts, to deliver illustrative content and core subject material to learners. Given the current emphasis on enhancing both undergraduate and postgraduate education, it is imperative to evaluate the usefulness of FC in the field of paediatric dentistry. Aim To compare the effectiveness of the FC with the didactic classroom in paediatric dentistry education. Methodology This systematic review and meta‐analysis adhered to the PRISMA 2020 guidelines. A comprehensive search was conducted in PubMed, Scopus and EBSCOhost databases. Titles and abstracts were screened, and relevant data were extracted using a standardised form. The revised Cochrane risk of bias tool (RoB 2.0) was applied. A fixed‐effects meta‐analysis using standardised mean difference (Hedges' g) was performed for studies comparing flipped and traditional teaching methods. Results Among 101 identified studies, four randomised controlled trials (RCTs) fulfilled eligibility criteria. The overall risk of bias was mo",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213262815",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1186/s42269-026-01494-9",
+    "title": "Potash alum-induced chemical vaginitis masquerading as vulvovaginal malignancy: a case report on the perils of digital health misinformation",
+    "date": "2026-09-16",
+    "abstract": "Abstract Background Vaginal discharge is a common gynecological complaint among women of reproductive age in low- and middle-income countries, including Nepal. However, formal healthcare utilization remains low due to stigma and access barriers. This creates conditions favorable to self-medication based on unverified social media content. Case presentation A 33-year-old multiparous woman presented with severe lower abdominal pain and progressive vulval swelling for three days, with chronic whitish vaginal discharge for several months, but had not sought medical care due to shame. Directed history-taking revealed self-insertion of solid potash alum fragments into the vaginal canal after watching a social media video recommending it as a home remedy. On examination, the vaginal introitus was narrowed with wart-like lesional changes, diffuse mucosal exfoliation, blackish flaky discharge, and a hard, irregular intravaginal mass, raising initial suspicion for vulvovaginal malignancy, condyloma acuminata, or retained foreign body. Investigations showed leukocytosis with neutrophilia; abdomen and pelvis ultrasonography was normal. A 2 × 2 cm alum fragment was retrieved under aseptic preca",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213275397",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3390/electronics15184206",
+    "title": "Machine Vision-Based Smart Basketball System and Hardware Implementation",
+    "date": "2026-09-16",
+    "abstract": "To address the challenge of acquiring basketball shooting parameters in a non-contact and quantitative manner, this paper proposes a machine-vision-based prototype system for intelligent basketball shooting feedback. The system constructs a basketball-and-hoop detection dataset for YOLOv5-based object detection, enabling the recognition of basketball and hoop targets in shooting scenarios. By integrating a Semi-Global Block Matching (SGBM) stereo-ranging algorithm, the system obtains the three-dimensional (3D) coordinates of the basketball and the hoop. A shooting evaluation and feedback module is then developed based on an ideal projectile-motion model to analyze the release position, release angle, and release velocity, and to provide reference release velocity, reference force, and make/miss feedback under the ideal model. To improve portability, the complete workflow, including object detection, stereo ranging, and feedback generation, is deployed on an NVIDIA Jetson Nano B01 development board, with TensorRT employed for inference acceleration. Experimental results show that the trained detection model achieves a frame-level recognition rate of about 95% for basketball and hoop",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213247297",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.29121/shodhvichar.v2.i2.2026.125",
+    "title": "CLIMATE CHANGE REPRESENTATION AND AUDIENCE ENGAGEMENT ON AFGHAN FACEBOOK PAGES: A QUANTITATIVE CONTENT ANALYSIS",
+    "date": "2026-09-16",
+    "abstract": "Climate change cases significant environmental, economic, and social challenges in Afghanistan, yet little research has considered how climate-related issues are represented and engaged with on social media platforms. This study investigates climate change representation and audience engagement on Afghan Facebook pages through quantitative content analysis. A total of 60 climate-change-related Facebook posts published between January and September 2025 were collected from four major Afghan media organizations: TOLO News, Ariana News, Pajhwok News, and Shamshad News. The study was guided by Knowledge Gap Theory and Framing Theory and analyzed post characteristics, including topic, language, post type, media format, message tone, and audience engagement indicators.Descriptive statistics, Chi-square tests, Mann–Whitney U tests, and Kruskal–Wallis tests were employed to analyze the data. The findings reveal that drought (56.7%) and flood-related issues (23.3%) dominated climate change communication on Afghan Facebook pages. Climate-related content was primarily communicated through image-based posts and negatively framed messages. Audience engagement varied considerably across posts, w",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213285490",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3390/vetsci13090968",
+    "title": "Behavioral Structure, Activity Rhythm and Relationships to the Conservation and Welfare of Tibetan Fox in Tibet Plateau of China",
+    "date": "2026-09-16",
+    "abstract": "As a keystone species in alpine ecosystems, the Tibetan fox (Vulpes ferrilata) plays an important role in maintaining ecological processes on the Qinghai–Tibet Plateau. Understanding its behavioral structure, activity rhythm, and responses to road-related human disturbance is essential for effective conservation and management. This study was conducted in the Tangbei Area of Sanjiangyuan National Park from May to December 2024 using infrared camera trapping. In total, 1166 effective camera-trap days yielded 748 independent photographs, 340 video clips, and 217 valid behavioral records. An ethogram was constructed, and activity patterns and responses to human disturbance were analyzed. The results showed that: (1) Tibetan fox behavior was dominated by locomotion (55.18%), followed by vigilance (23.20%) and scent marking (17.68%). (2) The species exhibited pronounced nocturnality, with an overall daily activity rate of 76.20%. Activity peaked at night (22:00–04:00), reaching 92.63%, while the lowest activity level occurred around midday (12:00), with an activity rate of 44.63%. (3) Roads and human activities significantly altered the behavioral structure of Tibetan foxes. The study i",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213253943",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3390/s26185869",
+    "title": "Underwater Computer Vision for Ecologists: A Framework for Curating Image Training Datasets for Object Detection",
+    "date": "2026-09-16",
+    "abstract": "As marine ecosystems experience accelerating change, there is an urgent need for efficient and scalable biodiversity monitoring tools. We present a 10-step framework for integrating computer vision (CV) tools into long-term underwater biodiversity monitoring, using a case study from coastal British Columbia. Over 9000 h of unbaited remote underwater video footage were collected from two kelp farms and reference sites between March 2022 and June 2023. The framework includes steps for creating an annotated training dataset using unsupervised and supervised CV tools, culminating in the training and validation of a YOLOv8 object detection model. This process produced over 241,000 annotations across 54 pseudo-taxonomic categories (representing both taxa and visually similar groups of fauna), with a focus on fish and gelatinous zooplankton groups. The final model achieved an overall F1 (2 × precision × recall/(precision + recall)) of 0.74 and a mean average precision at 0.5 intersection over union (mAP50) of 0.78. The model had the highest performance on fine-resolution taxa such as Phanerodon vacca (F1 = 0.88) and Aurelia labiata (F1 = 0.90), and lowest performance on pseudo-taxa with l",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213282547",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.66614/josep2026.6",
+    "title": "Esports Beyond Gaming: Global Research Trends and Turkey's Scientific Visibility, a Bibliometric Analysis, 2006 - 2026",
+    "date": "2026-09-16",
+    "abstract": "Purpose: Esports has evolved from competitive video gaming into a multidisciplinary scientific field, yet Turkey’s contribution and visibility within the global literature remain insufficiently characterized. This study mapped global esports research from 2006–2026 and evaluated Turkey’s WoS-indexed scientific visibility, disciplinary profile, citation impact, institutional productivity, and international collaboration. Methods: Web of Science Core Collection was searched using a predefined Topic Search strategy restricted to articles and reviews. The global dataset comprised 2,297 records. Turkey-affiliated records were identified using both “Turkey” and “Turkiye”; 82 candidate records underwent manual title and abstract screening, yielding 63 esports-relevant publications. Annual output, research areas, authors, institutions, journals, citation indicators, and collaboration patterns were analyzed using WoS tools. Results: Global esports research expanded markedly after 2020, with 75.4% of completed-year publications (2006–2026) appearing between 2020 and 2026. Turkey’s validated esports output began in 2020 and rose to 17 publications in 2025; 15 additional publications were inde",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213239605",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s12596-026-03282-0",
+    "title": "Secure S-Maat Super-PON: a secure auction-based dynamic bandwidth allocation algorithm for next-generation PONs",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213284730",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3389/frai.2026.1928901",
+    "title": "DXSP: gesture-only temporal localization of decisive moments in dyadic persuasion",
+    "date": "2026-09-16",
+    "abstract": "Persuasive systems must detect user engagement in real time in order to adapt their strategy. Existing methods rely primarily on facial expressions or voice signals. Both raise privacy concerns and degrade under low video quality, motion blur, and ambient noise. Body gestures offer a privacy-preserving alternative, since skeleton representations do not encode identifiable facial features. What is missing is a method that localizes the specific moments at which gesture matters, rather than averaging behavior across the whole interaction. We introduce Dyadic Cross-Sparse Pooling (DXSP), a gesture-only neural architecture that localizes sparse decisive moments in dyadic persuasion without using face, voice, or verbal content. DXSP models both participants through cross-attention, weights candidate moments by interpersonal synchrony through a concordance gate, and selects exactly k = 3 windows per dyad through a hard top- k mechanism. We evaluate DXSP on 46 Japanese dyadic persuasion dialogues using upper-body pose data from the Sapiens Goliath foundation model. First, decisive moments are distributed across the full interaction rather than concentrated in any single phase. A three-com",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213355780",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1186/s12893-026-04191-6",
+    "title": "Comparison of clinical efficacy of three different drainage strategies after thoracoscopic lobectomy in patients with complete pleural adhesions",
+    "date": "2026-09-16",
+    "abstract": "There are no standard guidelines regarding the postoperative drainage strategies for patients with complete pleural adhesions undergoing thoracoscopic lobectomy. This study aimed to observe and compare the clinical drainage effects of three drainage strategies in these patients after thoracoscopic lobectomy. A total of 90 patients who underwent thoracoscopic lobectomy with complete pleural adhesions at our hospital between January 2022 and December 2024 were selected. Based on the drainage method, they were divided into three groups: Group A (28 F+28 F silicone tube double drainage, n = 23), Group B (28 F silicone tube single drainage, n = 39), and Group C (28 F silicone tube + 8 F pigtail catheter double drainage, n = 28). The total thoracic drainage volume, duration of thoracic drainage tube placement, duration of 28 F drainage tube placement, postoperative hospital stay, Visual Analogue Scale(VAS)at 24 h, 48 h, and 72 h postoperatively, number of emergency analgesic injections postoperatively, postoperative complications, and rate of reinsertion were compared among the three groups. Groups B and C had shorter drainage tube indwelling time than Group A (6.36,6.18 vs. 10.00 days, ",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213264223",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-10347177/v1",
+    "title": "Effectiveness of Online Acceptance and Commitment Therapy–Based Midwifery Counseling on Maternal–Fetal Attachment Among Women with Unintended Pregnancy: A Randomized Controlled",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213239611",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.53025/sportive.1967038",
+    "title": "Beykoz Spor Ormani’nin Açik Hava Sportif Rekreasyon Aktiviteleri Açisindan Potansiyelinin Belirlenmesi",
+    "date": "2026-09-16",
+    "abstract": "Bu araştırmanın temel amacı, İstanbul'da kısıtlanan fiziksel aktivite olanaklarına bir alternatif olarak, Beykoz Spor Ormanı’nın (eski adıyla Kanuni Kent Ormanı) açık hava sportif rekreasyon potansiyelini belirlemektir. Araştırmada betimsel bir tasarım benimsenmiş olup; İstanbul ili Beykoz ilçesi sınırlarında yer alan 8.479.000 m²'lik çalışma alanının (41°03'53.35\"N 29°06'42.61\"E) mekânsal özellikleri ve altyapı kapasitesi incelenmiştir. Veri toplama süreci, alanın sabit donatılarını kayıt altına almak amacıyla 20 Mayıs 2026 tarihinde, açık hava koşullarında uzman antrenörler eşliğinde gerçekleştirilen 6 saatlik tek zamanlı bir saha ziyareti ve görsel kayıt (fotoğraf/video) tekniği ile yürütülmüştür. Veri toplama aracı olarak, Gülez (1990) tarafından geliştirilen ve Başar (2006) tarafından uyarlanan \"Açık Hava Sportif Rekreasyon Potansiyeli Ölçeği\" (AHSRPÖ) kullanılmıştır. Ölçek formülü (SRD + P + İ + U + OSE = %SRP) doğrultusunda alanın; sportif rekreasyon değeri (maks. 35 puan), peyzaj değeri (maks. 25 puan), iklim özellikleri (maks. 25 puan), mekânsal erişilebilirliği (maks. 15 puan) ve çevresel stresörleri (maks. -10 puan) analiz edilmiştir. İklimsel değerlendirme aşamasında, p",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4405090171",
+    "arxiv_id": "2412.03259",
+    "doi": "https://doi.org/10.1007/978-3-032-38410-2_6",
+    "title": "GERD:Geometric Event Response Data Generation",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7204176827",
+    "arxiv_id": "2608.23344",
+    "doi": "https://doi.org/10.1145/3834580.3838751",
+    "title": "Towards Actionable Surgical Team Dynamics: from Teamwork to Counterfactual Annotations",
+    "date": "2026-09-16",
+    "abstract": "Modeling team interactions in high-stakes environments such as operating rooms is critical for understanding how coordination, communication, and individual behaviors shape team performance and safety outcomes. Existing datasets in this domain are often fragmented across modalities, annotation schemes, and formats, limiting their ability to support integrated analyses of real-world collaborative processes. We address this limitation by introducing an extended multimodal dataset for surgical team interaction analysis, built from real operating room recordings. Starting from an existing corpus, we construct an analysis-ready version of the data by providing speaker diarization, transcripts, and multi-level annotations capturing team performance, interaction processes, and individual characteristics. Team performance is assessed using a standardized surgical teamwork evaluation protocol, while interaction quality and individual attributes are annotated through structured rating schemes covering collaboration, group dynamics, and non-technical skills. To further support the study of coordination breakdowns and performance variability, we introduce counterfactual annotations that descri",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4416541301",
+    "arxiv_id": "2504.11795",
+    "doi": "https://doi.org/10.1145/3834580.3838742",
+    "title": "Schemex: Discovering Structural Abstractions from Examples",
+    "date": "2026-09-16",
+    "abstract": "Creative and communicative work is often underpinned by implicit structures, such as the Hero's Journey in storytelling, design patterns in software, or chord progressions in music. People often learn these structures from examples - a process known as schema induction. However, because schemas are abstract and implicit, they are difficult to discover: shared structural patterns are obscured by surface-level variation, and balancing generality with specificity is challenging. We present Schemex, an interactive AI workflow that systematically supports schema induction by decomposing it into three tractable stages: clustering examples, abstracting candidate schemas, and contrastively refining them by generating new instances and comparing against originals. Studies show that Schemex produces more actionable schemas than a frontier baseline without sacrificing generalizability, with participants uncovering deep and nuanced structural patterns. We also discuss design implications for the cognitive role of interactive process in structure discovery.",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7203923523",
+    "arxiv_id": "2608.18547",
+    "doi": "https://doi.org/10.1145/3834580.3838744",
+    "title": "Measuring Proof Burden in Public Bounty Listings: A RentAHuman Case Study",
+    "date": "2026-09-16",
+    "abstract": "Online bounty markets let requesters advertise paid tasks to workers. A worker may be asked not only to complete a task but also to prove that it was completed, and proving can mean exposure: revealing identity or location, using a personal account, posting publicly, acting in the physical world, or supplying evidence again during later checks—none disclosed by the posted price. We call these advertised requirements proof burden and measure them on RentAHuman, a 2026 market publicized as a place where AI agents could hire humans. We study what listings request, not what workers submit or experience.",
+    "found_by": [
+      "sweep:video"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4406886098",
+    "arxiv_id": "2501.16061",
+    "doi": "https://doi.org/10.1145/3848022",
+    "title": "The Unbearable Lightness of Prompting. A Critical Reflection on the Environmental Impact of genAI use in Design Education",
+    "date": "2026-09-16",
+    "abstract": "Design educators are finding ways to support students in skillfully using GenAI tools in their practices while encouraging the critical scrutiny of the ethical and social issues around these technologies. However, the issue of environmental sustainability remains unaddressed. There is a lack of resources to grasp the environmental costs of genAI in education, but also, and foremost, a lack of shared practices for engaging with the issue. This paper critically reflects on the energy costs of using genAI in design education, using a workshop held in 2023 with 49 students as a springboard for reflection. Through this reflection, we develop a set of five alternative stances: acceptance, shift, moderation, friction, and refusal. Each of these, and the related actions, can support a conscious use of genAI in design education. The work contributes to the field of design and HCI by bringing together ways for educators to reflect on their practices, informing the future development of educational programs around genAI.",
+    "found_by": [
+      "sweep:video",
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213340744",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.63313/ijsseh.9063",
+    "title": "Visual Representation of \"Chinoiserie\" in Western AI Image Models: A Case Study of Midjourney",
+    "date": "2026-09-16",
+    "abstract": "Using visual grammar as its theoretical framework, this study adopts a comparative experimental approach to perform a multimodal discourse analysis on 240 \"Chinoiserie\" (Chinese style) images generated by Midjourney. The analysis evaluates baseline and professionally constrained prompt groups across three dimensions: architectural space, costumed portraiture, and landscape atmosphere. Results show that in representational meaning, the model exhibits attribute ambiguity, structural dislocation, and cultural semantic rupture, achieving high adaptability only with abstract landscape styles. In interactive meaning, it demonstrates a spectacularized and Othered perspective, constructing a Eurocentric narrative through low-angle shots and demand-gaze interaction. In compositional meaning, stereotypical symbols occupy an exceptionally high proportion; professional constraints paradoxically exacerbate symbol stacking, and the aesthetic of negative space (Liu Bai) is entirely erased during entity generation. The study indicates that the \"Chinoiserie\" generated by Western AI is not an authentic cultural representation but a de-historicized digital simulacrum marked by significant cultural bi",
+    "found_by": [
+      "sweep:video",
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213319336",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.26434/chemrxiv.15008478/v2",
+    "title": "Diffusion-Model-Guided Adaptive Sampling of Rare Conformational States in Adenylate Kinase",
+    "date": "2026-09-16",
+    "abstract": "Efficiently exploring the rare conformational states of biomolecules remains a central challenge in molecular dynamics simulation. Here we show, using adenylate kinase as a methodological testbed, that the static structural scores conventionally used to prioritize diffusion-modelgenerated candidates have essentially no power to predict which candidates actually reach a kinetically rare state upon subsequent simulation (AUC = 0.500, 95% CI [0.251, 0.749]). Motivated by this finding, we introduce two adaptive strategies — direct PCA-distance targeting and replication of confirmed-hit structures — that achieve significantly higher rare-state hit rates and dwell times than extended conventional molecular dynamics or random-initialization sampling under matched computational budgets, while also enabling, for the first time, statistically stable estimation of rare-macrostate populations. These results show that structural novelty and kinetically meaningful entry into a rare state are not the same property, providing concrete design guidance for generative-model-driven adaptive sampling in other biomolecular systems.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213268962",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1364/opticaopen.33769531",
+    "title": "Computationally efficient multiphysics electro-opto-thermal drift-diffusion models for short pulse and continuous wave excitation applied to MUTC photodetectors",
+    "date": "2026-09-16",
+    "abstract": "We present two models for analyzing the dynamics of photodetectors. One model applies when the photodetector is illuminated by a train of optical pulses whose duration is short compared to the impulse response; the other model applies when the optical excitation is effectively continuous. The first major contribution of this work is the identification of a quasiadiabatic heating regime governing the device response to subpicosecond to picosecond-scale optical pulse excitation. We demonstrate theoretically that due to the finite optical-to-acoustic phonon relaxation time and the minimal thermal diffusion length during the pulse, lattice heating occurs on a timescale that is significantly faster than macroscopic heat transport. Hence, the heat equation can be mathematically decoupled into a local, diffusionless energy deposition phase and a subsequent diffusive cooling phase, enabling the computationally efficient study of long pulse trains without sacrificing accuracy. The second major contribution of this work is the introduction of a quasi-one-dimensional electro-thermal drift-diffusion model derived by exploiting the symmetry and Gaussian distribution of the laser beam's optical ",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213252578",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1364/opticaopen.33769531.v1",
+    "title": "Computationally efficient multiphysics electro-opto-thermal drift-diffusion models for short pulse and continuous wave excitation applied to MUTC photodetectors",
+    "date": "2026-09-16",
+    "abstract": "We present two models for analyzing the dynamics of photodetectors. One model applies when the photodetector is illuminated by a train of optical pulses whose duration is short compared to the impulse response; the other model applies when the optical excitation is effectively continuous. The first major contribution of this work is the identification of a quasiadiabatic heating regime governing the device response to subpicosecond to picosecond-scale optical pulse excitation. We demonstrate theoretically that due to the finite optical-to-acoustic phonon relaxation time and the minimal thermal diffusion length during the pulse, lattice heating occurs on a timescale that is significantly faster than macroscopic heat transport. Hence, the heat equation can be mathematically decoupled into a local, diffusionless energy deposition phase and a subsequent diffusive cooling phase, enabling the computationally efficient study of long pulse trains without sacrificing accuracy. The second major contribution of this work is the introduction of a quasi-one-dimensional electro-thermal drift-diffusion model derived by exploiting the symmetry and Gaussian distribution of the laser beam's optical ",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213275259",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1002/jmri.70543",
+    "title": "Comparison of Continuous‐Time Random Walk and Fractional Order Calculus Diffusion Models for Preoperative Breast Lesion Characterization: Diagnosis, Biomarker Prediction and Molecular Subtyping",
+    "date": "2026-09-16",
+    "abstract": "ABSTRACT Background Accurate preoperative characterization of breast lesions is important for individualized management. The conventional monoexponential (Mono) model has limited ability to capture the complex microstructure of lesions. Non‐Gaussian diffusion models, including continuous‐time random walk (CTRW) and fractional‐order calculus (FROC), may overcome this limitation, but their value in predicting biomarkers and molecular subtypes remains unclear. Purpose To comprehensively evaluate the diagnostic utility of the Mono, CTRW, and FROC models and their derived parameters for preoperative breast lesion characterization. Study Type Prospective. Population 189 women (mean age, 47.4 ± 11.2 years) with 238 histopathologically confirmed breast lesions (138 benign, 100 malignant). Field Strength/Sequence 3.0‐T MRI; single‐shot spin‐echo echo‐planar imaging for multi‐ b ‐value diffusion‐weighted imaging (10 b ‐values ranging from 0 to 3000 s/mm 2 ). Assessment Diffusion parameters were extracted from whole‐lesion volumes generated from slice‐wise segmentations by two independent, blinded breast radiologists. Multiparameter joint models were constructed using logistic regression. Sta",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213222171",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s10910-026-01829-x",
+    "title": "An efficient numerical algorithm for Lane–Emden–Fowler functional BVPs arising in isothermal gas spheres and heat diffusion models",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7165679978",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/978-3-032-38410-2_37",
+    "title": "Distribution-Aware Diffusion-LLM for Robust Ultra-Long-Term Time Series Forecasting",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4416056174",
+    "arxiv_id": "2510.18512",
+    "doi": "https://doi.org/10.7566/jpsj.95.104004",
+    "title": "Quantum Reversibility Meets Classical Reverse Diffusion",
+    "date": "2026-09-16",
+    "abstract": "Bayes’ rule connects forward and reverse processes in classical probability theory, and its quantum analogue has been discussed in terms of the Petz (transpose) map. For quantum dynamics governed by the Lindblad equation, the corresponding Petz map can also be written in Lindblad form. In classical stochastic systems, the analogue of the Lindblad equation is the Fokker–Planck equation, and applying Bayes’ rule to it yields the reverse diffusion equation underlying modern diffusion-based generative models. It is known that a semiclassical approximation of the Lindblad equation yields the Fokker–Planck equation for the Wigner function, which is a quasiprobability distribution defined on phase space as the Wigner transform of the density operator. Here we demonstrate that applying the same approximation to the Lindblad equation associated with the Petz map produces an equation that coincides with that obtained from the Fokker–Planck equation via Bayes’ rule. This finding establishes a direct correspondence between the Petz map and Bayes’ rule, unifying quantum reversibility with classical reverse diffusion.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213259940",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-11048353/v1",
+    "title": "Emergent classroom dynamics: Minimal complexity models for educational research",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213348583",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1111/spol.70106",
+    "title": "Reverse‐Diffusion of Policy in Multilevel Governance: The Dynamics of South Korea's Lonely Death Ordinances",
+    "date": "2026-09-16",
+    "abstract": "ABSTRACT This study examines the diffusion of local ordinances addressing lonely deaths in South Korea and introduces the concept of reverse‐diffusion of policy—a process in which local innovations diffuse upward to higher levels of government, become institutionalised and subsequently diffuse downward to late‐adopting jurisdictions. Using Cox Proportional Hazards Models and Kaplan–Meier analysis across 243 local governments (2007–2021), the study finds that ordinance adoption is shaped by a combination of social problems, leadership capacity, communal identity and intergovernmental diffusion mechanisms. Basic local governments adopted earlier and more gradually, whereas metropolitan governments exhibited later but more concentrated adoption patterns, suggesting sequential upward and downward processes following the enactment of the 2020 Lonely Death Act. The findings highlight the dynamic and multidirectional nature of diffusion within multilevel governance systems, offering empirical support for reverse‐diffusion and demonstrating how diffusion dynamics evolve over time during the process of policy institutionalisation.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213259293",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1038/s41598-026-70154-9",
+    "title": "A physics-informed neural network approach to diffusion and auto-oxidation in Fricke gel dosimeters",
+    "date": "2026-09-16",
+    "abstract": "Precise dose quantification is critical for advanced radiation-based medical applications, particularly in emerging high dose-rate and mini-beam therapies. Fricke gels (FGs) are promising tissue-equivalent dosimeters based on the radiation-induced oxidation of \\(Fe^{2+}\\) to \\(Fe^{3+}\\) , which can be quantified through magnetic resonance imaging (MRI) or optical absorption (OA) spectroscopy to reconstruct three-dimensional dose distributions (DDs). However, spatial accuracy is degraded by ion diffusion, while the incorporation of chelating agents such as methylthymol blue (MTB) introduces competing auto-oxidation kinetics, both of which significantly limit clinical translation. The combined reaction–diffusion ion dynamics can be described by diffusion equations with source terms, but inversion of these processes to recover the initial DD constitutes an ill-posed backward-time problem. In this work, we address this challenge using Physics-Informed Neural Networks (PINNs), which embed the governing reaction–diffusion equations into the learning framework to regularize the inverse reconstruction. PINNs were trained to infer pre-diffusion DDs in MTB-based FGs from OA measurements acqu",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213305060",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1021/acs.jpcb.6c04242",
+    "title": "Structure-Transport Relationships in Aqueous Fructose Solutions: A Combined Molecular Dynamics and NMR Diffusion Study",
+    "date": "2026-09-16",
+    "abstract": "Abstract Fructose is widely used in the food industry and is proposed as a sustainable biomass feedstock for chemical manufacturing. Upon dissolution in water, it undergoes mutarotation into different tautomers, primarily β-d-fructopyranose (68%) and β-d-fructofuranose (22%), as well as into the linear keto d-fructose structure. Although present only in small amounts, the linear tautomer may alter diffusion within aqueous media and porous catalytic materials. To elucidate the structure-transport properties of aqueous solutions containing fructose, molecular dynamics (MD) simulations are combined with nuclear magnetic resonance (NMR) diffusion experiments. Classic MD simulations are conducted at atomistic resolution using three different force fields. The NMR diffusion experiments are conducted in deuterated water to differentiate water from sugar peaks in the experimental signal. When the OPLS-AA force field is implemented, the MD simulated diffusion coefficients, as well as bulk system densities, are consistent with experiments, indicating the atomistic models are realistic. Interrogating the simulation trajectories confirms that fructose molecules aggregate into clusters, which l",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213342533",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s10883-026-09784-1",
+    "title": "Sparse Stochastic Optimal Control under Control-Dependent Diffusion and Time-Varying Dynamics",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213277199",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3389/fmed.2026.1913196",
+    "title": "White matter hyperintensity radiomics predicts 90-day diffusion-weighted imaging-confirmed acute ischemic stroke after diffusion-weighted imaging-negative transient ischemic attack: preliminary findings from a retrospective machine-learning study",
+    "date": "2026-09-16",
+    "abstract": "Objective To develop and internally validate a T2-fluid-attenuated inversion recovery (T2-FLAIR) white matter hyperintensity (WMH) radiomics model, alone and in combination with baseline clinical variables, for predicting diffusion-weighted imaging (DWI)-confirmed acute ischemic stroke (AIS) within 90 days after an index DWI-negative transient ischemic attack (TIA). Methods This single-center retrospective study included 398 patients initially diagnosed with DWI-negative TIA between January 2021 and May 2025 who underwent repeat brain magnetic resonance imaging with DWI within 90 days because of recurrent transient neurological symptoms and were classified into AIS ( n = 125) and non-AIS ( n = 273) groups according to follow-up DWI and apparent diffusion coefficient findings. Baseline WMH regions of interest were segmented on index T2-FLAIR images, and 1,781 radiomics features were extracted. Reproducible features were screened by least absolute shrinkage and selection operator regression, and 21 features were retained to calculate a radiomics score. Clinical, radiomics, and combined models were constructed using a support vector machine, with AIS defined as the positive class. Res",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213341479",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.26686/r0rp-3q3f",
+    "title": "Probabilistic machine learning for biomedical optical diagnostics",
+    "date": "2026-09-16",
+    "abstract": "This thesis investigates probabilistic machine learning methods for biomedical optical diagnostics. This takes place in the context of key challenges such as uncertainty quantification, limited labelled data, and anomalous measurements. The work explores and extends a number of probabilistic deep learning architectures for optical diagnostic tasks with a particular emphasis on uncertainty-aware techniques, e.g., Bayesian machine learning methods, to provide calibrated confidence measures for clinical decision-making. The work extends to semi-supervised learning approaches that leverage unlabelled medical data to improve model performance in contexts where annotated data is scarce. Optical properties themselves are also modelled using neural diffusion processes, that combine diffusion models and stochastic processes. This method is extended for probabilistic modelling in biomedical imaging, which can be used to detect and correct missing or unreliable measurements. The methods are evaluated on both synthetic data and a real-world Mueller polarimetry application in pre-screening for cervical cancer. The findings of this research contribute to making machine learning more applicable a",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213346915",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3390/eng7090480",
+    "title": "TAMCA: Time-Aware Multi-Scale Convolutional Attention for Multi-Class Industrial Anomaly Detection",
+    "date": "2026-09-16",
+    "abstract": "In multi-class industrial anomaly detection, latent diffusion models commonly use the same attention and receptive-field configuration across all noise stages. This stage-invariant design makes it difficult to balance global structure recovery at high noise levels with local detail preservation at low noise levels, which may lead to structural drift, over-smoothing, and unstable anomaly maps. To address this issue, we propose TAMCA, a time-aware multi-scale convolutional attention framework for diffusion-based anomaly detection. In TAMCA, a Multi-Scale Convolutional Attention module (MSCA) is embedded into the denoising network to jointly model local textures and long-range contextual dependencies through local depthwise convolution and decomposed large-kernel convolution. To further adapt contextual modeling to different denoising stages, diffusion timestep embeddings are mapped into gating coefficients, which selectively regulate the contribution of the large-kernel context branch according to the noise level. During inference, Diffusion-aware Consistency Ensembling (DiCE) estimates multi-view reliability through median consensus and performs reliability-weighted fusion to suppre",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213248308",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/978-3-032-38014-2_32",
+    "title": "Digital Transformation in Retail and Its Effects on Society: An Analysis of the Acceptance, Adoption, and Diffusion of Self-Service Technologies",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213366602",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s11356-026-38211-y",
+    "title": "Machine learning for optimizing Reactive Red 120 biosorption onto cross-linked gelatin/alginate-TTAB-montmorillonite composite",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213263433",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s11696-026-05606-7",
+    "title": "Impact of molecular diffusion, non-Darcy flow, and CO₂ solubility on core-scale CO₂ injection performance: a compositional simulation study",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213232246",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-10937247/v1",
+    "title": "Weekly Hippocampal Diffusion Changes During Partial-Brain Radiation Therapy for High- Grade Glioma: Associations With Dose and Early Memory Change",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213225489",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-11047397/v1",
+    "title": "Uncertainty and Optimal Economic Growth: Insights from a Bibliometric Analysis",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213296184",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1142/s2424786326500179",
+    "title": "Debt, Power, and Play: Modeling Sovereign Restructuring with Creditors and the IMF",
+    "date": "2026-09-16",
+    "abstract": "This paper develops a continuous-time stochastic model of sovereign debt sustainability with endogenous restructuring and an active multilateral lender. The sovereign interacts with two heterogeneous creditor classes and the IMF within a dynamic stochastic game featuring jump–diffusion uncertainty. Fiscal income, debt accumulation, and interest rates evolve as correlated diffusion processes, while restructuring events occur with state-dependent Poisson intensity. Haircuts are determined endogenously through a Nash bargaining mechanism conditional on the pre-default state, rather than being imposed exogenously. The IMF is modeled as a forward-looking strategic actor that solves its own Hamilton–Jacobi–Bellman (HJB) problem, optimally selecting disbursements subject to program and sustainability constraints. The resulting three-agent equilibrium jointly determines sovereign fiscal policy, creditor recovery values, and IMF lending behavior. The model fully characterizes sustainability thresholds, restructuring triggers, and the stabilizing—or potentially distortionary—effects of international financial assistance. In the extended Version B, the sovereign’s default threshold incorporat",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213270414",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/978-3-032-38410-2_11",
+    "title": "AdaDiff-VLA: Hybrid Reasoning via Mode Policy Learning for Vision-Language-Action Models",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213320418",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1186/s43093-026-00992-6",
+    "title": "A system dynamics approach to sustainable monetization in digital platforms: balancing advertising and user retention in mobile gaming",
+    "date": "2026-09-16",
+    "abstract": "Abstract The rapid growth of digital platforms, particularly in mobile gaming, has created a fundamental business dilemma: how to balance advertising-based monetization with the preservation of long-term user engagement. This study employs a system dynamics simulation, calibrated against industry benchmark dynamic patterns and integrated with the Bass diffusion model, to simulate and analyze the impact of different advertising integration policies on platform sustainability. The model captures the complex, nonlinear relationships between user adoption segments, product quality features, and the timing of monetization interventions. Our findings reveal that advertising frequency is less critical than its strategic integration; high-quality reward mechanics can transform advertising from a disruptive element into an engagement catalyst. Contrary to prevailing industry practices that prioritize immediate revenue, the results demonstrate that delaying advertising implementation until core user habits are established significantly enhances customer lifetime value. This research offers business managers, platform operators, and policymakers a validated simulation tool for evaluating mone",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4388033121",
+    "arxiv_id": "2310.19344",
+    "doi": "https://doi.org/10.1137/23m1612597",
+    "title": "Trend to Equilibrium and Diffusion Limit for the Inertial Kuramoto–Sakaguchi Equation",
+    "date": "2026-09-16",
+    "abstract": "Abstract. In this paper, we study the inertial Kuramoto–Sakaguchi equation for interacting oscillatory systems. On the one hand, we prove the convergence toward corresponding phase-homogeneous stationary states in weighted Lebesgue norm sense when the coupling strength is small enough. In [Choi et al., SIAM J. Math. Anal., 53 (2021), pp. 3188–3235], it is proved that when the noise intensity is sufficiently large, equilibrium of the inertial Kuramoto–Sakaguchi equation is asymptotically stable. For generic initial data, every solutions converges to equilibrium in weighted Sobolev norm sense. We improve this previous result by showing the convergence for a larger class of functions and by providing a simpler proof. On the other hand, we investigate the diffusion limit when all oscillators are identical. In [ Ha, Shim, and Zhang, SIAM J. Math. Anal., 52 (2020), pp. 1591–1638 ], authors studied the same problem using an energy estimate on renormalized solutions and a compactness method, through which error estimates could not be discussed. Here we provide error estimates for the diffusion limit with respect to the mass [Formula: see text] using a simple proof by imposing slightly more",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213356977",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.25195/ijci.v52i2.855",
+    "title": "CADSA: Content-Aware Dynamic Sparse Attention for Lightweight and Energy-Efficient Edge AI with Sub-Quadratic Complexity",
+    "date": "2026-09-16",
+    "abstract": "This paper presents CADSA, a content-aware dynamic sparse attention framework that lowers the quadratic complexity of self-attention to sub-quadratic for lightweight edge AI deployment. A learnable token relevance scoring module dynamically prunes redundant attention paths by top-k selection in local neighborhoods, with complexity O(n·k·d). A variance-aware sparsity modulation mechanism is used for generative tasks, where the pruning ratio is adjusted according to the statistics of the local regions, focusing computational resources on detailed regions and simplifying uniform regions. Block-sparse execution kernels and bitmask compression reduce memory bandwidth by 32×, ensuring hardware efficiency. Experimental results show 2.1× inference speedup and 40% energy saving on Raspberry Pi 5, and 98.6% dense attention accuracy on ImageNet classification. On LSUN Bedrooms, CADSA achieves similar FID scores (12.7 vs. 12.3) and 2.4× faster sampling than diffusion models. The fine-tuning strategy with gradient masking decreases the training memory overhead by 60%, allowing for practical on-device fine-tuning.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213339376",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s00410-026-02366-1",
+    "title": "Garnet trace element systematics in an amphibolite- to granulite-facies metapelitic sequence (Ivrea-Verbano Zone, Italy)",
+    "date": "2026-09-16",
+    "abstract": "Abstract This study examines the systematic changes in two-dimensional trace element distributions in garnet from metapelites of the Kinzigite Formation (Ivrea-Verbano Zone, north-west Italy) across a continuous metamorphic field gradient from 0.4 to 0.6 GPa, ~ 650–700 °C to 1.0 GPa, ~ 900 °C, plus a garnet formed at ~ 1000 °C in a metapelite enclave within gabbro. Major element zoning is mostly obliterated at these elevated temperatures, except for Ca 2+ , which reflects its slower diffusivity compared to Fe 2+ , Mg 2+ and Mn 2+ . In contrast, garnet-compatible trace elements (V, Cr, Zr and Y + HREE) preserve distinct zoning patterns across all metamorphic grades. At mid-amphibolite facies, garnet cores have low Zr contents (2 µg/g) and complex zoning patterns in Cr and V, which are truncated by a rim with higher Zr contents (4–6 µg/g) and distinctly lower and more homogenous V contents (30 µg/g). This pattern is indicative of a sub-solidus core, followed by interface-coupled dissolution reprecipitation of garnet at the onset of muscovite melting. At upper-amphibolite facies, garnet cores display only a relic patchy zoning and much higher V contents (up to 140 µg/g), while rims ar",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213238259",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1108/jbim-03-2026-0224",
+    "title": "Business model innovation and changes in perceptions of actor importance: how motives for BMI shape actor evaluations",
+    "date": "2026-09-16",
+    "abstract": "Purpose The purpose of this paper is to examine how firms’ motivations for implementing business model innovation (BMI) differ and how these motivational configurations are associated with changes in the perceived importance of actors in firms’ business networks following BMI implementation. Design/methodology/approach The study adopts a mixed-method research design combining qualitative and quantitative data from BMI technology-based firms. Findings The findings identify distinct motivational configurations ranging from strategically articulated and market-oriented motives to more operational and ad hoc considerations. The results further show that BMI implementation is associated with changes in the perceived importance of business network actors over time, and that the magnitude of these changes differs systematically across motivational configurations. Firms driven by strong strategic and market-oriented motives exhibit the most pronounced re-evaluation of actor importance, particularly with respect to external actors. Research limitations/implications Although the study examines perceived changes in actor importance before and after BMI, it limits the ability to fully capture ",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7212365964",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.5281/zenodo.22722956",
+    "title": "Code and figures for \"Theoretical Rayleigh-wave velocity responses to seasonal hydrosphere-induced stresses: Competing stress pathways and nonunique depth interpretation\"",
+    "date": "2026-09-16",
+    "abstract": "Reproducibility package for the manuscript “Theoretical Rayleigh-wave velocity responses to seasonal hydrosphere-induced stresses: Competing stress pathways and nonunique depth interpretation.” This archive contains the source code, processed model inputs, numerical outputs, source tables, and figure-related files used in the study. The materials support the forward modeling of seasonal hydrosphere-induced Rayleigh-wave phase-velocity changes, including elastic loading, pore-pressure diffusion, effective-stress perturbations, stress-dependent body-wave velocity changes, and Rayleigh-wave sensitivity calculations. The archived materials are provided to reproduce the principal numerical results and Figures 3–9 and Figures S1–S10 of the manuscript. The package includes the two representative 1-D velocity models, hydrological and hydromechanical parameter tests, stress-sensitivity calculations, shallow-structure sensitivity tests, finite-wavelength loading tests, and associated plotting scripts. Please refer to the accompanying manuscript and Supporting Information for the theoretical formulation, model assumptions, parameter definitions, and interpretation of the results.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7131116665",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s10915-026-03462-x",
+    "title": "A Finite-Difference Summation-by-Parts Conditionally Stable Partitioned Algorithm for Conjugate Heat Transfer Problems",
+    "date": "2026-09-16",
+    "abstract": "Abstract In this work, we design and analyze a novel, provably conditionally stable weakly coupled partitioned scheme to solve the conjugate heat transfer (CHT) problem. We consider a model CHT problem consisting of linear advection–diffusion and heat equations, coupled at an interface through the continuity of temperature and heat flux. We employ high-order summation-by-parts finite-difference operators in conjunction with simultaneous-approximation-terms (SATs) in curvilinear coordinates for spatial derivatives, combined with first- and second-order time discretization, and extrapolation in time at the interface. Energy stability is maintained by carefully defining SAT parameters at the interface. A range of coupling parameters are explored to identify those that yield a stable scheme and a step-wise approach for choosing SAT parameters that result in stability is given. The effectiveness of the method is demonstrated through numerical experiments in a two-dimensional model problem on rectangular domain with curvilinear grids. The proposed approach enables the development of high-order conditionally-stable partitioned solvers suitable for general geometries.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213340173",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1007/s11814-026-00829-6",
+    "title": "Elucidating the Correlation Between Bubble-Induced Cell Disruption and Mass Transfer Coefficient in Paclitaxel Extraction from Taxus chinensis",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213223848",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.26710/sbsee.v8i3.3971",
+    "title": "From Innovation to Sustainability: Examining Technology-Driven Economic Transformation",
+    "date": "2026-09-16",
+    "abstract": "Purpose: This study examines the relationship between technological innovation, economic growth, and sustainable development in Belt and Road Initiative (BRI) countries. Given the economic, institutional, and developmental diversity of BRI economies, understanding how innovation and growth contribute to sustainability is essential. The study addresses the limited empirical evidence on the combined influence of technological progress and economic performance on sustainable development within this heterogeneous group of countries. Design/Methodology/Approach: The research uses a balanced panel dataset of 29 BRI countries covering the period 2001–2021, comprising 609 country-year observations. The analysis applies descriptive statistics, correlation analysis, panel unit root tests, and panel regression techniques, including pooled OLS, two-way fixed-effects, and two-way random-effects models. Model selection is conducted through redundant fixed-effects and Hausman tests to ensure appropriate estimation. Findings: The results show that technological innovation and economic growth have positive and statistically significant relationships with sustainable development. The preferred fixed",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213353538",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1038/s41598-026-67581-z",
+    "title": "Thermostable mesoporous binaphthol-azo aromatic polyester: structure–property relationships and high‑capacity cationic dye uptake",
+    "date": "2026-09-16",
+    "abstract": "Abstract A rigid mesoporous aromatic polyester (PABn) was synthesized via interfacial polycondensation of 4,4′‑binaphthol with an azo diphenyl diacid chloride and investigated for its molecular structure, thermal properties, porosity, and functional adsorption behavior. FT‑IR, 1 H‑NMR, and mass spectrometry confirmed the binaphthol‑based structure. FT‑IR, wide‑angle X‑ray diffraction, and differential scanning calorimetry revealed a fully amorphous architecture with a high glass transition temperature of 310–320 °C, consistent with a rigid, disordered network. Thermogravimetric analysis showed excellent thermal stability, with a 5% weight-loss temperature of 326 °C and a char yield of about 65 wt% at 600 °C. Nitrogen sorption and electron microscopy indicated a mesoporous texture with abundant accessible domains. As a functional demonstration, batch adsorption experiments with model dyes revealed pronounced selectivity for the cationic species methylene blue and crystal violet, with maximum capacities of 273 and 307 mg g –1 , respectively, and removal efficiencies of 96–98% within 60–90 min, while anionic methyl red and Congo red were scarcely adsorbed. The pseudo-second-order mode",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213297655",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1098/rsos.261273",
+    "title": "pH-responsive dual-layered chitosan/Tween 80 nanoemulsions for gastrointestinal targeted delivery of curcumin",
+    "date": "2026-09-16",
+    "abstract": "Abstract Curcumin's application is severely hindered by its hydrophobicity, poor solubility and rapid degradation. This study developed a pH-responsive, dual-layered curcumin-chitosan nanoemulsion (nCCURs) system using the phase inversion temperature method coupled with probe ultrasonication. The platform comprises a curcumin-loaded coconut oil core, a Tween 80 interlayer and a cationic chitosan shell. The optimized nCCURs exhibited an ultra-fine mean particle size of 26.9 nm, a narrow polydispersity index of 0.26 and a robust zeta potential of +34.4 mV. Transmission electron microscopy confirmed their spherical, dual-layered core-shell architecture. Biologically, nCCURs demonstrated powerful 2,2-diphenyl-1-picrylhydrazyl radical scavenging capacity (IC50 ∼72 µg ml–1) and significant antibacterial efficacy against Escherichia coli (25.5 mm inhibition zone). In vitro gastrointestinal digestion profiles revealed targeted, pH-responsive release, with only 16.5% curcumin leaked in the gastric phase (pH 2.0) versus 85.5% in the intestinal phase (pH 6.4). Kinetic modelling elucidated a structural transition from anomalous transport in gastric fluid to Fickian diffusion in intestinal flui",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213346082",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.26434/chemrxiv.15008904/v1",
+    "title": "Towards an Accurate Atomistic Description of Procaine Crystals: Force Field Development and MD Simulation of Solid-to-Liquid Phase Transitions",
+    "date": "2026-09-16",
+    "abstract": "Rational design of crystalline materials is crucial for material science and pharmaceutical development, requiring molecular modeling as a powerful complementary tool. This study employs molecular dynamics (MD) simulations to investigate the thermal stability, structural evolution, and melting mechanisms of crystalline procaine base across a temperature range of 23 to 373 K. To evaluate potential finite-size and boundary effects, two distinct computational setups were considered: a bulk crystal model under periodic boundary conditions (System I, 600 molecules) and an isolated nanocrystal in vacuum (System II, 1188 molecules). Both systems demonstrate well-preserved long-range positional ordering from 23 to 313 K, followed by the appearance of a plastic crystalline state with enhanced rotational freedom between 323 and 333 K. At 343 K, a heterogeneous, surface-initiated phase transition to an isotropic melt occurs, which closely matches the experimental melting point of procaine free-base of 334-337 K. MD analysis reveals remarkably slow melting kinetics at 333-343 K, where a crystalline core persists for over 300 ns before complete melting at 500 ns. We found that the thermal break",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213254078",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.21203/rs.3.rs-11048383/v1",
+    "title": "Deep Learning for Option Pricing and Implied Volatility Surfaces: A No-Arbitrage Neural Network Approach with a Frontier-Market Transferability Test",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213310339",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1186/s12905-026-04889-y",
+    "title": "Associations between pelvic MRI findings and symptom presence in uterine leiomyoma and adenomyosis: a quantitative analysis",
+    "date": "2026-09-16",
+    "abstract": "Abstract Objective To evaluate the relationship between pelvic MRI findings and symptom presence in patients with leiomyoma and adenomyosis, and to determine whether these imaging parameters are independently associated with the presence of symptoms. Methods This single-center retrospective study enrolled 150 patients who underwent pelvic MRI and were stratified into three groups based on pathological diagnosis: leiomyoma only ( n = 75), adenomyosis only ( n = 36), and concurrent pathology ( n = 39). Leiomyoma assessment included International Federation of Gynecology and Obstetrics (FIGO) classification, maximum diameter, cavity distortion, and apparent diffusion coefficient (ADC) values; for adenomyosis, junctional zone (JZ) thickness and involvement pattern served as primary parameters. Composite MRI burden scores were constructed for each pathology. Imaging features independently associated with symptom presence were identified by binary logistic regression, and model discrimination was assessed with internal validation by bootstrap resampling. Results Symptom prevalence differed substantially across groups — 64.0% in the leiomyoma group, 72.2% in the adenomyosis group, and 97.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213309941",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1002/ange.7599397",
+    "title": "Co‐Assembled Helical Polymer Nanofibers Enable Efficient CO 2 Photoreduction Through Interchain Energy Transfer",
+    "date": "2026-09-16",
+    "abstract": "ABSTRACT One‐dimensional (1D) nanofibers have shown bright prospects for artificial CO 2 photoreduction but still face formidable challenge in achieving high performance. Herein, a series of polymer nanofibers are prepared via the helical co‐assembly of chiral poly{1,2‐bis(4‐ethynylphenyl)‐1,2‐diphenylethene‐ co ‐( S )‐dinaphtho[2,1‐ d :1',2'‐ f ][1,3]dioxepine} (P1) and poly[(9,9’‐dioctylfluorenyl‐2,7‐diyl)‐ co ‐4,7‐di(2‐thienyl)‐2,1,3‐benzothiadiazole] (P2) using interchain energy transfer strategy. The helical nanostructure arranged through intermolecularly layered packing endows the polymer nanofibers with expansive surface area, strong light harvesting ability, and great mass diffusion kinetics arising from the abundant active sites. In comparison with the model polymer P1, the binary polymers exhibit not only minimized radiative energy loss, broaden solar light absorption, but also significantly boosted charge transport during the photoreduction process. Under simulated solar light (100 mW/cm 2 ), P1‐0.3P2 nanofibers achieved an excellent CO yield of 1165.31 µmol h −1 g −1 , which is superior to that of P1 nanofibers (76.28 µmol h −1 g −1 ) and previously reported nanofiber p",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213353440",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.5281/zenodo.22776137",
+    "title": "Spacetime as Source-Local Rollout and the Conditional Emergence of Three-Dimensional Effective Geometry in The Emergent Frame",
+    "date": "2026-09-16",
+    "abstract": "The Emergent Frame (TEF) treats spacetime not as a pre-existing common background but as relational structure continuously realized by closed matter through spacetime rollout. This paper gives a conditional mathematical realization of that view using a source-local ensemble of helical rollout trajectories whose transverse relational organization is represented by a weighted two-dimensional cell complex. In the homogeneous transported-complex ground state, intrinsic untwisting yields a product of spatial rollout depth and the transverse complex, producing cubic volume growth with d_f = 3. Under explicit long-scale graph-analytic conditions, the same construction gives normal diffusion with d_w = 2 and a bulk static Green scale G(x,y) ≍ d(x,y)^−1. The familiar 1/r behavior therefore arises as a forward consequence of the candidate rollout geometry, while hydrogenic 1/n^2 gross scaling remains only a low-energy consistency check. The construction is deliberately conditional: the two-dimensional quadratic-growth organization of the full rollout ensemble is a TEF structural postulate, not a result forced by one isolated helix. The same ontology also suggests a source-local cosmogenesis—",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213250677",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.5281/zenodo.22776136",
+    "title": "Spacetime as Source-Local Rollout and the Conditional Emergence of Three-Dimensional Effective Geometry in The Emergent Frame",
+    "date": "2026-09-16",
+    "abstract": "The Emergent Frame (TEF) treats spacetime not as a pre-existing common background but as relational structure continuously realized by closed matter through spacetime rollout. This paper gives a conditional mathematical realization of that view using a source-local ensemble of helical rollout trajectories whose transverse relational organization is represented by a weighted two-dimensional cell complex. In the homogeneous transported-complex ground state, intrinsic untwisting yields a product of spatial rollout depth and the transverse complex, producing cubic volume growth with d_f = 3. Under explicit long-scale graph-analytic conditions, the same construction gives normal diffusion with d_w = 2 and a bulk static Green scale G(x,y) ≍ d(x,y)^−1. The familiar 1/r behavior therefore arises as a forward consequence of the candidate rollout geometry, while hydrogenic 1/n^2 gross scaling remains only a low-energy consistency check. The construction is deliberately conditional: the two-dimensional quadratic-growth organization of the full rollout ensemble is a TEF structural postulate, not a result forced by one isolated helix. The same ontology also suggests a source-local cosmogenesis—",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213228774",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.3390/pr14182939",
+    "title": "Pressure-Controlled Drainage Strategy for Deep Coalbed Methane Wells Considering Stress Sensitivity",
+    "date": "2026-09-16",
+    "abstract": "China’s deep coalbed methane (CBM) resources hold significant development potential, yet their commercial exploitation remains hindered by four interrelated reservoir challenges: substantial burial depth, elevated in situ stress, ultra-low matrix permeability, and pronounced stress-dependent permeability decline. These conditions collectively induce rapid reservoir energy depletion and flow-path deterioration, leading to characteristic production behavior—namely, high initial gas rates followed by steep decline and persistent instability in long-term output. Accordingly, a rigorously optimized production system is indispensable to suppress formation damage, sustain desorption-driven gas release, and maximize ultimate recovery efficiency. To address this, this study establishes a physics-based numerical model that integrates field-calibrated geological and operational parameters, gas–water two-phase flow dynamics, coupled desorption–diffusion–seepage processes, and quantitatively constrained stress–permeability relationships for coal. Implemented in the CMG-IMEX simulator, the model is validated through robust history matching against production data from ten representative wells. A",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213236413",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.38124/ijisrt/26sep271",
+    "title": "Augment or Replace? Uneven Labour Market Consequences of AI Expansion Across Asia-Pacific Economies",
+    "date": "2026-09-16",
+    "abstract": "The rapid diffusion of artificial intelligence (AI) has intensified debates regarding its implications for employment and the future of work. While some scholars argue that AI complements human labour by enhancing productivity and creating new employment opportunities, others contend that it displaces workers through automation and task substitution. This study examines the labour-market consequences of AI across selected Asia-Pacific economies, focusing on whether AI primarily augments or replaces labour. Drawing on the theoretical foundations of skill-biased technological change, routinebiased technological change, and task-based approaches to technological transformation, the study investigates the relationship between AI intensity and occupational employment structures using panel data from China, Japan, South Korea, Hong Kong, and Taiwan over the period 2010-2025. A composite AI Intensity Index is constructed using principal component analysis, while fixed-effects panel regression models are employed to assess the effects of AI development on high-skill, middle-skill, and low-skill employment shares. The findings indicate that AI development is positively associated with high-",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213261771",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1038/s41598-026-67485-y",
+    "title": "Spatial pattern and structural transformation of industrial carbon dioxide emissions in China",
+    "date": "2026-09-16",
+    "abstract": "Abstract Industrial carbon emissions are a critical component of China’s carbon peaking and carbon neutrality strategy, yet their long-term spatial evolution and underlying drivers remain insufficiently understood. Using the China City Greenhouse Gas (CCG) dataset and urban statistical data for 2005–2020, this study integrates ArcGIS spatial analysis, standard deviation ellipse modeling, and multiple linear regression to investigate the spatiotemporal dynamics and driving mechanisms of industrial CO 2 emissions across China. The results show that industrial CO 2 emissions rose from 5.66 to 9.83 billion tonnes, accounting for a growing share of national total carbon emissions from 69.96 to 77.70%, with the overall growth rate gradually slowing. Nationwide per capita industrial carbon emissions jumped by 156.57% from 3.96 tonnes in 2005 to 10.16 tonnes in 2020, while industrial carbon intensity dropped continuously from 2.62 tonnes per ten thousand CNY of GDP to 1.64 tonnes per ten thousand CNY of GDP, though 36.11% of Chinese cities still saw rising carbon intensity. Spatially, emissions remained concentrated in northern and eastern China but exhibited significant inland expansion a",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213386049",
+    "arxiv_id": "",
+    "doi": "",
+    "title": "Over de Competitie tussen Kristallisatie en Diels-Alder-Verknoping in Dynamische Covalente Netwerken",
+    "date": "2026-09-16",
+    "abstract": "Additive manufacturing, and fused filament fabrication (FFF) in particular, has rapidly expanded beyond prototyping into structural applications in aerospace, healthcare, and soft robotics. Yet a fundamental limitation persists, namely that the layer-by-layer deposition process inherently creates weak interlayer interfaces due to incomplete chain diffusion and bonding across adjacent layers. In conventional semi-crystalline thermoplastics, crystallization rapidly arrests chain mobility near the interface before sufficient molecular integration can occur, producing anisotropic and mechanically inferior parts. Dynamic covalent networks (DCNs) based on the thermoreversible Diels-Alder (DA) reaction offer a compelling solution, as their reversible covalent bonds can stitch adjacent layers together while still permitting reprocessing. Incorporating a crystallizable backbone further confers the rapid solidification needed for shape fidelity during printing, as well as the mechanical stiffness and strength associated with the semi-crystalline microstructure. However, this dual solidification character introduces a poorly understood kinetic competition between chemical crosslinking and phy",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W4403618905",
+    "arxiv_id": "2409.05755",
+    "doi": "https://doi.org/10.1007/978-3-032-38410-2_45",
+    "title": "Revealing the Pitfalls and Re-evaluating the Advancement of Heterophilic Graph Learning",
+    "date": "2026-09-16",
+    "abstract": "",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7204157602",
+    "arxiv_id": "2608.23155",
+    "doi": "https://doi.org/10.1007/s00159-026-00172-z",
+    "title": "Solar chemical composition",
+    "date": "2026-09-16",
+    "abstract": "Abstract The Sun is one of the fundamental benchmarks in astronomy, and there is ever growing interest in precise and accurate determinations of its chemical composition. We present the current state-of-the-art in spectroscopic determinations of the solar elemental abundances, that now routinely employ three-dimensional (3D) radiative-hydrodynamic simulations of the solar photosphere and post-processing in non-local thermodynamic equilibrium (non-LTE). We critically review the recent literature and present recommended present-day and protosolar abundances of the 83 long-lived elements, and discuss their implications vis-à-vis primitive meteorites, helioseismology, neutrino fluxes, and the Solar Modelling Problem.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213285993",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.52949/93",
+    "title": "Stratégie de science ouverte",
+    "date": "2026-09-16",
+    "abstract": "La Stratégie de science ouverte (SSO) 2026-2033 a pour objectif de consolider les changements initiés avec les deux plans précédents portés à l’échelle nationale en France. Elle couvre huit ans et se structure en ambitions, enjeux, objectifs stratégiques et plans d’action quadriennaux. Les ambitions de la science ouverte sont : un rayonnement et une souveraineté scientifiques accrus, une recherche plus cumulative et collaborative, plus reproductible, responsable et durable, et qui favorise l’innovation et s’ouvre au-delà du monde académique. Parmi les enjeux, la SSO identifie : l’hétérogénéité des pratiques disciplinaires, la résistance au partage des données, la fragilité des infrastructures, les questions de qualité dans l’édition scientifique, la faible valorisation des logiciels de recherche, la communication insuffisante des résultats des essais cliniques. La Stratégie identifie également les leviers pour répondre à ces défis, comme l’évaluation de la recherche et la coordination internationale. L’intelligence artificielle (IA) offre des opportunités, mais aussi des problématiques auxquelles il faut répondre. La SSO vise à concilier la science ouverte avec la protection de la ",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213307223",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.52949/94",
+    "title": "French Open Science strategy",
+    "date": "2026-09-16",
+    "abstract": "The French Open Science Strategy (SSO) 2026–2033 aims to strengthen the transformations initiated with the two previous national plans. Covering eight years, it is structured around ambitions, challenges, strategic objectives, and four-year action plans. The Strategy seeks to achieve: enhanced research visibility and impact, increased academic sovereignty, more cumulative, collaborative, reproducible, responsible, and sustainable research, and research that fosters innovation and extends beyond academia. The SSO identifies several challenges: heterogeneity of practices across disciplines, resistance to data sharing, fragility of research infrastructures, quality concerns in scholarly publishing, limited recognition of research software, and insufficient communication of clinical trial results. The Strategy highlights key levers to address these challenges, including research evaluation and international coordination. Artificial intelligence (AI) presents both opportunities and issues to address. The SSO aims to develop open science while respecting research security, guided by the principle: \"as open as possible, as closed as necessary.\" The four-year action plans are aligned with ",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7134898256",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.1137/26m1840659",
+    "title": "Identification of a Point Source in the Heat Equation from Sparse Boundary Measurements",
+    "date": "2026-09-16",
+    "abstract": "Abstract. In this work we investigate the inverse problem of recovering one point source in the heat equation from sparse boundary measurement, i.e., the flux data at several points on the boundary. We prove the unique recovery of the location and piecewise constant in time amplitude when the domain is the unit ball in [Formula: see text] ([Formula: see text]) and the unique recovery of the location and compactly supported amplitude when the domain is simply connected, smooth, and bounded in [Formula: see text], under mild conditions on the observational points. The proof combines distinct analytical tools, including the representation of the flux data via Laplacian eigenfunctions on the unit ball, a detailed analysis of the properties of the heat and Poisson kernels, as well as methods drawn from complex analysis. Further, we present several numerical experiments to illustrate the feasibility of the recovery from sparse boundary data.",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213253402",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.26656/fr.2017.10(s2).19",
+    "title": "Banana peel flour as a functional ingredient in high-fiber pasta: effects on nutritional composition and sensory acceptance",
+    "date": "2026-09-16",
+    "abstract": "Banana peel, a by-product of banana processing, is rich in dietary fiber and phenolic compounds with antioxidant activities. However, the use of banana peel in food formulation remains limited. This study investigated the possibility of using banana peel powder (BPP) as a functional ingredient to partially replace semolina in a pasta recipe, with the aim of improving health benefits while maintaining acceptable textural and sensory qualities. Four samples of dried BPP originating from Gros Michel, Pisang Awak, Pisang Ambon and Lady Finger cultivars were compared for their chemical composition, antioxidant activities, instrumental color, and water-holding capacity. The peel of the Gros Michel banana cultivar was selected due to its high dietary fiber and phenolic contents, and bright yellow color. Durum wheat semolina was then substituted with BPP at 0, 10, 15, 20 and 25% to produce high-fiber pasta. The resulting pasta samples were evaluated for their approximate composition, antioxidant activities, cooking and textural properties, instrumental color and overall consumer acceptability. Increasing the BPP ratio resulted in significant improvement in dietary fiber and phenolic conten",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  },
+  {
+    "openalex_id": "W7213312964",
+    "arxiv_id": "",
+    "doi": "https://doi.org/10.53464/jmte.02.2026.08",
+    "title": "REDUCTIONS IN ENGINE EXHAUST EMISSIONS IN A HYBRID FLETTNER ROTOR POWER-ASSISTED VESSEL",
+    "date": "2026-09-16",
+    "abstract": "With the increase of Greenhouse Gas (GHG) emissions, the maritime industry has seen an influx of low emission and environmental protection solutions to reduce the GHG-, Hydrocarbon (HC)-, Nitrogen oxides (NOx)-, Sulphur oxides (SOx)-, and particulate matter (PM) emissions. The Flettner rotor is a technology that utilizes wind and the Magnus effect to generate lift for propulsion assist of the vessel. This paper builds on recently reported findings demonstrating the viability of a Flettner rotor propulsion in a hybrid diesel-electric propulsion system for a small cargo ship. Prior related work provided CFD analyses to determine the optimal system architecture in terms of number of Flettner rotors, rotor sizing (diameter, length, etc.), rotation speed and direction, rotor(s) spacing, relative rotor(s) arrangement, etc. Optimal rotor rotational speed was determined to maximize the Lift-to-Drag (L/D) ratios for various geometric rotor configurations. Sample calculations for optimal operating conditions based on Flettner rotor geometry, rotational speed, wind speed, ship’s velocity highlight the potential shipboard power contributions from the operation of Flettner rotor as a power-assi",
+    "found_by": [
+      "sweep:diffusion model"
+    ],
+    "already_known": false
+  }
+]

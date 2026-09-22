@@ -1,0 +1,927 @@
+{
+  "args": {
+    "layer": 16,
+    "t": 600,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_partitions": 5,
+    "n_null": 50,
+    "n_resample": 25,
+    "n_pos_per_sub": 4,
+    "s3_seed": 2026,
+    "workers": 12,
+    "threads": 8,
+    "which": [
+      "s1",
+      "s2",
+      "s2b",
+      "s3"
+    ]
+  },
+  "env": {
+    "python": "3.11.10",
+    "cuda_visible_devices": null,
+    "platform": "Linux-4.18.0-2.4.3.3.kwai.x86_64-x86_64-with-glibc2.35",
+    "torch": "2.5.1+cu124",
+    "diffusers": "0.36.0",
+    "transformers": "4.57.6",
+    "cuda": "12.4",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "repo": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "revision": "b8fff7315c768468a5333511427288870b2e9635",
+    "code_rev": ""
+  },
+  "preflight": {
+    "device": "cuda:0",
+    "physical_device": "physical cuda:0 (CUDA_VISIBLE_DEVICES unset)",
+    "n": 16777216,
+    "max_abs_diff": 0.0,
+    "n_wrong": 0,
+    "healthy": true
+  },
+  "protocol": {
+    "layer": 16,
+    "t": 600,
+    "probe": "StandardScaler -> LogisticRegression(L2, balanced), C chosen by 3-fold inner GroupKFold, 5-fold outer GroupKFold",
+    "groups": "(scenario, subgroup)",
+    "bootstrap": "10000 draws, seed 12345",
+    "cache": "$REPO/cache/consolidated",
+    "source": "existing consolidated cache, no new extraction"
+  },
+  "started": "2026-09-17 14:01:44",
+  "S1": {
+    "n": 60,
+    "n_subgroups": 10,
+    "n_pos": 50,
+    "n_neg": 10,
+    "real_auc_per_fit": [
+      0.4699999999999999,
+      0.54,
+      0.54,
+      0.44000000000000006,
+      0.4499999999999999,
+      0.5800000000000001,
+      0.41000000000000003,
+      0.56,
+      0.48,
+      0.4600000000000001,
+      0.48,
+      0.58,
+      0.47000000000000003,
+      0.49000000000000005,
+      0.44000000000000006
+    ],
+    "real_auc_mean": 0.4926666666666667,
+    "real_auc_ci95": [
+      0.46666666666666673,
+      0.52
+    ],
+    "auc_sd_over_repeats": 0.05404583592611351,
+    "resolution_95pct_of_mean": 0.05333333333333329,
+    "n_null_draws": 50,
+    "null_auc_mean": 0.5234000000000001,
+    "null_auc_sd": 0.12432035642004959,
+    "null_auc_ci95": [
+      0.31,
+      0.7487499999999999
+    ],
+    "null_auc_min": 0.28,
+    "null_auc_max": 0.76,
+    "null_frac_above_060": 0.36,
+    "null_frac_below_040": 0.22,
+    "observed_real_inside_null_ci": true,
+    "interpretation": "null_auc_ci95 is the AUC interval reachable with no real signal at this design (n, class balance, 10 subgroups). An observed AUC inside it is indistinguishable from chance; resolution_95pct_of_mean is the width of the CI on the mean."
+  },
+  "S2": {
+    "real": {
+      "n_fits": 15,
+      "n_feature_seeds": 3,
+      "n_cv_partitions_per_seed": 5,
+      "n_distinct_partitions": 15,
+      "auc_mean": 0.4926666666666667,
+      "auc_sd": 0.05404583592611351,
+      "auc_ci95": [
+        0.46666666666666673,
+        0.52
+      ],
+      "auc_min": 0.41000000000000003,
+      "auc_max": 0.5800000000000001,
+      "by_feature_seed": {
+        "0": {
+          "mean": 0.488,
+          "min": 0.44000000000000006,
+          "max": 0.54,
+          "n": 5
+        },
+        "1": {
+          "mean": 0.49800000000000005,
+          "min": 0.41000000000000003,
+          "max": 0.5800000000000001,
+          "n": 5
+        },
+        "2": {
+          "mean": 0.492,
+          "min": 0.44000000000000006,
+          "max": 0.58,
+          "n": 5
+        }
+      },
+      "per_fit": [
+        {
+          "feature_seed": 0,
+          "cv_seed": 0,
+          "auc_mean": 0.4699999999999999,
+          "auc_folds": [
+            0.5,
+            0.2,
+            0.85,
+            0.2,
+            0.6
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 1,
+          "auc_mean": 0.54,
+          "auc_folds": [
+            0.7,
+            0.5,
+            0.55,
+            0.35,
+            0.6
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 2,
+          "auc_mean": 0.54,
+          "auc_folds": [
+            0.8,
+            0.55,
+            0.44999999999999996,
+            0.1,
+            0.8
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 3,
+          "auc_mean": 0.44000000000000006,
+          "auc_folds": [
+            0.5,
+            0.15000000000000002,
+            0.5,
+            0.35,
+            0.7
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 4,
+          "auc_mean": 0.4499999999999999,
+          "auc_folds": [
+            0.7,
+            0.35,
+            0.44999999999999996,
+            0.35,
+            0.4
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 0,
+          "auc_mean": 0.5800000000000001,
+          "auc_folds": [
+            0.35,
+            0.7,
+            0.6,
+            0.55,
+            0.7
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 1,
+          "auc_mean": 0.41000000000000003,
+          "auc_folds": [
+            0.55,
+            0.45,
+            0.55,
+            0.4,
+            0.1
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 2,
+          "auc_mean": 0.56,
+          "auc_folds": [
+            0.4,
+            0.4,
+            0.55,
+            0.8500000000000001,
+            0.6
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 3,
+          "auc_mean": 0.48,
+          "auc_folds": [
+            0.44999999999999996,
+            0.55,
+            0.3,
+            0.5,
+            0.6
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 4,
+          "auc_mean": 0.4600000000000001,
+          "auc_folds": [
+            0.5,
+            0.6,
+            0.4,
+            0.6,
+            0.2
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 0,
+          "auc_mean": 0.48,
+          "auc_folds": [
+            0.65,
+            0.25,
+            0.6,
+            0.6,
+            0.3
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 1,
+          "auc_mean": 0.58,
+          "auc_folds": [
+            0.6,
+            0.65,
+            0.8,
+            0.45,
+            0.4
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 2,
+          "auc_mean": 0.47000000000000003,
+          "auc_folds": [
+            0.35,
+            0.6000000000000001,
+            0.6,
+            0.39999999999999997,
+            0.4
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 3,
+          "auc_mean": 0.49000000000000005,
+          "auc_folds": [
+            0.4,
+            0.25,
+            0.6,
+            0.6000000000000001,
+            0.6
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 4,
+          "auc_mean": 0.44000000000000006,
+          "auc_folds": [
+            0.30000000000000004,
+            0.6,
+            0.45,
+            0.45,
+            0.39999999999999997
+          ],
+          "n": 60,
+          "n_pos": 50
+        }
+      ]
+    },
+    "random": {
+      "n_fits": 15,
+      "n_feature_seeds": 3,
+      "n_cv_partitions_per_seed": 5,
+      "n_distinct_partitions": 15,
+      "auc_mean": 0.6206666666666667,
+      "auc_sd": 0.05599319686567372,
+      "auc_ci95": [
+        0.5939833333333332,
+        0.6473333333333333
+      ],
+      "auc_min": 0.51,
+      "auc_max": 0.72,
+      "by_feature_seed": {
+        "0": {
+          "mean": 0.6519999999999999,
+          "min": 0.61,
+          "max": 0.72,
+          "n": 5
+        },
+        "1": {
+          "mean": 0.5840000000000001,
+          "min": 0.51,
+          "max": 0.6900000000000001,
+          "n": 5
+        },
+        "2": {
+          "mean": 0.626,
+          "min": 0.5700000000000001,
+          "max": 0.6699999999999999,
+          "n": 5
+        }
+      },
+      "per_fit": [
+        {
+          "feature_seed": 0,
+          "cv_seed": 0,
+          "auc_mean": 0.66,
+          "auc_folds": [
+            0.75,
+            0.6,
+            0.55,
+            0.4,
+            1.0
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 1,
+          "auc_mean": 0.72,
+          "auc_folds": [
+            0.9,
+            0.75,
+            0.5,
+            0.45,
+            1.0
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 2,
+          "auc_mean": 0.6300000000000001,
+          "auc_folds": [
+            0.9,
+            0.7,
+            0.5,
+            0.2,
+            0.8500000000000001
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 3,
+          "auc_mean": 0.61,
+          "auc_folds": [
+            0.7,
+            0.0,
+            0.7,
+            0.75,
+            0.9
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 0,
+          "cv_seed": 4,
+          "auc_mean": 0.64,
+          "auc_folds": [
+            0.9,
+            0.45,
+            0.5,
+            0.75,
+            0.6
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 0,
+          "auc_mean": 0.5900000000000001,
+          "auc_folds": [
+            0.45,
+            0.6,
+            0.7,
+            0.6,
+            0.6000000000000001
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 1,
+          "auc_mean": 0.53,
+          "auc_folds": [
+            0.65,
+            0.5,
+            0.65,
+            0.7,
+            0.15000000000000002
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 2,
+          "auc_mean": 0.6900000000000001,
+          "auc_folds": [
+            0.4,
+            0.7,
+            0.7,
+            0.8,
+            0.8500000000000001
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 3,
+          "auc_mean": 0.51,
+          "auc_folds": [
+            0.4,
+            0.6,
+            0.25,
+            0.6000000000000001,
+            0.7
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 1,
+          "cv_seed": 4,
+          "auc_mean": 0.6000000000000001,
+          "auc_folds": [
+            0.6499999999999999,
+            0.7,
+            0.8500000000000001,
+            0.7,
+            0.1
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 0,
+          "auc_mean": 0.5700000000000001,
+          "auc_folds": [
+            0.8,
+            0.4,
+            0.6,
+            0.55,
+            0.5
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 1,
+          "auc_mean": 0.6300000000000001,
+          "auc_folds": [
+            0.8500000000000001,
+            0.8,
+            0.6000000000000001,
+            0.45,
+            0.45
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 2,
+          "auc_mean": 0.6299999999999999,
+          "auc_folds": [
+            0.44999999999999996,
+            0.8500000000000001,
+            0.75,
+            0.8,
+            0.30000000000000004
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 3,
+          "auc_mean": 0.6300000000000001,
+          "auc_folds": [
+            0.30000000000000004,
+            0.4,
+            0.8500000000000001,
+            0.8500000000000001,
+            0.75
+          ],
+          "n": 60,
+          "n_pos": 50
+        },
+        {
+          "feature_seed": 2,
+          "cv_seed": 4,
+          "auc_mean": 0.6699999999999999,
+          "auc_folds": [
+            0.8,
+            0.75,
+            0.5,
+            0.5,
+            0.8
+          ],
+          "n": 60,
+          "n_pos": 50
+        }
+      ]
+    },
+    "criterion": "shadow_camera real AUC mean < 0.60 AND bootstrap CI upper < 0.70",
+    "protocol_note": "3 feature seeds x 5 randomised CV partitions = 15 fits; PREREG §4.1 asks for >=5 seeds x >=3 partitions.",
+    "passed": true
+  },
+  "S2b_inversion": {
+    "n_pairs": 15,
+    "per_pair": [
+      {
+        "feature_seed": 0,
+        "cv_seed": 0,
+        "real": 0.4699999999999999,
+        "random": 0.66,
+        "delta_random_minus_real": 0.1900000000000001
+      },
+      {
+        "feature_seed": 0,
+        "cv_seed": 1,
+        "real": 0.54,
+        "random": 0.72,
+        "delta_random_minus_real": 0.17999999999999994
+      },
+      {
+        "feature_seed": 0,
+        "cv_seed": 2,
+        "real": 0.54,
+        "random": 0.6300000000000001,
+        "delta_random_minus_real": 0.09000000000000008
+      },
+      {
+        "feature_seed": 0,
+        "cv_seed": 3,
+        "real": 0.44000000000000006,
+        "random": 0.61,
+        "delta_random_minus_real": 0.16999999999999993
+      },
+      {
+        "feature_seed": 0,
+        "cv_seed": 4,
+        "real": 0.4499999999999999,
+        "random": 0.64,
+        "delta_random_minus_real": 0.1900000000000001
+      },
+      {
+        "feature_seed": 1,
+        "cv_seed": 0,
+        "real": 0.5800000000000001,
+        "random": 0.5900000000000001,
+        "delta_random_minus_real": 0.010000000000000009
+      },
+      {
+        "feature_seed": 1,
+        "cv_seed": 1,
+        "real": 0.41000000000000003,
+        "random": 0.53,
+        "delta_random_minus_real": 0.12
+      },
+      {
+        "feature_seed": 1,
+        "cv_seed": 2,
+        "real": 0.56,
+        "random": 0.6900000000000001,
+        "delta_random_minus_real": 0.13
+      },
+      {
+        "feature_seed": 1,
+        "cv_seed": 3,
+        "real": 0.48,
+        "random": 0.51,
+        "delta_random_minus_real": 0.030000000000000027
+      },
+      {
+        "feature_seed": 1,
+        "cv_seed": 4,
+        "real": 0.4600000000000001,
+        "random": 0.6000000000000001,
+        "delta_random_minus_real": 0.14
+      },
+      {
+        "feature_seed": 2,
+        "cv_seed": 0,
+        "real": 0.48,
+        "random": 0.5700000000000001,
+        "delta_random_minus_real": 0.09000000000000008
+      },
+      {
+        "feature_seed": 2,
+        "cv_seed": 1,
+        "real": 0.58,
+        "random": 0.6300000000000001,
+        "delta_random_minus_real": 0.050000000000000155
+      },
+      {
+        "feature_seed": 2,
+        "cv_seed": 2,
+        "real": 0.47000000000000003,
+        "random": 0.6299999999999999,
+        "delta_random_minus_real": 0.15999999999999986
+      },
+      {
+        "feature_seed": 2,
+        "cv_seed": 3,
+        "real": 0.49000000000000005,
+        "random": 0.6300000000000001,
+        "delta_random_minus_real": 0.14000000000000007
+      },
+      {
+        "feature_seed": 2,
+        "cv_seed": 4,
+        "real": 0.44000000000000006,
+        "random": 0.6699999999999999,
+        "delta_random_minus_real": 0.22999999999999987
+      }
+    ],
+    "delta_mean": 0.12800000000000003,
+    "delta_sd": 0.06349353172905542,
+    "delta_ci95": [
+      0.09666666666666668,
+      0.158
+    ],
+    "delta_min": 0.010000000000000009,
+    "delta_max": 0.22999999999999987,
+    "frac_pairs_positive": 1.0,
+    "wilcoxon_p": 0.0006516660806139112,
+    "null_n": 50,
+    "null_delta_mean": 0.008599999999999983,
+    "null_delta_sd": 0.08827161237351681,
+    "null_delta_ci95": [
+      -0.16325000000000003,
+      0.16
+    ],
+    "null_delta_absmax": 0.24999999999999997,
+    "permutation_p_two_sided": 0.18,
+    "ratio_effect_over_floor_sd": 1.450069807928449,
+    "d4_threshold_2x_floor_sd": 0.17654322474703363,
+    "passes_d4_2x_floor": false,
+    "note": "D4 (PREREG §3) requires effect > 2x noise floor. The floor here is the sd of the same paired difference under within-subgroup label permutation, measured on the identical partitions."
+  },
+  "S3": {
+    "n_pos_per_sub": 4,
+    "n_resample": 25,
+    "layer": 16,
+    "t": 600,
+    "per_scenario": {
+      "ball_collision": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 0.9620000000000001,
+        "auc_sd": 0.01785357107135713,
+        "auc_min": 0.925,
+        "auc_p05": 0.9375,
+        "auc_p50": 0.9625,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "ball_drop": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "block_slide": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 0.9884999999999999,
+        "auc_sd": 0.019405218370325036,
+        "auc_min": 0.95,
+        "auc_p05": 0.95,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "cloth_drape": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "faucet": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "flag": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 0.9965,
+        "auc_sd": 0.00572821961869478,
+        "auc_min": 0.9875,
+        "auc_p05": 0.9875,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "fluid": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "pendulum": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "pyramid": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "river": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "auc_min": 1.0,
+        "auc_p05": 1.0,
+        "auc_p50": 1.0,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "shadow": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 0.9795,
+        "auc_sd": 0.019053105608622806,
+        "auc_min": 0.9375,
+        "auc_p05": 0.95,
+        "auc_p50": 0.975,
+        "auc_max": 1.0,
+        "frac_below_060": 0.0,
+        "frac_below_055": 0.0,
+        "is_anomaly_scenario": false
+      },
+      "shadow_camera": {
+        "n_resamples": 25,
+        "n_after_downsample": 50,
+        "auc_mean": 0.467,
+        "auc_sd": 0.06563789555838405,
+        "auc_min": 0.2625,
+        "auc_p05": 0.355,
+        "auc_p50": 0.475,
+        "auc_max": 0.55,
+        "frac_below_060": 1.0,
+        "frac_below_055": 0.92,
+        "is_anomaly_scenario": true
+      }
+    },
+    "n_other_scenarios": 11,
+    "n_scenarios_ever_below_060": 0,
+    "frac_scenarios_ever_below_060": 0.0,
+    "n_scenarios_mean_below_060": 0,
+    "frac_scenarios_mean_below_060": 0.0,
+    "anomaly_reference": {
+      "n_resamples": 25,
+      "n_after_downsample": 50,
+      "auc_mean": 0.467,
+      "auc_sd": 0.06563789555838405,
+      "auc_min": 0.2625,
+      "auc_p05": 0.355,
+      "auc_p50": 0.475,
+      "auc_max": 0.55,
+      "frac_below_060": 1.0,
+      "frac_below_055": 0.92,
+      "is_anomaly_scenario": true
+    },
+    "criterion": "fraction of the other 11 scenarios showing AUC < 0.60 must be < 20%",
+    "passed": true
+  },
+  "finished": "2026-09-17 14:13:55",
+  "verdict": {
+    "S2_passed": true,
+    "S3_passed": true,
+    "S1_S3_all_passed": true,
+    "established": "shadow_camera's real-DiT probe sits at chance (S2: mean 0.4927, CI upper 0.5200) and this is NOT a generic small-sample effect (S3: 0/11 other scenarios ever fall below 0.60 at the same n=50/10-subgroup design).",
+    "inversion_d4": {
+      "delta_random_minus_real": 0.12800000000000003,
+      "effect_over_floor_sd": 1.450069807928449,
+      "passes_d4_2x_floor": false,
+      "permutation_p": 0.18
+    },
+    "H4": "supported -- anomaly survives small-sample controls, proceed to S4",
+    "caveat": "S1 shows the null AUC interval at this design is wide ([0.31, 0.7487499999999999]), and 36% of null draws exceed 0.60. The random-DiT value therefore cannot be read as 'the random backbone genuinely discriminates'; see S2b for the inversion's own D4 check."
+  }
+}

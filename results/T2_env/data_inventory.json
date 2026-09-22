@@ -1,0 +1,185 @@
+{
+  "likephys": {
+    "root": "$HF_HOME/hub/datasets--JianhaoDYDY--LikePhys-Benchmark/snapshots/30fc7a194a7c4eb1de9102f49c7355121ba79b1f",
+    "n_videos": 920,
+    "scenarios": {
+      "ball_collision_videos": 70,
+      "ball_drop_videos": 70,
+      "block_slide_videos": 70,
+      "cloth_drape_videos": 70,
+      "faucet_videos": 100,
+      "flag_videos": 80,
+      "fluid_videos": 80,
+      "pendulum_videos": 80,
+      "pyramid_videos": 70,
+      "river_videos": 90,
+      "shadow_camera_videos": 70,
+      "shadow_videos": 70
+    },
+    "n_scenarios": 12,
+    "clip_kinds": {
+      "invalid_momentum_amplification": 10,
+      "invalid_penetration": 10,
+      "invalid_phantom_force": 10,
+      "invalid_size_change": 10,
+      "invalid_teleportation": 20,
+      "temporal_disorder": 120,
+      "valid": 120,
+      "color_change": 50,
+      "dynamic_scaling": 10,
+      "over_bounce": 10,
+      "penetration": 20,
+      "teleportation": 10,
+      "invalid_hovering": 10,
+      "invalid_irregular_motion": 10,
+      "invalid_jittering": 10,
+      "invalid_size_changing": 10,
+      "ground_penetration": 10,
+      "impossible_folding": 10,
+      "rubber_cloth": 10,
+      "fracturing_fluid": 20,
+      "negative_viscosity": 20,
+      "non_conservation_fluid": 20,
+      "oscillating_viscosity": 10,
+      "phase_shifting_fluid": 20,
+      "self_attracting": 20,
+      "teleporting_fluid": 20,
+      "elastic_explosion": 10,
+      "flag_shatter": 10,
+      "flag_teleport": 10,
+      "impossible_twist": 10,
+      "sudden_freeze": 10,
+      "antigravity_fluid": 10,
+      "discontinuous_fluid": 10,
+      "matter_creation": 10,
+      "non_conservation_momentum": 10,
+      "phase_transition": 10,
+      "break_conservation_energy": 10,
+      "break_continuity": 10,
+      "disappearing_bob": 10,
+      "path_deviation": 10,
+      "reverse_gravity": 10,
+      "varying_frequency": 10,
+      "invalid_anti_gravity": 10,
+      "invalid_momentum_multiplication": 10,
+      "invalid_phase_shifting": 10,
+      "invalid_sphere_fusion": 10,
+      "invalid_teleporting_spheres": 10,
+      "invisible_wall": 10,
+      "impossible_reflection": 10,
+      "no_shadow": 20,
+      "shadow_disconnection": 10,
+      "sudden_disappearance": 10,
+      "varying_size": 10,
+      "inverted_shadow": 10,
+      "no_object": 10,
+      "varying_object": 10,
+      "wrong_shadow_shape": 10
+    },
+    "subgroups_per_scenario": {
+      "ball_collision_videos": 10,
+      "ball_drop_videos": 10,
+      "block_slide_videos": 10,
+      "cloth_drape_videos": 10,
+      "faucet_videos": 10,
+      "flag_videos": 10,
+      "fluid_videos": 10,
+      "pendulum_videos": 10,
+      "pyramid_videos": 10,
+      "river_videos": 10,
+      "shadow_camera_videos": 10,
+      "shadow_videos": 10
+    },
+    "example_paths": [
+      "data/ball_collision_videos/subgroup_000/invalid_momentum_amplification_00.mp4",
+      "data/ball_collision_videos/subgroup_000/invalid_penetration_00.mp4",
+      "data/ball_collision_videos/subgroup_000/invalid_phantom_force_00.mp4",
+      "data/ball_collision_videos/subgroup_000/invalid_size_change_00.mp4",
+      "data/ball_collision_videos/subgroup_000/invalid_teleportation_00.mp4",
+      "data/ball_collision_videos/subgroup_000/temporal_disorder_00.mp4"
+    ],
+    "other_files": [
+      "README.md",
+      ".gitattributes"
+    ]
+  },
+  "intphys2": {
+    "root": "$HF_HOME/hub/datasets--facebook--IntPhys2/snapshots/a077a2f94e25889016fc6e5983cf21e2ddc25fb2",
+    "n_files": 342,
+    "by_suffix": {
+      "": 1,
+      ".csv": 1,
+      ".mp4": 340
+    },
+    "top_level": [
+      ".gitattributes",
+      "Debug",
+      "HeldOut"
+    ],
+    "csv_files": [
+      "Debug/metadata.csv"
+    ],
+    "csv_head": {
+      "Debug/metadata.csv": [
+        "SceneIndex,name,file_name,game_name,condition,env,type,occluder,Difficulty,Camera",
+        "0,083861b17a8b3f4bef7e3aaad0b960318a5ea19ca98258fe2bfd700d11343e3d,Videos/083861b17a8b3f4bef7e3aaad0b960318a5ea19ca98258fe2bfd700d11343e3d.mp4,FixedJumpSolidity,solidity,BasicLevel_0,1_Possible,None,Easy,Fixed",
+        "0,56c044c79b791ff1d2eae592c3af1914772d79a23c9603dcaf9a983717c5c47c,Videos/56c044c79b791ff1d2eae592c3af1914772d79a23c9603dcaf9a983717c5c47c.mp4,FixedJumpSolidity,solidity,BasicLevel_0,1_Impossible,None,Easy,Fixed"
+      ]
+    },
+    "n_videos": 340
+  },
+  "physion_eval": {
+    "root": "$HF_HOME/hub/datasets--PhysionLabs--Physion-Eval/snapshots/1c53fd7a5ecdca220976deffb5535cb22c60244e",
+    "files": {
+      "Physion_Eval_20260322.json": {
+        "size_MB": 4.77,
+        "type": "list",
+        "n_records": 9569,
+        "record_keys": [
+          "id",
+          "filename",
+          "has_glitches",
+          "reasoning",
+          "glitch_severity",
+          "model",
+          "Glitch_Category"
+        ],
+        "first_record_preview": {
+          "id": "T1_00001",
+          "filename": "P06_108_67_af1dd90706354a80_processed_s",
+          "has_glitches": 1,
+          "reasoning": "Visual anomalies: Time continuity (at 1.5s and 2.4s, the purple item experiences two sudden flips without external force) Physical behavior (at 1.3s, items inside the drawer move on their own without being touched; at 4.1s, the drawer closes automatically without external force).",
+          "glitch_severity": 3,
+          "model": "Sora 2",
+          "Glitch_Category": "Force & Motion Inconsistency"
+        }
+      },
+      "all_metadata_with_caption.json": {
+        "size_MB": 12.43,
+        "type": "list",
+        "n_records": 9569,
+        "record_keys": [
+          "id",
+          "filename",
+          "has_glitches",
+          "reasoning",
+          "glitch_severity",
+          "model",
+          "Glitch_Category",
+          "caption"
+        ],
+        "first_record_preview": {
+          "id": "T1_00001",
+          "filename": "P06_108_67_af1dd90706354a80_processed_s",
+          "has_glitches": 1,
+          "reasoning": "Visual anomalies: Time continuity (at 1.5s and 2.4s, the purple item experiences two sudden flips without external force) Physical behavior (at 1.3s, items inside the drawer move on their own without being touched; at 4.1s, the drawer closes automatically without external force).",
+          "glitch_severity": 3,
+          "model": "Sora 2",
+          "Glitch_Category": "Force & Motion Inconsistency",
+          "caption": "From a first-person perspective, an individual holds a metal can while searching through a disorganized kitchen drawer with their other hand. The drawer contains a jumble of cutlery, utensils, and packaged items. After rummaging through the contents for a few seconds without selecting an item, the person turns away from the open drawer. The camera pans slightly, revealing a countertop covered in white flour, a dish rack containing plates and a pan, and a kitchen sink. The individual is still holding the can when the short clip concludes."
+        }
+      }
+    },
+    "readme_head": "---\nlicense: other\ntask_categories:\n- text-to-video\n- image-to-video\nlanguage:\n- en\ntags:\n- video\n- multimodal\n- physical-reasoning\n- evaluation\n- synthetic-data\npretty_name: Physion-Processed Video Dataset\n---\n\n# 🎬 PHYSION-EVAL: The First Human-Centered Benchmark for Physical Realism in AI-Generated Videos\n- 📄 Paper: https://arxiv.org/abs/2603.19607  \n- 🤗 Dataset: https://huggingface.co/datasets/PhysionLabs/Physion-Eval  \n- 🎬 Video Gallery: https://www.youtube.com/watch?v=Vbn_W3WNUHw  \n\n## ✨ Overview\nThis dataset is developed by Physion Labs, a research team focused on advancing physical realism and reliability in multimodal generative AI.\n\nWe created this dataset to support physically grounded video generation, moving beyond visual realism toward true physical consistency. It enables research in:\n- Perceptual physical realism evaluation for AI-generated videos\n- Temporal consistency and causal reasoning\n- Human vs. model perception of physical plausibility\n\nBy identifying where current models break physical rules, we aim to enable more reliable and trustworthy generative video systems.\n\n## 🆕 Caption Release Update\nDue to strong community demand and multiple email inquiries, we have decided to also open-source the caption associated with each video generation.\n\nTo reduce copyright risk in our initial video release, we removed the first five frames from each generated video, since the WISA dataset was crawled from online content. For users interested in the image prompt, we recommend using the first remaining frame of each uploaded video as a reasonable proxy for the initial image prompt used for the corresponding generation.\n\n## 🛡️ Content Filtering\nIn this open-source version, we apply filtering procedures to reduce privacy and intellectual property risks:\n- 🚫 Videos with identifiable human faces are excluded  \n- 🚫 Videos with logos, brand marks, or trademarks are excluded  \n\n## Permitted Use\nThis dataset is intended to support: \n- Academic and non-commercial research.\n- Benchmarking and evaluation of video generation models.\n- Studying physical realism and perceptual consistency in AI-generated videos.\n\nThis dataset must **not** be used for: \n- Surveillance or biometric identification.\n- Any application that violates privacy, publicity, or intellectual property rights.\n- High-risk or safety-critical decision-making systems.\n- Training, fine-tuning, or distillation of generative models without explicit permission\n\n---\n\n## Citation\n\nIf you use this datase"
+  }
+}

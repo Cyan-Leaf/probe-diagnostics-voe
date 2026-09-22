@@ -1,0 +1,65 @@
+{
+  "q01_videodiff_physics_window": {
+    "query": "cat:cs.CV+AND+abs:\"video+diffusion\"+AND+abs:physics+AND+submittedDate:[202606160000+TO+202609170000]",
+    "n": 24
+  },
+  "q02_physics_probe_window": {
+    "query": "cat:cs.CV+AND+abs:physics+AND+(abs:probe+OR+abs:probing)+AND+submittedDate:[202606160000+TO+202609170000]",
+    "n": 32
+  },
+  "q03_videogen_physics_guidance_window": {
+    "query": "cat:cs.CV+AND+abs:\"video+generation\"+AND+abs:physics+AND+abs:guidance+AND+submittedDate:[202606160000+TO+202609170000]",
+    "n": 12
+  },
+  "q04_intuitive_physics_window": {
+    "query": "cat:cs.CV+AND+abs:\"intuitive+physics\"+AND+submittedDate:[202606160000+TO+202609170000]",
+    "n": 1
+  },
+  "q05_worldmodel_probe_window": {
+    "query": "cat:cs.CV+AND+abs:\"world+model\"+AND+(abs:probe+OR+abs:probing)+AND+submittedDate:[202606160000+TO+202609170000]",
+    "n": 18
+  },
+  "q06_selfguidance_video": {
+    "query": "abs:\"self-guidance\"+AND+abs:video",
+    "n": 7
+  },
+  "q07_plausibility_linear_probe": {
+    "query": "all:\"physical+plausibility\"+AND+all:\"linear+probe\"",
+    "n": 1
+  },
+  "q08_knowledge_action_gap": {
+    "query": "abs:\"knowledge-action\"+OR+abs:\"know-do+gap\"+OR+abs:\"knowing-doing+gap\"",
+    "n": 20
+  },
+  "q09_internal_repr_videodiff": {
+    "query": "abs:\"video+diffusion\"+AND+(abs:\"internal+representation\"+OR+abs:\"hidden+states\"+OR+abs:\"intermediate+representation\")",
+    "n": 25
+  },
+  "q10_probe_guided_sampling": {
+    "query": "abs:\"probe\"+AND+(abs:\"guided+sampling\"+OR+abs:\"guidance\")+AND+abs:diffusion+AND+cat:cs.CV",
+    "n": 13
+  },
+  "q11_discrim_gen_gap_video": {
+    "query": "abs:\"generation\"+AND+abs:\"discriminative\"+AND+abs:gap+AND+abs:video+AND+cat:cs.CV",
+    "n": 40
+  },
+  "q12_voe_video_model": {
+    "query": "abs:\"violation+of+expectation\"+AND+cat:cs.CV",
+    "n": 10
+  },
+  "q13_physics_video_window_broad": {
+    "query": "cat:cs.CV+AND+abs:physics+AND+abs:video+AND+submittedDate:[202606160000+TO+202609170000]",
+    "n": 200
+  },
+  "q14_inference_time_physics": {
+    "query": "abs:\"inference-time\"+AND+abs:physics+AND+abs:video",
+    "n": 50
+  },
+  "q15_linear_decodable_diffusion": {
+    "query": "abs:\"linearly+decodable\"+OR+abs:\"linear+decodability\"",
+    "n": 198
+  },
+  "known_LikePhys": [],
+  "known_WMReward": [],
+  "known_InvisibleHand": []
+}

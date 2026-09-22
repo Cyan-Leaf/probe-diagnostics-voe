@@ -1,0 +1,66 @@
+{
+  "_source": "results/E6_literature/E6_TABLE.md §2, judgements made from the papers' own text",
+  "_legend": {
+    "yes": "reported",
+    "partial": "reported an approximation, not the check itself",
+    "no": "not reported",
+    "na": "not applicable (the check postdates the paper)"
+  },
+  "_verification": "every 'no' confirmed twice: mechanical method-word search, then a full-text frequency + context pass over random|untrained|scratch|initial|baseline|chance",
+  "papers": [
+    {"id": "2606.05328", "short": "Invisible Hand", "venue": "arXiv 2026-06"},
+    {"id": "2603.14294", "short": "Seeking Physics", "venue": "arXiv 2026-08 (v3)"},
+    {"id": "2606.09646", "short": "Punzo et al.", "venue": "arXiv 2026-09 (v2)"},
+    {"id": "2510.11512", "short": "LikePhys", "venue": "ICLR 2026"}
+  ],
+  "checks": [
+    {
+      "id": "D1", "name": "Random-init lower bound",
+      "verdicts": {"2606.05328": "no", "2603.14294": "no", "2606.09646": "no", "2510.11512": "no"},
+      "notes": {
+        "2603.14294": "'Random Sel.' is random verifier SCORES, not random weights",
+        "2606.09646": "'Random Labels Control' is a D4 floor, a different question",
+        "2510.11512": "'50% random-guess threshold' is chance level, not a random-init model"
+      }
+    },
+    {
+      "id": "D2", "name": "Attribute-irrelevant control",
+      "verdicts": {"2606.05328": "no", "2603.14294": "no", "2606.09646": "partial", "2510.11512": "no"},
+      "notes": {
+        "2606.09646": "frame-shuffled + single-frame controls test temporal reliance, not whether a physics-legal edit fools the probe",
+        "2510.11512": "has colour-change material but lists it as an INVALID variant, and it changes colour mid-flight so it carries a temporal discontinuity"
+      }
+    },
+    {
+      "id": "D3", "name": "Ceiling / saturation check",
+      "verdicts": {"2606.05328": "no", "2603.14294": "no", "2606.09646": "partial", "2510.11512": "partial"},
+      "notes": {
+        "2606.09646": "discusses models sitting at chance (the lower bound), not a systematic ceiling removal",
+        "2510.11512": "same: discusses the 50% threshold, not saturation"
+      }
+    },
+    {
+      "id": "D4", "name": "Noise floor",
+      "verdicts": {"2606.05328": "partial", "2603.14294": "no", "2606.09646": "yes", "2510.11512": "no"},
+      "notes": {
+        "2606.05328": "standard error over 5 seeds, but no label-permutation floor",
+        "2606.09646": "3 seeds + a randomized-label control: the only paper with both"
+      }
+    },
+    {
+      "id": "D5", "name": "Cross-readout consistency",
+      "verdicts": {"2606.05328": "no", "2603.14294": "partial", "2606.09646": "yes", "2510.11512": "no"},
+      "notes": {
+        "2603.14294": "probe to verifier to selection is one pipeline, not two independent readouts of the same representation",
+        "2606.09646": "linear / MLP / temporal-attentive probes compared against each other"
+      }
+    },
+    {
+      "id": "D6", "name": "Bounded stat in saturated regime",
+      "verdicts": {"2606.05328": "na", "2603.14294": "na", "2606.09646": "na", "2510.11512": "na"},
+      "notes": {
+        "_all": "D6 was derived from this project's own S4 design error on 2026-09-17, which postdates all four papers. Listed to record the provenance, not as a criticism."
+      }
+    }
+  ]
+}

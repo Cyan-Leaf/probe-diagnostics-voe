@@ -1,0 +1,38 @@
+{
+  "note": "VAE-latent / raw-pixel lower bounds on IntPhys 2, prompted by the Invisible Hand claim that the signal is absent from the VAE latent",
+  "sources": {
+    "vae_latent": {
+      "dim": 624,
+      "n": 1012,
+      "auc_mean": 0.5358446136101499,
+      "auc_seed_spread": 0.001990911400775963,
+      "dprime_mean": 0.1272301009540253,
+      "per_seed_auc": [
+        0.5356426066897347,
+        0.5339624067666283,
+        0.5379288273740869
+      ]
+    },
+    "raw_pixel": {
+      "dim": 39936,
+      "n": 1012,
+      "auc_mean": 0.5475868358323721,
+      "auc_seed_spread": 0.011050195683558892,
+      "dprime_mean": 0.1162544973934543,
+      "per_seed_auc": [
+        0.5520179853902345,
+        0.5350088043060361,
+        0.5557337178008458
+      ]
+    }
+  },
+  "comparison": {
+    "real_dit_auc": 0.6457915442778419,
+    "random_dit_auc": 0.5167775881071384,
+    "vae_latent_auc": 0.5358446136101499,
+    "raw_pixel_auc": 0.5475868358323721,
+    "likephys_vae_latent_auc": 0.82,
+    "invisible_hand_claim": "\"this signal is absent from the VAE latent input and emerges inside the denoising transformer itself\" (2606.05328, abstract)",
+    "reading": "On IntPhys 2 the VAE-latent probe reaches AUC 0.5358 against 0.6458 for the DiT states and 0.5168 for the randomly initialised DiT. The VAE latent carries little of the signal here, which is consistent with the Invisible Hand claim in a setting much closer to theirs than LikePhys was -- and it suggests our LikePhys value of 0.8200 reflects something about LikePhys rather than a general property. Still not a like-for-like replication: IntPhys 2 is the successor of the benchmark they used, and we report AUC where they report per-video accuracy (PREREG §5)."
+  }
+}

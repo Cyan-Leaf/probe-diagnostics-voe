@@ -1,0 +1,43 @@
+{
+  "n_pairs": 48,
+  "n_scenarios": 12,
+  "pairs_per_scenario": {
+    "ball_drop": 4,
+    "faucet": 4,
+    "fluid": 4,
+    "pendulum": 4,
+    "pyramid": 4,
+    "river": 4,
+    "shadow_camera": 4,
+    "ball_collision": 4,
+    "block_slide": 4,
+    "cloth_drape": 4,
+    "flag": 4,
+    "shadow": 4
+  },
+  "n_pairs_in_saturated_scenarios": 28,
+  "saturated_scenarios": [
+    "ball_drop",
+    "faucet",
+    "fluid",
+    "pendulum",
+    "pyramid",
+    "river",
+    "shadow_camera"
+  ],
+  "left_is_violation_count": 29,
+  "design": {
+    "blind": true,
+    "paired": true,
+    "order_randomised": true,
+    "no_physics_hint": true,
+    "confidence_recorded": true,
+    "seed": 20260919
+  },
+  "files": {
+    "rater_sheet.csv": "give to raters (no answers)",
+    "pair_paths.csv": "video paths for playback",
+    "INSTRUCTIONS.md": "give to raters",
+    "ANSWER_KEY.json": "DO NOT give to raters"
+  }
+}

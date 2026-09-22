@@ -1,0 +1,374 @@
+{
+  "docs_checked": [
+    "EXPERIMENTS",
+    "RELATED_WORK_probing",
+    "SPEC",
+    "PREREG",
+    "PROTOCOL_VALIDITY",
+    "RELATED_WORK",
+    "T10_REPORT",
+    "T11_1_HUMAN",
+    "E7_REPORT",
+    "E4_REPORT",
+    "S4_REPORT",
+    "E6_TABLE"
+  ],
+  "docs_missing": [],
+  "retired_terms": {
+    "n_raw_hits": 13,
+    "n_asserting_use": 1,
+    "violations": [
+      {
+        "doc": "SPEC",
+        "line": 19,
+        "term": "retired term minimal sufficient",
+        "asserting_use": true,
+        "context": "A Minimal Sufficient Diagnostic for Representation-Level Physics Claims"
+      }
+    ],
+    "ban_statements": [
+      {
+        "doc": "EXPERIMENTS",
+        "line": 350,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": "**全文禁用「最小充分」。**"
+      },
+      {
+        "doc": "SPEC",
+        "line": 451,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": "> **协议是 `minimal necessary`，不是 `minimal sufficient`。禁止使用「最小充分」。**"
+      },
+      {
+        "doc": "SPEC",
+        "line": 451,
+        "term": "retired term minimal sufficient",
+        "asserting_use": false,
+        "context": "> **协议是 `minimal necessary`，不是 `minimal sufficient`。禁止使用「最小充分」。**"
+      },
+      {
+        "doc": "PREREG",
+        "line": 321,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": " **禁止**在任何对外材料中使用「最小充分 / minimal sufficient」。"
+      },
+      {
+        "doc": "PREREG",
+        "line": 321,
+        "term": "retired term minimal sufficient",
+        "asserting_use": false,
+        "context": " **禁止**在任何对外材料中使用「最小充分 / minimal sufficient」。"
+      },
+      {
+        "doc": "PROTOCOL_VALIDITY",
+        "line": 15,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": "已核实：「最小充分」（minimal sufficient）这个词在项目文档里出现 **16 次**，"
+      },
+      {
+        "doc": "PROTOCOL_VALIDITY",
+        "line": 40,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": "**这不是打自己脸，而是把\"最小充分\"这个目前无据的形容词换成有据的表述。**"
+      },
+      {
+        "doc": "PROTOCOL_VALIDITY",
+        "line": 199,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": "| **禁止** | **「最小充分 / minimal sufficient」** |"
+      },
+      {
+        "doc": "PROTOCOL_VALIDITY",
+        "line": 15,
+        "term": "retired term minimal sufficient",
+        "asserting_use": false,
+        "context": "已核实：「最小充分」（minimal sufficient）这个词在项目文档里出现 **16 次**，"
+      },
+      {
+        "doc": "PROTOCOL_VALIDITY",
+        "line": 117,
+        "term": "retired term minimal sufficient",
+        "asserting_use": false,
+        "context": "→ 则把 **\"minimal sufficient\" 改为 \"minimal necessary\"**，"
+      },
+      {
+        "doc": "PROTOCOL_VALIDITY",
+        "line": 199,
+        "term": "retired term minimal sufficient",
+        "asserting_use": false,
+        "context": "| **禁止** | **「最小充分 / minimal sufficient」** |"
+      },
+      {
+        "doc": "T10_REPORT",
+        "line": 28,
+        "term": "retired term 最小充分",
+        "asserting_use": false,
+        "context": "**停止使用「最小充分」。**"
+      }
+    ]
+  },
+  "shared_quantities": [
+    {
+      "quantity": "best real AUC (L14/t400)",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PROTOCOL_VALIDITY"
+      ],
+      "n_docs": 3
+    },
+    {
+      "quantity": "random lower bound (best layer)",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PROTOCOL_VALIDITY",
+        "RELATED_WORK"
+      ],
+      "n_docs": 4
+    },
+    {
+      "quantity": "D1 best-cell share",
+      "appears_in": [
+        "EXPERIMENTS",
+        "RELATED_WORK_probing",
+        "SPEC",
+        "PREREG",
+        "PROTOCOL_VALIDITY",
+        "RELATED_WORK",
+        "T10_REPORT"
+      ],
+      "n_docs": 7
+    },
+    {
+      "quantity": "D1 fixed-cell share (L16/t600)",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "RELATED_WORK",
+        "E7_REPORT",
+        "E6_TABLE"
+      ],
+      "n_docs": 6
+    },
+    {
+      "quantity": "MDL training share",
+      "appears_in": [
+        "EXPERIMENTS",
+        "RELATED_WORK_probing",
+        "SPEC",
+        "PREREG",
+        "PROTOCOL_VALIDITY",
+        "RELATED_WORK",
+        "T10_REPORT"
+      ],
+      "n_docs": 7
+    },
+    {
+      "quantity": "IntPhys2 D1 pooled",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "RELATED_WORK",
+        "E7_REPORT",
+        "E6_TABLE"
+      ],
+      "n_docs": 5
+    },
+    {
+      "quantity": "IntPhys2 physics AUC",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "E7_REPORT",
+        "E6_TABLE"
+      ],
+      "n_docs": 5
+    },
+    {
+      "quantity": "IntPhys2 appearance AUC",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "T10_REPORT",
+        "E7_REPORT",
+        "S4_REPORT",
+        "E6_TABLE"
+      ],
+      "n_docs": 7
+    },
+    {
+      "quantity": "E4 within-scenario intercept",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "RELATED_WORK",
+        "E4_REPORT"
+      ],
+      "n_docs": 5
+    },
+    {
+      "quantity": "E4 temporal_grad variance",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "PROTOCOL_VALIDITY",
+        "RELATED_WORK",
+        "E4_REPORT",
+        "E6_TABLE"
+      ],
+      "n_docs": 7
+    },
+    {
+      "quantity": "S2 shadow_camera mean",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "RELATED_WORK"
+      ],
+      "n_docs": 4
+    },
+    {
+      "quantity": "S4 max drop",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "T10_REPORT",
+        "S4_REPORT"
+      ],
+      "n_docs": 5
+    },
+    {
+      "quantity": "S4 dprime retained",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "RELATED_WORK",
+        "T10_REPORT",
+        "S4_REPORT"
+      ],
+      "n_docs": 6
+    },
+    {
+      "quantity": "C2 real AUC",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PREREG",
+        "T10_REPORT"
+      ],
+      "n_docs": 4
+    },
+    {
+      "quantity": "ablation unit count",
+      "appears_in": [
+        "EXPERIMENTS",
+        "SPEC",
+        "PROTOCOL_VALIDITY",
+        "T10_REPORT"
+      ],
+      "n_docs": 4
+    }
+  ],
+  "dangling_section_refs": [
+    {
+      "doc": "SPEC",
+      "headings": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.1",
+        "4.2",
+        "5.1",
+        "5.2",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "7.0",
+        "7.1",
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4",
+        "8.5",
+        "8.6",
+        "8.7",
+        "9.1",
+        "9.2",
+        "9.3",
+        "9.4"
+      ],
+      "dangling_refs": [
+        "4.3",
+        "4.4",
+        "9.5"
+      ]
+    },
+    {
+      "doc": "RELATED_WORK",
+      "headings": [
+        "0.5",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.35",
+        "3.4",
+        "3.5"
+      ],
+      "dangling_refs": [
+        "1.0"
+      ]
+    },
+    {
+      "doc": "T10_REPORT",
+      "headings": [
+        "1.1",
+        "2.1",
+        "2.2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "5.1",
+        "5.2",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4"
+      ],
+      "dangling_refs": [
+        "2.2.2"
+      ]
+    }
+  ]
+}

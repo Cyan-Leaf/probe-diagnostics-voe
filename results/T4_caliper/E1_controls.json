@@ -1,0 +1,470 @@
+[
+  {
+    "task": "valid_vs_color_change",
+    "source": "real_dit",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      79,
+      79,
+      80,
+      79,
+      79
+    ],
+    "mode": "innerCV",
+    "n": 100,
+    "n_pos": 50,
+    "dim": 39936,
+    "n_scenarios": 5
+  },
+  {
+    "task": "valid_vs_color_change",
+    "source": "random_dit",
+    "backbone": "random",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.966,
+    "auc_std": 0.02190890230020663,
+    "auc_folds": [
+      1.0,
+      0.97,
+      0.96,
+      0.9400000000000001,
+      0.96
+    ],
+    "acc_mean": 0.9,
+    "acc_std": 0.04999999999999999,
+    "chosen_C": [
+      0.1,
+      0.01,
+      0.01,
+      1.0,
+      0.01
+    ],
+    "rowspace_rank": [
+      80,
+      80,
+      80,
+      80,
+      79
+    ],
+    "mode": "innerCV",
+    "n": 100,
+    "n_pos": 50,
+    "dim": 39936,
+    "n_scenarios": 5
+  },
+  {
+    "task": "valid_vs_color_change",
+    "source": "vae_latent",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.922,
+    "auc_std": 0.08105553651663777,
+    "auc_folds": [
+      1.0,
+      0.8700000000000001,
+      0.9400000000000001,
+      0.8099999999999999,
+      0.99
+    ],
+    "acc_mean": 0.8800000000000001,
+    "acc_std": 0.057008771254956875,
+    "chosen_C": [
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      10.0
+    ],
+    "rowspace_rank": [
+      80,
+      80,
+      80,
+      79,
+      80
+    ],
+    "mode": "innerCV",
+    "n": 100,
+    "n_pos": 50,
+    "dim": 624,
+    "n_scenarios": 5
+  },
+  {
+    "task": "valid_vs_color_change",
+    "source": "raw_pixel",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.8299999999999998,
+    "auc_std": 0.03162277660168376,
+    "auc_folds": [
+      0.86,
+      0.8200000000000001,
+      0.78,
+      0.8499999999999999,
+      0.8400000000000001
+    ],
+    "acc_mean": 0.76,
+    "acc_std": 0.06519202405202651,
+    "chosen_C": [
+      0.001,
+      0.01,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      79,
+      79,
+      80,
+      79,
+      79
+    ],
+    "mode": "innerCV",
+    "n": 100,
+    "n_pos": 50,
+    "dim": 39936,
+    "n_scenarios": 5
+  },
+  {
+    "task": "valid_vs_temporal_disorder",
+    "source": "real_dit",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      192,
+      191,
+      191,
+      192,
+      191
+    ],
+    "mode": "innerCV",
+    "n": 240,
+    "n_pos": 120,
+    "dim": 39936,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_temporal_disorder",
+    "source": "random_dit",
+    "backbone": "random",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9777777777777776,
+    "auc_std": 0.018754821910842212,
+    "auc_folds": [
+      0.9809027777777777,
+      0.9513888888888888,
+      0.9930555555555555,
+      0.967013888888889,
+      0.9965277777777778
+    ],
+    "acc_mean": 0.9291666666666666,
+    "acc_std": 0.03784562942621863,
+    "chosen_C": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "rowspace_rank": [
+      192,
+      192,
+      191,
+      191,
+      192
+    ],
+    "mode": "innerCV",
+    "n": 240,
+    "n_pos": 120,
+    "dim": 39936,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_temporal_disorder",
+    "source": "vae_latent",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9815972222222221,
+    "auc_std": 0.017899633914975,
+    "auc_folds": [
+      0.9756944444444444,
+      0.9878472222222222,
+      0.9965277777777777,
+      0.953125,
+      0.9947916666666667
+    ],
+    "acc_mean": 0.9333333333333333,
+    "acc_std": 0.037267799624996475,
+    "chosen_C": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rowspace_rank": [
+      192,
+      192,
+      192,
+      192,
+      192
+    ],
+    "mode": "innerCV",
+    "n": 240,
+    "n_pos": 120,
+    "dim": 624,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_temporal_disorder",
+    "source": "raw_pixel",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.8881944444444443,
+    "auc_std": 0.0190419021988837,
+    "auc_folds": [
+      0.8784722222222222,
+      0.8680555555555556,
+      0.8836805555555556,
+      0.9184027777777778,
+      0.8923611111111112
+    ],
+    "acc_mean": 0.8416666666666666,
+    "acc_std": 0.054326686710022075,
+    "chosen_C": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.1
+    ],
+    "rowspace_rank": [
+      192,
+      192,
+      192,
+      191,
+      192
+    ],
+    "mode": "innerCV",
+    "n": 240,
+    "n_pos": 120,
+    "dim": 39936,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_violation",
+    "source": "real_dit",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9697751322751322,
+    "auc_std": 0.008503886880402956,
+    "auc_folds": [
+      0.9801587301587302,
+      0.9679232804232805,
+      0.9672619047619049,
+      0.9580026455026456,
+      0.9755291005291005
+    ],
+    "acc_mean": 0.9426666666666665,
+    "acc_std": 0.013824294235551817,
+    "chosen_C": [
+      1.0,
+      1.0,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "rowspace_rank": [
+      599,
+      599,
+      599,
+      599,
+      600
+    ],
+    "mode": "innerCV",
+    "n": 750,
+    "n_pos": 630,
+    "dim": 39936,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_violation",
+    "source": "random_dit",
+    "backbone": "random",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.8202380952380952,
+    "auc_std": 0.01969828328295426,
+    "auc_folds": [
+      0.8392857142857144,
+      0.7880291005291005,
+      0.8184523809523809,
+      0.8234126984126985,
+      0.8320105820105821
+    ],
+    "acc_mean": 0.7826666666666667,
+    "acc_std": 0.016055459438389735,
+    "chosen_C": [
+      0.01,
+      0.1,
+      0.01,
+      0.01,
+      0.1
+    ],
+    "rowspace_rank": [
+      599,
+      600,
+      599,
+      600,
+      600
+    ],
+    "mode": "innerCV",
+    "n": 750,
+    "n_pos": 630,
+    "dim": 39936,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_violation",
+    "source": "vae_latent",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.8200396825396826,
+    "auc_std": 0.02743055057231469,
+    "auc_folds": [
+      0.8343253968253969,
+      0.8005952380952382,
+      0.8591269841269841,
+      0.7903439153439153,
+      0.8158068783068784
+    ],
+    "acc_mean": 0.7933333333333332,
+    "acc_std": 0.038873012632302015,
+    "chosen_C": [
+      10.0,
+      10.0,
+      1.0,
+      1.0,
+      10.0
+    ],
+    "rowspace_rank": [
+      581,
+      581,
+      585,
+      583,
+      583
+    ],
+    "mode": "innerCV",
+    "n": 750,
+    "n_pos": 630,
+    "dim": 624,
+    "n_scenarios": 12
+  },
+  {
+    "task": "valid_vs_violation",
+    "source": "raw_pixel",
+    "backbone": "real",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.788558201058201,
+    "auc_std": 0.026635873266855695,
+    "auc_folds": [
+      0.8075396825396826,
+      0.748015873015873,
+      0.7764550264550264,
+      0.8131613756613756,
+      0.7976190476190476
+    ],
+    "acc_mean": 0.8173333333333332,
+    "acc_std": 0.04232152066161036,
+    "chosen_C": [
+      0.001,
+      0.01,
+      0.01,
+      0.01,
+      0.001
+    ],
+    "rowspace_rank": [
+      599,
+      599,
+      600,
+      600,
+      600
+    ],
+    "mode": "innerCV",
+    "n": 750,
+    "n_pos": 630,
+    "dim": 39936,
+    "n_scenarios": 12
+  }
+]

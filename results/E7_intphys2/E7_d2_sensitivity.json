@@ -1,0 +1,68 @@
+{
+  "physics_real_auc": 0.6457915442778419,
+  "physics_real_dprime": 0.4494290810323511,
+  "levels": {
+    "cj": {
+      "rgb_mean_abs_change": 0.3038,
+      "real": {
+        "auc_mean": 1.0,
+        "auc_seed_spread": 0.0,
+        "dprime_mean": 5.322785783088217,
+        "dprime_seed_spread": 0.04223930798241939,
+        "per_seed_auc": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n": 1012
+      },
+      "random": {
+        "auc_mean": 0.9999807766243752,
+        "auc_seed_spread": 3.329586327507612e-05,
+        "dprime_mean": 3.441373320244114,
+        "dprime_seed_spread": 0.01758663763354087,
+        "per_seed_auc": [
+          1.0,
+          0.9999423298731257,
+          1.0
+        ],
+        "n": 1012
+      }
+    },
+    "cjweak": {
+      "rgb_mean_abs_change": 0.0425,
+      "real": {
+        "auc_mean": 0.998021937716263,
+        "auc_seed_spread": 0.0007123163748632349,
+        "dprime_mean": 4.179503956108987,
+        "dprime_seed_spread": 0.16806356673744485,
+        "per_seed_auc": [
+          0.9987188312187621,
+          0.9972951403306421,
+          0.9980518415993849
+        ],
+        "n": 1012
+      },
+      "random": {
+        "auc_mean": 0.9618588799179802,
+        "auc_seed_spread": 0.0035992779887725652,
+        "dprime_mean": 2.1253998800495597,
+        "dprime_seed_spread": 0.029763398246890317,
+        "per_seed_auc": [
+          0.9613290580545945,
+          0.9656937024221455,
+          0.9585538792772009
+        ],
+        "n": 1012
+      }
+    }
+  },
+  "verdict": {
+    "status": "EXPLORATORY -- added after the registered result",
+    "weak_appearance_auc": 0.998021937716263,
+    "strong_appearance_auc": 1.0,
+    "physics_auc": 0.6457915442778419,
+    "weak_still_beats_physics": true,
+    "reading": "A recolour 7x weaker than the registered one (RGB change 0.043 vs 0.304) still separates at AUC 0.9980, against 0.6458 for the physics task. D2's failure therefore does not depend on the magnitude chosen: the probe is more sensitive to a subtle physics-legal recolour than to the physics violation it is supposed to measure."
+  }
+}

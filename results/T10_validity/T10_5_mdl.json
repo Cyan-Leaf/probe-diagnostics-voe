@@ -1,0 +1,341 @@
+{
+  "method": "online / prequential code, Voita & Titov (2020) eq. 4; blocks formed over (scenario, subgroup) groups",
+  "layer": 16,
+  "t": 600,
+  "fractions": [
+    0.02,
+    0.04,
+    0.08,
+    0.16,
+    0.32,
+    0.64,
+    1.0
+  ],
+  "runs": {
+    "real": {
+      "name": "trained DiT",
+      "n": 750,
+      "codelength_kbits_mean": 0.34689834849039713,
+      "codelength_kbits_sd": 0.006091151697146084,
+      "compression_mean": 2.1624568614340363,
+      "compression_sd": 0.03760733097772015,
+      "per_seed": [
+        {
+          "codelength_bits": 342.77996730804443,
+          "codelength_kbits": 0.34277996730804444,
+          "uniform_bits": 750.0,
+          "compression": 2.1879925069425106,
+          "n": 750,
+          "per_block": [
+            {
+              "upto": 15,
+              "bits": 15.0,
+              "mode": "uniform"
+            },
+            {
+              "upto": 30,
+              "bits": 15.954668998718262,
+              "mode": "model"
+            },
+            {
+              "upto": 60,
+              "bits": 23.146347045898438,
+              "mode": "model"
+            },
+            {
+              "upto": 120,
+              "bits": 35.708614349365234,
+              "mode": "model"
+            },
+            {
+              "upto": 240,
+              "bits": 69.83341217041016,
+              "mode": "model"
+            },
+            {
+              "upto": 480,
+              "bits": 94.98621368408203,
+              "mode": "model"
+            },
+            {
+              "upto": 750,
+              "bits": 88.15071105957031,
+              "mode": "model"
+            }
+          ]
+        },
+        {
+          "codelength_bits": 353.89528465270996,
+          "codelength_kbits": 0.35389528465271,
+          "uniform_bits": 750.0,
+          "compression": 2.1192709610019294,
+          "n": 750,
+          "per_block": [
+            {
+              "upto": 15,
+              "bits": 15.0,
+              "mode": "uniform"
+            },
+            {
+              "upto": 30,
+              "bits": 10.587638854980469,
+              "mode": "model"
+            },
+            {
+              "upto": 60,
+              "bits": 26.05161476135254,
+              "mode": "model"
+            },
+            {
+              "upto": 120,
+              "bits": 33.4078483581543,
+              "mode": "model"
+            },
+            {
+              "upto": 240,
+              "bits": 68.26764678955078,
+              "mode": "model"
+            },
+            {
+              "upto": 480,
+              "bits": 105.89474487304688,
+              "mode": "model"
+            },
+            {
+              "upto": 750,
+              "bits": 94.685791015625,
+              "mode": "model"
+            }
+          ]
+        },
+        {
+          "codelength_bits": 344.019793510437,
+          "codelength_kbits": 0.344019793510437,
+          "uniform_bits": 750.0,
+          "compression": 2.18010711635767,
+          "n": 750,
+          "per_block": [
+            {
+              "upto": 15,
+              "bits": 15.0,
+              "mode": "uniform"
+            },
+            {
+              "upto": 30,
+              "bits": 9.578192710876465,
+              "mode": "model"
+            },
+            {
+              "upto": 60,
+              "bits": 24.686729431152344,
+              "mode": "model"
+            },
+            {
+              "upto": 120,
+              "bits": 40.46638107299805,
+              "mode": "model"
+            },
+            {
+              "upto": 240,
+              "bits": 58.960975646972656,
+              "mode": "model"
+            },
+            {
+              "upto": 480,
+              "bits": 114.69401550292969,
+              "mode": "model"
+            },
+            {
+              "upto": 750,
+              "bits": 80.63349914550781,
+              "mode": "model"
+            }
+          ]
+        }
+      ]
+    },
+    "random": {
+      "name": "randomly initialised DiT",
+      "n": 750,
+      "codelength_kbits_mean": 0.4752554950714111,
+      "codelength_kbits_sd": 0.010914632492474527,
+      "compression_mean": 1.578649115783335,
+      "compression_sd": 0.03596291361496074,
+      "per_seed": [
+        {
+          "codelength_bits": 466.0214557647705,
+          "codelength_kbits": 0.4660214557647705,
+          "uniform_bits": 750.0,
+          "compression": 1.609367960900433,
+          "n": 750,
+          "per_block": [
+            {
+              "upto": 15,
+              "bits": 15.0,
+              "mode": "uniform"
+            },
+            {
+              "upto": 30,
+              "bits": 23.687870025634766,
+              "mode": "model"
+            },
+            {
+              "upto": 60,
+              "bits": 21.211336135864258,
+              "mode": "model"
+            },
+            {
+              "upto": 120,
+              "bits": 37.024776458740234,
+              "mode": "model"
+            },
+            {
+              "upto": 240,
+              "bits": 76.68661499023438,
+              "mode": "model"
+            },
+            {
+              "upto": 480,
+              "bits": 136.4917755126953,
+              "mode": "model"
+            },
+            {
+              "upto": 750,
+              "bits": 155.91908264160156,
+              "mode": "model"
+            }
+          ]
+        },
+        {
+          "codelength_bits": 487.30074405670166,
+          "codelength_kbits": 0.48730074405670165,
+          "uniform_bits": 750.0,
+          "compression": 1.5390906111826725,
+          "n": 750,
+          "per_block": [
+            {
+              "upto": 15,
+              "bits": 15.0,
+              "mode": "uniform"
+            },
+            {
+              "upto": 30,
+              "bits": 8.699368476867676,
+              "mode": "model"
+            },
+            {
+              "upto": 60,
+              "bits": 49.811553955078125,
+              "mode": "model"
+            },
+            {
+              "upto": 120,
+              "bits": 40.0627555847168,
+              "mode": "model"
+            },
+            {
+              "upto": 240,
+              "bits": 78.66192626953125,
+              "mode": "model"
+            },
+            {
+              "upto": 480,
+              "bits": 139.4774169921875,
+              "mode": "model"
+            },
+            {
+              "upto": 750,
+              "bits": 155.5877227783203,
+              "mode": "model"
+            }
+          ]
+        },
+        {
+          "codelength_bits": 472.44428539276123,
+          "codelength_kbits": 0.47244428539276123,
+          "uniform_bits": 750.0,
+          "compression": 1.5874887752668994,
+          "n": 750,
+          "per_block": [
+            {
+              "upto": 15,
+              "bits": 15.0,
+              "mode": "uniform"
+            },
+            {
+              "upto": 30,
+              "bits": 14.267043113708496,
+              "mode": "model"
+            },
+            {
+              "upto": 60,
+              "bits": 30.694488525390625,
+              "mode": "model"
+            },
+            {
+              "upto": 120,
+              "bits": 42.52488327026367,
+              "mode": "model"
+            },
+            {
+              "upto": 240,
+              "bits": 73.396484375,
+              "mode": "model"
+            },
+            {
+              "upto": 480,
+              "bits": 150.9762420654297,
+              "mode": "model"
+            },
+            {
+              "upto": 750,
+              "bits": 145.58514404296875,
+              "mode": "model"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "C_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "C_sensitivity": {
+    "real": {
+      "0.001": 2.1879925069425106,
+      "0.01": 2.1735450367761624,
+      "0.1": 1.7810460726909538,
+      "1.0": 1.4626220731540835,
+      "10.0": 0.7392162726118081
+    },
+    "random": {
+      "0.001": 1.609367960900433,
+      "0.01": 1.2950951092058018,
+      "0.1": 0.7362657883545481,
+      "1.0": 0.4697652623067983,
+      "10.0": 0.32066662645938276
+    }
+  },
+  "C_used": 0.001,
+  "comparison": {
+    "auc_based_D1_share": 0.24556962025316445,
+    "auc_real": 0.974,
+    "auc_random": 0.8576,
+    "codelength_real_kbits": 0.34689834849039713,
+    "codelength_random_kbits": 0.4752554950714111,
+    "codelength_gap_kbits": 0.128357146581014,
+    "compression_real": 2.1624568614340363,
+    "compression_random": 1.578649115783335,
+    "mdl_based_training_share": 0.3184237675542151,
+    "share_well_defined": true,
+    "share_degenerate_reason": null,
+    "C_used": 0.001,
+    "voita_titov_claim": "codelength shows a large difference between trained and randomly initialised representations, where accuracy does not",
+    "reading": "AUC-based D1 attributes 24.6% of the above-chance signal to training (0.9740 vs 0.8576). Under the online code at C=0.001: trained compression 2.162, randomly initialised 1.579 (codelength 0.35 vs 0.48 kbits). The two statistics agree that training contributes a minority of the signal, so our D1 conclusion is NOT an artefact of using an accuracy-family measure -- it survives the statistic Voita & Titov actually recommend.",
+    "mdl_and_auc_agree": true
+  }
+}

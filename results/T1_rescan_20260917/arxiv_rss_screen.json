@@ -1,0 +1,89 @@
+{
+  "source": "https://rss.arxiv.org/rss/<cat>",
+  "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "items_per_cat": {
+    "cs.CV": 177,
+    "cs.LG": 325,
+    "cs.AI": 304
+  },
+  "n_unique_items": 702,
+  "n_flagged": 5,
+  "screen": {
+    "domain": "video diffusion|video generation|world model|text-to-video|video model|diffusion transformer|video foundation",
+    "method": "\\bprob(e|es|ing)\\b|linearly decodable|linear probe|internal representation|hidden state|verifier|reward guidance|denoising error|readout|plausibilit|intuitive physics|physical (understanding|reasoning|plausibility)",
+    "physics": "physic|plausibilit|intuitive",
+    "rule": "domain AND (method OR physics)"
+  },
+  "limitation": "RSS carries only the latest announcement cycle, so this covers the most recent listing, not an arbitrary date range.",
+  "flagged": [
+    {
+      "arxiv_id": "2609.17521",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "abstract": "arXiv:2609.17521v1 Announce Type: new \nAbstract: Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory---positional maps and object tracking maps derived online from previously generated frames---and supports fine-grained motion control via sparse velocity-increment signals that encode physical quantities, letting the model learn the underlying dynamics. We train our model in two stages: a bidirectional model is first finetuned with motion-control conditioning, then a causal autoregressive model is trained with additional structured scene memory, further improving physical consistency. PhysStream enables interactive, mid-generation control over multi-object tabletop rigid-body scenes---a capability not supported by prior methods---reducing motion distribution distance (FVMD) by 33% and trajectory error by 12% over the strongest baselines on synthetic benchmarks, and is preferred by human evaluators in over 85% of in-the-wild comparisons. Please check our website for more details: https://czzzzh.github.io/PhysStream",
+      "link": "https://arxiv.org/abs/2609.17521",
+      "cats": [
+        "cs.CV"
+      ],
+      "hit_domain": true,
+      "hit_method": false,
+      "hit_physics": true,
+      "already_known": true
+    },
+    {
+      "arxiv_id": "2609.16074",
+      "title": "World-Action Models for Robot Learning and Control: A Survey",
+      "abstract": "arXiv:2609.16074v1 Announce Type: cross \nAbstract: Robots operating in open environments act under partial observability, physical constraints, and dynamic task contexts. Beyond mapping observations and language instructions to actions, they must anticipate how candidate actions may affect future states and task-relevant outcomes. Recent advances in world models, video generation, and Vision-Language-Action (VLA) policies have motivated the development of World-Action Models (WAMs), which couple future world prediction with executable action generation. This survey provides a robotics-oriented review of WAMs. We clarify their scope relative to conventional world models, model-based reinforcement learning, action-conditioned video generation, and reactive VLA policies, and organize existing methods through a unified taxonomy covering representations, transition modeling, action interfaces, architectures, training pipelines, data modalities, and scaling strategies. We further review applications of WAMs in manipulation, navigation, and autonomous driving, and we summarize the datasets, benchmarks, metrics, and protocols used to evaluate WAM systems. Finally, we discuss key challenges in action alignment, world-action factorization, spatial and multi-view consistency, long-horizon memory, neural simulation for closed-loop policy learning, and efficient inference. Taken together, this survey aims to provide a concise technical foundation for integrating predictive world modeling ",
+      "link": "https://arxiv.org/abs/2609.16074",
+      "cats": [
+        "cs.CV"
+      ],
+      "hit_domain": true,
+      "hit_method": false,
+      "hit_physics": true,
+      "already_known": true
+    },
+    {
+      "arxiv_id": "2609.16864",
+      "title": "TEMPO: Learning Temporal Context for Dynamic Robot Manipulation",
+      "abstract": "arXiv:2609.16864v1 Announce Type: cross \nAbstract: Vision-language-action (VLA) models have achieved impressive performance in quasi-static manipulation, but struggle in dynamic manipulation tasks because they operate on a single observation at inference time. We identify two representational failures that underlie this limitation. The first is motion ambiguity, where a single observation does not include scene dynamics and therefore cannot anticipate the future state of moving objects. The second is state aliasing, where visually similar observations from different points in a task require different actions. We argue that these failures persist regardless of model scale and inference latency, showing that the bottleneck is missing temporal context rather than model capacity. Based on this insight, we propose TEMPO, which augments a pretrained VLA with two temporal inputs: a motion summary extracted from a frozen video foundation model to resolve motion ambiguity and a compact proprioceptive history to resolve state aliasing. TEMPO requires no modification to the backbone and adds minimal compute overhead at training or deployment. Across four dynamic manipulation tasks, it improves Bottle Handover success from 44% to 74% and is the only method that solves state aliasing. Probing and ablation studies confirm that each temporal signal independently addresses its corresponding failure. We further release TEMPO-Bench, a benchmark of over 50k annotated frames for evaluating motio",
+      "link": "https://arxiv.org/abs/2609.16864",
+      "cats": [
+        "cs.CV"
+      ],
+      "hit_domain": true,
+      "hit_method": true,
+      "hit_physics": false,
+      "already_known": false
+    },
+    {
+      "arxiv_id": "2609.04264",
+      "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
+      "abstract": "arXiv:2609.04264v3 Announce Type: replace \nAbstract: Latent world models have become increasingly popular as a method to predict and plan in latent space rather than pixel space. Recent architectures, such as LeWorldModel (LeWM), jointly train the encoder and predictor using regularization techniques like SIGReg to prevent representation collapse. Even with such regularization preventing representation collapse, we identify a new world model failure mode of physical representation laziness, particularly noted in highly dynamic environments. For these lazy cases, the learned latent states do not collapse but nonetheless fail to represent key physical properties, causing ubiquitous downstream planning failure. To resolve this issue, we propose training-time auxiliary supervision with a lightweight \"Fourier auxiliary head\", which enforces physically-informed structuring of the latent space with no additional inference-time cost and can be generalized to any environment. Experimentally, we show that the auxiliary head substantially improves planning success rates in dynamic environments where the baseline LeWM exhibits physical representation laziness. It also leads to modest improvements in other environments, even when the baseline does not exhibit physical representation laziness. We further observe superior planning performance being accompanied by higher latent space correlations with key physical properties, indicating both the ability of our method to physically structure ",
+      "link": "https://arxiv.org/abs/2609.04264",
+      "cats": [
+        "cs.LG"
+      ],
+      "hit_domain": true,
+      "hit_method": false,
+      "hit_physics": true,
+      "already_known": false
+    },
+    {
+      "arxiv_id": "2607.19190",
+      "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+      "abstract": "arXiv:2607.19190v4 Announce Type: replace-cross \nAbstract: Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on brittle workflow glue across visual perception tools and simulators: manual tuning of visual foundation models, mesh cleanup, coordinate frame alignments, etc. We introduce \\textit{Agentic Real2Sim}, a framework for generalized physical world modeling with vision-language agents that converts a real-world recording of object-robot interaction into a simulatable episodic twin, and connects the resulting twin to downstream policy fine-tuning and evaluation. We evaluate Agentic Real2Sim on rigid-object manipulation, deformable-object interaction, and humanoid motion scenes, spanning domains that are usually handled by separate Real2Sim pipelines. The framework's agentic decisions can be driven by an open-weight VLM backend at a small fraction of the cost of frontier models, while attaining a comparable conversion success rate. The framework further supports custom scene conversion, fine-tuning of a pretrained policy with data generated from converted episodes, and works effectively as a surrogate for real-world policy evaluation. The project site, ",
+      "link": "https://arxiv.org/abs/2607.19190",
+      "cats": [
+        "cs.AI"
+      ],
+      "hit_domain": true,
+      "hit_method": false,
+      "hit_physics": true,
+      "already_known": false
+    }
+  ]
+}

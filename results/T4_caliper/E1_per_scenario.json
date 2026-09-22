@@ -1,0 +1,1826 @@
+[
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "ball_collision",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9800000000000001,
+    "auc_std": 0.02738612787525833,
+    "auc_folds": [
+      0.95,
+      0.95,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9,
+    "acc_std": 0.06972166887783961,
+    "chosen_C": [
+      0.01,
+      0.1,
+      0.01,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      48,
+      47,
+      47,
+      48,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "ball_collision",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.75,
+    "auc_std": 0.06123724356957946,
+    "auc_folds": [
+      0.7,
+      0.7,
+      0.75,
+      0.75,
+      0.85
+    ],
+    "acc_mean": 0.7,
+    "acc_std": 0.12638125740085918,
+    "chosen_C": [
+      0.1,
+      0.01,
+      0.001,
+      10.0,
+      0.001
+    ],
+    "rowspace_rank": [
+      48,
+      47,
+      48,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "ball_collision",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.76,
+    "auc_std": 0.10839741694339401,
+    "auc_folds": [
+      0.75,
+      0.6,
+      0.75,
+      0.8,
+      0.9
+    ],
+    "acc_mean": 0.6833333333333333,
+    "acc_std": 0.10865337342004415,
+    "chosen_C": [
+      1.0,
+      0.1,
+      0.001,
+      10.0,
+      1.0
+    ],
+    "rowspace_rank": [
+      48,
+      47,
+      47,
+      48,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "ball_collision",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.6599999999999999,
+    "auc_std": 0.22192341021172146,
+    "auc_folds": [
+      0.4,
+      0.5,
+      0.65,
+      0.95,
+      0.8
+    ],
+    "acc_mean": 0.8333333333333334,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "rowspace_rank": [
+      47,
+      48,
+      48,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "ball_drop",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9800000000000001,
+    "acc_std": 0.04472135954999578,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      40,
+      39,
+      40,
+      40,
+      39
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "ball_drop",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9800000000000001,
+    "acc_std": 0.04472135954999578,
+    "chosen_C": [
+      0.01,
+      0.01,
+      1.0,
+      0.01,
+      0.001
+    ],
+    "rowspace_rank": [
+      39,
+      39,
+      40,
+      39,
+      39
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "ball_drop",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.9875,
+    "auc_std": 0.02795084971874737,
+    "auc_folds": [
+      0.9375,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.8800000000000001,
+    "acc_std": 0.10954451150103325,
+    "chosen_C": [
+      0.001,
+      0.01,
+      1.0,
+      0.01,
+      0.001
+    ],
+    "rowspace_rank": [
+      39,
+      40,
+      39,
+      39,
+      40
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "ball_drop",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.95,
+    "auc_std": 0.08149003006503311,
+    "auc_folds": [
+      1.0,
+      1.0,
+      0.8125,
+      1.0,
+      0.9375
+    ],
+    "acc_mean": 0.9400000000000001,
+    "acc_std": 0.0547722557505166,
+    "chosen_C": [
+      0.001,
+      0.01,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      39,
+      40,
+      39,
+      39,
+      40
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "block_slide",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9,
+    "acc_std": 0.13693063937629155,
+    "chosen_C": [
+      0.01,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      48,
+      48,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "block_slide",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.75,
+    "auc_std": 0.03535533905932741,
+    "auc_folds": [
+      0.75,
+      0.8,
+      0.75,
+      0.7,
+      0.75
+    ],
+    "acc_mean": 0.6166666666666667,
+    "acc_std": 0.16244657241348273,
+    "chosen_C": [
+      0.001,
+      0.01,
+      0.01,
+      0.001,
+      10.0
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      48,
+      48,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "block_slide",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.95,
+    "auc_std": 0.07071067811865477,
+    "auc_folds": [
+      1.0,
+      1.0,
+      0.9,
+      0.85,
+      1.0
+    ],
+    "acc_mean": 0.9166666666666666,
+    "acc_std": 0.10206207261596575,
+    "chosen_C": [
+      1.0,
+      10.0,
+      1.0,
+      0.1,
+      10.0
+    ],
+    "rowspace_rank": [
+      48,
+      48,
+      47,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "block_slide",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.74,
+    "auc_std": 0.1673320053068151,
+    "auc_folds": [
+      0.65,
+      0.75,
+      1.0,
+      0.55,
+      0.75
+    ],
+    "acc_mean": 0.8,
+    "acc_std": 0.13944333775567924,
+    "chosen_C": [
+      0.001,
+      0.01,
+      1.0,
+      0.001,
+      1.0
+    ],
+    "rowspace_rank": [
+      48,
+      48,
+      48,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "cloth_drape",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      40,
+      40,
+      40,
+      39,
+      39
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "cloth_drape",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9625,
+    "auc_std": 0.03423265984407289,
+    "auc_folds": [
+      1.0,
+      0.9375,
+      1.0,
+      0.9375,
+      0.9375
+    ],
+    "acc_mean": 0.9,
+    "acc_std": 0.09999999999999998,
+    "chosen_C": [
+      1.0,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      39,
+      40,
+      39,
+      39,
+      40
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "cloth_drape",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9199999999999999,
+    "acc_std": 0.08366600265340754,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "rowspace_rank": [
+      39,
+      39,
+      40,
+      40,
+      40
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "cloth_drape",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.775,
+    "auc_std": 0.40649031353772747,
+    "auc_folds": [
+      0.8125,
+      1.0,
+      1.0,
+      1.0,
+      0.0625
+    ],
+    "acc_mean": 0.8399999999999999,
+    "acc_std": 0.2073644135332772,
+    "chosen_C": [
+      0.001,
+      0.1,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "rowspace_rank": [
+      40,
+      39,
+      39,
+      40,
+      40
+    ],
+    "mode": "innerCV",
+    "n": 50,
+    "n_pos": 40,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "faucet",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      64,
+      63,
+      63,
+      63,
+      63
+    ],
+    "mode": "innerCV",
+    "n": 80,
+    "n_pos": 70,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "faucet",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9857142857142858,
+    "auc_std": 0.019561519910898783,
+    "auc_folds": [
+      0.9642857142857143,
+      1.0,
+      1.0,
+      1.0,
+      0.9642857142857143
+    ],
+    "acc_mean": 0.9375,
+    "acc_std": 0.04419417382415922,
+    "chosen_C": [
+      0.001,
+      0.01,
+      0.01,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      64,
+      63,
+      63,
+      64,
+      63
+    ],
+    "mode": "innerCV",
+    "n": 80,
+    "n_pos": 70,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "faucet",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.9857142857142858,
+    "auc_std": 0.019561519910898783,
+    "auc_folds": [
+      0.9642857142857143,
+      1.0,
+      1.0,
+      1.0,
+      0.9642857142857143
+    ],
+    "acc_mean": 0.95,
+    "acc_std": 0.05229125165837972,
+    "chosen_C": [
+      0.01,
+      1.0,
+      0.1,
+      10.0,
+      0.01
+    ],
+    "rowspace_rank": [
+      64,
+      63,
+      63,
+      63,
+      64
+    ],
+    "mode": "innerCV",
+    "n": 80,
+    "n_pos": 70,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "faucet",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.8857142857142858,
+    "auc_std": 0.15851672157980104,
+    "auc_folds": [
+      1.0,
+      0.6785714285714286,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "acc_mean": 0.7875,
+    "acc_std": 0.3739568825412898,
+    "chosen_C": [
+      10.0,
+      10.0,
+      0.001,
+      0.001,
+      1.0
+    ],
+    "rowspace_rank": [
+      63,
+      63,
+      64,
+      63,
+      63
+    ],
+    "mode": "innerCV",
+    "n": 80,
+    "n_pos": 70,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "flag",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.99,
+    "auc_std": 0.022360679774997918,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.95
+    ],
+    "acc_mean": 0.9833333333333334,
+    "acc_std": 0.03726779962499651,
+    "chosen_C": [
+      0.01,
+      0.001,
+      0.001,
+      0.01,
+      0.001
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      48,
+      47,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "flag",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.95,
+    "auc_std": 0.07071067811865471,
+    "auc_folds": [
+      1.0,
+      0.9,
+      1.0,
+      1.0,
+      0.8500000000000001
+    ],
+    "acc_mean": 0.8666666666666666,
+    "acc_std": 0.045643546458763805,
+    "chosen_C": [
+      10.0,
+      10.0,
+      1.0,
+      0.01,
+      0.1
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      47,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "flag",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9166666666666666,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.01,
+      10.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rowspace_rank": [
+      48,
+      47,
+      47,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "flag",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.7999999999999999,
+    "auc_std": 0.13693063937629152,
+    "auc_folds": [
+      0.8,
+      0.6,
+      0.95,
+      0.75,
+      0.9
+    ],
+    "acc_mean": 0.7500000000000001,
+    "acc_std": 0.11785113019775793,
+    "chosen_C": [
+      0.1,
+      0.01,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      48,
+      48,
+      48,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "fluid",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      55,
+      56,
+      56,
+      56,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "fluid",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9714285714285715,
+    "acc_std": 0.039123039821797566,
+    "chosen_C": [
+      0.01,
+      0.001,
+      10.0,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      55,
+      55,
+      55,
+      56,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "fluid",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9857142857142858,
+    "acc_std": 0.03194382824999698,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      55,
+      55,
+      56,
+      55,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "fluid",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.9916666666666666,
+    "auc_std": 0.01863389981249828,
+    "auc_folds": [
+      0.9583333333333333,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9,
+    "acc_std": 0.18626292586293286,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      56,
+      55,
+      56,
+      56,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "pendulum",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9857142857142858,
+    "acc_std": 0.03194382824999698,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      1.0
+    ],
+    "rowspace_rank": [
+      56,
+      56,
+      56,
+      55,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "pendulum",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9285714285714286,
+    "acc_std": 0.08748177652797065,
+    "chosen_C": [
+      0.1,
+      0.001,
+      1.0,
+      0.01,
+      10.0
+    ],
+    "rowspace_rank": [
+      55,
+      56,
+      56,
+      56,
+      56
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "pendulum",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9285714285714286,
+    "acc_std": 0.08748177652797065,
+    "chosen_C": [
+      0.1,
+      10.0,
+      1.0,
+      1.0,
+      0.1
+    ],
+    "rowspace_rank": [
+      55,
+      55,
+      56,
+      55,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "pendulum",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.8833333333333332,
+    "auc_std": 0.0801474335902973,
+    "auc_folds": [
+      0.9166666666666667,
+      0.8333333333333333,
+      1.0,
+      0.7916666666666666,
+      0.875
+    ],
+    "acc_mean": 0.7571428571428571,
+    "acc_std": 0.10832679205787925,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.01,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      55,
+      56,
+      56,
+      55,
+      56
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "pyramid",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      47,
+      47,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "pyramid",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.9800000000000001,
+    "auc_std": 0.04472135954999579,
+    "auc_folds": [
+      1.0,
+      1.0,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9333333333333333,
+    "acc_std": 0.06972166887783962,
+    "chosen_C": [
+      10.0,
+      0.01,
+      0.01,
+      0.01,
+      0.001
+    ],
+    "rowspace_rank": [
+      48,
+      48,
+      47,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "pyramid",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.99,
+    "auc_std": 0.022360679774997918,
+    "auc_folds": [
+      1.0,
+      1.0,
+      0.95,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9666666666666666,
+    "acc_std": 0.04564354645876387,
+    "chosen_C": [
+      0.1,
+      1.0,
+      0.1,
+      10.0,
+      1.0
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      48,
+      48,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "pyramid",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.9400000000000001,
+    "auc_std": 0.10839741694339398,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      0.75,
+      0.95
+    ],
+    "acc_mean": 0.8333333333333334,
+    "acc_std": 0.19543398999264286,
+    "chosen_C": [
+      0.001,
+      0.01,
+      0.001,
+      1.0,
+      0.01
+    ],
+    "rowspace_rank": [
+      48,
+      48,
+      48,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "river",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      55,
+      55,
+      55,
+      56,
+      56
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "river",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9714285714285715,
+    "acc_std": 0.039123039821797566,
+    "chosen_C": [
+      0.1,
+      1.0,
+      1.0,
+      10.0,
+      0.001
+    ],
+    "rowspace_rank": [
+      56,
+      56,
+      56,
+      55,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "river",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.9916666666666666,
+    "auc_std": 0.018633899812498283,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9583333333333333
+    ],
+    "acc_mean": 0.8571428571428571,
+    "acc_std": 0.14285714285714285,
+    "chosen_C": [
+      0.01,
+      0.01,
+      0.01,
+      0.001,
+      0.01
+    ],
+    "rowspace_rank": [
+      55,
+      55,
+      55,
+      56,
+      56
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "river",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      55,
+      55,
+      55,
+      55,
+      55
+    ],
+    "mode": "innerCV",
+    "n": 70,
+    "n_pos": 60,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "shadow",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9333333333333332,
+    "acc_std": 0.06972166887783962,
+    "chosen_C": [
+      0.001,
+      0.001,
+      0.001,
+      0.01,
+      0.001
+    ],
+    "rowspace_rank": [
+      47,
+      48,
+      47,
+      48,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "shadow",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.97,
+    "auc_std": 0.04472135954999579,
+    "auc_folds": [
+      0.95,
+      1.0,
+      1.0,
+      0.9,
+      1.0
+    ],
+    "acc_mean": 0.9333333333333332,
+    "acc_std": 0.10865337342004415,
+    "chosen_C": [
+      10.0,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "rowspace_rank": [
+      48,
+      47,
+      48,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "shadow",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 1.0,
+    "auc_std": 0.0,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "acc_mean": 0.9666666666666666,
+    "acc_std": 0.04564354645876387,
+    "chosen_C": [
+      0.1,
+      1.0,
+      1.0,
+      0.1,
+      1.0
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      47,
+      47,
+      47
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "shadow",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.95,
+    "auc_std": 0.08660254037844385,
+    "auc_folds": [
+      1.0,
+      1.0,
+      1.0,
+      0.95,
+      0.8
+    ],
+    "acc_mean": 0.8666666666666666,
+    "acc_std": 0.12638125740085918,
+    "chosen_C": [
+      0.01,
+      0.001,
+      0.1,
+      0.001,
+      1.0
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      47,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "real_dit",
+    "backbone": "real",
+    "scenario": "shadow_camera",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.5,
+    "auc_std": 0.11726039399558574,
+    "auc_folds": [
+      0.55,
+      0.3,
+      0.55,
+      0.6,
+      0.5
+    ],
+    "acc_mean": 0.8,
+    "acc_std": 0.09501461875826152,
+    "chosen_C": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.001
+    ],
+    "rowspace_rank": [
+      47,
+      48,
+      48,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "random_dit",
+    "backbone": "random",
+    "scenario": "shadow_camera",
+    "layer": 16,
+    "t": 600,
+    "seed": 0,
+    "threads": 8,
+    "auc_mean": 0.68,
+    "auc_std": 0.14832396974191328,
+    "auc_folds": [
+      0.7,
+      0.9,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "acc_mean": 0.7166666666666667,
+    "acc_std": 0.15138251770487454,
+    "chosen_C": [
+      10.0,
+      10.0,
+      1.0,
+      1.0,
+      0.01
+    ],
+    "rowspace_rank": [
+      48,
+      48,
+      48,
+      48,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  },
+  {
+    "source": "vae_latent",
+    "backbone": "real",
+    "scenario": "shadow_camera",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.47000000000000003,
+    "auc_std": 0.05700877125495691,
+    "auc_folds": [
+      0.4,
+      0.5,
+      0.45,
+      0.55,
+      0.45
+    ],
+    "acc_mean": 0.6333333333333333,
+    "acc_std": 0.19184774055368894,
+    "chosen_C": [
+      10.0,
+      1.0,
+      10.0,
+      1.0,
+      0.1
+    ],
+    "rowspace_rank": [
+      48,
+      47,
+      47,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 624
+  },
+  {
+    "source": "raw_pixel",
+    "backbone": "real",
+    "scenario": "shadow_camera",
+    "layer": -1,
+    "t": -1,
+    "seed": -1,
+    "threads": 8,
+    "auc_mean": 0.6,
+    "auc_std": 0.2318404623873926,
+    "auc_folds": [
+      0.75,
+      0.30000000000000004,
+      0.75,
+      0.4,
+      0.8
+    ],
+    "acc_mean": 0.7666666666666667,
+    "acc_std": 0.03726779962499651,
+    "chosen_C": [
+      10.0,
+      1.0,
+      0.01,
+      0.1,
+      0.01
+    ],
+    "rowspace_rank": [
+      47,
+      47,
+      48,
+      47,
+      48
+    ],
+    "mode": "innerCV",
+    "n": 60,
+    "n_pos": 50,
+    "dim": 39936
+  }
+]

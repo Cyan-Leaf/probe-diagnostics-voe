@@ -1,0 +1,196 @@
+{
+  "D1": {
+    "rows": [
+      {
+        "unit": "pooled",
+        "n": 1012,
+        "real_auc": 0.6457915442778419,
+        "random_auc": 0.5167775881071384,
+        "real_dprime": 0.4494290810323511,
+        "random_dprime": 0.042071331347337294,
+        "auc_floor": 0.013736038024153348,
+        "dprime_floor": 0.07405897213776423,
+        "d1_auc_pct": 88.49207051736518,
+        "d1_dprime_pct": 90.63893879526036,
+        "effect_auc": 0.12901395617070355,
+        "effect_over_2x_floor": 4.696185171584643
+      },
+      {
+        "unit": "cond:solidity",
+        "n": 292,
+        "real_auc": 0.5640884353741497,
+        "random_auc": 0.5251900982615268,
+        "real_dprime": 0.22170066343744854,
+        "random_dprime": 0.1062991499793028,
+        "auc_floor": 0.028460488395041388,
+        "dprime_floor": 0.10928046524015872,
+        "d1_auc_pct": 60.69478352144733,
+        "d1_dprime_pct": 52.05284985117131,
+        "effect_auc": 0.038898337112622805,
+        "effect_over_2x_floor": 0.6833743780623242
+      },
+      {
+        "unit": "cond:permanence",
+        "n": 240,
+        "real_auc": 0.5819444444444445,
+        "random_auc": 0.5300925925925926,
+        "real_dprime": 0.2828087046203116,
+        "random_dprime": 0.10480203746279022,
+        "auc_floor": 0.018442044062346515,
+        "dprime_floor": 0.0413347783715186,
+        "d1_auc_pct": 63.276836158192154,
+        "d1_dprime_pct": 62.94242866269145,
+        "effect_auc": 0.05185185185185193,
+        "effect_over_2x_floor": 1.4058054431644829
+      },
+      {
+        "unit": "cond:immutability",
+        "n": 240,
+        "real_auc": 0.5923611111111112,
+        "random_auc": 0.5070601851851851,
+        "real_dprime": 0.3122135306877825,
+        "random_dprime": 0.028655137092953472,
+        "auc_floor": 0.028497617400948836,
+        "dprime_floor": 0.0866755997523135,
+        "d1_auc_pct": 92.35588972431084,
+        "d1_dprime_pct": 90.82194258851356,
+        "effect_auc": 0.08530092592592609,
+        "effect_over_2x_floor": 1.496632590819434
+      },
+      {
+        "unit": "cond:continuity",
+        "n": 240,
+        "real_auc": 0.6322916666666667,
+        "random_auc": 0.520949074074074,
+        "real_dprime": 0.4963800427286722,
+        "random_dprime": 0.07219089118218457,
+        "auc_floor": 0.0028421363791224226,
+        "dprime_floor": 0.026510009249435307,
+        "d1_auc_pct": 84.16447944007007,
+        "d1_dprime_pct": 85.45652827109227,
+        "effect_auc": 0.11134259259259272,
+        "effect_over_2x_floor": 19.587834245127322
+      }
+    ],
+    "pooled_pct_auc": 88.49207051736518,
+    "pooled_pct_dprime": 90.63893879526036,
+    "threshold": 50.0,
+    "passed": true,
+    "likephys_pct": 28.5,
+    "units_excluded_by_D4": [
+      "cond:solidity"
+    ],
+    "reportable_unit_pct_range": [
+      63.276836158192154,
+      92.35588972431084
+    ],
+    "reading": "IntPhys 2 pooled: the trained backbone supplies 88.5% of the above-chance AUC (90.6% on d'), versus 28.5% on LikePhys. D1 passes here and fails there. Per-condition units that clear the D4 floor span 63.3-92.4%; cond:solidity is excluded for failing D4. NOTE the absolute AUCs are low (0.56-0.65), so a high D1 share here means 'the small amount of signal that exists is mostly training-dependent', not 'the probe works well'."
+  },
+  "D2": {
+    "physics_auc_real": 0.6457915442778419,
+    "appearance_auc_real": 1.0,
+    "appearance_auc_random": 0.9999866666666667,
+    "appearance_dprime_real": 5.351555279184506,
+    "physics_dprime_real": 0.4494290810323511,
+    "gap_auc": 0.3542084557221581,
+    "passed": false,
+    "likephys": {
+      "appearance": 1.0,
+      "physics": 0.9686
+    },
+    "reading": "the probe separates a physics-legal recolour at AUC 1.0000 while separating the actual physics violation at 0.6458 -- a gap of +0.3542. On LikePhys the same comparison was 1.0000 vs 0.9686."
+  },
+  "D3": {
+    "n_units": 5,
+    "n_saturated_by_floor_rule": 1,
+    "saturated_units": [
+      "cond:solidity"
+    ],
+    "n_at_ceiling_auc_ge_099": 0,
+    "n_near_chance_auc_le_060": 3,
+    "near_chance_units": [
+      "cond:solidity",
+      "cond:permanence",
+      "cond:immutability"
+    ],
+    "auc_range": [
+      0.5640884353741497,
+      0.6457915442778419
+    ],
+    "likephys": "5/12",
+    "reading": "No unit is at the AUC ceiling (0/5), unlike LikePhys where 5/12 scenarios saturated -- so the D3 problem that dominates LikePhys does not transfer. The units sit at 0.5641-0.6458, far closer to chance than LikePhys's 0.9686, with 3/5 at AUC <= 0.60. The bounded statistic did not hit a hard floor, but the pre-declaration of d' (D6) was the right precaution given the benchmark's own 'models at chance' statement. 1/5 unit(s) fail the 2x-floor rule and are excluded from D1 reporting: ['cond:solidity']."
+  },
+  "D4": {
+    "floor_definition": "A (seed-spread over feature seeds 0/1/2), declared pre-run",
+    "rows": [
+      {
+        "unit": "pooled",
+        "auc_floor": 0.013736038024153348,
+        "effect": 0.12901395617070355,
+        "effect_over_2x_floor": 4.696185171584643,
+        "passes": true
+      },
+      {
+        "unit": "cond:solidity",
+        "auc_floor": 0.028460488395041388,
+        "effect": 0.038898337112622805,
+        "effect_over_2x_floor": 0.6833743780623242,
+        "passes": false
+      },
+      {
+        "unit": "cond:permanence",
+        "auc_floor": 0.018442044062346515,
+        "effect": 0.05185185185185193,
+        "effect_over_2x_floor": 1.4058054431644829,
+        "passes": true
+      },
+      {
+        "unit": "cond:immutability",
+        "auc_floor": 0.028497617400948836,
+        "effect": 0.08530092592592609,
+        "effect_over_2x_floor": 1.496632590819434,
+        "passes": true
+      },
+      {
+        "unit": "cond:continuity",
+        "auc_floor": 0.0028421363791224226,
+        "effect": 0.11134259259259272,
+        "effect_over_2x_floor": 19.587834245127322,
+        "passes": true
+      }
+    ],
+    "n_pass": 4,
+    "n_total": 5,
+    "failed_units": [
+      "cond:solidity"
+    ],
+    "all_pass": false,
+    "reading": "4/5 units clear 2x their seed-spread floor. cond:solidity does NOT: its real-minus-random effect is 0.0389 against a floor of 0.0285, so its D1 percentage is not reportable."
+  },
+  "camera": {
+    "fixed": {
+      "n": 416,
+      "real_auc": 0.5496488095238096,
+      "random_auc": 0.5145454459561603,
+      "real_dprime": 0.16797577591211713
+    },
+    "moving": {
+      "n": 596,
+      "real_auc": 0.6913194389395341,
+      "random_auc": 0.520798145946184,
+      "real_dprime": 0.6306492703045394
+    },
+    "n_games_fixed": 6,
+    "n_games_moving": 10,
+    "n_games_shared": 0,
+    "usable_as_h4_test": false,
+    "reading": "Moving scores HIGHER than Fixed (0.6913 vs 0.5496), the opposite of what H4's mechanism predicts. But the contrast is UNUSABLE as a camera-motion test: the 6 fixed-camera and 10 moving-camera scene types are perfectly disjoint (0 shared), so Camera is fully confounded with scene type. Reported as a dataset property, not as evidence about H4."
+  },
+  "transfer": {
+    "D1": "passes on IntPhys 2, fails on LikePhys",
+    "D2": "fails on both",
+    "D3": "no ceiling on IntPhys 2; 5/12 saturated on LikePhys",
+    "D4": "passes on both",
+    "conclusion": "Both branches of the pre-registered expectation occur at once, and that is the informative outcome: D1 discriminates sharply between the two benchmarks (88% vs 28.5%), so the protocol is not merely re-deriving a property of LikePhys; while D2 fails on BOTH, so the 'probe reads edit artefacts' failure is systematic rather than dataset-specific."
+  }
+}

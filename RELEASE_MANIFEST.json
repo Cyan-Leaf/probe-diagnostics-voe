@@ -1,0 +1,122 @@
+{
+  "n_copied": 230,
+  "n_files_sanitised": 21,
+  "n_substitutions": 45,
+  "sanitised": [
+    {
+      "file": "scripts/t14_build_release.py",
+      "substitutions": 7
+    },
+    {
+      "file": "results/T2_env/gpu_health_newbox.json",
+      "substitutions": 4
+    },
+    {
+      "file": "results/T2_env/min_chain.json",
+      "substitutions": 4
+    },
+    {
+      "file": "scripts/t14_scan_sensitive.py",
+      "substitutions": 3
+    },
+    {
+      "file": "results/T2_env/data_inventory.json",
+      "substitutions": 3
+    },
+    {
+      "file": "results/T2_env/min_chain_newbox.json",
+      "substitutions": 3
+    },
+    {
+      "file": "results/T1_collision_rescan/T1_REPORT.md",
+      "substitutions": 3
+    },
+    {
+      "file": "results/T2_env/T2_REPORT.md",
+      "substitutions": 3
+    },
+    {
+      "file": "humaneval/README.md",
+      "substitutions": 2
+    },
+    {
+      "file": "results/README.md",
+      "substitutions": 2
+    },
+    {
+      "file": "scripts/apply_handoff_pkg.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e7_extract.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/t2_download_data.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/t2_download_wan22.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/t2_inspect_data.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/t2_min_chain.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/t2_prompt_embeds.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/t3t4_pipeline.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "results/E10_shadow_camera/E10_S1_S3.json",
+      "substitutions": 1
+    },
+    {
+      "file": "results/T3_null_floor/manifest_summary.json",
+      "substitutions": 1
+    },
+    {
+      "file": "results/T1_rescan_20260917/C1c_STATUS.md",
+      "substitutions": 1
+    }
+  ],
+  "excluded_dirs": [
+    "clips",
+    "export",
+    "filled",
+    "raw",
+    "superseded"
+  ],
+  "excluded_suffixes": [
+    ".bak",
+    ".db",
+    ".html",
+    ".log",
+    ".mp4",
+    ".npy",
+    ".pdf",
+    ".pt"
+  ],
+  "excluded_names": [
+    "ANSWER_KEY.json",
+    "T14_sensitive_scan.json"
+  ],
+  "placeholders": {
+    "$REPO": "repository root",
+    "$WORKDIR": "parent working dir",
+    "$HF_HOME": "HuggingFace cache",
+    "$DATA": "dataset root",
+    "<dev-host>": "development machine hostname",
+    "<http-proxy>": "outbound HTTP proxy",
+    "<internal-ip>": "internal IP",
+    "<user>": "OS user"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_window": "20260916-20260918",
+  "_out": "results/T1_rescan_20260917",
+  "q01_videodiff_physics_window": "ERROR HTTP Error 406: Not Acceptable",
+  "q02_physics_probe_window": "ERROR HTTP Error 406: Not Acceptable",
+  "q03_videogen_physics_guidance_window": "ERROR HTTP Error 406: Not Acceptable",
+  "q04_intuitive_physics_window": "ERROR HTTP Error 406: Not Acceptable",
+  "q05_worldmodel_probe_window": "ERROR HTTP Error 406: Not Acceptable",
+  "q06_selfguidance_video": "ERROR HTTP Error 406: Not Acceptable",
+  "q07_plausibility_linear_probe": "ERROR HTTP Error 406: Not Acceptable",
+  "q08_knowledge_action_gap": "ERROR HTTP Error 406: Not Acceptable",
+  "q09_internal_repr_videodiff": "ERROR HTTP Error 406: Not Acceptable",
+  "q10_probe_guided_sampling": "ERROR HTTP Error 406: Not Acceptable",
+  "q11_discrim_gen_gap_video": "ERROR HTTP Error 406: Not Acceptable",
+  "q12_voe_video_model": "ERROR HTTP Error 406: Not Acceptable",
+  "q13_physics_video_window_broad": "ERROR HTTP Error 406: Not Acceptable",
+  "q14_inference_time_physics": "ERROR HTTP Error 406: Not Acceptable",
+  "q15_linear_decodable_diffusion": "ERROR HTTP Error 406: Not Acceptable",
+  "known_LikePhys": [],
+  "known_WMReward": [],
+  "known_InvisibleHand": []
+}

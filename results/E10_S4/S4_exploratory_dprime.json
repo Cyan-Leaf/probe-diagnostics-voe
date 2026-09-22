@@ -1,0 +1,418 @@
+{
+  "per_scenario": {
+    "real": {
+      "ball_drop": {
+        "0": {
+          "auc_mean": 1.0,
+          "dprime_mean": 7.432854549052914,
+          "dprime_sd": 0.3003821454692624
+        },
+        "1": {
+          "auc_mean": 1.0,
+          "dprime_mean": 6.595280887048639,
+          "dprime_sd": 0.38057686059887735
+        },
+        "2": {
+          "auc_mean": 1.0,
+          "dprime_mean": 6.704206954801095,
+          "dprime_sd": 0.25891887003114933
+        },
+        "3": {
+          "auc_mean": 1.0,
+          "dprime_mean": 6.270593191968498,
+          "dprime_sd": 0.34057282312642906
+        }
+      },
+      "cloth_drape": {
+        "0": {
+          "auc_mean": 1.0,
+          "dprime_mean": 4.54917073580101,
+          "dprime_sd": 0.1052452796774729
+        },
+        "1": {
+          "auc_mean": 1.0,
+          "dprime_mean": 3.996617677480154,
+          "dprime_sd": 0.1298337174573924
+        },
+        "2": {
+          "auc_mean": 1.0,
+          "dprime_mean": 4.049894654182121,
+          "dprime_sd": 0.12281903036549567
+        },
+        "3": {
+          "auc_mean": 1.0,
+          "dprime_mean": 3.593701309806646,
+          "dprime_sd": 0.11291751946147727
+        }
+      },
+      "faucet": {
+        "0": {
+          "auc_mean": 1.0,
+          "dprime_mean": 10.76828978733322,
+          "dprime_sd": 2.0684812281386464
+        },
+        "1": {
+          "auc_mean": 0.9995,
+          "dprime_mean": 8.285033926259178,
+          "dprime_sd": 1.3294046900046939
+        },
+        "2": {
+          "auc_mean": 0.9995,
+          "dprime_mean": 7.867782406220174,
+          "dprime_sd": 1.382174392622251
+        },
+        "3": {
+          "auc_mean": 1.0,
+          "dprime_mean": 7.575180594525457,
+          "dprime_sd": 1.5201087696523958
+        }
+      },
+      "fluid": {
+        "0": {
+          "auc_mean": 1.0,
+          "dprime_mean": 9.833769800048891,
+          "dprime_sd": 2.1641269520871877
+        },
+        "1": {
+          "auc_mean": 1.0,
+          "dprime_mean": 8.390570747987086,
+          "dprime_sd": 1.7239168000256342
+        },
+        "2": {
+          "auc_mean": 1.0,
+          "dprime_mean": 8.49045006917866,
+          "dprime_sd": 1.651083743909757
+        },
+        "3": {
+          "auc_mean": 1.0,
+          "dprime_mean": 7.145871234903141,
+          "dprime_sd": 1.2497841817851019
+        }
+      },
+      "pendulum": {
+        "0": {
+          "auc_mean": 1.0,
+          "dprime_mean": 6.033820196555483,
+          "dprime_sd": 0.4835569842550564
+        },
+        "1": {
+          "auc_mean": 0.9990000000000001,
+          "dprime_mean": 5.155011202413333,
+          "dprime_sd": 0.48531301680990435
+        },
+        "2": {
+          "auc_mean": 0.9925,
+          "dprime_mean": 3.981115808652595,
+          "dprime_sd": 0.5509386490313221
+        },
+        "3": {
+          "auc_mean": 0.9800000000000001,
+          "dprime_mean": 3.8149495036176906,
+          "dprime_sd": 0.5316491212308088
+        }
+      },
+      "pyramid": {
+        "0": {
+          "auc_mean": 0.9995,
+          "dprime_mean": 3.9319232867849725,
+          "dprime_sd": 0.4444004551106754
+        },
+        "1": {
+          "auc_mean": 0.9995,
+          "dprime_mean": 3.719874368262211,
+          "dprime_sd": 0.37608664263036834
+        },
+        "2": {
+          "auc_mean": 0.9984999999999999,
+          "dprime_mean": 3.665830768184927,
+          "dprime_sd": 0.37584648309524155
+        },
+        "3": {
+          "auc_mean": 0.9944999999999999,
+          "dprime_mean": 3.446575488120855,
+          "dprime_sd": 0.2865550855308778
+        }
+      },
+      "river": {
+        "0": {
+          "auc_mean": 1.0,
+          "dprime_mean": 6.429533372951148,
+          "dprime_sd": 0.40268023495082145
+        },
+        "1": {
+          "auc_mean": 1.0,
+          "dprime_mean": 4.834280447602776,
+          "dprime_sd": 0.36586800800779834
+        },
+        "2": {
+          "auc_mean": 1.0,
+          "dprime_mean": 4.550445133705004,
+          "dprime_sd": 0.4465892381918519
+        },
+        "3": {
+          "auc_mean": 1.0,
+          "dprime_mean": 4.539184716320862,
+          "dprime_sd": 0.5928415287250073
+        }
+      }
+    },
+    "random": {
+      "ball_drop": {
+        "0": {
+          "auc_mean": 0.996,
+          "dprime_mean": 4.1534327029168105,
+          "dprime_sd": 0.5418837657403515
+        },
+        "1": {
+          "auc_mean": 0.8965000000000001,
+          "dprime_mean": 2.119189594728643,
+          "dprime_sd": 0.5457060380495211
+        },
+        "2": {
+          "auc_mean": 0.8694999999999999,
+          "dprime_mean": 1.8939797908331106,
+          "dprime_sd": 0.4213110428993452
+        },
+        "3": {
+          "auc_mean": 0.8935,
+          "dprime_mean": 1.8640743102484547,
+          "dprime_sd": 0.284185433570917
+        }
+      },
+      "cloth_drape": {
+        "0": {
+          "auc_mean": 0.946,
+          "dprime_mean": 1.8740212998389856,
+          "dprime_sd": 0.16281288205746694
+        },
+        "1": {
+          "auc_mean": 0.9565,
+          "dprime_mean": 1.9249119690808216,
+          "dprime_sd": 0.11501918768606982
+        },
+        "2": {
+          "auc_mean": 0.943,
+          "dprime_mean": 1.7769323519745663,
+          "dprime_sd": 0.10737952869926555
+        },
+        "3": {
+          "auc_mean": 0.9285,
+          "dprime_mean": 1.5971853527155773,
+          "dprime_sd": 0.10701904220629845
+        }
+      },
+      "faucet": {
+        "0": {
+          "auc_mean": 0.9789999999999999,
+          "dprime_mean": 4.205745170920866,
+          "dprime_sd": 0.49553000236823064
+        },
+        "1": {
+          "auc_mean": 0.9825,
+          "dprime_mean": 4.020098151587484,
+          "dprime_sd": 0.9145669736004121
+        },
+        "2": {
+          "auc_mean": 0.9689999999999999,
+          "dprime_mean": 3.3851893386377387,
+          "dprime_sd": 0.8045147076141753
+        },
+        "3": {
+          "auc_mean": 0.938,
+          "dprime_mean": 2.8464794841958714,
+          "dprime_sd": 0.7016064852187006
+        }
+      },
+      "fluid": {
+        "0": {
+          "auc_mean": 0.9954999999999999,
+          "dprime_mean": 4.972845547108014,
+          "dprime_sd": 1.08143072336904
+        },
+        "1": {
+          "auc_mean": 0.9910000000000001,
+          "dprime_mean": 5.018633841824453,
+          "dprime_sd": 1.2421508461049418
+        },
+        "2": {
+          "auc_mean": 0.991,
+          "dprime_mean": 4.560800624002808,
+          "dprime_sd": 0.8104354080800785
+        },
+        "3": {
+          "auc_mean": 0.9889999999999999,
+          "dprime_mean": 4.367858910722296,
+          "dprime_sd": 0.7485329812463333
+        }
+      },
+      "pendulum": {
+        "0": {
+          "auc_mean": 0.98,
+          "dprime_mean": 3.391795403989528,
+          "dprime_sd": 0.5744735836947519
+        },
+        "1": {
+          "auc_mean": 0.8410000000000001,
+          "dprime_mean": 1.2718810486226937,
+          "dprime_sd": 0.3854160881907167
+        },
+        "2": {
+          "auc_mean": 0.8075,
+          "dprime_mean": 1.094250648487404,
+          "dprime_sd": 0.41121896819182413
+        },
+        "3": {
+          "auc_mean": 0.7735000000000001,
+          "dprime_mean": 0.701773146258307,
+          "dprime_sd": 0.26740785636090436
+        }
+      },
+      "pyramid": {
+        "0": {
+          "auc_mean": 0.9470000000000001,
+          "dprime_mean": 2.564310834466911,
+          "dprime_sd": 0.4347759480593589
+        },
+        "1": {
+          "auc_mean": 0.9510000000000001,
+          "dprime_mean": 2.261410196258542,
+          "dprime_sd": 0.2440964100453914
+        },
+        "2": {
+          "auc_mean": 0.9635000000000001,
+          "dprime_mean": 2.287977489542939,
+          "dprime_sd": 0.2415732106877984
+        },
+        "3": {
+          "auc_mean": 0.9605,
+          "dprime_mean": 2.2021661911319566,
+          "dprime_sd": 0.21020331379331594
+        }
+      },
+      "river": {
+        "0": {
+          "auc_mean": 0.9930000000000001,
+          "dprime_mean": 3.999897165379378,
+          "dprime_sd": 0.7237615848410224
+        },
+        "1": {
+          "auc_mean": 0.9455,
+          "dprime_mean": 2.8669741250477334,
+          "dprime_sd": 0.46474228505833115
+        },
+        "2": {
+          "auc_mean": 0.9485000000000002,
+          "dprime_mean": 2.9212694390332725,
+          "dprime_sd": 0.5281318616892703
+        },
+        "3": {
+          "auc_mean": 0.9125000000000001,
+          "dprime_mean": 2.681227298555683,
+          "dprime_sd": 0.5674790063940753
+        }
+      }
+    }
+  },
+  "verdict": {
+    "status": "EXPLORATORY -- not pre-registered, excluded from the main verdict",
+    "readout": "held-out d' of the probe decision values, same folds/protocol as S4",
+    "dprime_relative_to_level0": {
+      "real": {
+        "ball_drop": {
+          "0": 1.0,
+          "1": 0.8873146707665633,
+          "2": 0.9019693457684218,
+          "3": 0.8436318981605109
+        },
+        "cloth_drape": {
+          "0": 1.0,
+          "1": 0.8785376301723784,
+          "2": 0.8902489902852642,
+          "3": 0.7899684400774362
+        },
+        "faucet": {
+          "0": 1.0,
+          "1": 0.7693918059304918,
+          "2": 0.7306436362322898,
+          "3": 0.703471093751226
+        },
+        "fluid": {
+          "0": 1.0,
+          "1": 0.8532405088377572,
+          "2": 0.8633972771191418,
+          "3": 0.7266665155073707
+        },
+        "pendulum": {
+          "0": 1.0,
+          "1": 0.8543528037769779,
+          "2": 0.6598002059997227,
+          "3": 0.6322610517621199
+        },
+        "pyramid": {
+          "0": 1.0,
+          "1": 0.9460699248036072,
+          "2": 0.9323250991456595,
+          "3": 0.8765622411059364
+        },
+        "river": {
+          "0": 1.0,
+          "1": 0.751886671580312,
+          "2": 0.70774111739564,
+          "3": 0.7059897589795667
+        }
+      },
+      "random": {
+        "ball_drop": {
+          "0": 1.0,
+          "1": 0.5102260578919241,
+          "2": 0.45600348586436346,
+          "3": 0.44880330164959226
+        },
+        "cloth_drape": {
+          "0": 1.0,
+          "1": 1.027155864901967,
+          "2": 0.9481921855035687,
+          "3": 0.8522770540830065
+        },
+        "faucet": {
+          "0": 1.0,
+          "1": 0.9558587095059936,
+          "2": 0.8048964454725955,
+          "3": 0.6768074071336619
+        },
+        "fluid": {
+          "0": 1.0,
+          "1": 1.0092076647630988,
+          "2": 0.917141017310535,
+          "3": 0.8783419612262939
+        },
+        "pendulum": {
+          "0": 1.0,
+          "1": 0.3749875499939266,
+          "2": 0.3226169382741408,
+          "3": 0.20690314794131187
+        },
+        "pyramid": {
+          "0": 1.0,
+          "1": 0.8818783455823372,
+          "2": 0.89223874843495,
+          "3": 0.8587750601575413
+        },
+        "river": {
+          "0": 1.0,
+          "1": 0.7167619582479465,
+          "2": 0.7303361357181789,
+          "3": 0.6703240577689644
+        }
+      }
+    },
+    "n_scenarios_real_dprime_down_gt_5pct": 7,
+    "real_dprime_L3_over_L0_mean": 0.7540787141920238,
+    "real_dprime_L3_over_L0_min": 0.6322610517621199,
+    "random_dprime_L3_over_L0_mean": 0.6560331414229104,
+    "random_dprime_L3_over_L0_min": 0.20690314794131187,
+    "auc_essentially_flat_for_real": true,
+    "reading": "AUC flat while d' declines in most scenarios -> AUC saturation was masking degradation; the pre-registered readout is insensitive in this regime and the null should be reported as weaker than the AUC table alone suggests",
+    "margin_caveat": "The AUC-margin increase reported in S4_verdict.json is at least partly a ceiling asymmetry: real AUC is pinned at 1.0000 and cannot fall, while random AUC has headroom. On the unsaturated d' readout real retains 0.754 of its level-0 separation and random retains 0.656, i.e. both degrade comparably, so 'the trained backbone is robust to camera motion' is NOT supported once the ceiling is removed"
+  }
+}

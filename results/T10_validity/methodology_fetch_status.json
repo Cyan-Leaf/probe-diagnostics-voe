@@ -1,0 +1,79 @@
+{
+  "1909.03368": {
+    "short": "Hewitt & Liang 2019",
+    "title": "Designing and Interpreting Probes with Control Tasks",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "versions": [
+          "v1 Sun, 8 Sep 2019"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 253909,
+        "variant": "latest",
+        "text_chars": 52763
+      },
+      "pdf": {
+        "ok": true,
+        "bytes": 960430
+      }
+    },
+    "auditable": true,
+    "text_chars": 52763,
+    "text_source": "html"
+  },
+  "2003.12298": {
+    "short": "Voita & Titov 2020",
+    "title": "Information-Theoretic Probing with MDL",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "versions": [
+          "v1 Fri, 27 Mar 2020"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 277189,
+        "variant": "latest",
+        "text_chars": 64457
+      },
+      "pdf": {
+        "ok": true,
+        "bytes": 1182650
+      }
+    },
+    "auditable": true,
+    "text_chars": 64457,
+    "text_source": "html"
+  },
+  "2006.00995": {
+    "short": "Elazar et al. 2020",
+    "title": "Amnesic Probing",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "versions": [
+          "v1 Mon, 1 Jun 2020",
+          "v2 Sat, 5 Dec 2020",
+          "v3 Fri, 19 Feb 2021"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 190475,
+        "variant": "latest",
+        "text_chars": 62983
+      },
+      "pdf": {
+        "ok": true,
+        "bytes": 718851
+      }
+    },
+    "auditable": true,
+    "text_chars": 62983,
+    "text_source": "html"
+  }
+}

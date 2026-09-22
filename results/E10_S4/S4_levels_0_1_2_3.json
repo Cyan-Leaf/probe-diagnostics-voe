@@ -1,0 +1,1218 @@
+{
+  "args": {
+    "levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "threads": 8
+  },
+  "env": {
+    "python": "3.11.10",
+    "cuda_visible_devices": null,
+    "platform": "Linux-4.18.0-2.4.3.3.kwai.x86_64-x86_64-with-glibc2.35",
+    "torch": "2.5.1+cu124",
+    "diffusers": "0.36.0",
+    "transformers": "4.57.6",
+    "cuda": "12.4",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "repo": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "revision": "b8fff7315c768468a5333511427288870b2e9635",
+    "code_rev": ""
+  },
+  "preflight": {
+    "device": "cuda:0",
+    "physical_device": "physical cuda:0 (CUDA_VISIBLE_DEVICES unset)",
+    "n": 16777216,
+    "max_abs_diff": 0.0,
+    "n_wrong": 0,
+    "healthy": true
+  },
+  "protocol": {
+    "layer": 16,
+    "t": 600,
+    "feature_seed": 0,
+    "downsample": "4 positives per subgroup + all negatives -> n=50",
+    "n_resample": 25,
+    "s3_seed": 2026,
+    "identical_to": "e10_s1s3.s3_downsample (verbatim reuse of _match_design/_probe_auc)",
+    "permutation_floor_sd": 0.1243,
+    "threshold_2x_floor": 0.2486
+  },
+  "camera_levels": {
+    "0": {
+      "cum_px": 0.0,
+      "rot_deg_total": 0.0,
+      "jitter_px": 0.0
+    },
+    "1": {
+      "cum_px": 32.0,
+      "rot_deg_total": 0.895,
+      "jitter_px": 0.25
+    },
+    "2": {
+      "cum_px": 64.0,
+      "rot_deg_total": 1.79,
+      "jitter_px": 0.5
+    },
+    "3": {
+      "cum_px": 128.0,
+      "rot_deg_total": 3.581,
+      "jitter_px": 1.0
+    }
+  },
+  "crop": {
+    "crop_px": 352,
+    "crop_scale_linear": 0.6875,
+    "effective_fov_area_frac": 0.47265625,
+    "upsample_factor": 1.4545454545454546,
+    "crop_shared_across_levels": true,
+    "set_by_level": 3
+  },
+  "started": "2026-09-17 21:16:38",
+  "levels": {
+    "0": {
+      "real": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9995,
+          "auc_sd": 0.002499999999999991,
+          "auc_ci95": [
+            0.9984999999999999,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "random": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.996,
+          "auc_sd": 0.00595119035711902,
+          "auc_ci95": [
+            0.9935,
+            0.998
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.946,
+          "auc_sd": 0.03417936755802638,
+          "auc_ci95": [
+            0.931,
+            0.9574999999999999
+          ],
+          "auc_min": 0.8375,
+          "auc_max": 0.975,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9789999999999999,
+          "auc_sd": 0.017199806200458582,
+          "auc_ci95": [
+            0.9725,
+            0.9854999999999999
+          ],
+          "auc_min": 0.95,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9954999999999999,
+          "auc_sd": 0.0071078008788466466,
+          "auc_ci95": [
+            0.9925,
+            0.998
+          ],
+          "auc_min": 0.975,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.98,
+          "auc_sd": 0.019094065395649337,
+          "auc_ci95": [
+            0.9725,
+            0.987
+          ],
+          "auc_min": 0.925,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9470000000000001,
+          "auc_sd": 0.024811791551599013,
+          "auc_ci95": [
+            0.9369999999999998,
+            0.956
+          ],
+          "auc_min": 0.875,
+          "auc_max": 0.9875,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9930000000000001,
+          "auc_sd": 0.00813300887330963,
+          "auc_ci95": [
+            0.9895000000000002,
+            0.996
+          ],
+          "auc_min": 0.975,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 0.0,
+            "rot_deg_excursion_mean": 0.0,
+            "max_abs_grid_coord": 0.6875,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "margin": {
+        "ball_drop": 0.0040000000000000036,
+        "cloth_drape": 0.05400000000000005,
+        "faucet": 0.02100000000000013,
+        "fluid": 0.0045000000000000595,
+        "pendulum": 0.020000000000000018,
+        "pyramid": 0.05249999999999999,
+        "river": 0.006999999999999895
+      }
+    },
+    "1": {
+      "real": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.07740105691687,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7579004764556885,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.13081556408438,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7561253905296326,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9995,
+          "auc_sd": 0.002499999999999991,
+          "auc_ci95": [
+            0.9984999999999999,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 31.969230970605963,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7559211254119873,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.14193750894575,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7573063969612122,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9990000000000001,
+          "auc_sd": 0.003461093276215852,
+          "auc_ci95": [
+            0.9975,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 31.985733883289004,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7566058039665222,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9995,
+          "auc_sd": 0.002499999999999991,
+          "auc_ci95": [
+            0.9984999999999999,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.208167432525876,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7544904351234436,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.110393049878205,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7563916444778442,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "random": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.8965000000000001,
+          "auc_sd": 0.03617808959393334,
+          "auc_ci95": [
+            0.8830000000000001,
+            0.9109999999999999
+          ],
+          "auc_min": 0.85,
+          "auc_max": 0.9625,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.07740105691687,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7579004764556885,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9565,
+          "auc_sd": 0.029782195464180705,
+          "auc_ci95": [
+            0.9435000000000001,
+            0.9664999999999999
+          ],
+          "auc_min": 0.8625,
+          "auc_max": 0.975,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.13081556408438,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7561253905296326,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9825,
+          "auc_sd": 0.017677669529663695,
+          "auc_ci95": [
+            0.9754999999999999,
+            0.9890000000000001
+          ],
+          "auc_min": 0.9375,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 31.969230970605963,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7559211254119873,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9910000000000001,
+          "auc_sd": 0.016345871038277535,
+          "auc_ci95": [
+            0.9844875,
+            0.9965
+          ],
+          "auc_min": 0.95,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.14193750894575,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7573063969612122,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.8410000000000001,
+          "auc_sd": 0.045288427513733215,
+          "auc_ci95": [
+            0.8245,
+            0.8594999999999999
+          ],
+          "auc_min": 0.75,
+          "auc_max": 0.9875,
+          "realised_motion": {
+            "translation_px_excursion_mean": 31.985733883289004,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7566058039665222,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9510000000000001,
+          "auc_sd": 0.018722201615550802,
+          "auc_ci95": [
+            0.9434999999999999,
+            0.958
+          ],
+          "auc_min": 0.9125,
+          "auc_max": 0.975,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.208167432525876,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7544904351234436,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9455,
+          "auc_sd": 0.02815507651087692,
+          "auc_ci95": [
+            0.9345,
+            0.9565
+          ],
+          "auc_min": 0.9,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 32.110393049878205,
+            "rot_deg_excursion_mean": 0.8949999809265137,
+            "max_abs_grid_coord": 0.7563916444778442,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "margin": {
+        "ball_drop": 0.10349999999999993,
+        "cloth_drape": 0.04349999999999998,
+        "faucet": 0.017000000000000015,
+        "fluid": 0.008999999999999897,
+        "pendulum": 0.15800000000000003,
+        "pyramid": 0.04849999999999999,
+        "river": 0.05449999999999999
+      }
+    },
+    "2": {
+      "real": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.15480211383374,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8282586932182312,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.26163112816876,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8247085809707642,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9995,
+          "auc_sd": 0.002499999999999991,
+          "auc_ci95": [
+            0.9984999999999999,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 63.938461941211926,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8243001103401184,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.2838750178915,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8270706534385681,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9925,
+          "auc_sd": 0.008838834764831839,
+          "auc_ci95": [
+            0.9890000000000001,
+            0.996
+          ],
+          "auc_min": 0.975,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 63.97146776657801,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8256693482398987,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9984999999999999,
+          "auc_sd": 0.004145780987944235,
+          "auc_ci95": [
+            0.9969999999999999,
+            1.0
+          ],
+          "auc_min": 0.9875,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.41633486505175,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.821438729763031,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.22078609975641,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8252410888671875,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "random": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.8694999999999999,
+          "auc_sd": 0.040194837977033805,
+          "auc_ci95": [
+            0.8545,
+            0.8850000000000001
+          ],
+          "auc_min": 0.8,
+          "auc_max": 0.95,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.15480211383374,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8282586932182312,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.943,
+          "auc_sd": 0.02999131818821351,
+          "auc_ci95": [
+            0.9305,
+            0.9534999999999999
+          ],
+          "auc_min": 0.85,
+          "auc_max": 0.975,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.26163112816876,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8247085809707642,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9689999999999999,
+          "auc_sd": 0.02198484326378821,
+          "auc_ci95": [
+            0.9605,
+            0.9775
+          ],
+          "auc_min": 0.925,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 63.938461941211926,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8243001103401184,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.991,
+          "auc_sd": 0.016739424522167236,
+          "auc_ci95": [
+            0.9840000000000001,
+            0.9969999999999999
+          ],
+          "auc_min": 0.95,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.2838750178915,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8270706534385681,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.8075,
+          "auc_sd": 0.041457809879442496,
+          "auc_ci95": [
+            0.792,
+            0.8235000000000001
+          ],
+          "auc_min": 0.7375,
+          "auc_max": 0.9,
+          "realised_motion": {
+            "translation_px_excursion_mean": 63.97146776657801,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8256693482398987,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9635000000000001,
+          "auc_sd": 0.016504418600281973,
+          "auc_ci95": [
+            0.9569999999999999,
+            0.9695000000000001
+          ],
+          "auc_min": 0.925,
+          "auc_max": 0.9875,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.41633486505175,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.821438729763031,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9485000000000002,
+          "auc_sd": 0.03429346390592042,
+          "auc_ci95": [
+            0.935,
+            0.9615
+          ],
+          "auc_min": 0.9,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 64.22078609975641,
+            "rot_deg_excursion_mean": 1.7899999618530273,
+            "max_abs_grid_coord": 0.8252410888671875,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "margin": {
+        "ball_drop": 0.13050000000000006,
+        "cloth_drape": 0.05700000000000005,
+        "faucet": 0.030500000000000194,
+        "fluid": 0.009000000000000008,
+        "pendulum": 0.18500000000000005,
+        "pyramid": 0.03499999999999981,
+        "river": 0.05149999999999977
+      }
+    },
+    "3": {
+      "real": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.30960422766748,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9688528776168823,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.52326225633752,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9617526531219482,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 127.87692388242385,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9609357118606567,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.567750035783,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9664767980575562,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9800000000000001,
+          "auc_sd": 0.015309310892394882,
+          "auc_ci95": [
+            0.9739999999999999,
+            0.9854999999999999
+          ],
+          "auc_min": 0.9375,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 127.94293553315602,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9636741876602173,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9944999999999999,
+          "auc_sd": 0.007288689868556612,
+          "auc_ci95": [
+            0.9915,
+            0.997
+          ],
+          "auc_min": 0.975,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.8326697301035,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9552128911018372,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 1.0,
+          "auc_sd": 0.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "auc_min": 1.0,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.44157219951282,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9628177285194397,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "random": {
+        "ball_drop": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.8935,
+          "auc_sd": 0.024769773246169746,
+          "auc_ci95": [
+            0.8839999999999999,
+            0.9025
+          ],
+          "auc_min": 0.8375,
+          "auc_max": 0.9375,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.30960422766748,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9688528776168823,
+            "padding_pixels": 0
+          }
+        },
+        "cloth_drape": {
+          "n_clips": 50,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9285,
+          "auc_sd": 0.03217789096051303,
+          "auc_ci95": [
+            0.9154874999999999,
+            0.94
+          ],
+          "auc_min": 0.8375,
+          "auc_max": 0.9625,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.52326225633752,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9617526531219482,
+            "padding_pixels": 0
+          }
+        },
+        "faucet": {
+          "n_clips": 80,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.938,
+          "auc_sd": 0.03544361719689457,
+          "auc_ci95": [
+            0.9245,
+            0.9519999999999998
+          ],
+          "auc_min": 0.8625,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 127.87692388242385,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9609357118606567,
+            "padding_pixels": 0
+          }
+        },
+        "fluid": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9889999999999999,
+          "auc_sd": 0.01666145751927685,
+          "auc_ci95": [
+            0.982,
+            0.995
+          ],
+          "auc_min": 0.95,
+          "auc_max": 1.0,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.567750035783,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9664767980575562,
+            "padding_pixels": 0
+          }
+        },
+        "pendulum": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.7735000000000001,
+          "auc_sd": 0.028025286201333727,
+          "auc_ci95": [
+            0.7630000000000001,
+            0.785
+          ],
+          "auc_min": 0.725,
+          "auc_max": 0.85,
+          "realised_motion": {
+            "translation_px_excursion_mean": 127.94293553315602,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9636741876602173,
+            "padding_pixels": 0
+          }
+        },
+        "pyramid": {
+          "n_clips": 60,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9605,
+          "auc_sd": 0.016007810593582136,
+          "auc_ci95": [
+            0.9545,
+            0.9669999999999999
+          ],
+          "auc_min": 0.9375,
+          "auc_max": 0.9875,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.8326697301035,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9552128911018372,
+            "padding_pixels": 0
+          }
+        },
+        "river": {
+          "n_clips": 70,
+          "n_after_downsample": 50,
+          "n_resamples": 25,
+          "auc_mean": 0.9125000000000001,
+          "auc_sd": 0.0425428705347128,
+          "auc_ci95": [
+            0.8960000000000001,
+            0.9289999999999999
+          ],
+          "auc_min": 0.8375,
+          "auc_max": 0.9875,
+          "realised_motion": {
+            "translation_px_excursion_mean": 128.44157219951282,
+            "rot_deg_excursion_mean": 3.5809998512268066,
+            "max_abs_grid_coord": 0.9628177285194397,
+            "padding_pixels": 0
+          }
+        }
+      },
+      "margin": {
+        "ball_drop": 0.10650000000000004,
+        "cloth_drape": 0.07150000000000001,
+        "faucet": 0.062000000000000055,
+        "fluid": 0.01100000000000012,
+        "pendulum": 0.20650000000000002,
+        "pyramid": 0.03399999999999992,
+        "river": 0.08749999999999991
+      }
+    }
+  },
+  "finished": "2026-09-17 21:51:55",
+  "zero_level_gate": {
+    "baseline_from_S3": 1.0,
+    "per_scenario_drop": {
+      "ball_drop": 0.0,
+      "cloth_drape": 0.0,
+      "faucet": 0.0,
+      "fluid": 0.0,
+      "pendulum": 0.0,
+      "pyramid": 0.0004999999999999449,
+      "river": 0.0
+    },
+    "max_drop": 0.0004999999999999449,
+    "mean_drop": 7.142857142856356e-05,
+    "threshold": 0.2486,
+    "passed": true,
+    "meaning": "identity transform through the crop+resample pipeline; a drop beyond 2x the permutation floor would mean S4 measures the resampler, not camera motion -> S4 void (A.3 item 1)"
+  }
+}

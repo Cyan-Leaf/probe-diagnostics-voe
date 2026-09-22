@@ -1,0 +1,83 @@
+{
+  "torch": "2.5.1+cu124",
+  "cuda_build": "12.4",
+  "gpus": {
+    "cuda:0": {
+      "name": "NVIDIA GeForce RTX 4090",
+      "h2d_64MB_x5": {
+        "mb": 64,
+        "reps": 5,
+        "mismatching_bytes": 0,
+        "total_bytes": 335544320,
+        "worst_abs_delta": 0
+      },
+      "elementwise": {
+        "n": 16777216,
+        "max_abs_diff": 0.0,
+        "n_wrong": 0
+      }
+    },
+    "cuda:1": {
+      "name": "NVIDIA GeForce RTX 4090",
+      "h2d_64MB_x5": {
+        "mb": 64,
+        "reps": 5,
+        "mismatching_bytes": 0,
+        "total_bytes": 335544320,
+        "worst_abs_delta": 0
+      },
+      "elementwise": {
+        "n": 16777216,
+        "max_abs_diff": 0.0,
+        "n_wrong": 0
+      }
+    },
+    "cuda:2": {
+      "name": "NVIDIA GeForce RTX 4090",
+      "h2d_64MB_x5": {
+        "mb": 64,
+        "reps": 5,
+        "mismatching_bytes": 0,
+        "total_bytes": 335544320,
+        "worst_abs_delta": 0
+      },
+      "elementwise": {
+        "n": 16777216,
+        "max_abs_diff": 0.0,
+        "n_wrong": 0
+      }
+    },
+    "cuda:3": {
+      "name": "NVIDIA GeForce RTX 4090",
+      "h2d_64MB_x5": {
+        "mb": 64,
+        "reps": 5,
+        "mismatching_bytes": 0,
+        "total_bytes": 335544320,
+        "worst_abs_delta": 0
+      },
+      "elementwise": {
+        "n": 16777216,
+        "max_abs_diff": 0.0,
+        "n_wrong": 0
+      }
+    }
+  },
+  "nvidia_smi_health_csv": [
+    "Field \"retired_pages.double_bit_ecc.count\" is not a valid field to query."
+  ],
+  "dmesg_xid_tail": [
+    "[951964.143447] NVRM: GPU at PCI:0000:22:00: GPU-<uuid>",
+    "[951964.143450] NVRM: Xid (PCI:0000:22:00): 43, pid=142300, name=python, Ch 00000008",
+    "[951964.196551] NVRM: GPU at PCI:0000:41:00: GPU-<uuid>",
+    "[951964.196554] NVRM: Xid (PCI:0000:41:00): 43, pid=142301, name=python, Ch 00000008",
+    "[951964.197821] NVRM: GPU at PCI:0000:01:00: GPU-<uuid>",
+    "[951964.197824] NVRM: Xid (PCI:0000:01:00): 43, pid=142299, name=python, Ch 00000008",
+    "[951964.409269] NVRM: GPU at PCI:0000:61:00: GPU-<uuid>",
+    "[951964.409272] NVRM: Xid (PCI:0000:61:00): 43, pid=142302, name=python, Ch 00000008",
+    "[1029647.929232] NVRM: Xid (PCI:0000:22:00): 31, pid=256138, name=python, Ch 00000008, intr 00000000. MMU Fault: ENGINE GRAPHICS GPCCLIENT_T1_4 faulted @ 0x9_24cb0000. Fault is of type FAULT_PDE ACCESS_TYPE_VIRT_READ",
+    "[1029845.436905] NVRM: Xid (PCI:0000:22:00): 31, pid=68482, name=python, Ch 00000008, intr 00000000. MMU Fault: ENGINE GRAPHICS GPCCLIENT_T1_3 faulted @ 0x9_24caf000. Fault is of type FAULT_PDE ACCESS_TYPE_VIRT_READ",
+    "[1030844.147415] NVRM: Xid (PCI:0000:01:00): 31, pid=220452, name=python, Ch 00000008, intr 00000000. MMU Fault: ENGINE GRAPHICS GPCCLIENT_T1_0 faulted @ 0x7_ac8f0000. Fault is of type FAULT_PDE ACCESS_TYPE_VIRT_READ",
+    "[3732053.028813] NVRM: Persistence mode is deprecated and will be removed in a future release. Please use nvidia-persistenced instead."
+  ]
+}

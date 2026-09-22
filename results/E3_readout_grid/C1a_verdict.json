@@ -1,0 +1,107 @@
+{
+  "table": [
+    {
+      "t": 200,
+      "reportable_per_D4": true,
+      "denoise_physics_pct": -9.578951048787808,
+      "denoise_physics_p": 2.0380154880407643e-07,
+      "denoise_temporal_pct": 32.97232304321976,
+      "denoise_temporal_p": 1.9719517121524354e-21,
+      "denoise_appearance_pct": -0.41670571475794455,
+      "denoise_appearance_p": 0.09513333936720869,
+      "probe_physics_auc": 0.9620590828924162,
+      "probe_temporal_auc": 1.0,
+      "probe_appearance_auc": 1.0,
+      "probe_physics_random": 0.8661155202821869,
+      "probe_appearance_random": 0.9813888888888888
+    },
+    {
+      "t": 400,
+      "reportable_per_D4": true,
+      "denoise_physics_pct": -11.488911703832821,
+      "denoise_physics_p": 3.0201659140751277e-06,
+      "denoise_temporal_pct": 36.76161297429285,
+      "denoise_temporal_p": 1.9719517121524354e-21,
+      "denoise_appearance_pct": -2.0439909732044947,
+      "denoise_appearance_p": 0.19427670053532076,
+      "probe_physics_auc": 0.9667548500881834,
+      "probe_temporal_auc": 1.0,
+      "probe_appearance_auc": 1.0,
+      "probe_physics_random": 0.8616181657848325,
+      "probe_appearance_random": 0.9661111111111111
+    },
+    {
+      "t": 600,
+      "reportable_per_D4": true,
+      "denoise_physics_pct": -10.876754123999095,
+      "denoise_physics_p": 0.0001712240876802829,
+      "denoise_temporal_pct": 40.35443167481728,
+      "denoise_temporal_p": 1.9719517121524354e-21,
+      "denoise_appearance_pct": -1.6593730109015727,
+      "denoise_appearance_p": 0.1255634661063354,
+      "probe_physics_auc": 0.9686287477954144,
+      "probe_temporal_auc": 1.0,
+      "probe_appearance_auc": 1.0,
+      "probe_physics_random": 0.8352733686067019,
+      "probe_appearance_random": 0.9655555555555555
+    },
+    {
+      "t": 800,
+      "reportable_per_D4": false,
+      "denoise_physics_pct": -6.610304575916323,
+      "denoise_physics_p": 0.1274632991566102,
+      "denoise_temporal_pct": 46.988643020256866,
+      "denoise_temporal_p": 1.9719517121524354e-21,
+      "denoise_appearance_pct": 2.055073728247648,
+      "denoise_appearance_p": 0.03205348601661129,
+      "probe_physics_auc": 0.9531746031746033,
+      "probe_temporal_auc": 1.0,
+      "probe_appearance_auc": 0.9997222222222222,
+      "probe_physics_random": 0.7910493827160492,
+      "probe_appearance_random": 0.9497222222222222
+    },
+    {
+      "t": 950,
+      "reportable_per_D4": false,
+      "denoise_physics_pct": -1.2652622917793253,
+      "denoise_physics_p": 0.8834030213646259,
+      "denoise_temporal_pct": 44.146983615172545,
+      "denoise_temporal_p": 1.9719517121524354e-21,
+      "denoise_appearance_pct": 6.5292591186535684,
+      "denoise_appearance_p": 0.0010644297047850415,
+      "probe_physics_auc": 0.8963183421516755,
+      "probe_temporal_auc": 0.9997685185185187,
+      "probe_appearance_auc": 0.9980555555555556,
+      "probe_physics_random": 0.7017636684303351,
+      "probe_appearance_random": 0.938611111111111
+    }
+  ],
+  "verdict": {
+    "criterion": "C1a: readout-sensitivity difference reproduces on >=2 timesteps and >=2 control pairs",
+    "appearance_divergence_timesteps": [
+      200,
+      400,
+      600,
+      800
+    ],
+    "temporal_both_react_timesteps": [
+      200,
+      400,
+      600,
+      800,
+      950
+    ],
+    "n_timesteps_with_divergence": 4,
+    "n_control_pairs_examined": 2,
+    "probe_appearance_beats_physics_at_t": [
+      200,
+      400,
+      600,
+      800,
+      950
+    ],
+    "passed": true,
+    "reading": "The divergence is not a t=600 artefact: on the appearance control the denoising error stays flat and non-significant at [200, 400, 600, 800] while the probe sits at ceiling. On the temporal control both readouts react, so the probe is not simply 'sensitive to everything' -- the disagreement is specific to the physics-irrelevant edit. At t=[200, 400, 600, 800, 950] the probe scores the appearance edit HIGHER than the physics task it is meant to measure, i.e. D2 fails across the whole grid, not just at the reference timestep.",
+    "caveat_D4": "t>=800 denoising deltas are below the E0 noise floor (PREREG D4) and are shown greyed for completeness only; the conclusion rests on t in {200,400,600}."
+  }
+}

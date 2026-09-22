@@ -1,0 +1,69 @@
+{
+ "n_clips": 920,
+ "by_group": {
+  "physics": 750,
+  "temporal": 120,
+  "appearance": 50
+ },
+ "by_label_physics": {
+  "1": 630,
+  "0": 120
+ },
+ "n_scenarios": 12,
+ "per_scenario": {
+  "ball_collision": {
+   "physics": 60,
+   "temporal": 10
+  },
+  "ball_drop": {
+   "appearance": 10,
+   "physics": 50,
+   "temporal": 10
+  },
+  "block_slide": {
+   "physics": 60,
+   "temporal": 10
+  },
+  "cloth_drape": {
+   "appearance": 10,
+   "physics": 50,
+   "temporal": 10
+  },
+  "faucet": {
+   "appearance": 10,
+   "physics": 80,
+   "temporal": 10
+  },
+  "flag": {
+   "appearance": 10,
+   "physics": 60,
+   "temporal": 10
+  },
+  "fluid": {
+   "physics": 70,
+   "temporal": 10
+  },
+  "pendulum": {
+   "physics": 70,
+   "temporal": 10
+  },
+  "pyramid": {
+   "physics": 60,
+   "temporal": 10
+  },
+  "river": {
+   "appearance": 10,
+   "physics": 70,
+   "temporal": 10
+  },
+  "shadow": {
+   "physics": 60,
+   "temporal": 10
+  },
+  "shadow_camera": {
+   "physics": 60,
+   "temporal": 10
+  }
+ },
+ "dataset_root": "$HF_HOME/hub/datasets--JianhaoDYDY--LikePhys-Benchmark/snapshots/30fc7a194a7c4eb1de9102f49c7355121ba79b1f/data"
+}

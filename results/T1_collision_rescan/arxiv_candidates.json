@@ -1,0 +1,268 @@
+[
+  {
+    "arxiv_id": "2606.05328v1",
+    "title": "The Invisible Hand of Physics: When Video Diffusion Models Know More Than They Show",
+    "published": "2026-06-03T18:11:51Z",
+    "updated": "2026-06-03T18:11:51Z",
+    "summary": "Modern video diffusion models generate increasingly realistic and temporally coherent videos, motivating their use as candidate world simulators. Yet it remains unclear whether these models internally encode physical structure, or merely reproduce motion patterns seen during training. We study this question by probing video diffusion models along latent trajectories corresponding to real videos with known physical plausibility. To obtain such trajectories, we approximately invert the deterministic sampling process by integrating the learned velocity field backward from a clean video latent to noise, giving access to the model's intermediate states and attention maps. Using these recovered trajectories, we show that physical plausibility is linearly decodable from diffusion transformer states across IntPhys and InfLevel, reaching around 81.27% average accuracy and outperforming dedicated representation-learning baselines such as V-JEPA and VideoMAE. Surprisingly, this signal is absent from the VAE latent input and emerges inside the denoising transformer itself, despite the model not being trained with a self-supervised predictive objective. These findings suggest that physically meaningful representations can arise as a byproduct of generative denoising.",
+    "authors": [
+      "Parsa Esmati",
+      "Somjit Nath",
+      "Katja Hofmann",
+      "Derek Nowrouzezahrai",
+      "Samira Ebrahimi Kahou",
+      "Majid Mirmehdi"
+    ],
+    "primary_cat": "cs.GR",
+    "link": "http://arxiv.org/abs/2606.05328v1"
+  },
+  {
+    "arxiv_id": "2607.01869v1",
+    "title": "QWERTY: Training-Free Motion Control via Query-Warped Video Diffusion Transformers",
+    "published": "2026-07-02T08:25:38Z",
+    "updated": "2026-07-02T08:25:38Z",
+    "summary": "Video diffusion transformers (DiTs) generate high-fidelity and temporally coherent videos, yet motion control remains implicit, primarily relying on text prompts. As a result, achieving desired motion often requires extensive prompt engineering and repeated resampling. While fine-tuning models with additional spatial prompts (e.g., bounding boxes or point trajectories) enables explicit control, it demands substantial data curation and computation, and may compromise the generative capabilities of pretrained models. Consequently, training-free motion control using such spatial prompts has been explored in U-Net-based video diffusion models, but remains largely unexplored for DiTs. We introduce QWERTY, a training-free framework that enables flexible motion control in pretrained image-to-video DiTs via user-defined object warping and optical flow. We carefully manipulate the 3D full attention of DiTs by warping the frame-invariant semantic subspace of queries. We find that the noise predicted by the query-warped DiT naturally guides the diffusion trajectory toward the desired motion, and further show that leveraging this noise as self-guidance for latent optimization improves control stability and visual quality. Experiments show that QWERTY achieves the most effective motion control among existing training-free approaches on a recent image-to-video DiT, with performance comparable to fine-tuning-based methods.",
+    "authors": [
+      "Kyobin Choo",
+      "Youngmin Kim",
+      "Hyunkyung Han",
+      "Geunrip Park",
+      "Chanyoung Kim",
+      "Sunyoung Jung",
+      "Seong Jae Hwang"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2607.01869v1"
+  },
+  {
+    "arxiv_id": "2510.11512v3",
+    "title": "LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference",
+    "published": "2025-10-13T15:19:07Z",
+    "updated": "2026-03-06T07:36:35Z",
+    "summary": "Intuitive physics understanding in video diffusion models plays an essential role in building general-purpose physically plausible world simulators, yet accurately evaluating such capacity remains a challenging task due to the difficulty in disentangling physics correctness from visual appearance in generation. To the end, we introduce LikePhys, a training-free method that evaluates intuitive physics in video diffusion models by distinguishing physically valid and impossible videos using the denoising objective as an ELBO-based likelihood surrogate on a curated dataset of valid-invalid pairs. By testing on our constructed benchmark of twelve scenarios spanning over four physics domains, we show that our evaluation metric, Plausibility Preference Error (PPE), demonstrates strong alignment with human preference, outperforming state-of-the-art evaluator baselines. We then systematically benchmark intuitive physics understanding in current video diffusion models. Our study further analyses how model design and inference settings affect intuitive physics understanding and highlights domain-specific capacity variations across physical laws. Empirical results show that, despite current models struggling with complex and chaotic dynamics, there is a clear trend of improvement in physics understanding as model capacity and inference settings scale.",
+    "authors": [
+      "Jianhao Yuan",
+      "Fabio Pizzati",
+      "Francesco Pinto",
+      "Lars Kunze",
+      "Ivan Laptev",
+      "Paul Newman",
+      "Philip Torr",
+      "Daniele De Martini"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2510.11512v3"
+  },
+  {
+    "arxiv_id": "2605.14815v1",
+    "title": "Probing into Camera Control of Video Models",
+    "published": "2026-05-14T13:27:33Z",
+    "updated": "2026-05-14T13:27:33Z",
+    "summary": "Video is a rich and scalable source of 3D/4D visual observations, and camera control is a key capability for video generation models to produce geometrically meaningful content. Existing approaches typically learn a mapping from camera motion to video using additional camera modules and paired data. However, such datasets are often limited in scale, diversity, and scene dynamics, which can bias the model toward a narrow output distribution and compromise the strong prior learned by the base model. These limitations motivate a different perspective on camera control. In this paper, we show that camera control need not be modeled as an implicit mapping problem, but can instead be treated as a form of geometric guidance that induces displacements across frames. Specifically, we reformulate camera control into a set of displacement fields and apply them via differentiable resampling of latent features during denoising. Our simple approach achieves effective camera control with minimal degradation across diverse quality metrics compared to fine-tuned baselines. Since our method is applicable to most video diffusion models without training, it can also serve as a probe to study the camera control capabilities of base models. Using this probe, we identify universal biases shared by representative video models, as well as disparities in their responses to camera control. Finally, we benchmark their performance in multi-view generation, offering insights into their potential for 3D/4D tasks.",
+    "authors": [
+      "Chen Hou",
+      "Christian Rupprecht"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2605.14815v1"
+  },
+  {
+    "arxiv_id": "2603.13770v1",
+    "title": "PhysAlign: Physics-Coherent Image-to-Video Generation through Feature and 3D Representation Alignment",
+    "published": "2026-03-14T05:44:18Z",
+    "updated": "2026-03-14T05:44:18Z",
+    "summary": "Video Diffusion Models (VDMs) offer a promising approach for simulating dynamic scenes and environments, with broad applications in robotics and media generation. However, existing models often generate temporally incoherent content that violates basic physical intuition, significantly limiting their practical applicability. We propose PhysAlign, an efficient framework for physics-coherent image-to-video (I2V) generation that explicitly addresses this limitation. To overcome the critical scarcity of physics-annotated videos, we first construct a fully controllable synthetic data generation pipeline based on rigid-body simulation, yielding a highly-curated dataset with accurate, fine-grained physics and 3D annotations. Leveraging this data, PhysAlign constructs a unified physical latent space by coupling explicit 3D geometry constraints with a Gram-based spatio-temporal relational alignment that extracts kinematic priors from video foundation models. Extensive experiments demonstrate that PhysAlign significantly outperforms existing VDMs on tasks requiring complex physical reasoning and temporal stability, without compromising zero-shot visual quality. PhysAlign shows the potential to bridge the gap between raw visual synthesis and rigid-body kinematics, establishing a practical paradigm for genuinely physics-grounded video generation. The project page is available at https://physalign.github.io/PhysAlign.",
+    "authors": [
+      "Zhexiao Xiong",
+      "Yizhi Song",
+      "Liu He",
+      "Wei Xiong",
+      "Yu Yuan",
+      "Feng Qiao",
+      "Nathan Jacobs"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2603.13770v1"
+  },
+  {
+    "arxiv_id": "2601.18577v2",
+    "title": "Self-Refining Video Sampling",
+    "published": "2026-01-26T15:22:27Z",
+    "updated": "2026-05-20T05:19:37Z",
+    "summary": "Modern video generators still struggle with complex physical dynamics, often falling short of physical realism. Existing approaches address this using external verifiers or additional training on augmented data, which is computationally expensive and still limited in capturing fine-grained motion. In this work, we present self-refining video sampling, a simple method that uses a pre-trained video generator trained on large-scale datasets as its own self-refiner. By interpreting the generator as a denoising autoencoder, we enable iterative inner-loop refinement at inference time without any external verifier or additional training. We further introduce an uncertainty-aware refinement strategy that selectively refines regions based on self-consistency, which prevents artifacts caused by over-refinement. Experiments on state-of-the-art video generators demonstrate significant improvements in motion coherence and physics alignment, achieving over 70% human preference compared to the default sampler and guidance-based sampler.",
+    "authors": [
+      "Sangwon Jang",
+      "Taekyung Ki",
+      "Jaehyeong Jo",
+      "Saining Xie",
+      "Jaehong Yoon",
+      "Sung Ju Hwang"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2601.18577v2"
+  },
+  {
+    "arxiv_id": "2512.13290v1",
+    "title": "LINA: Learning INterventions Adaptively for Physical Alignment and Generalization in Diffusion Models",
+    "published": "2025-12-15T12:59:59Z",
+    "updated": "2025-12-15T12:59:59Z",
+    "summary": "Diffusion models (DMs) have achieved remarkable success in image and video generation. However, they still struggle with (1) physical alignment and (2) out-of-distribution (OOD) instruction following. We argue that these issues stem from the models' failure to learn causal directions and to disentangle causal factors for novel recombination. We introduce the Causal Scene Graph (CSG) and the Physical Alignment Probe (PAP) dataset to enable diagnostic interventions. This analysis yields three key insights. First, DMs struggle with multi-hop reasoning for elements not explicitly determined in the prompt. Second, the prompt embedding contains disentangled representations for texture and physics. Third, visual causal structure is disproportionately established during the initial, computationally limited denoising steps. Based on these findings, we introduce LINA (Learning INterventions Adaptively), a novel framework that learns to predict prompt-specific interventions, which employs (1) targeted guidance in the prompt and visual latent spaces, and (2) a reallocated, causality-aware denoising schedule. Our approach enforces both physical alignment and OOD instruction following in image and video DMs, achieving state-of-the-art performance on challenging causal generation tasks and the Winoground dataset. Our project page is at https://opencausalab.github.io/LINA.",
+    "authors": [
+      "Shu Yu",
+      "Chaochao Lu"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2512.13290v1"
+  },
+  {
+    "arxiv_id": "2412.05827v5",
+    "title": "Self-Guidance: Boosting Flow and Diffusion Generation on Their Own",
+    "published": "2024-12-08T06:32:27Z",
+    "updated": "2025-09-26T05:47:13Z",
+    "summary": "Proper guidance strategies are essential to achieve high-quality generation results without retraining diffusion and flow-based text-to-image models. Existing guidance either requires specific training or strong inductive biases of diffusion model networks, which potentially limits their ability and application scope. Motivated by the observation that artifact outliers can be detected by a significant decline in the density from a noisier to a cleaner noise level, we propose Self-Guidance (SG), which can significantly improve the quality of the generated image by suppressing the generation of low-quality samples. The biggest difference from existing guidance is that SG only relies on the sampling score function of the original diffusion or flow model at different noise levels, with no need for any tricky and expensive guidance-specific training. This makes SG highly flexible to be used in a plug-and-play manner by any diffusion or flow models. We also introduce an efficient variant of SG, named SG-prev, which reuses the output from the immediately previous diffusion step to avoid additional forward passes of the diffusion network.We conduct extensive experiments on text-to-image and text-to-video generation with different architectures, including UNet and transformer models. With open-sourced diffusion models such as Stable Diffusion 3.5 and FLUX, SG exceeds existing algorithms on multiple metrics, including both FID and Human Preference Score. SG-prev also achieves strong results over both the baseline and the SG, with 50 percent more efficiency. Moreover, we find that SG and SG-prev both have a surprisingly positive effect on the generation of physiologically correct human body structures such as hands, faces, and arms, showing their ability to eliminate human body artifacts with minimal efforts. We have released our code at https://github.com/maple-research-lab/Self-Guidance.",
+    "authors": [
+      "Tiancheng Li",
+      "Weijian Luo",
+      "Zhiyang Chen",
+      "Liyuan Ma",
+      "Guo-Jun Qi"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2412.05827v5"
+  },
+  {
+    "arxiv_id": "2603.19607v1",
+    "title": "Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning",
+    "published": "2026-03-20T03:25:41Z",
+    "updated": "2026-03-20T03:25:41Z",
+    "summary": "Video generation models are increasingly used as world simulators for storytelling, simulation, and embodied AI. As these models advance, a key question arises: do generated videos obey the physical laws of the real world? Existing evaluations largely rely on automated metrics or coarse human judgments such as preferences or rubric-based checks. While useful for assessing perceptual quality, these methods provide limited insight into when and why generated dynamics violate real-world physical constraints. We introduce Physion-Eval, a large-scale benchmark of expert human reasoning for diagnosing physical realism failures in videos generated by five state-of-the-art models across egocentric and exocentric views, containing 10,990 expert reasoning traces spanning 22 fine-grained physical categories. Each generated video is derived from a corresponding real-world reference video depicting a clear physical process, and annotated with temporally localized glitches, structured failure categories, and natural-language explanations of the violated physical behavior. Using this dataset, we reveal a striking limitation of current video generation models: in physics-critical scenarios, 83.3% of exocentric and 93.5% of egocentric generated videos exhibit at least one human-identifiable physical glitch. We hope Physion-Eval will set a new standard for physical realism evaluation and guide the development of physics-grounded video generation. The benchmark is publicly available at https://huggingface.co/datasets/PhysionLabs/Physion-Eval.",
+    "authors": [
+      "Qin Zhang",
+      "Peiyu Jing",
+      "Hong-Xing Yu",
+      "Fangqiang Ding",
+      "Fan Nie",
+      "Weimin Wang",
+      "Yilun Du",
+      "James Zou",
+      "Jiajun Wu",
+      "Bing Shuai"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2603.19607v1"
+  },
+  {
+    "arxiv_id": "2609.08250v1",
+    "title": "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations",
+    "published": "2026-09-08T04:49:42Z",
+    "updated": "2026-09-08T04:49:42Z",
+    "summary": "How far a pushed object slides depends on its mass and friction, which no single image reveals. Pretrained visual encoders are increasingly used as the perception front end of world models for manipulation, and their physical competence is assessed with perturbation benchmarks and linear probes, almost always in a clean, fixed-camera scene. We show that these assessments cannot distinguish an encoder that infers physics from one that does not. CALIPER (calibrate, then predict) is a direct test: an object of unknown mass and friction is struck twice at known speeds, a third strike is shown only up to the moment of contact, and a linear readout on frozen features must predict how far the object slides. Swapping in another object's calibration clips checks that the evidence is actually used. Across 2,000 simulated episodes and eight representations, from V-JEPA 2 to a randomly initialised ViT and raw pixels, calibration adds +0.50 R^2 and the swap removes it. Yet in the clean scene every representation lands within 0.02 R^2 of the ceiling set by true simulator state, because a fixed camera exposes the object's displacement directly in pixel coordinates. Resampling camera, lighting, and clutter for every clip spreads the same representations across 0.50 R^2; when the readout chooses a push speed for a goal distance, V-JEPA 2 misses by 4 mm and the random ViT by 20 mm, no better than ignoring the object. Linear probes track none of this: a change in frame aggregation moves a probe more than pretraining does, and erasing the probed mass direction from the same representation costs nothing in one scene and 0.35 R^2 in the other. Whether a benchmark can rank models is an empirical property, and we give three checks that establish it.",
+    "authors": [
+      "Aman Mehta",
+      "Riya Baviskar"
+    ],
+    "primary_cat": "cs.RO",
+    "link": "http://arxiv.org/abs/2609.08250v1"
+  },
+  {
+    "arxiv_id": "2608.07077v1",
+    "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+    "published": "2026-08-07T10:29:19Z",
+    "updated": "2026-08-07T10:29:19Z",
+    "summary": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restricted to have all rings on a single peg). This paper presents an in-depth study of how both small, in-house Transformers and large, third-party LRMs solve this task. To understand the failures mechanistically, we first train small Transformers from scratch on precomputed solution traces. Using a variety of interpretability techniques, we show that these Transformers develop an emergent world model: a linearly decodable, geometrically faithful representation of the puzzle's state space (the Sierpinski triangle), that is causally involved in solving the puzzles. Second, we return to the large LLMs and apply our techniques to two frontier reasoning models, Qwen3.6-27B and DeepSeek-R1-Distill-Qwen-32B, that attempt to solve the task through extended chain-of-thought. Surprisingly, we find that both models encode the Sierpinski world model near-perfectly at the end of the prompt, and yet fail at the majority of tasks when there are more than 3 rings. We locate the source of this failure in the decaying representation of the world model. We probe for the representation at different stages during planning, and establish causality by showing that performance can be improved by injecting the prompt-time representation at inference. The failure of the models is thus one of maintenance of the required representations, not their absence, and performance is at least partially recoverable. These results thus reframe the reported collapse in performance from prior work: current Large Reasoning Models build a world model, and then lose it.",
+    "authors": [
+      "Devin Pereira",
+      "Willem Zuidema"
+    ],
+    "primary_cat": "cs.AI",
+    "link": "http://arxiv.org/abs/2608.07077v1"
+  },
+  {
+    "arxiv_id": "2603.17825v2",
+    "title": "Steering Video Diffusion Transformers with Massive Activations",
+    "published": "2026-03-18T15:24:12Z",
+    "updated": "2026-08-23T10:05:23Z",
+    "summary": "In this work, we study the role of Massive Activations (MAs), which are rare, high-magnitude spikes confined to a few fixed hidden dimensions in video diffusion transformers (DiTs). We uncover a structured positional hierarchy: MA magnitudes peak at first-frame tokens and recur at the spatial boundary tokens of latent frames, with this pattern being most pronounced during early denoising. We trace this organization to an encoding asymmetry of the video VAEs, whose causal temporal padding and zero spatial padding cause the first latent frame and frame borders to carry reduced content load. Elevated MAs consistently align with these lower-content structural positions. To understand their function, we analyze intermediate representations and find that MAs act as implicit rescalers of residual computation: enlarging MAs suppresses the corresponding self-attention and feed-forward updates, while erasing them amplifies these updates. Together, these observations suggest that MAs serves as a token-level rescaler of residual computation, which video DiTs deploy unevenly, placing the strongest damping at the encoding-asymmetric structural positions. Motivated by this native rescaling behavior, we propose Structured Activation Steering (STAS), a training-free technique that steers MAs at the observed structural positions toward a scaled, model-derived reference during early denoising. STAS requires no additional forward passes and consistently improves video quality and temporal coherence across text-to-video models with negligible overhead.",
+    "authors": [
+      "Xianhang Cheng",
+      "Yujian Zheng",
+      "Zhenyu Xie",
+      "Tingting Liao",
+      "Hao Li"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2603.17825v2"
+  },
+  {
+    "arxiv_id": "2601.10553v2",
+    "title": "Inference-time Physics Alignment of Video Generative Models with Latent World Models",
+    "published": "2026-01-15T16:18:00Z",
+    "updated": "2026-02-27T16:41:42Z",
+    "summary": "State-of-the-art video generative models produce promising visual content yet often violate basic physics principles, limiting their utility. While some attribute this deficiency to insufficient physics understanding from pre-training, we find that the shortfall in physics plausibility also stems from suboptimal inference strategies. We therefore introduce WMReward and treat improving physics plausibility of video generation as an inference-time alignment problem. In particular, we leverage the strong physics prior of a latent world model (here, VJEPA-2) as a reward to search and steer multiple candidate denoising trajectories, enabling scaling test-time compute for better generation performance. Empirically, our approach substantially improves physics plausibility across image-conditioned, multiframe-conditioned, and text-conditioned generation settings, with validation from human preference study. Notably, in the ICCV 2025 Perception Test PhysicsIQ Challenge, we achieve a final score of 62.64%, winning first place and outperforming the previous state of the art by 7.42%. Our work demonstrates the viability of using latent world models to improve physics plausibility of video generation, beyond this specific instantiation or parameterization.",
+    "authors": [
+      "Jianhao Yuan",
+      "Xiaofeng Zhang",
+      "Felix Friedrich",
+      "Nicolas Beltran-Velez",
+      "Melissa Hall",
+      "Reyhane Askari-Hemmat",
+      "Xiaochuang Han",
+      "Nicolas Ballas",
+      "Michal Drozdzal",
+      "Adriana Romero-Soriano"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2601.10553v2"
+  },
+  {
+    "arxiv_id": "2606.00499v1",
+    "title": "OptiWorld: Optimal Control for Video World Generation under Physical Constraints",
+    "published": "2026-05-30T03:13:00Z",
+    "updated": "2026-05-30T03:13:00Z",
+    "summary": "Video generation models are becoming a scalable form of world models, but they mainly generate plausible motion rather than proactively control or optimize the underlying dynamics. As a result, an object in the generated video may follow trajectories that are unsafe, not smooth, inefficient, or physically inconsistent. In this work, we propose \\textbf{OptiWorld}, a framework that brings classical optimal control into video generation at inference time. OptiWorld first extracts a compact, task-relevant world state, then plans an optimal trajectory under physical constraints, and finally renders the video conditioned on this trajectory. We formulate planning as a geometric problem on a continuous manifold, which converts 3D geometry and task-dependent physical constraints into a unified planning geometry. By adding this optimal-control layer, OptiWorld generates videos with preferable dynamics, demonstrating strong potential in multiple tasks including goal-conditioned image-to-video generation, video dynamics editing, and counterfactual generation.",
+    "authors": [
+      "Yu Yuan",
+      "Jianhao Yuan",
+      "Xijun Wang",
+      "Daiqing Li",
+      "Liu He",
+      "Lu Ling",
+      "Stanley H. Chan"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2606.00499v1"
+  },
+  {
+    "arxiv_id": "2602.13294v3",
+    "title": "VisPhyWorld: Probing Physical Reasoning via Code-Driven Video Reconstruction",
+    "published": "2026-02-09T05:46:44Z",
+    "updated": "2026-05-21T07:15:56Z",
+    "summary": "Evaluating whether Multimodal Large Language Models (MLLMs) genuinely reason about physical dynamics remains challenging. Most existing benchmarks rely on recognition-style protocols such as Visual Question Answering (VQA) and Violation of Expectation (VoE), which can often be answered without committing to an explicit, testable physical hypothesis. We propose VisPhyWorld, an execution-based framework that evaluates physical reasoning by requiring models to generate executable simulator code from visual observations. By producing runnable code, the inferred world representation is directly inspectable, editable, and falsifiable. This separates physical reasoning from rendering. Building on this framework, we introduce VisPhyBench, comprising 209 evaluation scenes derived from 108 physical templates and a systematic protocol that evaluates how well models reconstruct appearance and reproduce physically plausible motion. Our pipeline produces valid reconstructed videos in 97.7% of benchmark runs before fallback. Experiments show that while state-of-the-art MLLMs achieve strong semantic scene understanding, they struggle to accurately infer physical parameters and to simulate consistent physical dynamics. Our code is available https://github.com/TIGER-AI-Lab/VisPhyWorld",
+    "authors": [
+      "Jiarong Liang",
+      "Max Ku",
+      "Ka-Hei Hui",
+      "Ping Nie",
+      "Wenhu Chen"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2602.13294v3"
+  },
+  {
+    "arxiv_id": "2602.12218v1",
+    "title": "The Observer Effect in World Models: Invasive Adaptation Corrupts Latent Physics",
+    "published": "2026-02-12T17:56:07Z",
+    "updated": "2026-02-12T17:56:07Z",
+    "summary": "Determining whether neural models internalize physical laws as world models, rather than exploiting statistical shortcuts, remains challenging, especially under out-of-distribution (OOD) shifts. Standard evaluations often test latent capability via downstream adaptation (e.g., fine-tuning or high-capacity probes), but such interventions can change the representations being measured and thus confound what was learned during self-supervised learning (SSL). We propose a non-invasive evaluation protocol, PhyIP. We test whether physical quantities are linearly decodable from frozen representations, motivated by the linear representation hypothesis. Across fluid dynamics and orbital mechanics, we find that when SSL achieves low error, latent structure becomes linearly accessible. PhyIP recovers internal energy and Newtonian inverse-square scaling on OOD tests (e.g., $ρ> 0.90$). In contrast, adaptation-based evaluations can collapse this structure ($ρ\\approx 0.05$). These findings suggest that adaptation-based evaluation can obscure latent structures and that low-capacity probes offer a more accurate evaluation of physical world models.",
+    "authors": [
+      "Christian Internò",
+      "Jumpei Yamaguchi",
+      "Loren Amdahl-Culleton",
+      "Markus Olhofer",
+      "David Klindt",
+      "Barbara Hammer"
+    ],
+    "primary_cat": "cs.LG",
+    "link": "http://arxiv.org/abs/2602.12218v1"
+  }
+]

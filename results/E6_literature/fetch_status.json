@@ -1,0 +1,111 @@
+{
+  "2606.05328": {
+    "title": "Invisible Hand of Physics (When Video Diffusion Models Know More Than They Show)",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "bytes": 42224,
+        "versions": [
+          "v1 Wed, 3 Jun 2026"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 211856,
+        "variant": "latest",
+        "text_chars": 62989
+      },
+      "pdf": {
+        "ok": true,
+        "from": "arxiv",
+        "bytes": 17582401
+      }
+    },
+    "text_source": "html",
+    "text_chars": 62989,
+    "auditable": true
+  },
+  "2603.14294": {
+    "title": "Seeking Physics in Diffusion Noise",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "bytes": 41607,
+        "versions": [
+          "v1 Sun, 15 Mar 2026",
+          "v2 Thu, 26 Mar 2026",
+          "v3 Wed, 5 Aug 2026"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 375660,
+        "variant": "latest",
+        "text_chars": 87251
+      },
+      "pdf": {
+        "ok": true,
+        "from": "local T1 copy",
+        "bytes": 15302813
+      }
+    },
+    "text_source": "html",
+    "text_chars": 87251,
+    "auditable": true
+  },
+  "2606.09646": {
+    "title": "Punzo et al. (IntPhys2 + MVP probing)",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "bytes": 42328,
+        "versions": [
+          "v1 Mon, 8 Jun 2026",
+          "v2 Sun, 13 Sep 2026"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 394975,
+        "variant": "latest",
+        "text_chars": 93757
+      },
+      "pdf": {
+        "ok": true,
+        "from": "arxiv",
+        "bytes": 2398306
+      }
+    },
+    "text_source": "html",
+    "text_chars": 93757,
+    "auditable": true
+  },
+  "2510.11512": {
+    "title": "LikePhys",
+    "sources": {
+      "abs": {
+        "ok": true,
+        "bytes": 43699,
+        "versions": [
+          "v1 Mon, 13 Oct 2025",
+          "v2 Tue, 25 Nov 2025",
+          "v3 Fri, 6 Mar 2026"
+        ]
+      },
+      "html": {
+        "ok": true,
+        "bytes": 328334,
+        "variant": "latest",
+        "text_chars": 75323
+      },
+      "pdf": {
+        "ok": true,
+        "from": "arxiv",
+        "bytes": 5289139
+      }
+    },
+    "text_source": "html",
+    "text_chars": 75323,
+    "auditable": true
+  }
+}

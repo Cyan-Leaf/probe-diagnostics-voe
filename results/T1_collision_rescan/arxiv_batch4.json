@@ -1,0 +1,19 @@
+[
+  {
+    "arxiv_id": "2606.09646v2",
+    "title": "How Do Video Foundation Models Encode Intuitive Physics? Probing Across Pretraining Paradigms",
+    "published": "2026-06-08T15:40:32Z",
+    "updated": "2026-09-13T15:50:40Z",
+    "summary": "We study whether pretrained video foundation models encode intuitive-physics information in their frozen representations, and how this information varies across model families, layers, and probe types. Using frozen-feature probing on IntPhys2 and Minimal Video Pairs (MVP), we compare predictive joint-embedding models (V-JEPA), masked reconstruction models (VideoMAE), and a diffusion-based video generator (LTX-Video). V-JEPA achieves the strongest overall results across benchmarks, especially with probes that model temporal dynamics, while VideoMAE remains competitive and LTX-Video recovers weaker but non-trivial signal. Layerwise analyses show that physics-relevant information is weakest in early layers and becomes most accessible at intermediate-to-late depth, and temporal controls show that disrupting frame order substantially reduces performance, especially on MVP. Together, these results suggest that intuitive-physics knowledge emerges reliably in pretrained video representations, but its accessibility depends strongly on pretraining paradigm, representational depth, and readout mechanism.",
+    "authors": [
+      "Samuele Punzo",
+      "Niccolò Caselli",
+      "Ippokratis Pantelidis",
+      "Francesco Massafra",
+      "Salvatore Lo Sardo",
+      "Mohammadreza Salehi"
+    ],
+    "primary_cat": "cs.CV",
+    "link": "http://arxiv.org/abs/2606.09646v2"
+  }
+]

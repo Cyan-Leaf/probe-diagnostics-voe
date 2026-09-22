@@ -1,0 +1,582 @@
+{
+  "n_claims": 64,
+  "n_ok": 63,
+  "rows": [
+    {
+      "section": "5.3",
+      "claim": "best real AUC",
+      "source": "T4_caliper/E1_summary.json:best_real.auc_mean",
+      "resolved": "0.9740",
+      "raw": 0.9740079365079366,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "best real sd",
+      "source": "T4_caliper/E1_summary.json:best_real.auc_std",
+      "resolved": "0.0070",
+      "raw": 0.007040622718962046,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "random lower bound",
+      "source": "T4_caliper/E1_summary.json:lower_bounds.random_dit(best layer).auc_mean",
+      "resolved": "0.8576",
+      "raw": 0.8576058201058203,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "random lb sd",
+      "source": "T4_caliper/E1_summary.json:lower_bounds.random_dit(best layer).auc_std",
+      "resolved": "0.0268",
+      "raw": 0.026788367822054657,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "vae latent",
+      "source": "T4_caliper/E1_summary.json:lower_bounds.vae_latent.auc_mean",
+      "resolved": "0.8200",
+      "raw": 0.8200396825396826,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "raw pixel",
+      "source": "T4_caliper/E1_summary.json:lower_bounds.raw_pixel.auc_mean",
+      "resolved": "0.7886",
+      "raw": 0.788558201058201,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "MDL trained compression",
+      "source": "T10_validity/T10_5_mdl.json:comparison.compression_real",
+      "resolved": "2.162",
+      "raw": 2.1624568614340363,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "MDL random compression",
+      "source": "T10_validity/T10_5_mdl.json:comparison.compression_random",
+      "resolved": "1.579",
+      "raw": 1.578649115783335,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "MDL training share",
+      "source": "T10_validity/T10_5_mdl.json:comparison.mdl_based_training_share",
+      "resolved": "31.8",
+      "raw": 0.3184237675542151,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.3",
+      "claim": "AUC training share",
+      "source": "T10_validity/T10_5_mdl.json:comparison.auc_based_D1_share",
+      "resolved": "24.6",
+      "raw": 0.24556962025316445,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "LikePhys appearance t600",
+      "source": "E3_readout_grid/E3_summary.json:valid_vs_color_change.600.real_dit.auc_mean",
+      "resolved": "1.0000",
+      "raw": 1.0,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "LikePhys physics t600",
+      "source": "E3_readout_grid/E3_summary.json:valid_vs_violation.600.real_dit.auc_mean",
+      "resolved": "0.9686",
+      "raw": 0.9686287477954144,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "LikePhys physics t200",
+      "source": "E3_readout_grid/E3_summary.json:valid_vs_violation.200.real_dit.auc_mean",
+      "resolved": "0.9621",
+      "raw": 0.9620590828924162,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "LikePhys physics t950",
+      "source": "E3_readout_grid/E3_summary.json:valid_vs_violation.950.real_dit.auc_mean",
+      "resolved": "0.8963",
+      "raw": 0.8963183421516755,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "IntPhys2 physics real",
+      "source": "E7_intphys2/E7_verdict.json:D2.physics_auc_real",
+      "resolved": "0.6458",
+      "raw": 0.6457915442778419,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "IntPhys2 appearance real",
+      "source": "E7_intphys2/E7_verdict.json:D2.appearance_auc_real",
+      "resolved": "1.0000",
+      "raw": 1.0,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "IntPhys2 physics random",
+      "source": "E7_intphys2/E7_verdict.json:D1.rows[0].random_auc",
+      "resolved": "0.5168",
+      "raw": 0.5167775881071384,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "IntPhys2 D2 gap",
+      "source": "E7_intphys2/E7_verdict.json:D2.gap_auc",
+      "resolved": "+0.3542",
+      "raw": 0.3542084557221581,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "weak jitter AUC",
+      "source": "E7_intphys2/E7_d2_sensitivity.json:verdict.weak_appearance_auc",
+      "resolved": "0.9980",
+      "raw": 0.998021937716263,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.4",
+      "claim": "weak jitter RGB delta",
+      "source": "E7_intphys2/E7_d2_sensitivity.json:levels.cjweak.rgb_mean_abs_change",
+      "resolved": "0.0425",
+      "raw": 0.0425,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.5",
+      "claim": "IntPhys2 raw pixel",
+      "source": "E7_intphys2/E7_lower_bounds.json:sources.raw_pixel.auc_mean",
+      "resolved": "0.5476",
+      "raw": 0.5475868358323721,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.5",
+      "claim": "IntPhys2 vae latent",
+      "source": "E7_intphys2/E7_lower_bounds.json:sources.vae_latent.auc_mean",
+      "resolved": "0.5358",
+      "raw": 0.5358446136101499,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.5",
+      "claim": "IntPhys2 random dit",
+      "source": "E7_intphys2/E7_lower_bounds.json:comparison.random_dit_auc",
+      "resolved": "0.5168",
+      "raw": 0.5167775881071384,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.5",
+      "claim": "IntPhys2 trained dit",
+      "source": "E7_intphys2/E7_lower_bounds.json:comparison.real_dit_auc",
+      "resolved": "0.6458",
+      "raw": 0.6457915442778419,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.6",
+      "claim": "IntPhys2 D1 pooled",
+      "source": "E7_intphys2/E7_verdict.json:D1.pooled_pct_auc",
+      "resolved": "88.5",
+      "raw": 88.49207051736518,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.6",
+      "claim": "solidity effect",
+      "source": "E7_intphys2/E7_verdict.json:D4.rows[1].effect",
+      "resolved": "0.0389",
+      "raw": 0.038898337112622805,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.6",
+      "claim": "camera fixed auc",
+      "source": "E7_intphys2/E7_verdict.json:camera.fixed.real_auc",
+      "resolved": "0.5496",
+      "raw": 0.5496488095238096,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.6",
+      "claim": "camera moving auc",
+      "source": "E7_intphys2/E7_verdict.json:camera.moving.real_auc",
+      "resolved": "0.6913",
+      "raw": 0.6913194389395341,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.6",
+      "claim": "n shared games",
+      "source": "E7_intphys2/E7_verdict.json:camera.n_games_shared",
+      "resolved": "0",
+      "raw": 0,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.7",
+      "claim": "global mean d_err",
+      "source": "E4_complexity/E4_decomposition.json:verdict.global_mean_d_err",
+      "resolved": "-0.01137",
+      "raw": -0.011374108729558803,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.7",
+      "claim": "pooled intercept",
+      "source": "E4_complexity/E4_decomposition.json:verdict.pooled_intercept",
+      "resolved": "-0.00900",
+      "raw": -0.008998704325203215,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.7",
+      "claim": "within-scenario intercept",
+      "source": "E4_complexity/E4_decomposition.json:verdict.within_scenario_weighted_intercept",
+      "resolved": "+0.00112",
+      "raw": 0.0011206831848119656,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.7",
+      "claim": "top2 share",
+      "source": "E4_complexity/E4_decomposition.json:verdict.share_of_negative_effect_from_top2",
+      "resolved": "84",
+      "raw": 0.8351442389400761,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.7",
+      "claim": "explained share",
+      "source": "E4_complexity/E4_decomposition.json:verdict.share_of_negative_effect_explained_by_complexity",
+      "resolved": "98",
+      "raw": 0.9849232002966518,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S2 real mean",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S2.real.auc_mean",
+      "resolved": "0.4927",
+      "raw": 0.4926666666666667,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S2 CI low",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S2.real.auc_ci95[0]",
+      "resolved": "0.4667",
+      "raw": 0.46666666666666673,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S2 CI high",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S2.real.auc_ci95[1]",
+      "resolved": "0.5200",
+      "raw": 0.52,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "null floor observed min",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S1.null_auc_min",
+      "resolved": "0.28",
+      "raw": 0.28,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "null floor observed max",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S1.null_auc_max",
+      "resolved": "0.76",
+      "raw": 0.76,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "null floor CI low",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S1.null_auc_ci95[0]",
+      "resolved": "0.31",
+      "raw": 0.31,
+      "in_text": false,
+      "status": "NOT IN TEXT"
+    },
+    {
+      "section": "5.8",
+      "claim": "null frac above 0.60",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S1.null_frac_above_060",
+      "resolved": "36",
+      "raw": 0.36,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "inversion permutation p",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S2b_inversion.permutation_p_two_sided",
+      "resolved": "0.18",
+      "raw": 0.18,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "inversion wilcoxon p",
+      "source": "E10_shadow_camera/E10_S1_S3.json:S2b_inversion.wilcoxon_p",
+      "resolved": "0.00065",
+      "raw": 0.0006516660806139112,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S4 zero gate max drop",
+      "source": "E10_S4/S4_verdict.json:verdict.zero_level_gate.max_drop",
+      "resolved": "0.0005",
+      "raw": 0.0004999999999999449,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S4 threshold",
+      "source": "E10_S4/S4_verdict.json:verdict.threshold",
+      "resolved": "0.2486",
+      "raw": 0.2486,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S4 max real drop",
+      "source": "E10_S4/S4_verdict.json:verdict.max_real_drop_L0_to_L3",
+      "resolved": "0.0200",
+      "raw": 0.019999999999999907,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.8",
+      "claim": "S4 dprime retained",
+      "source": "E10_S4/S4_exploratory_dprime.json:verdict.real_dprime_L3_over_L0_mean",
+      "resolved": "0.754",
+      "raw": 0.7540787141920238,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.9",
+      "claim": "human overall accuracy",
+      "source": "T10_validity/human_eval/human_baseline_results.json:overall.human_accuracy",
+      "resolved": "1.000",
+      "raw": 1.0,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.9",
+      "claim": "shadow_camera human acc",
+      "source": "T10_validity/human_eval/human_baseline_results.json:per_scenario.shadow_camera.human_accuracy",
+      "resolved": "1.000",
+      "raw": 1.0,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.9",
+      "claim": "shadow_camera confidence",
+      "source": "T10_validity/human_eval/human_baseline_results.json:per_scenario.shadow_camera.mean_confidence",
+      "resolved": "3.50",
+      "raw": 3.5,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.9",
+      "claim": "n pairs",
+      "source": "T10_validity/human_eval/human_baseline_results.json:n_pairs_answered",
+      "resolved": "48",
+      "raw": 48,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "ablation D1",
+      "source": "T10_validity/T10_1_ablation.json:ablation.D1.n_missed",
+      "resolved": "10",
+      "raw": 10,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "ablation D2",
+      "source": "T10_validity/T10_1_ablation.json:ablation.D2.n_missed",
+      "resolved": "6",
+      "raw": 6,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "ablation D3",
+      "source": "T10_validity/T10_1_ablation.json:ablation.D3.n_missed",
+      "resolved": "8",
+      "raw": 8,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "ablation D4",
+      "source": "T10_validity/T10_1_ablation.json:ablation.D4.n_missed",
+      "resolved": "3",
+      "raw": 3,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "ablation D5",
+      "source": "T10_validity/T10_1_ablation.json:ablation.D5.n_missed",
+      "resolved": "1",
+      "raw": 1,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "ablation D6",
+      "source": "T10_validity/T10_1_ablation.json:ablation.D6.n_missed",
+      "resolved": "7",
+      "raw": 7,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "n units",
+      "source": "T10_validity/T10_1_ablation.json:summary.n_units",
+      "resolved": "17",
+      "raw": 17,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "construct n correct",
+      "source": "T10_validity/T10_2_construct.json:summary.n_correct",
+      "resolved": "4",
+      "raw": 4,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "C2 real auc",
+      "source": "T10_validity/T10_2_construct.json:cases.C2.real.auc_mean",
+      "resolved": "0.8100",
+      "raw": 0.8100065539783653,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "C2 random auc",
+      "source": "T10_validity/T10_2_construct.json:cases.C2.random.auc_mean",
+      "resolved": "0.5317",
+      "raw": 0.5317170049892812,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "C2 appearance auc",
+      "source": "T10_validity/T10_2_construct.json:cases.C2.appearance.auc_mean",
+      "resolved": "0.5085",
+      "raw": 0.5084956429487977,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "A2 degenerate D1",
+      "source": "T10_validity/T10_2_construct.json:cases.A2.checks.D1.value",
+      "resolved": "1.113",
+      "raw": 1.1131671142657589,
+      "in_text": true,
+      "status": "ok"
+    },
+    {
+      "section": "5.10",
+      "claim": "A2 real auc",
+      "source": "T10_validity/T10_2_construct.json:cases.A2.real.auc_mean",
+      "resolved": "0.5326",
+      "raw": 0.5326431087406825,
+      "in_text": true,
+      "status": "ok"
+    }
+  ]
+}

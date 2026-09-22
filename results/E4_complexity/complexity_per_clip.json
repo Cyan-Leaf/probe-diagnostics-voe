@@ -1,0 +1,4502 @@
+{
+ "ball_collision_videos/subgroup_000/invalid_momentum_amplification_00": {
+  "flow_energy": 0.3128349882705758,
+  "temporal_grad": 0.0015721130184829235,
+  "spatial_grad": 0.028732353821396828,
+  "hf_frac": 8.818949597982021e-05
+ },
+ "ball_collision_videos/subgroup_000/invalid_penetration_00": {
+  "flow_energy": 0.8608849721495062,
+  "temporal_grad": 0.0037064915522933006,
+  "spatial_grad": 0.02809420904638816,
+  "hf_frac": 8.856063683314764e-05
+ },
+ "ball_collision_videos/subgroup_000/invalid_phantom_force_00": {
+  "flow_energy": 1.4795930895247977,
+  "temporal_grad": 0.004554081242531538,
+  "spatial_grad": 0.01801123674388747,
+  "hf_frac": 5.803504774224601e-05
+ },
+ "ball_collision_videos/subgroup_000/invalid_size_change_00": {
+  "flow_energy": 0.45043544253955287,
+  "temporal_grad": 0.002055453835055232,
+  "spatial_grad": 0.03090697295051448,
+  "hf_frac": 9.93580596920208e-05
+ },
+ "ball_collision_videos/subgroup_000/invalid_teleportation_00": {
+  "flow_energy": 0.4156733503720413,
+  "temporal_grad": 0.0016479887999594212,
+  "spatial_grad": 0.025813300200566953,
+  "hf_frac": 6.178153381174926e-05
+ },
+ "ball_collision_videos/subgroup_000/valid_00": {
+  "flow_energy": 0.40143372180561226,
+  "temporal_grad": 0.0018312808824703097,
+  "spatial_grad": 0.031234615767488674,
+  "hf_frac": 9.777045820314252e-05
+ },
+ "ball_collision_videos/subgroup_001/invalid_momentum_amplification_00": {
+  "flow_energy": 0.4589050856108467,
+  "temporal_grad": 0.002903212560340762,
+  "spatial_grad": 0.04642307036081139,
+  "hf_frac": 0.00019715390108211706
+ },
+ "ball_collision_videos/subgroup_001/invalid_penetration_00": {
+  "flow_energy": 1.0610684549901634,
+  "temporal_grad": 0.0062820278108119965,
+  "spatial_grad": 0.03484662707742988,
+  "hf_frac": 0.00018163316196733999
+ },
+ "ball_collision_videos/subgroup_001/invalid_phantom_force_00": {
+  "flow_energy": 1.135358058235198,
+  "temporal_grad": 0.003977994900196791,
+  "spatial_grad": 0.015692331992108757,
+  "hf_frac": 7.678659093086928e-05
+ },
+ "ball_collision_videos/subgroup_001/invalid_size_change_00": {
+  "flow_energy": 1.065919665619731,
+  "temporal_grad": 0.0057337526232004166,
+  "spatial_grad": 0.04394197129473394,
+  "hf_frac": 0.00017919984949737522
+ },
+ "ball_collision_videos/subgroup_001/invalid_teleportation_00": {
+  "flow_energy": 1.1425729655000278,
+  "temporal_grad": 0.004342198837548494,
+  "spatial_grad": 0.02035720358906808,
+  "hf_frac": 8.62745628391668e-05
+ },
+ "ball_collision_videos/subgroup_001/valid_00": {
+  "flow_energy": 0.7528382198264202,
+  "temporal_grad": 0.004118988756090403,
+  "spatial_grad": 0.04331896933061736,
+  "hf_frac": 0.00017523321068809382
+ },
+ "ball_collision_videos/subgroup_002/invalid_momentum_amplification_00": {
+  "flow_energy": 0.45462634484283626,
+  "temporal_grad": 0.0019892456475645304,
+  "spatial_grad": 0.025370596508894647,
+  "hf_frac": 8.80106263589123e-05
+ },
+ "ball_collision_videos/subgroup_002/invalid_penetration_00": {
+  "flow_energy": 0.7568665698636323,
+  "temporal_grad": 0.002883904380723834,
+  "spatial_grad": 0.0212706950854282,
+  "hf_frac": 7.779254092582523e-05
+ },
+ "ball_collision_videos/subgroup_002/invalid_phantom_force_00": {
+  "flow_energy": 0.5382798469314972,
+  "temporal_grad": 0.002165052341297269,
+  "spatial_grad": 0.019108319826120018,
+  "hf_frac": 6.612034921817197e-05
+ },
+ "ball_collision_videos/subgroup_002/invalid_size_change_00": {
+  "flow_energy": 0.3679340938106179,
+  "temporal_grad": 0.0015981700271368027,
+  "spatial_grad": 0.02080266789666244,
+  "hf_frac": 8.25351001356392e-05
+ },
+ "ball_collision_videos/subgroup_002/invalid_teleportation_00": {
+  "flow_energy": 0.6839017756283283,
+  "temporal_grad": 0.0024349503219127655,
+  "spatial_grad": 0.02136094632501505,
+  "hf_frac": 6.104104337667283e-05
+ },
+ "ball_collision_videos/subgroup_002/valid_00": {
+  "flow_energy": 0.6483854694912831,
+  "temporal_grad": 0.0027965737972408533,
+  "spatial_grad": 0.026757026699428657,
+  "hf_frac": 9.907179954603222e-05
+ },
+ "ball_collision_videos/subgroup_003/invalid_momentum_amplification_00": {
+  "flow_energy": 0.42152688132288557,
+  "temporal_grad": 0.002464449731633067,
+  "spatial_grad": 0.03439996684236186,
+  "hf_frac": 8.291616549117737e-05
+ },
+ "ball_collision_videos/subgroup_003/invalid_penetration_00": {
+  "flow_energy": 0.9907363182088981,
+  "temporal_grad": 0.005006278865039349,
+  "spatial_grad": 0.03239885415425714,
+  "hf_frac": 8.699213982639638e-05
+ },
+ "ball_collision_videos/subgroup_003/invalid_phantom_force_00": {
+  "flow_energy": 0.8154092254117131,
+  "temporal_grad": 0.003771960036829114,
+  "spatial_grad": 0.028257390180108498,
+  "hf_frac": 8.133368244223663e-05
+ },
+ "ball_collision_videos/subgroup_003/invalid_size_change_00": {
+  "flow_energy": 0.8884793557226658,
+  "temporal_grad": 0.004577158484607935,
+  "spatial_grad": 0.03718651264753877,
+  "hf_frac": 9.844945639523796e-05
+ },
+ "ball_collision_videos/subgroup_003/invalid_teleportation_00": {
+  "flow_energy": 0.764456924982369,
+  "temporal_grad": 0.0035361063200980425,
+  "spatial_grad": 0.025169849091646622,
+  "hf_frac": 5.6295768000395086e-05
+ },
+ "ball_collision_videos/subgroup_003/valid_00": {
+  "flow_energy": 0.8686573331554731,
+  "temporal_grad": 0.0044254218228161335,
+  "spatial_grad": 0.03601923668567015,
+  "hf_frac": 9.64947994213464e-05
+ },
+ "ball_collision_videos/subgroup_004/invalid_momentum_amplification_00": {
+  "flow_energy": 0.4099778833333403,
+  "temporal_grad": 0.0016445437213405967,
+  "spatial_grad": 0.01990650295831111,
+  "hf_frac": 7.169934685645585e-05
+ },
+ "ball_collision_videos/subgroup_004/invalid_penetration_00": {
+  "flow_energy": 0.734992010291608,
+  "temporal_grad": 0.0023421139921993017,
+  "spatial_grad": 0.015464975118485033,
+  "hf_frac": 6.0167332587931494e-05
+ },
+ "ball_collision_videos/subgroup_004/invalid_phantom_force_00": {
+  "flow_energy": 0.6944202013926394,
+  "temporal_grad": 0.001734430785290897,
+  "spatial_grad": 0.011229885530620053,
+  "hf_frac": 4.7977360847249344e-05
+ },
+ "ball_collision_videos/subgroup_004/invalid_size_change_00": {
+  "flow_energy": 0.4754853965714574,
+  "temporal_grad": 0.001664674375206232,
+  "spatial_grad": 0.017416769201506158,
+  "hf_frac": 6.410420339469952e-05
+ },
+ "ball_collision_videos/subgroup_004/invalid_teleportation_00": {
+  "flow_energy": 0.7278315646739224,
+  "temporal_grad": 0.0019908726681023836,
+  "spatial_grad": 0.011891797824040512,
+  "hf_frac": 4.015873095236398e-05
+ },
+ "ball_collision_videos/subgroup_004/valid_00": {
+  "flow_energy": 0.42674993149315316,
+  "temporal_grad": 0.0014255231944844127,
+  "spatial_grad": 0.017422011616278668,
+  "hf_frac": 6.45560879953384e-05
+ },
+ "ball_collision_videos/subgroup_005/invalid_momentum_amplification_00": {
+  "flow_energy": 0.3277913035902505,
+  "temporal_grad": 0.0020416907500475645,
+  "spatial_grad": 0.03271580042735654,
+  "hf_frac": 9.24497576285463e-05
+ },
+ "ball_collision_videos/subgroup_005/invalid_penetration_00": {
+  "flow_energy": 0.8416648262646049,
+  "temporal_grad": 0.0040851919911801815,
+  "spatial_grad": 0.026634591004374077,
+  "hf_frac": 7.879022921542634e-05
+ },
+ "ball_collision_videos/subgroup_005/invalid_phantom_force_00": {
+  "flow_energy": 0.9899604198012387,
+  "temporal_grad": 0.002616024576127529,
+  "spatial_grad": 0.013754988535858539,
+  "hf_frac": 4.7713212312190976e-05
+ },
+ "ball_collision_videos/subgroup_005/invalid_size_change_00": {
+  "flow_energy": 0.9022564115002751,
+  "temporal_grad": 0.004787400830537081,
+  "spatial_grad": 0.03718425063606428,
+  "hf_frac": 8.920151428513857e-05
+ },
+ "ball_collision_videos/subgroup_005/invalid_teleportation_00": {
+  "flow_energy": 0.6457230465734014,
+  "temporal_grad": 0.002866950584575534,
+  "spatial_grad": 0.015521152700506607,
+  "hf_frac": 4.390339616472169e-05
+ },
+ "ball_collision_videos/subgroup_005/valid_00": {
+  "flow_energy": 0.772423359254996,
+  "temporal_grad": 0.0041701821610331535,
+  "spatial_grad": 0.03222652444882052,
+  "hf_frac": 7.500092468630105e-05
+ },
+ "ball_collision_videos/subgroup_006/invalid_momentum_amplification_00": {
+  "flow_energy": 0.2770896919925387,
+  "temporal_grad": 0.001048406818881631,
+  "spatial_grad": 0.018539463721063673,
+  "hf_frac": 7.775674097868702e-05
+ },
+ "ball_collision_videos/subgroup_006/invalid_penetration_00": {
+  "flow_energy": 0.6284600820702811,
+  "temporal_grad": 0.0020733335986733437,
+  "spatial_grad": 0.01803811550216407,
+  "hf_frac": 8.470883313615204e-05
+ },
+ "ball_collision_videos/subgroup_006/invalid_phantom_force_00": {
+  "flow_energy": 0.6287392759695649,
+  "temporal_grad": 0.0013229036703705788,
+  "spatial_grad": 0.009177984551013428,
+  "hf_frac": 5.329640193411072e-05
+ },
+ "ball_collision_videos/subgroup_006/invalid_size_change_00": {
+  "flow_energy": 0.40169153455644846,
+  "temporal_grad": 0.0016792700625956059,
+  "spatial_grad": 0.0270267660368462,
+  "hf_frac": 8.56894878248179e-05
+ },
+ "ball_collision_videos/subgroup_006/invalid_teleportation_00": {
+  "flow_energy": 0.4478102942059663,
+  "temporal_grad": 0.0010186756262555718,
+  "spatial_grad": 0.009028782811472002,
+  "hf_frac": 3.4333235414558166e-05
+ },
+ "ball_collision_videos/subgroup_006/valid_00": {
+  "flow_energy": 0.3068166918431719,
+  "temporal_grad": 0.0010792880784720182,
+  "spatial_grad": 0.01927027148099578,
+  "hf_frac": 8.262624980859204e-05
+ },
+ "ball_collision_videos/subgroup_007/invalid_momentum_amplification_00": {
+  "flow_energy": 0.3279479018722971,
+  "temporal_grad": 0.0020212228409945965,
+  "spatial_grad": 0.03136733189529302,
+  "hf_frac": 9.174846752722713e-05
+ },
+ "ball_collision_videos/subgroup_007/invalid_penetration_00": {
+  "flow_energy": 0.8475464917719364,
+  "temporal_grad": 0.0037872781977057457,
+  "spatial_grad": 0.02587910388045165,
+  "hf_frac": 7.693791775286537e-05
+ },
+ "ball_collision_videos/subgroup_007/invalid_phantom_force_00": {
+  "flow_energy": 0.9504264575576501,
+  "temporal_grad": 0.0038463531527668238,
+  "spatial_grad": 0.017598599147963887,
+  "hf_frac": 6.426276647199127e-05
+ },
+ "ball_collision_videos/subgroup_007/invalid_size_change_00": {
+  "flow_energy": 0.6681176262424108,
+  "temporal_grad": 0.0036086924374103546,
+  "spatial_grad": 0.03889770775425191,
+  "hf_frac": 9.052375015316094e-05
+ },
+ "ball_collision_videos/subgroup_007/invalid_teleportation_00": {
+  "flow_energy": 1.1833420507839645,
+  "temporal_grad": 0.003479713574051857,
+  "spatial_grad": 0.01740367427867438,
+  "hf_frac": 5.2407852742606055e-05
+ },
+ "ball_collision_videos/subgroup_007/valid_00": {
+  "flow_energy": 0.5657328444843491,
+  "temporal_grad": 0.003047175705432892,
+  "spatial_grad": 0.030493097607882654,
+  "hf_frac": 7.79915740966566e-05
+ },
+ "ball_collision_videos/subgroup_008/invalid_momentum_amplification_00": {
+  "flow_energy": 0.25345753024642664,
+  "temporal_grad": 0.0012789194006472826,
+  "spatial_grad": 0.024785448055790395,
+  "hf_frac": 8.254090443235178e-05
+ },
+ "ball_collision_videos/subgroup_008/invalid_penetration_00": {
+  "flow_energy": 0.8248284690392514,
+  "temporal_grad": 0.00350431096740067,
+  "spatial_grad": 0.02318720475827553,
+  "hf_frac": 8.545270427150431e-05
+ },
+ "ball_collision_videos/subgroup_008/invalid_phantom_force_00": {
+  "flow_energy": 1.2061737927332714,
+  "temporal_grad": 0.0028974127490073442,
+  "spatial_grad": 0.011469986384772524,
+  "hf_frac": 4.019996650335548e-05
+ },
+ "ball_collision_videos/subgroup_008/invalid_size_change_00": {
+  "flow_energy": 0.49554580139617127,
+  "temporal_grad": 0.0024425347801297903,
+  "spatial_grad": 0.033007935981969445,
+  "hf_frac": 9.436990665385371e-05
+ },
+ "ball_collision_videos/subgroup_008/invalid_teleportation_00": {
+  "flow_energy": 0.7323349531476763,
+  "temporal_grad": 0.0019774443935602903,
+  "spatial_grad": 0.012758944076675998,
+  "hf_frac": 3.914313963466789e-05
+ },
+ "ball_collision_videos/subgroup_008/valid_00": {
+  "flow_energy": 0.2878791432206829,
+  "temporal_grad": 0.0013563436223194003,
+  "spatial_grad": 0.02565292519878368,
+  "hf_frac": 9.158126965723369e-05
+ },
+ "ball_collision_videos/subgroup_009/invalid_momentum_amplification_00": {
+  "flow_energy": 0.3797065137187019,
+  "temporal_grad": 0.002371056005358696,
+  "spatial_grad": 0.03613580124718802,
+  "hf_frac": 8.838188433844074e-05
+ },
+ "ball_collision_videos/subgroup_009/invalid_penetration_00": {
+  "flow_energy": 0.9606926716708889,
+  "temporal_grad": 0.004850359167903662,
+  "spatial_grad": 0.03276686752405094,
+  "hf_frac": 8.936146082061194e-05
+ },
+ "ball_collision_videos/subgroup_009/invalid_phantom_force_00": {
+  "flow_energy": 1.0206149003158014,
+  "temporal_grad": 0.004477337468415499,
+  "spatial_grad": 0.027935274914667314,
+  "hf_frac": 7.427969621191734e-05
+ },
+ "ball_collision_videos/subgroup_009/invalid_size_change_00": {
+  "flow_energy": 0.5395335392095149,
+  "temporal_grad": 0.003082527779042721,
+  "spatial_grad": 0.04395020205755623,
+  "hf_frac": 8.707119206608575e-05
+ },
+ "ball_collision_videos/subgroup_009/invalid_teleportation_00": {
+  "flow_energy": 1.0831074777718943,
+  "temporal_grad": 0.004942543338984251,
+  "spatial_grad": 0.026806980162402804,
+  "hf_frac": 7.003068147011979e-05
+ },
+ "ball_collision_videos/subgroup_009/valid_00": {
+  "flow_energy": 0.6785214652772993,
+  "temporal_grad": 0.0035232168156653643,
+  "spatial_grad": 0.037581108890625894,
+  "hf_frac": 0.00010072601451644994
+ },
+ "ball_drop_videos/subgroup_000/dynamic_scaling_00": {
+  "flow_energy": 1.2540823778448005,
+  "temporal_grad": 0.004291442222893238,
+  "spatial_grad": 0.02568061952004019,
+  "hf_frac": 1.48567879410363e-05
+ },
+ "ball_drop_videos/subgroup_000/over_bounce_00": {
+  "flow_energy": 0.5592473095609117,
+  "temporal_grad": 0.0015295176999643445,
+  "spatial_grad": 0.013474075760388253,
+  "hf_frac": 1.3776925097499107e-05
+ },
+ "ball_drop_videos/subgroup_000/penetration_00": {
+  "flow_energy": 0.33311843204622466,
+  "temporal_grad": 0.0008950428455136716,
+  "spatial_grad": 0.02022365353317285,
+  "hf_frac": 2.4169468488044303e-05
+ },
+ "ball_drop_videos/subgroup_000/teleportation_00": {
+  "flow_energy": 0.6495740615698011,
+  "temporal_grad": 0.0011718253372237086,
+  "spatial_grad": 0.013825337031894192,
+  "hf_frac": 1.606111046073641e-05
+ },
+ "ball_drop_videos/subgroup_000/valid_00": {
+  "flow_energy": 0.5494672417795906,
+  "temporal_grad": 0.001527963555417955,
+  "spatial_grad": 0.02207007411183143,
+  "hf_frac": 2.299368083454945e-05
+ },
+ "ball_drop_videos/subgroup_001/dynamic_scaling_00": {
+  "flow_energy": 1.3461483782157302,
+  "temporal_grad": 0.004512846004217863,
+  "spatial_grad": 0.022100109835060274,
+  "hf_frac": 1.7633616109379367e-05
+ },
+ "ball_drop_videos/subgroup_001/over_bounce_00": {
+  "flow_energy": 0.425909470268986,
+  "temporal_grad": 0.0012975094141438603,
+  "spatial_grad": 0.01180374425626835,
+  "hf_frac": 1.2942417846780921e-05
+ },
+ "ball_drop_videos/subgroup_001/penetration_00": {
+  "flow_energy": 0.3154914996121079,
+  "temporal_grad": 0.0009107622317969799,
+  "spatial_grad": 0.018009680579891617,
+  "hf_frac": 2.31186448180541e-05
+ },
+ "ball_drop_videos/subgroup_001/teleportation_00": {
+  "flow_energy": 0.39665554847623713,
+  "temporal_grad": 0.0010049291886389256,
+  "spatial_grad": 0.013167973522248924,
+  "hf_frac": 1.364866728963406e-05
+ },
+ "ball_drop_videos/subgroup_001/valid_00": {
+  "flow_energy": 0.5379557782628884,
+  "temporal_grad": 0.001601936761289835,
+  "spatial_grad": 0.019576545481627086,
+  "hf_frac": 2.1340449677545443e-05
+ },
+ "ball_drop_videos/subgroup_002/dynamic_scaling_00": {
+  "flow_energy": 1.2374828901762764,
+  "temporal_grad": 0.002810630016028881,
+  "spatial_grad": 0.017408567765841678,
+  "hf_frac": 6.454295317307025e-06
+ },
+ "ball_drop_videos/subgroup_002/over_bounce_00": {
+  "flow_energy": 0.5909939557645126,
+  "temporal_grad": 0.001038874383084476,
+  "spatial_grad": 0.006844204099734827,
+  "hf_frac": 3.4082263900517605e-06
+ },
+ "ball_drop_videos/subgroup_002/penetration_00": {
+  "flow_energy": 0.2795935927812631,
+  "temporal_grad": 0.0005307451356202364,
+  "spatial_grad": 0.010399446404558055,
+  "hf_frac": 7.004412400585923e-06
+ },
+ "ball_drop_videos/subgroup_002/teleportation_00": {
+  "flow_energy": 0.3269421436635322,
+  "temporal_grad": 0.0009130944381467998,
+  "spatial_grad": 0.006521998747841132,
+  "hf_frac": 3.604824194650665e-06
+ },
+ "ball_drop_videos/subgroup_002/valid_00": {
+  "flow_energy": 0.49560612459511805,
+  "temporal_grad": 0.0009579447214491665,
+  "spatial_grad": 0.01179337454009421,
+  "hf_frac": 6.996241398488249e-06
+ },
+ "ball_drop_videos/subgroup_003/dynamic_scaling_00": {
+  "flow_energy": 1.103776943559448,
+  "temporal_grad": 0.003740847110748291,
+  "spatial_grad": 0.018552580107079476,
+  "hf_frac": 1.1071158691397016e-05
+ },
+ "ball_drop_videos/subgroup_003/over_bounce_00": {
+  "flow_energy": 0.5170839306391221,
+  "temporal_grad": 0.0011530257761478424,
+  "spatial_grad": 0.009137169676547756,
+  "hf_frac": 6.8992911029800166e-06
+ },
+ "ball_drop_videos/subgroup_003/penetration_00": {
+  "flow_energy": 0.2536312839947641,
+  "temporal_grad": 0.0006010084762237966,
+  "spatial_grad": 0.01402432904863844,
+  "hf_frac": 1.3328473179271634e-05
+ },
+ "ball_drop_videos/subgroup_003/teleportation_00": {
+  "flow_energy": 0.13005368015971422,
+  "temporal_grad": 0.00030768560827709734,
+  "spatial_grad": 0.008686779271241049,
+  "hf_frac": 5.420337460503305e-06
+ },
+ "ball_drop_videos/subgroup_003/valid_00": {
+  "flow_energy": 0.49589703845170635,
+  "temporal_grad": 0.0011730316327884793,
+  "spatial_grad": 0.015937832773339992,
+  "hf_frac": 1.3124360710563286e-05
+ },
+ "ball_drop_videos/subgroup_004/dynamic_scaling_00": {
+  "flow_energy": 1.2444061829398076,
+  "temporal_grad": 0.007005961611866951,
+  "spatial_grad": 0.0332560995593667,
+  "hf_frac": 4.17858172399955e-05
+ },
+ "ball_drop_videos/subgroup_004/over_bounce_00": {
+  "flow_energy": 0.7486801508917248,
+  "temporal_grad": 0.002725728554651141,
+  "spatial_grad": 0.013213015251735948,
+  "hf_frac": 2.115758485640608e-05
+ },
+ "ball_drop_videos/subgroup_004/penetration_00": {
+  "flow_energy": 0.2148674076112608,
+  "temporal_grad": 0.001224220497533679,
+  "spatial_grad": 0.022021649405360222,
+  "hf_frac": 3.595703734320853e-05
+ },
+ "ball_drop_videos/subgroup_004/teleportation_00": {
+  "flow_energy": 0.36626363810249885,
+  "temporal_grad": 0.0008763698861002922,
+  "spatial_grad": 0.012090548654371987,
+  "hf_frac": 1.841599433837137e-05
+ },
+ "ball_drop_videos/subgroup_004/valid_00": {
+  "flow_energy": 0.4293130517859633,
+  "temporal_grad": 0.0023484292905777693,
+  "spatial_grad": 0.022987667091038763,
+  "hf_frac": 3.542770855102872e-05
+ },
+ "ball_drop_videos/subgroup_005/dynamic_scaling_00": {
+  "flow_energy": 1.270047714157651,
+  "temporal_grad": 0.004155551549047232,
+  "spatial_grad": 0.017471871870969023,
+  "hf_frac": 9.03715187082819e-06
+ },
+ "ball_drop_videos/subgroup_005/over_bounce_00": {
+  "flow_energy": 0.40132379812985164,
+  "temporal_grad": 0.0010693718213588,
+  "spatial_grad": 0.009868779770877897,
+  "hf_frac": 8.230775490993896e-06
+ },
+ "ball_drop_videos/subgroup_005/penetration_00": {
+  "flow_energy": 0.22576636320445687,
+  "temporal_grad": 0.0006443612510338426,
+  "spatial_grad": 0.014385464848304282,
+  "hf_frac": 1.4105870287278029e-05
+ },
+ "ball_drop_videos/subgroup_005/teleportation_00": {
+  "flow_energy": 0.25738291005711983,
+  "temporal_grad": 0.0003699874214362353,
+  "spatial_grad": 0.00829682638393525,
+  "hf_frac": 5.926778589977814e-06
+ },
+ "ball_drop_videos/subgroup_005/valid_00": {
+  "flow_energy": 0.38323614459174377,
+  "temporal_grad": 0.0011505044531077147,
+  "spatial_grad": 0.015884877353602528,
+  "hf_frac": 1.4101430233230565e-05
+ },
+ "ball_drop_videos/subgroup_006/dynamic_scaling_00": {
+  "flow_energy": 1.349507528745259,
+  "temporal_grad": 0.005752658471465111,
+  "spatial_grad": 0.018347944627154847,
+  "hf_frac": 7.399263336372141e-06
+ },
+ "ball_drop_videos/subgroup_006/over_bounce_00": {
+  "flow_energy": 0.4719971777491689,
+  "temporal_grad": 0.0011579855345189571,
+  "spatial_grad": 0.009300597064311102,
+  "hf_frac": 5.450026298054053e-06
+ },
+ "ball_drop_videos/subgroup_006/penetration_00": {
+  "flow_energy": 0.22793787721699724,
+  "temporal_grad": 0.0005599858122877777,
+  "spatial_grad": 0.014194769176597498,
+  "hf_frac": 1.043202156950793e-05
+ },
+ "ball_drop_videos/subgroup_006/teleportation_00": {
+  "flow_energy": 0.12765589214150452,
+  "temporal_grad": 0.0004596002399921417,
+  "spatial_grad": 0.008197086967755946,
+  "hf_frac": 3.32058844988245e-06
+ },
+ "ball_drop_videos/subgroup_006/valid_00": {
+  "flow_energy": 0.35681804514024407,
+  "temporal_grad": 0.0009306015563197434,
+  "spatial_grad": 0.01566967214172592,
+  "hf_frac": 1.159599323485137e-05
+ },
+ "ball_drop_videos/subgroup_007/dynamic_scaling_00": {
+  "flow_energy": 0.9920099667894343,
+  "temporal_grad": 0.002557795960456133,
+  "spatial_grad": 0.013232509291977907,
+  "hf_frac": 6.00169136169783e-06
+ },
+ "ball_drop_videos/subgroup_007/over_bounce_00": {
+  "flow_energy": 0.34743486958907016,
+  "temporal_grad": 0.0007581806275993586,
+  "spatial_grad": 0.006857922039355854,
+  "hf_frac": 4.848799922836146e-06
+ },
+ "ball_drop_videos/subgroup_007/penetration_00": {
+  "flow_energy": 0.18812443669109294,
+  "temporal_grad": 0.0004289597272872925,
+  "spatial_grad": 0.010061764234334839,
+  "hf_frac": 8.542978810319486e-06
+ },
+ "ball_drop_videos/subgroup_007/teleportation_00": {
+  "flow_energy": 0.1840194573775591,
+  "temporal_grad": 0.0003107191587332636,
+  "spatial_grad": 0.0058304804937952025,
+  "hf_frac": 3.274205580610109e-06
+ },
+ "ball_drop_videos/subgroup_007/valid_00": {
+  "flow_energy": 0.33491202956065536,
+  "temporal_grad": 0.0007830683025531471,
+  "spatial_grad": 0.011289371728745043,
+  "hf_frac": 8.987136667471232e-06
+ },
+ "ball_drop_videos/subgroup_008/dynamic_scaling_00": {
+  "flow_energy": 0.9235269523536166,
+  "temporal_grad": 0.0029543901327997446,
+  "spatial_grad": 0.017831431521216825,
+  "hf_frac": 7.517182248232085e-06
+ },
+ "ball_drop_videos/subgroup_008/over_bounce_00": {
+  "flow_energy": 0.46409847569968105,
+  "temporal_grad": 0.0008838260546326637,
+  "spatial_grad": 0.007300471255023565,
+  "hf_frac": 5.2052367150686e-06
+ },
+ "ball_drop_videos/subgroup_008/penetration_00": {
+  "flow_energy": 0.17191001576914763,
+  "temporal_grad": 0.00039747823029756546,
+  "spatial_grad": 0.011028343849644368,
+  "hf_frac": 9.381327737079851e-06
+ },
+ "ball_drop_videos/subgroup_008/teleportation_00": {
+  "flow_energy": 0.3161785189527902,
+  "temporal_grad": 0.0004309360811021179,
+  "spatial_grad": 0.006270196545412954,
+  "hf_frac": 3.6644008130046522e-06
+ },
+ "ball_drop_videos/subgroup_008/valid_00": {
+  "flow_energy": 0.28861196791209903,
+  "temporal_grad": 0.0007137556094676256,
+  "spatial_grad": 0.01226417355391444,
+  "hf_frac": 1.049556543006398e-05
+ },
+ "ball_drop_videos/subgroup_009/dynamic_scaling_00": {
+  "flow_energy": 1.864652546743552,
+  "temporal_grad": 0.006046653259545565,
+  "spatial_grad": 0.024287748568672305,
+  "hf_frac": 1.5944692172864315e-05
+ },
+ "ball_drop_videos/subgroup_009/over_bounce_00": {
+  "flow_energy": 0.4732291687335722,
+  "temporal_grad": 0.0013926756801083684,
+  "spatial_grad": 0.011196977430384378,
+  "hf_frac": 1.4564423490661821e-05
+ },
+ "ball_drop_videos/subgroup_009/penetration_00": {
+  "flow_energy": 0.3867168069506685,
+  "temporal_grad": 0.0011206965427845716,
+  "spatial_grad": 0.018043243421279654,
+  "hf_frac": 2.1286331824644604e-05
+ },
+ "ball_drop_videos/subgroup_009/teleportation_00": {
+  "flow_energy": 0.21328011933556112,
+  "temporal_grad": 0.0004384474887046963,
+  "spatial_grad": 0.008723598211167418,
+  "hf_frac": 2.4304400339158623e-05
+ },
+ "ball_drop_videos/subgroup_009/valid_00": {
+  "flow_energy": 0.6054244723636657,
+  "temporal_grad": 0.0017596696270629764,
+  "spatial_grad": 0.019321451761892865,
+  "hf_frac": 2.1052694290085426e-05
+ },
+ "block_slide_videos/subgroup_000/invalid_hovering_00": {
+  "flow_energy": 0.31012776338805753,
+  "temporal_grad": 0.00031313434010371566,
+  "spatial_grad": 0.06157766062082076,
+  "hf_frac": 0.0025038435840569104
+ },
+ "block_slide_videos/subgroup_000/invalid_irregular_motion_00": {
+  "flow_energy": 0.31197107102101046,
+  "temporal_grad": 0.0003724407870322466,
+  "spatial_grad": 0.060796551406383514,
+  "hf_frac": 0.0025017436675684804
+ },
+ "block_slide_videos/subgroup_000/invalid_jittering_00": {
+  "flow_energy": 0.3095373467852672,
+  "temporal_grad": 0.00039070643833838403,
+  "spatial_grad": 0.060602546042325546,
+  "hf_frac": 0.0025043629379689317
+ },
+ "block_slide_videos/subgroup_000/invalid_size_changing_00": {
+  "flow_energy": 0.10301976751846571,
+  "temporal_grad": 4.8791556764626876e-05,
+  "spatial_grad": 0.06031928036590012,
+  "hf_frac": 0.0024833379456980897
+ },
+ "block_slide_videos/subgroup_000/invalid_teleportation_00": {
+  "flow_energy": 0.5600371924228966,
+  "temporal_grad": 0.0006706437561661005,
+  "spatial_grad": 0.06195919527387132,
+  "hf_frac": 0.0025046232364767185
+ },
+ "block_slide_videos/subgroup_000/valid_00": {
+  "flow_energy": 0.44005343061871827,
+  "temporal_grad": 0.0005861885147169232,
+  "spatial_grad": 0.06091775250982265,
+  "hf_frac": 0.0024976745574924603
+ },
+ "block_slide_videos/subgroup_001/invalid_hovering_00": {
+  "flow_energy": 0.37185173605879146,
+  "temporal_grad": 0.0005944744916632771,
+  "spatial_grad": 0.06608579535873568,
+  "hf_frac": 0.0025056150858960118
+ },
+ "block_slide_videos/subgroup_001/invalid_irregular_motion_00": {
+  "flow_energy": 0.35959127560878795,
+  "temporal_grad": 0.0006764414138160646,
+  "spatial_grad": 0.06312225888274153,
+  "hf_frac": 0.0024906873766599364
+ },
+ "block_slide_videos/subgroup_001/invalid_jittering_00": {
+  "flow_energy": 0.3544903329263131,
+  "temporal_grad": 0.0006819815025664866,
+  "spatial_grad": 0.06288870271979546,
+  "hf_frac": 0.002486213997980398
+ },
+ "block_slide_videos/subgroup_001/invalid_size_changing_00": {
+  "flow_energy": 0.11420127163485934,
+  "temporal_grad": 0.00013031803246121854,
+  "spatial_grad": 0.06333566411417357,
+  "hf_frac": 0.0024715917858810946
+ },
+ "block_slide_videos/subgroup_001/invalid_teleportation_00": {
+  "flow_energy": 0.8941702846204862,
+  "temporal_grad": 0.001457134378142655,
+  "spatial_grad": 0.06658978866679328,
+  "hf_frac": 0.002502347936462956
+ },
+ "block_slide_videos/subgroup_001/valid_00": {
+  "flow_energy": 0.5704975947737694,
+  "temporal_grad": 0.0012207445688545704,
+  "spatial_grad": 0.06552530429801162,
+  "hf_frac": 0.0025121693754640672
+ },
+ "block_slide_videos/subgroup_002/invalid_hovering_00": {
+  "flow_energy": 0.38172171264886856,
+  "temporal_grad": 0.0003515422286000103,
+  "spatial_grad": 0.06942063585227849,
+  "hf_frac": 0.0022942310476767
+ },
+ "block_slide_videos/subgroup_002/invalid_irregular_motion_00": {
+  "flow_energy": 0.42001807410269976,
+  "temporal_grad": 0.0004125557898078114,
+  "spatial_grad": 0.06919874889510018,
+  "hf_frac": 0.00229838492326847
+ },
+ "block_slide_videos/subgroup_002/invalid_jittering_00": {
+  "flow_energy": 0.41493629446874064,
+  "temporal_grad": 0.0004332316166255623,
+  "spatial_grad": 0.0693636700815084,
+  "hf_frac": 0.002294086606882149
+ },
+ "block_slide_videos/subgroup_002/invalid_size_changing_00": {
+  "flow_energy": 0.08095532783772796,
+  "temporal_grad": 8.228609658544883e-05,
+  "spatial_grad": 0.06883574991810079,
+  "hf_frac": 0.0022797427388891573
+ },
+ "block_slide_videos/subgroup_002/invalid_teleportation_00": {
+  "flow_energy": 0.7218217346817255,
+  "temporal_grad": 0.0008738083415664732,
+  "spatial_grad": 0.07014820055693996,
+  "hf_frac": 0.0022949584108116674
+ },
+ "block_slide_videos/subgroup_002/valid_00": {
+  "flow_energy": 0.5267945347974697,
+  "temporal_grad": 0.0006790875340811908,
+  "spatial_grad": 0.0690409317612648,
+  "hf_frac": 0.002297867252491066
+ },
+ "block_slide_videos/subgroup_003/invalid_hovering_00": {
+  "flow_energy": 0.5484822311749061,
+  "temporal_grad": 0.0007607270963490009,
+  "spatial_grad": 0.0905244453829162,
+  "hf_frac": 0.0021459537010007483
+ },
+ "block_slide_videos/subgroup_003/invalid_irregular_motion_00": {
+  "flow_energy": 0.46120049990713596,
+  "temporal_grad": 0.0008955580997280777,
+  "spatial_grad": 0.0909743777343205,
+  "hf_frac": 0.0021456142866180064
+ },
+ "block_slide_videos/subgroup_003/invalid_jittering_00": {
+  "flow_energy": 0.4650541913385193,
+  "temporal_grad": 0.0009216642356477678,
+  "spatial_grad": 0.09082223885521597,
+  "hf_frac": 0.0021304390404450753
+ },
+ "block_slide_videos/subgroup_003/invalid_size_changing_00": {
+  "flow_energy": 0.12300751086634894,
+  "temporal_grad": 0.00015526068455073982,
+  "spatial_grad": 0.08711345326535556,
+  "hf_frac": 0.0021154277629741387
+ },
+ "block_slide_videos/subgroup_003/invalid_teleportation_00": {
+  "flow_energy": 1.04334278923731,
+  "temporal_grad": 0.0018317225622013211,
+  "spatial_grad": 0.09131906424858133,
+  "hf_frac": 0.002142923114705212
+ },
+ "block_slide_videos/subgroup_003/valid_00": {
+  "flow_energy": 0.6999923574427763,
+  "temporal_grad": 0.001596649526618421,
+  "spatial_grad": 0.09217914574000301,
+  "hf_frac": 0.0021435830223912314
+ },
+ "block_slide_videos/subgroup_004/invalid_hovering_00": {
+  "flow_energy": 0.3043191383282344,
+  "temporal_grad": 0.0005026557482779026,
+  "spatial_grad": 0.06871523495231356,
+  "hf_frac": 0.0021641355251462643
+ },
+ "block_slide_videos/subgroup_004/invalid_irregular_motion_00": {
+  "flow_energy": 0.36206510445723933,
+  "temporal_grad": 0.0006152500282041728,
+  "spatial_grad": 0.06946517405461292,
+  "hf_frac": 0.0021876051790030108
+ },
+ "block_slide_videos/subgroup_004/invalid_jittering_00": {
+  "flow_energy": 0.36248633979509276,
+  "temporal_grad": 0.0006530812825076282,
+  "spatial_grad": 0.06946891880765253,
+  "hf_frac": 0.002185681904792656
+ },
+ "block_slide_videos/subgroup_004/invalid_size_changing_00": {
+  "flow_energy": 0.08160367650755991,
+  "temporal_grad": 6.968845264054835e-05,
+  "spatial_grad": 0.06658507503417073,
+  "hf_frac": 0.0021043732744404392
+ },
+ "block_slide_videos/subgroup_004/invalid_teleportation_00": {
+  "flow_energy": 0.5825873005669564,
+  "temporal_grad": 0.0009782896377146244,
+  "spatial_grad": 0.06964120284026983,
+  "hf_frac": 0.002145160737660953
+ },
+ "block_slide_videos/subgroup_004/valid_00": {
+  "flow_energy": 0.5736236549370611,
+  "temporal_grad": 0.0011542709544301033,
+  "spatial_grad": 0.06892535151267538,
+  "hf_frac": 0.0021751255050225706
+ },
+ "block_slide_videos/subgroup_005/invalid_hovering_00": {
+  "flow_energy": 0.5549886530886093,
+  "temporal_grad": 0.0005221363971941173,
+  "spatial_grad": 0.0939189793199909,
+  "hf_frac": 0.0025187737357481674
+ },
+ "block_slide_videos/subgroup_005/invalid_irregular_motion_00": {
+  "flow_energy": 0.5181754473596811,
+  "temporal_grad": 0.0009519421146251261,
+  "spatial_grad": 0.09579648640082807,
+  "hf_frac": 0.002611432090953692
+ },
+ "block_slide_videos/subgroup_005/invalid_jittering_00": {
+  "flow_energy": 0.5175323796768984,
+  "temporal_grad": 0.0010277690598741174,
+  "spatial_grad": 0.09542625701549101,
+  "hf_frac": 0.0026501167759997502
+ },
+ "block_slide_videos/subgroup_005/invalid_size_changing_00": {
+  "flow_energy": 0.12885123033386967,
+  "temporal_grad": 0.00010139114601770416,
+  "spatial_grad": 0.09183230996131897,
+  "hf_frac": 0.002460992346541876
+ },
+ "block_slide_videos/subgroup_005/invalid_teleportation_00": {
+  "flow_energy": 1.00344948649096,
+  "temporal_grad": 0.0011526501039043069,
+  "spatial_grad": 0.09406418490166567,
+  "hf_frac": 0.0025070412616650193
+ },
+ "block_slide_videos/subgroup_005/valid_00": {
+  "flow_energy": 0.7491451349730293,
+  "temporal_grad": 0.0016199146630242467,
+  "spatial_grad": 0.09610686527223003,
+  "hf_frac": 0.0025682638916726523
+ },
+ "block_slide_videos/subgroup_006/invalid_hovering_00": {
+  "flow_energy": 0.4892589319497347,
+  "temporal_grad": 0.00042237588786520064,
+  "spatial_grad": 0.09202578907110254,
+  "hf_frac": 0.0029082571399621916
+ },
+ "block_slide_videos/subgroup_006/invalid_irregular_motion_00": {
+  "flow_energy": 0.43031564975778264,
+  "temporal_grad": 0.0005079330876469612,
+  "spatial_grad": 0.09281658457250011,
+  "hf_frac": 0.0029189154387474457
+ },
+ "block_slide_videos/subgroup_006/invalid_jittering_00": {
+  "flow_energy": 0.42435503875215846,
+  "temporal_grad": 0.000531679077539593,
+  "spatial_grad": 0.09263994271049694,
+  "hf_frac": 0.0029229078025486415
+ },
+ "block_slide_videos/subgroup_006/invalid_size_changing_00": {
+  "flow_energy": 0.13429066624181965,
+  "temporal_grad": 9.721576498122886e-05,
+  "spatial_grad": 0.09182575086549837,
+  "hf_frac": 0.0029671822450896023
+ },
+ "block_slide_videos/subgroup_006/invalid_teleportation_00": {
+  "flow_energy": 0.8635313297078634,
+  "temporal_grad": 0.0008681588224135339,
+  "spatial_grad": 0.09267537082944598,
+  "hf_frac": 0.002923289305117183
+ },
+ "block_slide_videos/subgroup_006/valid_00": {
+  "flow_energy": 0.6055804143349329,
+  "temporal_grad": 0.0010773586109280586,
+  "spatial_grad": 0.09338360523082773,
+  "hf_frac": 0.002941799032196752
+ },
+ "block_slide_videos/subgroup_007/invalid_hovering_00": {
+  "flow_energy": 0.6988161727786064,
+  "temporal_grad": 0.0006139468750916421,
+  "spatial_grad": 0.08537515800218193,
+  "hf_frac": 0.002714385992668113
+ },
+ "block_slide_videos/subgroup_007/invalid_irregular_motion_00": {
+  "flow_energy": 0.5910323026279608,
+  "temporal_grad": 0.000696550530847162,
+  "spatial_grad": 0.08539316195006273,
+  "hf_frac": 0.002756338723133618
+ },
+ "block_slide_videos/subgroup_007/invalid_jittering_00": {
+  "flow_energy": 0.6112457563479742,
+  "temporal_grad": 0.000788957579061389,
+  "spatial_grad": 0.08507158196702296,
+  "hf_frac": 0.0027663035006761784
+ },
+ "block_slide_videos/subgroup_007/invalid_size_changing_00": {
+  "flow_energy": 0.21170075812066594,
+  "temporal_grad": 6.896873674122617e-05,
+  "spatial_grad": 0.08206988247681637,
+  "hf_frac": 0.002691177787623073
+ },
+ "block_slide_videos/subgroup_007/invalid_teleportation_00": {
+  "flow_energy": 1.0194926088054974,
+  "temporal_grad": 0.0013013255083933473,
+  "spatial_grad": 0.08599277844234389,
+  "hf_frac": 0.0027166148014147163
+ },
+ "block_slide_videos/subgroup_007/valid_00": {
+  "flow_energy": 0.7291364142050346,
+  "temporal_grad": 0.0011439869413152337,
+  "spatial_grad": 0.08602841821860294,
+  "hf_frac": 0.002774198002811839
+ },
+ "block_slide_videos/subgroup_008/invalid_hovering_00": {
+  "flow_energy": 0.764356986929973,
+  "temporal_grad": 0.000402316713007167,
+  "spatial_grad": 0.08867550519656162,
+  "hf_frac": 0.002209498297812647
+ },
+ "block_slide_videos/subgroup_008/invalid_irregular_motion_00": {
+  "flow_energy": 0.7583091842631499,
+  "temporal_grad": 0.0005743638030253351,
+  "spatial_grad": 0.08855904106582914,
+  "hf_frac": 0.0022351092934712875
+ },
+ "block_slide_videos/subgroup_008/invalid_jittering_00": {
+  "flow_energy": 0.7201088219881058,
+  "temporal_grad": 0.0006059684092178941,
+  "spatial_grad": 0.08854991121559727,
+  "hf_frac": 0.0022180767030552063
+ },
+ "block_slide_videos/subgroup_008/invalid_size_changing_00": {
+  "flow_energy": 0.21976140343273678,
+  "temporal_grad": 7.565566920675337e-05,
+  "spatial_grad": 0.08636463783225234,
+  "hf_frac": 0.002215927876842611
+ },
+ "block_slide_videos/subgroup_008/invalid_teleportation_00": {
+  "flow_energy": 1.1536275800317526,
+  "temporal_grad": 0.0009604311198927462,
+  "spatial_grad": 0.08932027342368146,
+  "hf_frac": 0.0022135281656669426
+ },
+ "block_slide_videos/subgroup_008/valid_00": {
+  "flow_energy": 0.9620355541507403,
+  "temporal_grad": 0.0012009599013254046,
+  "spatial_grad": 0.09051052541757117,
+  "hf_frac": 0.0022599204467391373
+ },
+ "block_slide_videos/subgroup_009/invalid_hovering_00": {
+  "flow_energy": 0.28534926380962133,
+  "temporal_grad": 0.00035019582719542086,
+  "spatial_grad": 0.06076809771511019,
+  "hf_frac": 0.0021090033987815893
+ },
+ "block_slide_videos/subgroup_009/invalid_irregular_motion_00": {
+  "flow_energy": 0.30219575654094416,
+  "temporal_grad": 0.0004515188338700682,
+  "spatial_grad": 0.060695882506516516,
+  "hf_frac": 0.002111898840613831
+ },
+ "block_slide_videos/subgroup_009/invalid_jittering_00": {
+  "flow_energy": 0.2954612039029598,
+  "temporal_grad": 0.0004735776747111231,
+  "spatial_grad": 0.06072365097245391,
+  "hf_frac": 0.0021154103628997197
+ },
+ "block_slide_videos/subgroup_009/invalid_size_changing_00": {
+  "flow_energy": 0.052492257277966324,
+  "temporal_grad": 7.12791588739492e-05,
+  "spatial_grad": 0.05978483706712723,
+  "hf_frac": 0.0020911065876380174
+ },
+ "block_slide_videos/subgroup_009/invalid_teleportation_00": {
+  "flow_energy": 0.6078878083521886,
+  "temporal_grad": 0.0007859706529416144,
+  "spatial_grad": 0.06150847719031937,
+  "hf_frac": 0.002107909060017343
+ },
+ "block_slide_videos/subgroup_009/valid_00": {
+  "flow_energy": 0.44598493321488303,
+  "temporal_grad": 0.0008075773366726935,
+  "spatial_grad": 0.061502101546039384,
+  "hf_frac": 0.002123065566814602
+ },
+ "cloth_drape_videos/subgroup_000/ground_penetration_00": {
+  "flow_energy": 3.0311050588109842,
+  "temporal_grad": 0.003943261224776506,
+  "spatial_grad": 0.043716181696829746,
+  "hf_frac": 0.00014277236669299606
+ },
+ "cloth_drape_videos/subgroup_000/impossible_folding_00": {
+  "flow_energy": 3.203727649524808,
+  "temporal_grad": 0.004425957333296537,
+  "spatial_grad": 0.05285236315459621,
+  "hf_frac": 0.0001760930553009359
+ },
+ "cloth_drape_videos/subgroup_000/penetration_00": {
+  "flow_energy": 6.3680688168695125,
+  "temporal_grad": 0.003685475094243884,
+  "spatial_grad": 0.04112053993253075,
+  "hf_frac": 0.00014004126402722327
+ },
+ "cloth_drape_videos/subgroup_000/rubber_cloth_00": {
+  "flow_energy": 2.52359002456069,
+  "temporal_grad": 0.005172686651349068,
+  "spatial_grad": 0.06050355405527718,
+  "hf_frac": 0.00021419489534756976
+ },
+ "cloth_drape_videos/subgroup_000/valid_00": {
+  "flow_energy": 3.234138375148177,
+  "temporal_grad": 0.004431466106325388,
+  "spatial_grad": 0.05873645845876665,
+  "hf_frac": 0.0001913472597166275
+ },
+ "cloth_drape_videos/subgroup_001/ground_penetration_00": {
+  "flow_energy": 2.108325399128565,
+  "temporal_grad": 0.0023360189516097307,
+  "spatial_grad": 0.03247925036643841,
+  "hf_frac": 6.891561188956919e-05
+ },
+ "cloth_drape_videos/subgroup_001/impossible_folding_00": {
+  "flow_energy": 2.3263681357105574,
+  "temporal_grad": 0.0026932794135063887,
+  "spatial_grad": 0.03683800132451009,
+  "hf_frac": 8.074254791603074e-05
+ },
+ "cloth_drape_videos/subgroup_001/penetration_00": {
+  "flow_energy": 3.6444926447354375,
+  "temporal_grad": 0.0022435837890952826,
+  "spatial_grad": 0.03373635149731928,
+  "hf_frac": 7.013907089082147e-05
+ },
+ "cloth_drape_videos/subgroup_001/rubber_cloth_00": {
+  "flow_energy": 1.9714249974737565,
+  "temporal_grad": 0.003189740004017949,
+  "spatial_grad": 0.042922040409579566,
+  "hf_frac": 0.00010510388164265154
+ },
+ "cloth_drape_videos/subgroup_001/valid_00": {
+  "flow_energy": 2.233778636281689,
+  "temporal_grad": 0.0026873417664319277,
+  "spatial_grad": 0.04029830127042167,
+  "hf_frac": 8.512935170147371e-05
+ },
+ "cloth_drape_videos/subgroup_002/ground_penetration_00": {
+  "flow_energy": 2.2211740307199457,
+  "temporal_grad": 0.003454017685726285,
+  "spatial_grad": 0.03899626026158126,
+  "hf_frac": 8.177284140048329e-05
+ },
+ "cloth_drape_videos/subgroup_002/impossible_folding_00": {
+  "flow_energy": 2.477530745168527,
+  "temporal_grad": 0.003940932918339968,
+  "spatial_grad": 0.04671845147956391,
+  "hf_frac": 0.00011053342949089701
+ },
+ "cloth_drape_videos/subgroup_002/penetration_00": {
+  "flow_energy": 4.407769621649769,
+  "temporal_grad": 0.0032583114225417376,
+  "spatial_grad": 0.03704363894553817,
+  "hf_frac": 7.993432760833428e-05
+ },
+ "cloth_drape_videos/subgroup_002/rubber_cloth_00": {
+  "flow_energy": 1.926797301818927,
+  "temporal_grad": 0.00442743394523859,
+  "spatial_grad": 0.05253827119512217,
+  "hf_frac": 0.000134749033788908
+ },
+ "cloth_drape_videos/subgroup_002/valid_00": {
+  "flow_energy": 2.5971947833895683,
+  "temporal_grad": 0.0038775838911533356,
+  "spatial_grad": 0.052011520620815606,
+  "hf_frac": 0.00011998590668593756
+ },
+ "cloth_drape_videos/subgroup_003/ground_penetration_00": {
+  "flow_energy": 3.953480230178684,
+  "temporal_grad": 0.004388072993606329,
+  "spatial_grad": 0.04643853459203122,
+  "hf_frac": 0.00011824573625711086
+ },
+ "cloth_drape_videos/subgroup_003/impossible_folding_00": {
+  "flow_energy": 3.479997033253312,
+  "temporal_grad": 0.0049704876728355885,
+  "spatial_grad": 0.05573719698099457,
+  "hf_frac": 0.00015443946879505212
+ },
+ "cloth_drape_videos/subgroup_003/penetration_00": {
+  "flow_energy": 5.79127030264079,
+  "temporal_grad": 0.004160841461271048,
+  "spatial_grad": 0.04566934845429294,
+  "hf_frac": 0.00011609498265152981
+ },
+ "cloth_drape_videos/subgroup_003/rubber_cloth_00": {
+  "flow_energy": 2.771692169830203,
+  "temporal_grad": 0.005600641015917063,
+  "spatial_grad": 0.06445801182060826,
+  "hf_frac": 0.0001961901935944922
+ },
+ "cloth_drape_videos/subgroup_003/valid_00": {
+  "flow_energy": 3.2276414117465415,
+  "temporal_grad": 0.004960846621543169,
+  "spatial_grad": 0.06142284698328193,
+  "hf_frac": 0.00017404752782192726
+ },
+ "cloth_drape_videos/subgroup_004/ground_penetration_00": {
+  "flow_energy": 1.8501781389738123,
+  "temporal_grad": 0.002902848646044731,
+  "spatial_grad": 0.034537397258515866,
+  "hf_frac": 6.518157609480088e-05
+ },
+ "cloth_drape_videos/subgroup_004/impossible_folding_00": {
+  "flow_energy": 2.1109961047768593,
+  "temporal_grad": 0.003392500802874565,
+  "spatial_grad": 0.04035809601904178,
+  "hf_frac": 8.537431917590439e-05
+ },
+ "cloth_drape_videos/subgroup_004/penetration_00": {
+  "flow_energy": 3.5804525497424833,
+  "temporal_grad": 0.0027984639164060354,
+  "spatial_grad": 0.03561234945545391,
+  "hf_frac": 6.634183524603497e-05
+ },
+ "cloth_drape_videos/subgroup_004/rubber_cloth_00": {
+  "flow_energy": 1.6344425265366833,
+  "temporal_grad": 0.003794175572693348,
+  "spatial_grad": 0.04644215072752261,
+  "hf_frac": 0.00010720951454600354
+ },
+ "cloth_drape_videos/subgroup_004/valid_00": {
+  "flow_energy": 2.013306664302945,
+  "temporal_grad": 0.0034358783159404993,
+  "spatial_grad": 0.045442137677146464,
+  "hf_frac": 9.69353674745971e-05
+ },
+ "cloth_drape_videos/subgroup_005/ground_penetration_00": {
+  "flow_energy": 4.028199471494493,
+  "temporal_grad": 0.003157723695039749,
+  "spatial_grad": 0.03915594924925542,
+  "hf_frac": 0.00010493408161721293
+ },
+ "cloth_drape_videos/subgroup_005/impossible_folding_00": {
+  "flow_energy": 4.156714250023167,
+  "temporal_grad": 0.003698499873280525,
+  "spatial_grad": 0.04615413158067635,
+  "hf_frac": 0.00013038541824634956
+ },
+ "cloth_drape_videos/subgroup_005/penetration_00": {
+  "flow_energy": 5.808621328823541,
+  "temporal_grad": 0.0030282798688858747,
+  "spatial_grad": 0.03997608610637942,
+  "hf_frac": 0.0001051595569737905
+ },
+ "cloth_drape_videos/subgroup_005/rubber_cloth_00": {
+  "flow_energy": 3.328590410451094,
+  "temporal_grad": 0.0041811526753008366,
+  "spatial_grad": 0.0550638488208761,
+  "hf_frac": 0.00016641710706697757
+ },
+ "cloth_drape_videos/subgroup_005/valid_00": {
+  "flow_energy": 3.9537895349785686,
+  "temporal_grad": 0.003842944512143731,
+  "spatial_grad": 0.053978570489859094,
+  "hf_frac": 0.0001500387897482949
+ },
+ "cloth_drape_videos/subgroup_006/ground_penetration_00": {
+  "flow_energy": 2.088311689614784,
+  "temporal_grad": 0.0036930434871464968,
+  "spatial_grad": 0.04118491104822986,
+  "hf_frac": 8.73258368650332e-05
+ },
+ "cloth_drape_videos/subgroup_006/impossible_folding_00": {
+  "flow_energy": 2.4507968400915465,
+  "temporal_grad": 0.004244220443069935,
+  "spatial_grad": 0.049938318718756945,
+  "hf_frac": 0.00012196656497423462
+ },
+ "cloth_drape_videos/subgroup_006/penetration_00": {
+  "flow_energy": 4.199718703260174,
+  "temporal_grad": 0.003498783567920327,
+  "spatial_grad": 0.03904843604078098,
+  "hf_frac": 8.549732704461506e-05
+ },
+ "cloth_drape_videos/subgroup_006/rubber_cloth_00": {
+  "flow_energy": 1.6896638659139473,
+  "temporal_grad": 0.004832552280277014,
+  "spatial_grad": 0.0568066771541323,
+  "hf_frac": 0.00014550452905315986
+ },
+ "cloth_drape_videos/subgroup_006/valid_00": {
+  "flow_energy": 2.3228119872510433,
+  "temporal_grad": 0.00430185766890645,
+  "spatial_grad": 0.057151837996682345,
+  "hf_frac": 0.00013530513177285397
+ },
+ "cloth_drape_videos/subgroup_007/ground_penetration_00": {
+  "flow_energy": 1.7597421730558078,
+  "temporal_grad": 0.003175874473527074,
+  "spatial_grad": 0.039822375477880846,
+  "hf_frac": 7.765804831394725e-05
+ },
+ "cloth_drape_videos/subgroup_007/impossible_folding_00": {
+  "flow_energy": 1.8273951710822682,
+  "temporal_grad": 0.0033971660304814577,
+  "spatial_grad": 0.04241126197941449,
+  "hf_frac": 9.305459111272972e-05
+ },
+ "cloth_drape_videos/subgroup_007/penetration_00": {
+  "flow_energy": 4.212776957756958,
+  "temporal_grad": 0.00274023343808949,
+  "spatial_grad": 0.037353720154841334,
+  "hf_frac": 6.406414984695852e-05
+ },
+ "cloth_drape_videos/subgroup_007/rubber_cloth_00": {
+  "flow_energy": 1.4197782517100375,
+  "temporal_grad": 0.003429781412705779,
+  "spatial_grad": 0.04766898731492004,
+  "hf_frac": 0.00010418394544437522
+ },
+ "cloth_drape_videos/subgroup_007/valid_00": {
+  "flow_energy": 1.7992191035300493,
+  "temporal_grad": 0.0036045052111148834,
+  "spatial_grad": 0.046664705233914514,
+  "hf_frac": 9.696729690482612e-05
+ },
+ "cloth_drape_videos/subgroup_008/ground_penetration_00": {
+  "flow_energy": 3.6332885718438774,
+  "temporal_grad": 0.0027148642111569643,
+  "spatial_grad": 0.034448160970469516,
+  "hf_frac": 9.27943090991768e-05
+ },
+ "cloth_drape_videos/subgroup_008/impossible_folding_00": {
+  "flow_energy": 3.8980271965265274,
+  "temporal_grad": 0.0032614897936582565,
+  "spatial_grad": 0.04079478348092157,
+  "hf_frac": 0.00011627843434477481
+ },
+ "cloth_drape_videos/subgroup_008/penetration_00": {
+  "flow_energy": 6.074891492224534,
+  "temporal_grad": 0.002518704393878579,
+  "spatial_grad": 0.03383571873133888,
+  "hf_frac": 9.055765672231179e-05
+ },
+ "cloth_drape_videos/subgroup_008/rubber_cloth_00": {
+  "flow_energy": 2.4243330291161933,
+  "temporal_grad": 0.003916230518370867,
+  "spatial_grad": 0.04749632029965216,
+  "hf_frac": 0.00014922708030040612
+ },
+ "cloth_drape_videos/subgroup_008/valid_00": {
+  "flow_energy": 3.9477561147262654,
+  "temporal_grad": 0.0034653821494430304,
+  "spatial_grad": 0.047939044518434275,
+  "hf_frac": 0.00014138996979527245
+ },
+ "cloth_drape_videos/subgroup_009/ground_penetration_00": {
+  "flow_energy": 2.846449535766927,
+  "temporal_grad": 0.002474455162882805,
+  "spatial_grad": 0.03278972552519063,
+  "hf_frac": 7.010866021693127e-05
+ },
+ "cloth_drape_videos/subgroup_009/impossible_folding_00": {
+  "flow_energy": 2.9506336664780974,
+  "temporal_grad": 0.0028374474495649338,
+  "spatial_grad": 0.037480076888994296,
+  "hf_frac": 8.245324960062008e-05
+ },
+ "cloth_drape_videos/subgroup_009/penetration_00": {
+  "flow_energy": 4.4671706414406165,
+  "temporal_grad": 0.0023169557098299265,
+  "spatial_grad": 0.03296808890846311,
+  "hf_frac": 6.930887114950793e-05
+ },
+ "cloth_drape_videos/subgroup_009/rubber_cloth_00": {
+  "flow_energy": 2.353948850184679,
+  "temporal_grad": 0.0034982634242624044,
+  "spatial_grad": 0.04545249953409847,
+  "hf_frac": 0.00011314311815147527
+ },
+ "cloth_drape_videos/subgroup_009/valid_00": {
+  "flow_energy": 2.9134680880233645,
+  "temporal_grad": 0.002878792816773057,
+  "spatial_grad": 0.041555979574213225,
+  "hf_frac": 8.92017385359571e-05
+ },
+ "faucet_videos/subgroup_006/fracturing_fluid_00": {
+  "flow_energy": 0.5740924148509899,
+  "temporal_grad": 0.002912048948928714,
+  "spatial_grad": 0.14390307984181813,
+  "hf_frac": 0.002753974082764688
+ },
+ "faucet_videos/subgroup_006/negative_viscosity_00": {
+  "flow_energy": 0.3409383633794884,
+  "temporal_grad": 0.0021719406358897686,
+  "spatial_grad": 0.128694549202919,
+  "hf_frac": 0.00262773323649747
+ },
+ "faucet_videos/subgroup_006/non_conservation_fluid_00": {
+  "flow_energy": 1.2827946244118114,
+  "temporal_grad": 0.00841063167899847,
+  "spatial_grad": 0.14838255135988704,
+  "hf_frac": 0.0030901329876250852
+ },
+ "faucet_videos/subgroup_006/oscillating_viscosity_00": {
+  "flow_energy": 0.3072612485848367,
+  "temporal_grad": 0.0016441541956737638,
+  "spatial_grad": 0.11755413303569871,
+  "hf_frac": 0.0025174635832989874
+ },
+ "faucet_videos/subgroup_006/phase_shifting_fluid_00": {
+  "flow_energy": 0.49188971511709195,
+  "temporal_grad": 0.0019370211521163583,
+  "spatial_grad": 0.11609728056557324,
+  "hf_frac": 0.002436657500883606
+ },
+ "faucet_videos/subgroup_006/self_attracting_00": {
+  "flow_energy": 0.08295025175902992,
+  "temporal_grad": 0.00023568673350382596,
+  "spatial_grad": 0.1062261767837466,
+  "hf_frac": 0.0023910784830139904
+ },
+ "faucet_videos/subgroup_006/teleporting_fluid_00": {
+  "flow_energy": 0.15757086391871175,
+  "temporal_grad": 0.0006833425723016262,
+  "spatial_grad": 0.13937509090316538,
+  "hf_frac": 0.0028950628572314155
+ },
+ "faucet_videos/subgroup_006/valid_00": {
+  "flow_energy": 0.9985833199073871,
+  "temporal_grad": 0.004781312774866819,
+  "spatial_grad": 0.1279090717434883,
+  "hf_frac": 0.0024831888315677993
+ },
+ "faucet_videos/subgroup_007/fracturing_fluid_00": {
+  "flow_energy": 0.6856729791810116,
+  "temporal_grad": 0.001435664831660688,
+  "spatial_grad": 0.1581293657726171,
+  "hf_frac": 0.0033094845108364674
+ },
+ "faucet_videos/subgroup_007/negative_viscosity_00": {
+  "flow_energy": 0.7474637771956623,
+  "temporal_grad": 0.0014631730737164617,
+  "spatial_grad": 0.13953180489491443,
+  "hf_frac": 0.003049875876977309
+ },
+ "faucet_videos/subgroup_007/non_conservation_fluid_00": {
+  "flow_energy": 1.2273730883995693,
+  "temporal_grad": 0.00536577170714736,
+  "spatial_grad": 0.15253868334147394,
+  "hf_frac": 0.0032043420218344264
+ },
+ "faucet_videos/subgroup_007/oscillating_viscosity_00": {
+  "flow_energy": 0.5899309543892741,
+  "temporal_grad": 0.0014502432895824313,
+  "spatial_grad": 0.13878836954126553,
+  "hf_frac": 0.0031054266370055166
+ },
+ "faucet_videos/subgroup_007/phase_shifting_fluid_00": {
+  "flow_energy": 0.9109591276695331,
+  "temporal_grad": 0.001635933294892311,
+  "spatial_grad": 0.1388846611490055,
+  "hf_frac": 0.0031289648243530495
+ },
+ "faucet_videos/subgroup_007/self_attracting_00": {
+  "flow_energy": 0.1203945828601718,
+  "temporal_grad": 0.00012763698759954423,
+  "spatial_grad": 0.13378080512796128,
+  "hf_frac": 0.0030612714707555513
+ },
+ "faucet_videos/subgroup_007/teleporting_fluid_00": {
+  "flow_energy": 0.27851919177919626,
+  "temporal_grad": 0.0007483672816306353,
+  "spatial_grad": 0.1552402027407471,
+  "hf_frac": 0.0033533201879419106
+ },
+ "faucet_videos/subgroup_007/valid_00": {
+  "flow_energy": 2.081234292437633,
+  "temporal_grad": 0.006415751297026873,
+  "spatial_grad": 0.16345309450918313,
+  "hf_frac": 0.0032715147260474193
+ },
+ "faucet_videos/subgroup_008/fracturing_fluid_00": {
+  "flow_energy": 0.5047046154116591,
+  "temporal_grad": 0.0022090573329478502,
+  "spatial_grad": 0.1970343340416344,
+  "hf_frac": 0.004273913529409638
+ },
+ "faucet_videos/subgroup_008/negative_viscosity_00": {
+  "flow_energy": 0.39747085282579064,
+  "temporal_grad": 0.0015509164659306407,
+  "spatial_grad": 0.16123276340718173,
+  "hf_frac": 0.003772785081305086
+ },
+ "faucet_videos/subgroup_008/non_conservation_fluid_00": {
+  "flow_energy": 1.889919251203537,
+  "temporal_grad": 0.01206114050000906,
+  "spatial_grad": 0.20150597697618056,
+  "hf_frac": 0.004429873407390638
+ },
+ "faucet_videos/subgroup_008/oscillating_viscosity_00": {
+  "flow_energy": 0.5028065748823186,
+  "temporal_grad": 0.002078303601592779,
+  "spatial_grad": 0.15697803424329174,
+  "hf_frac": 0.003941263970071573
+ },
+ "faucet_videos/subgroup_008/phase_shifting_fluid_00": {
+  "flow_energy": 0.4991630092263222,
+  "temporal_grad": 0.0016901002964004874,
+  "spatial_grad": 0.1630621649781052,
+  "hf_frac": 0.003989504604324787
+ },
+ "faucet_videos/subgroup_008/self_attracting_00": {
+  "flow_energy": 0.14358676418972513,
+  "temporal_grad": 0.00037852601963095367,
+  "spatial_grad": 0.15597296551782258,
+  "hf_frac": 0.004000219453397978
+ },
+ "faucet_videos/subgroup_008/teleporting_fluid_00": {
+  "flow_energy": 0.17194799225156507,
+  "temporal_grad": 0.0008356581092812121,
+  "spatial_grad": 0.18693029789292082,
+  "hf_frac": 0.004045928912596371
+ },
+ "faucet_videos/subgroup_008/valid_00": {
+  "flow_energy": 1.320035882294178,
+  "temporal_grad": 0.005698759108781815,
+  "spatial_grad": 0.18062982784242046,
+  "hf_frac": 0.003931844910827656
+ },
+ "faucet_videos/subgroup_009/fracturing_fluid_00": {
+  "flow_energy": 0.5374434655532241,
+  "temporal_grad": 0.0015547677176073194,
+  "spatial_grad": 0.17798856265690863,
+  "hf_frac": 0.0030809866193845835
+ },
+ "faucet_videos/subgroup_009/negative_viscosity_00": {
+  "flow_energy": 0.5224247222455839,
+  "temporal_grad": 0.0009110762621276081,
+  "spatial_grad": 0.14053996576338398,
+  "hf_frac": 0.0025717717246265003
+ },
+ "faucet_videos/subgroup_009/non_conservation_fluid_00": {
+  "flow_energy": 2.3647811704625687,
+  "temporal_grad": 0.006790854036808014,
+  "spatial_grad": 0.16176667474970527,
+  "hf_frac": 0.0028956683637068126
+ },
+ "faucet_videos/subgroup_009/oscillating_viscosity_00": {
+  "flow_energy": 0.456141432436804,
+  "temporal_grad": 0.0009350196341983974,
+  "spatial_grad": 0.14092961774796856,
+  "hf_frac": 0.0026118473896364677
+ },
+ "faucet_videos/subgroup_009/phase_shifting_fluid_00": {
+  "flow_energy": 0.6623206882116696,
+  "temporal_grad": 0.0013354616239666939,
+  "spatial_grad": 0.15426325068181876,
+  "hf_frac": 0.002690044717724949
+ },
+ "faucet_videos/subgroup_009/self_attracting_00": {
+  "flow_energy": 0.11414782113085191,
+  "temporal_grad": 0.00011559121048776433,
+  "spatial_grad": 0.14102572202682495,
+  "hf_frac": 0.002619637151107109
+ },
+ "faucet_videos/subgroup_009/teleporting_fluid_00": {
+  "flow_energy": 0.252924211944143,
+  "temporal_grad": 0.0010526173282414675,
+  "spatial_grad": 0.16449891426125351,
+  "hf_frac": 0.0029871827920736212
+ },
+ "faucet_videos/subgroup_009/valid_00": {
+  "flow_energy": 2.6771497949957848,
+  "temporal_grad": 0.005253557115793228,
+  "spatial_grad": 0.16694045735865223,
+  "hf_frac": 0.002607942488169032
+ },
+ "faucet_videos/subgroup_010/fracturing_fluid_00": {
+  "flow_energy": 0.40714835034062463,
+  "temporal_grad": 0.0016052298014983535,
+  "spatial_grad": 0.13128148825192937,
+  "hf_frac": 0.002385868201273343
+ },
+ "faucet_videos/subgroup_010/negative_viscosity_00": {
+  "flow_energy": 0.2816869057714939,
+  "temporal_grad": 0.001300670555792749,
+  "spatial_grad": 0.12069986167610908,
+  "hf_frac": 0.0023259564195278744
+ },
+ "faucet_videos/subgroup_010/non_conservation_fluid_00": {
+  "flow_energy": 0.712744688304762,
+  "temporal_grad": 0.00415221881121397,
+  "spatial_grad": 0.12195602895653977,
+  "hf_frac": 0.0024045403220933044
+ },
+ "faucet_videos/subgroup_010/oscillating_viscosity_00": {
+  "flow_energy": 0.23849135808025798,
+  "temporal_grad": 0.0011536894598975778,
+  "spatial_grad": 0.10854215281350273,
+  "hf_frac": 0.0022031232143551447
+ },
+ "faucet_videos/subgroup_010/phase_shifting_fluid_00": {
+  "flow_energy": 0.516588110399122,
+  "temporal_grad": 0.0015231599099934101,
+  "spatial_grad": 0.11205191879856344,
+  "hf_frac": 0.00223882165171981
+ },
+ "faucet_videos/subgroup_010/self_attracting_00": {
+  "flow_energy": 0.07334354073585321,
+  "temporal_grad": 0.00019670384062919766,
+  "spatial_grad": 0.10402184496728742,
+  "hf_frac": 0.002143399194219248
+ },
+ "faucet_videos/subgroup_010/teleporting_fluid_00": {
+  "flow_energy": 0.6877497203337649,
+  "temporal_grad": 0.003679947927594185,
+  "spatial_grad": 0.1550410160300683,
+  "hf_frac": 0.002977132141593049
+ },
+ "faucet_videos/subgroup_010/valid_00": {
+  "flow_energy": 1.0105939613034327,
+  "temporal_grad": 0.0050867293030023575,
+  "spatial_grad": 0.12520086643647174,
+  "hf_frac": 0.0023099148216270985
+ },
+ "faucet_videos/subgroup_011/fracturing_fluid_00": {
+  "flow_energy": 0.3977843640993039,
+  "temporal_grad": 0.001408445998094976,
+  "spatial_grad": 0.1845604771254014,
+  "hf_frac": 0.002710026062483954
+ },
+ "faucet_videos/subgroup_011/negative_viscosity_00": {
+  "flow_energy": 0.4635913511738181,
+  "temporal_grad": 0.0018194658914580941,
+  "spatial_grad": 0.16722034647756692,
+  "hf_frac": 0.002551766290558916
+ },
+ "faucet_videos/subgroup_011/non_conservation_fluid_00": {
+  "flow_energy": 0.48209002435517806,
+  "temporal_grad": 0.003031216561794281,
+  "spatial_grad": 0.1727024779027822,
+  "hf_frac": 0.0025328058737173298
+ },
+ "faucet_videos/subgroup_011/oscillating_viscosity_00": {
+  "flow_energy": 0.4128882723550002,
+  "temporal_grad": 0.001651280210353434,
+  "spatial_grad": 0.166154789377232,
+  "hf_frac": 0.0025018512073668913
+ },
+ "faucet_videos/subgroup_011/phase_shifting_fluid_00": {
+  "flow_energy": 0.4422685499303043,
+  "temporal_grad": 0.0018802169943228364,
+  "spatial_grad": 0.16717292429233083,
+  "hf_frac": 0.002475827383208918
+ },
+ "faucet_videos/subgroup_011/self_attracting_00": {
+  "flow_energy": 0.1014532611394922,
+  "temporal_grad": 0.0001424037473043427,
+  "spatial_grad": 0.15969293549352762,
+  "hf_frac": 0.0023932503538433704
+ },
+ "faucet_videos/subgroup_011/teleporting_fluid_00": {
+  "flow_energy": 0.16646290213490525,
+  "temporal_grad": 0.0008590665529482067,
+  "spatial_grad": 0.1801265405148876,
+  "hf_frac": 0.0028034761762709354
+ },
+ "faucet_videos/subgroup_011/valid_00": {
+  "flow_energy": 0.9526885959009329,
+  "temporal_grad": 0.005925401579588652,
+  "spatial_grad": 0.18373436252681577,
+  "hf_frac": 0.002628579385241018
+ },
+ "faucet_videos/subgroup_012/fracturing_fluid_00": {
+  "flow_energy": 0.44483708186695975,
+  "temporal_grad": 0.0017444206168875098,
+  "spatial_grad": 0.1928552234051179,
+  "hf_frac": 0.00393139043251154
+ },
+ "faucet_videos/subgroup_012/negative_viscosity_00": {
+  "flow_energy": 0.4136135010048747,
+  "temporal_grad": 0.001544380560517311,
+  "spatial_grad": 0.15790351495450858,
+  "hf_frac": 0.003451737389342772
+ },
+ "faucet_videos/subgroup_012/non_conservation_fluid_00": {
+  "flow_energy": 0.6579339066520333,
+  "temporal_grad": 0.003891137195751071,
+  "spatial_grad": 0.16705502478443846,
+  "hf_frac": 0.003799457500567142
+ },
+ "faucet_videos/subgroup_012/oscillating_viscosity_00": {
+  "flow_energy": 0.38641271196926635,
+  "temporal_grad": 0.0015088379150256515,
+  "spatial_grad": 0.15004022206578935,
+  "hf_frac": 0.0035705625620386615
+ },
+ "faucet_videos/subgroup_012/phase_shifting_fluid_00": {
+  "flow_energy": 0.5554861766286194,
+  "temporal_grad": 0.0018723242683336139,
+  "spatial_grad": 0.1600159373210401,
+  "hf_frac": 0.0037168241832718795
+ },
+ "faucet_videos/subgroup_012/self_attracting_00": {
+  "flow_energy": 0.10232816512386005,
+  "temporal_grad": 0.00023475765192415565,
+  "spatial_grad": 0.15132633246937577,
+  "hf_frac": 0.003720188722831604
+ },
+ "faucet_videos/subgroup_012/teleporting_fluid_00": {
+  "flow_energy": 0.2017725620729228,
+  "temporal_grad": 0.0010897052707150578,
+  "spatial_grad": 0.1849634650410438,
+  "hf_frac": 0.0038556025287796477
+ },
+ "faucet_videos/subgroup_012/valid_00": {
+  "flow_energy": 1.4322732811172803,
+  "temporal_grad": 0.005014325957745314,
+  "spatial_grad": 0.17673437084470475,
+  "hf_frac": 0.0035392658569576617
+ },
+ "faucet_videos/subgroup_013/fracturing_fluid_00": {
+  "flow_energy": 0.3305413192138076,
+  "temporal_grad": 0.0017275260761380196,
+  "spatial_grad": 0.1498452821860508,
+  "hf_frac": 0.003125159902356383
+ },
+ "faucet_videos/subgroup_013/negative_viscosity_00": {
+  "flow_energy": 0.2972661992534995,
+  "temporal_grad": 0.0018298825016245246,
+  "spatial_grad": 0.1444337926044756,
+  "hf_frac": 0.0030144340706639828
+ },
+ "faucet_videos/subgroup_013/non_conservation_fluid_00": {
+  "flow_energy": 0.38575883000157773,
+  "temporal_grad": 0.0031705659348517656,
+  "spatial_grad": 0.14086614153823074,
+  "hf_frac": 0.002962490903936521
+ },
+ "faucet_videos/subgroup_013/oscillating_viscosity_00": {
+  "flow_energy": 0.22017622863252959,
+  "temporal_grad": 0.001338923699222505,
+  "spatial_grad": 0.11540209076234273,
+  "hf_frac": 0.00274930483010903
+ },
+ "faucet_videos/subgroup_013/phase_shifting_fluid_00": {
+  "flow_energy": 0.39963280502706766,
+  "temporal_grad": 0.002106692874804139,
+  "spatial_grad": 0.130437932908535,
+  "hf_frac": 0.0031185531876645025
+ },
+ "faucet_videos/subgroup_013/self_attracting_00": {
+  "flow_energy": 0.03592494978026176,
+  "temporal_grad": 0.0001993897749343887,
+  "spatial_grad": 0.11242000758647919,
+  "hf_frac": 0.002697671758000364
+ },
+ "faucet_videos/subgroup_013/teleporting_fluid_00": {
+  "flow_energy": 0.15341839116687575,
+  "temporal_grad": 0.0010036325547844172,
+  "spatial_grad": 0.1566635613538781,
+  "hf_frac": 0.00337505873365635
+ },
+ "faucet_videos/subgroup_013/valid_00": {
+  "flow_energy": 0.9519225341888765,
+  "temporal_grad": 0.004339998587965965,
+  "spatial_grad": 0.13469483764195928,
+  "hf_frac": 0.0027777435302344705
+ },
+ "faucet_videos/subgroup_014/fracturing_fluid_00": {
+  "flow_energy": 0.4709395154689749,
+  "temporal_grad": 0.002190271858125925,
+  "spatial_grad": 0.13270129765174826,
+  "hf_frac": 0.0024139731865325765
+ },
+ "faucet_videos/subgroup_014/negative_viscosity_00": {
+  "flow_energy": 0.33221286985402304,
+  "temporal_grad": 0.0016327140619978309,
+  "spatial_grad": 0.11820979644449389,
+  "hf_frac": 0.00235663292550225
+ },
+ "faucet_videos/subgroup_014/non_conservation_fluid_00": {
+  "flow_energy": 0.9383430650147299,
+  "temporal_grad": 0.00579080730676651,
+  "spatial_grad": 0.13428142803664112,
+  "hf_frac": 0.0025609271711474185
+ },
+ "faucet_videos/subgroup_014/oscillating_viscosity_00": {
+  "flow_energy": 0.5022089627260963,
+  "temporal_grad": 0.0023899206425994635,
+  "spatial_grad": 0.12344140833129688,
+  "hf_frac": 0.0024064025458909876
+ },
+ "faucet_videos/subgroup_014/phase_shifting_fluid_00": {
+  "flow_energy": 0.6411934033967555,
+  "temporal_grad": 0.002149911830201745,
+  "spatial_grad": 0.11282594790872262,
+  "hf_frac": 0.002204784677843806
+ },
+ "faucet_videos/subgroup_014/self_attracting_00": {
+  "flow_energy": 0.1368492298449079,
+  "temporal_grad": 0.00028455641586333513,
+  "spatial_grad": 0.10116830605025194,
+  "hf_frac": 0.002081585235394597
+ },
+ "faucet_videos/subgroup_014/teleporting_fluid_00": {
+  "flow_energy": 0.4800928549375385,
+  "temporal_grad": 0.0029960349202156067,
+  "spatial_grad": 0.1329856995417147,
+  "hf_frac": 0.0026195692087333552
+ },
+ "faucet_videos/subgroup_014/valid_00": {
+  "flow_energy": 1.1656344514340162,
+  "temporal_grad": 0.006509120110422373,
+  "spatial_grad": 0.1298864987127635,
+  "hf_frac": 0.0023662391232724005
+ },
+ "faucet_videos/subgroup_015/fracturing_fluid_00": {
+  "flow_energy": 0.3283569114282727,
+  "temporal_grad": 0.0015631868736818433,
+  "spatial_grad": 0.138736150550599,
+  "hf_frac": 0.002539844979253824
+ },
+ "faucet_videos/subgroup_015/negative_viscosity_00": {
+  "flow_energy": 0.26556714011045796,
+  "temporal_grad": 0.001259446726180613,
+  "spatial_grad": 0.11696857715747794,
+  "hf_frac": 0.002330569206892563
+ },
+ "faucet_videos/subgroup_015/non_conservation_fluid_00": {
+  "flow_energy": 0.7554239933378994,
+  "temporal_grad": 0.004949155263602734,
+  "spatial_grad": 0.13454725867023273,
+  "hf_frac": 0.00253450670544327
+ },
+ "faucet_videos/subgroup_015/oscillating_viscosity_00": {
+  "flow_energy": 0.2830263094510883,
+  "temporal_grad": 0.0016127211274579167,
+  "spatial_grad": 0.11050033812620202,
+  "hf_frac": 0.0022995173501963177
+ },
+ "faucet_videos/subgroup_015/phase_shifting_fluid_00": {
+  "flow_energy": 0.23746776192759475,
+  "temporal_grad": 0.0009860070422291756,
+  "spatial_grad": 0.108679078215239,
+  "hf_frac": 0.002225631391084619
+ },
+ "faucet_videos/subgroup_015/self_attracting_00": {
+  "flow_energy": 0.051248490888004504,
+  "temporal_grad": 0.0001150243406300433,
+  "spatial_grad": 0.10238238530499595,
+  "hf_frac": 0.0021763341272182136
+ },
+ "faucet_videos/subgroup_015/teleporting_fluid_00": {
+  "flow_energy": 0.17376388795673847,
+  "temporal_grad": 0.0008765925304032862,
+  "spatial_grad": 0.12546787791106165,
+  "hf_frac": 0.0025695622072711404
+ },
+ "faucet_videos/subgroup_015/valid_00": {
+  "flow_energy": 1.2750513659169276,
+  "temporal_grad": 0.004755015950649977,
+  "spatial_grad": 0.12680612610919134,
+  "hf_frac": 0.0022774103775665957
+ },
+ "flag_videos/subgroup_000/elastic_explosion_00": {
+  "flow_energy": 14.723503986994425,
+  "temporal_grad": 0.0017786314710974693,
+  "spatial_grad": 0.10751333863151316,
+  "hf_frac": 0.0015531490964403993
+ },
+ "flag_videos/subgroup_000/flag_shatter_00": {
+  "flow_energy": 5.204406678055723,
+  "temporal_grad": 0.005804026033729315,
+  "spatial_grad": 0.13570602679130983,
+  "hf_frac": 0.0017871205027656174
+ },
+ "flag_videos/subgroup_000/flag_teleport_00": {
+  "flow_energy": 1.244908148733278,
+  "temporal_grad": 0.0027554172556847334,
+  "spatial_grad": 0.11542530266606078,
+  "hf_frac": 0.0015916897098596095
+ },
+ "flag_videos/subgroup_000/impossible_twist_00": {
+  "flow_energy": 3.79103740490973,
+  "temporal_grad": 0.008722496218979359,
+  "spatial_grad": 0.1390265466607347,
+  "hf_frac": 0.0016332520248536577
+ },
+ "flag_videos/subgroup_000/sudden_freeze_00": {
+  "flow_energy": 2.5084832844634852,
+  "temporal_grad": 0.004418281372636557,
+  "spatial_grad": 0.12478241309219477,
+  "hf_frac": 0.0017519934008239644
+ },
+ "flag_videos/subgroup_000/valid_00": {
+  "flow_energy": 2.6204048544168472,
+  "temporal_grad": 0.004958314821124077,
+  "spatial_grad": 0.12156472294306268,
+  "hf_frac": 0.001548528229290902
+ },
+ "flag_videos/subgroup_001/elastic_explosion_00": {
+  "flow_energy": 14.355212481537214,
+  "temporal_grad": 0.001819472759962082,
+  "spatial_grad": 0.10953625869386051,
+  "hf_frac": 0.0015587309375582473
+ },
+ "flag_videos/subgroup_001/flag_shatter_00": {
+  "flow_energy": 2.362901385912361,
+  "temporal_grad": 0.0038547811564058065,
+  "spatial_grad": 0.14361246584021314,
+  "hf_frac": 0.001894244311938532
+ },
+ "flag_videos/subgroup_001/flag_teleport_00": {
+  "flow_energy": 0.6803599080691735,
+  "temporal_grad": 0.0014762962237000465,
+  "spatial_grad": 0.11324973632486499,
+  "hf_frac": 0.0016446413186389144
+ },
+ "flag_videos/subgroup_001/impossible_twist_00": {
+  "flow_energy": 3.6476242585728564,
+  "temporal_grad": 0.008999601937830448,
+  "spatial_grad": 0.1436552329331028,
+  "hf_frac": 0.001608156637492609
+ },
+ "flag_videos/subgroup_001/sudden_freeze_00": {
+  "flow_energy": 1.3242182286145787,
+  "temporal_grad": 0.002045133151113987,
+  "spatial_grad": 0.127780942740489,
+  "hf_frac": 0.001735361267134242
+ },
+ "flag_videos/subgroup_001/valid_00": {
+  "flow_energy": 2.722713565453887,
+  "temporal_grad": 0.003660902613773942,
+  "spatial_grad": 0.12091024098347644,
+  "hf_frac": 0.001657826066056875
+ },
+ "flag_videos/subgroup_002/elastic_explosion_00": {
+  "flow_energy": 14.884249860731265,
+  "temporal_grad": 0.00152781221549958,
+  "spatial_grad": 0.09583900792866337,
+  "hf_frac": 0.0013463166746102827
+ },
+ "flag_videos/subgroup_002/flag_shatter_00": {
+  "flow_energy": 1.841413689350399,
+  "temporal_grad": 0.004602440632879734,
+  "spatial_grad": 0.13691420640264237,
+  "hf_frac": 0.0016702812900633273
+ },
+ "flag_videos/subgroup_002/flag_teleport_00": {
+  "flow_energy": 1.0339163625612855,
+  "temporal_grad": 0.002329679671674967,
+  "spatial_grad": 0.10104746265070778,
+  "hf_frac": 0.00146860987166442
+ },
+ "flag_videos/subgroup_002/impossible_twist_00": {
+  "flow_energy": 2.5569167813907066,
+  "temporal_grad": 0.007914980873465538,
+  "spatial_grad": 0.15503392049244472,
+  "hf_frac": 0.001466912243533017
+ },
+ "flag_videos/subgroup_002/sudden_freeze_00": {
+  "flow_energy": 0.3258613709670802,
+  "temporal_grad": 0.00044676175457425416,
+  "spatial_grad": 0.11492202172473985,
+  "hf_frac": 0.0016181073178708984
+ },
+ "flag_videos/subgroup_002/valid_00": {
+  "flow_energy": 0.6858505302419265,
+  "temporal_grad": 0.001243054517544806,
+  "spatial_grad": 0.1107112427755278,
+  "hf_frac": 0.0014207725889977348
+ },
+ "flag_videos/subgroup_003/elastic_explosion_00": {
+  "flow_energy": 9.186633248503009,
+  "temporal_grad": 0.0019321652362123132,
+  "spatial_grad": 0.11624656419972984,
+  "hf_frac": 0.0015424585437029666
+ },
+ "flag_videos/subgroup_003/flag_shatter_00": {
+  "flow_energy": 1.6427265488309786,
+  "temporal_grad": 0.0031599749345332384,
+  "spatial_grad": 0.14015874479498183,
+  "hf_frac": 0.001741016603789
+ },
+ "flag_videos/subgroup_003/flag_teleport_00": {
+  "flow_energy": 5.292612958699465,
+  "temporal_grad": 0.01021931879222393,
+  "spatial_grad": 0.1272171843720942,
+  "hf_frac": 0.0013735828808356166
+ },
+ "flag_videos/subgroup_003/impossible_twist_00": {
+  "flow_energy": 2.7985069192945957,
+  "temporal_grad": 0.008863438852131367,
+  "spatial_grad": 0.16353817040822943,
+  "hf_frac": 0.0015473137716320805
+ },
+ "flag_videos/subgroup_003/sudden_freeze_00": {
+  "flow_energy": 0.4371097038965672,
+  "temporal_grad": 0.0006214762688614428,
+  "spatial_grad": 0.13418079882251974,
+  "hf_frac": 0.0017516488800447421
+ },
+ "flag_videos/subgroup_003/valid_00": {
+  "flow_energy": 0.5052526228440305,
+  "temporal_grad": 0.0007732532103545964,
+  "spatial_grad": 0.13408006545232268,
+  "hf_frac": 0.0017025247333720662
+ },
+ "flag_videos/subgroup_004/elastic_explosion_00": {
+  "flow_energy": 14.91216603278493,
+  "temporal_grad": 0.0014355065068230033,
+  "spatial_grad": 0.09422088916204413,
+  "hf_frac": 0.001299336622243694
+ },
+ "flag_videos/subgroup_004/flag_shatter_00": {
+  "flow_energy": 1.6285151131645155,
+  "temporal_grad": 0.00406125420704484,
+  "spatial_grad": 0.1332397584100159,
+  "hf_frac": 0.0017346067556729097
+ },
+ "flag_videos/subgroup_004/flag_teleport_00": {
+  "flow_energy": 3.3238056053717933,
+  "temporal_grad": 0.006856672465801239,
+  "spatial_grad": 0.11979869464222266,
+  "hf_frac": 0.0015995221310199387
+ },
+ "flag_videos/subgroup_004/impossible_twist_00": {
+  "flow_energy": 2.8830632902681828,
+  "temporal_grad": 0.009510946460068226,
+  "spatial_grad": 0.13360958014215743,
+  "hf_frac": 0.0016428740002242784
+ },
+ "flag_videos/subgroup_004/sudden_freeze_00": {
+  "flow_energy": 0.4372048573180412,
+  "temporal_grad": 0.0008508056052960455,
+  "spatial_grad": 0.11135495408457152,
+  "hf_frac": 0.0015613246729723927
+ },
+ "flag_videos/subgroup_004/valid_00": {
+  "flow_energy": 1.0933598911700149,
+  "temporal_grad": 0.0016081184148788452,
+  "spatial_grad": 0.10927634093226218,
+  "hf_frac": 0.0015508674766154457
+ },
+ "flag_videos/subgroup_005/elastic_explosion_00": {
+  "flow_energy": 10.635925593359085,
+  "temporal_grad": 0.001618914189748466,
+  "spatial_grad": 0.09767969028682125,
+  "hf_frac": 0.0013011423492439137
+ },
+ "flag_videos/subgroup_005/flag_shatter_00": {
+  "flow_energy": 2.103505165160944,
+  "temporal_grad": 0.00636114738881588,
+  "spatial_grad": 0.13656039444767698,
+  "hf_frac": 0.0016149299562270357
+ },
+ "flag_videos/subgroup_005/flag_teleport_00": {
+  "flow_energy": 1.2091354608225326,
+  "temporal_grad": 0.002367786830291152,
+  "spatial_grad": 0.10630788684499506,
+  "hf_frac": 0.00150804379770954
+ },
+ "flag_videos/subgroup_005/impossible_twist_00": {
+  "flow_energy": 2.4635852885742984,
+  "temporal_grad": 0.008834502659738064,
+  "spatial_grad": 0.1444189157717082,
+  "hf_frac": 0.0013424453294574423
+ },
+ "flag_videos/subgroup_005/sudden_freeze_00": {
+  "flow_energy": 0.6870411211275496,
+  "temporal_grad": 0.0015347969019785523,
+  "spatial_grad": 0.11199975180990841,
+  "hf_frac": 0.0015506152873839341
+ },
+ "flag_videos/subgroup_005/valid_00": {
+  "flow_energy": 0.7312830098283788,
+  "temporal_grad": 0.0010106986155733466,
+  "spatial_grad": 0.11273903049984757,
+  "hf_frac": 0.0015334593605984726
+ },
+ "flag_videos/subgroup_006/elastic_explosion_00": {
+  "flow_energy": 6.183634443519016,
+  "temporal_grad": 0.0015728563303127885,
+  "spatial_grad": 0.09735420848033866,
+  "hf_frac": 0.0013059442773665356
+ },
+ "flag_videos/subgroup_006/flag_shatter_00": {
+  "flow_energy": 1.9296925272016476,
+  "temporal_grad": 0.004213711712509394,
+  "spatial_grad": 0.12186372538610381,
+  "hf_frac": 0.0015847377690595046
+ },
+ "flag_videos/subgroup_006/flag_teleport_00": {
+  "flow_energy": 3.72128726541996,
+  "temporal_grad": 0.009633458219468594,
+  "spatial_grad": 0.1223298540833045,
+  "hf_frac": 0.001381177227071298
+ },
+ "flag_videos/subgroup_006/impossible_twist_00": {
+  "flow_energy": 3.09333429671824,
+  "temporal_grad": 0.008684874512255192,
+  "spatial_grad": 0.13250447110253938,
+  "hf_frac": 0.0015501652543913709
+ },
+ "flag_videos/subgroup_006/sudden_freeze_00": {
+  "flow_energy": 1.2962226863019168,
+  "temporal_grad": 0.0024647614918649197,
+  "spatial_grad": 0.11110185725348336,
+  "hf_frac": 0.0015326701653468324
+ },
+ "flag_videos/subgroup_006/valid_00": {
+  "flow_energy": 1.496682841020326,
+  "temporal_grad": 0.0022057543974369764,
+  "spatial_grad": 0.10704436548510377,
+  "hf_frac": 0.0015111548467601574
+ },
+ "flag_videos/subgroup_007/elastic_explosion_00": {
+  "flow_energy": 8.744723092609396,
+  "temporal_grad": 0.001786864479072392,
+  "spatial_grad": 0.10874073496278451,
+  "hf_frac": 0.0015981607465231087
+ },
+ "flag_videos/subgroup_007/flag_shatter_00": {
+  "flow_energy": 2.4385106482853494,
+  "temporal_grad": 0.005487367976456881,
+  "spatial_grad": 0.14468699936964075,
+  "hf_frac": 0.0019027602687104472
+ },
+ "flag_videos/subgroup_007/flag_teleport_00": {
+  "flow_energy": 0.670526842897137,
+  "temporal_grad": 0.001763335894793272,
+  "spatial_grad": 0.11946837467198469,
+  "hf_frac": 0.0016980437727271965
+ },
+ "flag_videos/subgroup_007/impossible_twist_00": {
+  "flow_energy": 3.2598065600420036,
+  "temporal_grad": 0.011333834379911423,
+  "spatial_grad": 0.16778589724277965,
+  "hf_frac": 0.0018029031813847102
+ },
+ "flag_videos/subgroup_007/sudden_freeze_00": {
+  "flow_energy": 0.5939028696933141,
+  "temporal_grad": 0.0011928241001442075,
+  "spatial_grad": 0.13118327028897345,
+  "hf_frac": 0.0018151657515433843
+ },
+ "flag_videos/subgroup_007/valid_00": {
+  "flow_energy": 0.6513637757549683,
+  "temporal_grad": 0.001916359644383192,
+  "spatial_grad": 0.13013829792640647,
+  "hf_frac": 0.00169923582125035
+ },
+ "flag_videos/subgroup_008/elastic_explosion_00": {
+  "flow_energy": 13.014839917266121,
+  "temporal_grad": 0.0013561808736994863,
+  "spatial_grad": 0.09293033714805331,
+  "hf_frac": 0.0013016397074614914
+ },
+ "flag_videos/subgroup_008/flag_shatter_00": {
+  "flow_energy": 2.938503057967561,
+  "temporal_grad": 0.007963834330439568,
+  "spatial_grad": 0.15278852913452654,
+  "hf_frac": 0.0019310992432103344
+ },
+ "flag_videos/subgroup_008/flag_teleport_00": {
+  "flow_energy": 0.585354715740929,
+  "temporal_grad": 0.0014231749810278416,
+  "spatial_grad": 0.09598794321016389,
+  "hf_frac": 0.0014873508974171316
+ },
+ "flag_videos/subgroup_008/impossible_twist_00": {
+  "flow_energy": 2.8524633326257267,
+  "temporal_grad": 0.01030599232763052,
+  "spatial_grad": 0.1534147407023274,
+  "hf_frac": 0.0017891404247945598
+ },
+ "flag_videos/subgroup_008/sudden_freeze_00": {
+  "flow_energy": 0.24849220586474985,
+  "temporal_grad": 0.00038529440644197166,
+  "spatial_grad": 0.11185015084183945,
+  "hf_frac": 0.0016539298354265152
+ },
+ "flag_videos/subgroup_008/valid_00": {
+  "flow_energy": 0.4610037730696301,
+  "temporal_grad": 0.001081477734260261,
+  "spatial_grad": 0.105663748267962,
+  "hf_frac": 0.0014458099261411
+ },
+ "flag_videos/subgroup_009/elastic_explosion_00": {
+  "flow_energy": 13.073553813621402,
+  "temporal_grad": 0.0014793382724747062,
+  "spatial_grad": 0.09538469904539537,
+  "hf_frac": 0.0013329383788288332
+ },
+ "flag_videos/subgroup_009/flag_shatter_00": {
+  "flow_energy": 1.9082443095006358,
+  "temporal_grad": 0.005380766931921244,
+  "spatial_grad": 0.12494236367697618,
+  "hf_frac": 0.0015199709360325222
+ },
+ "flag_videos/subgroup_009/flag_teleport_00": {
+  "flow_energy": 0.39358286769129336,
+  "temporal_grad": 0.0009479181026108563,
+  "spatial_grad": 0.09657018236359771,
+  "hf_frac": 0.0015362897914537432
+ },
+ "flag_videos/subgroup_009/impossible_twist_00": {
+  "flow_energy": 3.3850727578004203,
+  "temporal_grad": 0.009472762234508991,
+  "spatial_grad": 0.13101127363589346,
+  "hf_frac": 0.0015840900070659173
+ },
+ "flag_videos/subgroup_009/sudden_freeze_00": {
+  "flow_energy": 2.3002411393705793,
+  "temporal_grad": 0.005157384555786848,
+  "spatial_grad": 0.11102968180666165,
+  "hf_frac": 0.0015650653475835895
+ },
+ "flag_videos/subgroup_009/valid_00": {
+  "flow_energy": 1.9818839753667514,
+  "temporal_grad": 0.0044796341098845005,
+  "spatial_grad": 0.10776266273187131,
+  "hf_frac": 0.0014754549348813919
+ },
+ "fluid_videos/subgroup_000/antigravity_fluid_00": {
+  "flow_energy": 1.49567827830712,
+  "temporal_grad": 0.0019084688974544406,
+  "spatial_grad": 0.14079682361714693,
+  "hf_frac": 0.0010317975720686658
+ },
+ "fluid_videos/subgroup_000/discontinuous_fluid_00": {
+  "flow_energy": 0.8665248900651932,
+  "temporal_grad": 0.0009907206986099482,
+  "spatial_grad": 0.13050643506706977,
+  "hf_frac": 0.000917225646222607
+ },
+ "fluid_videos/subgroup_000/matter_creation_00": {
+  "flow_energy": 1.0729074673727155,
+  "temporal_grad": 0.0017270884709432721,
+  "spatial_grad": 0.13071659830759982,
+  "hf_frac": 0.000915282251845842
+ },
+ "fluid_videos/subgroup_000/non_conservation_momentum_00": {
+  "flow_energy": 2.522117752581835,
+  "temporal_grad": 0.0038526442367583513,
+  "spatial_grad": 0.13556172805173056,
+  "hf_frac": 0.0010325731651310978
+ },
+ "fluid_videos/subgroup_000/phase_transition_00": {
+  "flow_energy": 0.801851057757934,
+  "temporal_grad": 0.0009729188750497997,
+  "spatial_grad": 0.12267320648748048,
+  "hf_frac": 0.0009191701856019587
+ },
+ "fluid_videos/subgroup_000/self_attracting_00": {
+  "flow_energy": 2.3619971200823784,
+  "temporal_grad": 0.0069769383408129215,
+  "spatial_grad": 0.1382102265345807,
+  "hf_frac": 0.0010231156809555684
+ },
+ "fluid_videos/subgroup_000/valid_00": {
+  "flow_energy": 5.983887845029433,
+  "temporal_grad": 0.014446251094341278,
+  "spatial_grad": 0.16261105087338662,
+  "hf_frac": 0.0011740750439957046
+ },
+ "fluid_videos/subgroup_001/antigravity_fluid_00": {
+  "flow_energy": 0.7337731371323267,
+  "temporal_grad": 0.0020177157130092382,
+  "spatial_grad": 0.12688113110406057,
+  "hf_frac": 0.0006715337470948052
+ },
+ "fluid_videos/subgroup_001/discontinuous_fluid_00": {
+  "flow_energy": 0.505585158864657,
+  "temporal_grad": 0.0007418895256705582,
+  "spatial_grad": 0.11464028638236377,
+  "hf_frac": 0.0006293301839125418
+ },
+ "fluid_videos/subgroup_001/matter_creation_00": {
+  "flow_energy": 0.6027470358336965,
+  "temporal_grad": 0.00125868187751621,
+  "spatial_grad": 0.11735418423706172,
+  "hf_frac": 0.0006304005378029616
+ },
+ "fluid_videos/subgroup_001/non_conservation_momentum_00": {
+  "flow_energy": 0.7843613227208456,
+  "temporal_grad": 0.0009914522524923086,
+  "spatial_grad": 0.11751983649268442,
+  "hf_frac": 0.0006541916244217304
+ },
+ "fluid_videos/subgroup_001/phase_transition_00": {
+  "flow_energy": 0.2840497669142981,
+  "temporal_grad": 0.000514327606651932,
+  "spatial_grad": 0.10944093870265144,
+  "hf_frac": 0.0006075450897273998
+ },
+ "fluid_videos/subgroup_001/self_attracting_00": {
+  "flow_energy": 0.421206107440715,
+  "temporal_grad": 0.0007611077162437141,
+  "spatial_grad": 0.1069249154961839,
+  "hf_frac": 0.0005979307704931023
+ },
+ "fluid_videos/subgroup_001/valid_00": {
+  "flow_energy": 4.076635217914979,
+  "temporal_grad": 0.00968101155012846,
+  "spatial_grad": 0.13012500304956826,
+  "hf_frac": 0.0006825799837146295
+ },
+ "fluid_videos/subgroup_002/antigravity_fluid_00": {
+  "flow_energy": 0.5994106863314906,
+  "temporal_grad": 0.0014347368851304054,
+  "spatial_grad": 0.2524901932599593,
+  "hf_frac": 0.0011024245832255645
+ },
+ "fluid_videos/subgroup_002/discontinuous_fluid_00": {
+  "flow_energy": 0.6370548081273834,
+  "temporal_grad": 0.0017814881866797805,
+  "spatial_grad": 0.26687937123434885,
+  "hf_frac": 0.0011868703902213392
+ },
+ "fluid_videos/subgroup_002/matter_creation_00": {
+  "flow_energy": 0.6882299530940751,
+  "temporal_grad": 0.002193561987951398,
+  "spatial_grad": 0.26320962425397365,
+  "hf_frac": 0.0011625108584647592
+ },
+ "fluid_videos/subgroup_002/non_conservation_momentum_00": {
+  "flow_energy": 1.8613005025933187,
+  "temporal_grad": 0.003986678086221218,
+  "spatial_grad": 0.26911185955514716,
+  "hf_frac": 0.0012178534545776718
+ },
+ "fluid_videos/subgroup_002/phase_transition_00": {
+  "flow_energy": 0.36015363798166317,
+  "temporal_grad": 0.0009632784058339894,
+  "spatial_grad": 0.2539081120369386,
+  "hf_frac": 0.0011003967626854333
+ },
+ "fluid_videos/subgroup_002/self_attracting_00": {
+  "flow_energy": 3.048660228649775,
+  "temporal_grad": 0.011238787323236465,
+  "spatial_grad": 0.2843315689539423,
+  "hf_frac": 0.0013211349897150335
+ },
+ "fluid_videos/subgroup_002/valid_00": {
+  "flow_energy": 5.808880017449458,
+  "temporal_grad": 0.014704198576509953,
+  "spatial_grad": 0.28207986269678387,
+  "hf_frac": 0.0013358473120986703
+ },
+ "fluid_videos/subgroup_003/antigravity_fluid_00": {
+  "flow_energy": 1.0274792822698753,
+  "temporal_grad": 0.0022317960392683744,
+  "spatial_grad": 0.18623783241729347,
+  "hf_frac": 0.0014782763394193643
+ },
+ "fluid_videos/subgroup_003/discontinuous_fluid_00": {
+  "flow_energy": 0.7409400939941406,
+  "temporal_grad": 0.0015520538436248899,
+  "spatial_grad": 0.18792065339429037,
+  "hf_frac": 0.001423256223815016
+ },
+ "fluid_videos/subgroup_003/matter_creation_00": {
+  "flow_energy": 0.8355050018678108,
+  "temporal_grad": 0.001917747431434691,
+  "spatial_grad": 0.18289940332879825,
+  "hf_frac": 0.0013951427408969153
+ },
+ "fluid_videos/subgroup_003/non_conservation_momentum_00": {
+  "flow_energy": 1.1124668108920257,
+  "temporal_grad": 0.0023106811568140984,
+  "spatial_grad": 0.19410035896057987,
+  "hf_frac": 0.0015227676062222655
+ },
+ "fluid_videos/subgroup_003/phase_transition_00": {
+  "flow_energy": 0.3712467217507462,
+  "temporal_grad": 0.0007677102112211287,
+  "spatial_grad": 0.18331618059654625,
+  "hf_frac": 0.001453314654268086
+ },
+ "fluid_videos/subgroup_003/self_attracting_00": {
+  "flow_energy": 2.0368187949061394,
+  "temporal_grad": 0.005872365552932024,
+  "spatial_grad": 0.1970301644534481,
+  "hf_frac": 0.001520059421426037
+ },
+ "fluid_videos/subgroup_003/valid_00": {
+  "flow_energy": 4.181569382548332,
+  "temporal_grad": 0.00802044291049242,
+  "spatial_grad": 0.19560815850082708,
+  "hf_frac": 0.001478640891129384
+ },
+ "fluid_videos/subgroup_004/antigravity_fluid_00": {
+  "flow_energy": 0.46084953285753727,
+  "temporal_grad": 0.0009298336808569729,
+  "spatial_grad": 0.12898045276500741,
+  "hf_frac": 0.000953953960892706
+ },
+ "fluid_videos/subgroup_004/discontinuous_fluid_00": {
+  "flow_energy": 0.22050818769882122,
+  "temporal_grad": 0.0003230656438972801,
+  "spatial_grad": 0.12675797650400472,
+  "hf_frac": 0.0009552957322757793
+ },
+ "fluid_videos/subgroup_004/matter_creation_00": {
+  "flow_energy": 0.27650843917702633,
+  "temporal_grad": 0.00048430508468300104,
+  "spatial_grad": 0.12772965674497644,
+  "hf_frac": 0.000956951871134304
+ },
+ "fluid_videos/subgroup_004/non_conservation_momentum_00": {
+  "flow_energy": 0.5390287299330035,
+  "temporal_grad": 0.0007542693056166172,
+  "spatial_grad": 0.12845346802959637,
+  "hf_frac": 0.0009598657840165595
+ },
+ "fluid_videos/subgroup_004/phase_transition_00": {
+  "flow_energy": 0.22138697894600531,
+  "temporal_grad": 0.0003735028440132737,
+  "spatial_grad": 0.12496638358855734,
+  "hf_frac": 0.0009484444192377498
+ },
+ "fluid_videos/subgroup_004/self_attracting_00": {
+  "flow_energy": 2.80118136604627,
+  "temporal_grad": 0.01159453485161066,
+  "spatial_grad": 0.15649944756712234,
+  "hf_frac": 0.0011202519513661396
+ },
+ "fluid_videos/subgroup_004/valid_00": {
+  "flow_energy": 2.4068790934979916,
+  "temporal_grad": 0.00761410454288125,
+  "spatial_grad": 0.14291402332636774,
+  "hf_frac": 0.0010390363743920182
+ },
+ "fluid_videos/subgroup_005/antigravity_fluid_00": {
+  "flow_energy": 0.5617939475923777,
+  "temporal_grad": 0.0016397280851379037,
+  "spatial_grad": 0.17234972757952555,
+  "hf_frac": 0.000966336382850831
+ },
+ "fluid_videos/subgroup_005/discontinuous_fluid_00": {
+  "flow_energy": 0.5186244826763868,
+  "temporal_grad": 0.001382039044983685,
+  "spatial_grad": 0.1774301738763342,
+  "hf_frac": 0.0010427507754600636
+ },
+ "fluid_videos/subgroup_005/matter_creation_00": {
+  "flow_energy": 0.2706890494252245,
+  "temporal_grad": 0.0007388730882667005,
+  "spatial_grad": 0.16449707138295078,
+  "hf_frac": 0.0009765501031295602
+ },
+ "fluid_videos/subgroup_005/non_conservation_momentum_00": {
+  "flow_energy": 0.8926386420304576,
+  "temporal_grad": 0.0013202904956415296,
+  "spatial_grad": 0.16880871142659867,
+  "hf_frac": 0.001001008366200929
+ },
+ "fluid_videos/subgroup_005/phase_transition_00": {
+  "flow_energy": 0.2598998777878781,
+  "temporal_grad": 0.0006413929513655603,
+  "spatial_grad": 0.16301956985677993,
+  "hf_frac": 0.0009492084082458773
+ },
+ "fluid_videos/subgroup_005/self_attracting_00": {
+  "flow_energy": 2.4368649596969285,
+  "temporal_grad": 0.009576793760061264,
+  "spatial_grad": 0.19259808866345152,
+  "hf_frac": 0.001181315431890628
+ },
+ "fluid_videos/subgroup_005/valid_00": {
+  "flow_energy": 3.011049104233583,
+  "temporal_grad": 0.008741631172597408,
+  "spatial_grad": 0.18233756295272283,
+  "hf_frac": 0.0010578968943351073
+ },
+ "fluid_videos/subgroup_006/antigravity_fluid_00": {
+  "flow_energy": 0.299851306869338,
+  "temporal_grad": 0.0010311335790902376,
+  "spatial_grad": 0.24775067823273794,
+  "hf_frac": 0.0011663170258106015
+ },
+ "fluid_videos/subgroup_006/discontinuous_fluid_00": {
+  "flow_energy": 0.41966271741936606,
+  "temporal_grad": 0.0008351611904799938,
+  "spatial_grad": 0.24842739561382604,
+  "hf_frac": 0.0011668274187673412
+ },
+ "fluid_videos/subgroup_006/matter_creation_00": {
+  "flow_energy": 0.1809803070888544,
+  "temporal_grad": 0.0003019330033566803,
+  "spatial_grad": 0.2410386289869036,
+  "hf_frac": 0.0011495907727806106
+ },
+ "fluid_videos/subgroup_006/non_conservation_momentum_00": {
+  "flow_energy": 0.3431213401102771,
+  "temporal_grad": 0.00031405367190018296,
+  "spatial_grad": 0.2413857597477582,
+  "hf_frac": 0.0011477374468196243
+ },
+ "fluid_videos/subgroup_006/phase_transition_00": {
+  "flow_energy": 0.2515607040453081,
+  "temporal_grad": 0.0003407432232052088,
+  "spatial_grad": 0.2408389978262843,
+  "hf_frac": 0.001142796590673151
+ },
+ "fluid_videos/subgroup_006/self_attracting_00": {
+  "flow_energy": 1.7649509124457836,
+  "temporal_grad": 0.004592608660459518,
+  "spatial_grad": 0.2553761239562716,
+  "hf_frac": 0.001237826309697899
+ },
+ "fluid_videos/subgroup_006/valid_00": {
+  "flow_energy": 2.103648186350862,
+  "temporal_grad": 0.005499498452991247,
+  "spatial_grad": 0.25082486655030933,
+  "hf_frac": 0.0011674822153714532
+ },
+ "fluid_videos/subgroup_007/antigravity_fluid_00": {
+  "flow_energy": 1.294171868513028,
+  "temporal_grad": 0.0011038787197321653,
+  "spatial_grad": 0.154390705179195,
+  "hf_frac": 0.0010778649100612726
+ },
+ "fluid_videos/subgroup_007/discontinuous_fluid_00": {
+  "flow_energy": 0.38794710642347735,
+  "temporal_grad": 0.0002547635813243687,
+  "spatial_grad": 0.14095237668679686,
+  "hf_frac": 0.0010588573010353586
+ },
+ "fluid_videos/subgroup_007/matter_creation_00": {
+  "flow_energy": 0.5219676438719034,
+  "temporal_grad": 0.00035334393032826483,
+  "spatial_grad": 0.13951509309058285,
+  "hf_frac": 0.0010478136984299487
+ },
+ "fluid_videos/subgroup_007/non_conservation_momentum_00": {
+  "flow_energy": 0.8187806233763695,
+  "temporal_grad": 0.0005636775749735534,
+  "spatial_grad": 0.14488566955741572,
+  "hf_frac": 0.0011111820889677596
+ },
+ "fluid_videos/subgroup_007/phase_transition_00": {
+  "flow_energy": 0.49828602373600006,
+  "temporal_grad": 0.0004322492459323257,
+  "spatial_grad": 0.14210580715111323,
+  "hf_frac": 0.0010697198968556245
+ },
+ "fluid_videos/subgroup_007/self_attracting_00": {
+  "flow_energy": 2.014874362697204,
+  "temporal_grad": 0.0062903608195483685,
+  "spatial_grad": 0.1573964132338154,
+  "hf_frac": 0.0011737374487515507
+ },
+ "fluid_videos/subgroup_007/valid_00": {
+  "flow_energy": 3.014738647888104,
+  "temporal_grad": 0.008459550328552723,
+  "spatial_grad": 0.16529965978495928,
+  "hf_frac": 0.0011593172091201034
+ },
+ "fluid_videos/subgroup_008/antigravity_fluid_00": {
+  "flow_energy": 1.3341099172830582,
+  "temporal_grad": 0.0013154972111806273,
+  "spatial_grad": 0.13564562371798924,
+  "hf_frac": 0.0006007229462627562
+ },
+ "fluid_videos/subgroup_008/discontinuous_fluid_00": {
+  "flow_energy": 0.8589018719891707,
+  "temporal_grad": 0.00018057065608445555,
+  "spatial_grad": 0.1302408998718067,
+  "hf_frac": 0.0005829016906343195
+ },
+ "fluid_videos/subgroup_008/matter_creation_00": {
+  "flow_energy": 0.862177005658547,
+  "temporal_grad": 0.00034651742316782475,
+  "spatial_grad": 0.13152147586248358,
+  "hf_frac": 0.0005749022367657438
+ },
+ "fluid_videos/subgroup_008/non_conservation_momentum_00": {
+  "flow_energy": 1.0604767464101315,
+  "temporal_grad": 0.000613082607742399,
+  "spatial_grad": 0.13537404306080877,
+  "hf_frac": 0.0006060539180275342
+ },
+ "fluid_videos/subgroup_008/phase_transition_00": {
+  "flow_energy": 1.0794355310499668,
+  "temporal_grad": 0.00035346372169442475,
+  "spatial_grad": 0.12991748202820214,
+  "hf_frac": 0.0005664575848861792
+ },
+ "fluid_videos/subgroup_008/self_attracting_00": {
+  "flow_energy": 2.4877145116527877,
+  "temporal_grad": 0.006447415333241224,
+  "spatial_grad": 0.1509599372440455,
+  "hf_frac": 0.0006958153693385928
+ },
+ "fluid_videos/subgroup_008/valid_00": {
+  "flow_energy": 3.4073431318004928,
+  "temporal_grad": 0.008508333936333656,
+  "spatial_grad": 0.15272629990869638,
+  "hf_frac": 0.000663814448114842
+ },
+ "fluid_videos/subgroup_009/antigravity_fluid_00": {
+  "flow_energy": 1.2695917499562104,
+  "temporal_grad": 0.0024089559447020292,
+  "spatial_grad": 0.18898875342339885,
+  "hf_frac": 0.0008857684226195938
+ },
+ "fluid_videos/subgroup_009/discontinuous_fluid_00": {
+  "flow_energy": 0.4825290832668543,
+  "temporal_grad": 0.0006929052178747952,
+  "spatial_grad": 0.1962738447651571,
+  "hf_frac": 0.0009752789423374992
+ },
+ "fluid_videos/subgroup_009/matter_creation_00": {
+  "flow_energy": 0.37174839883421856,
+  "temporal_grad": 0.0007700134883634746,
+  "spatial_grad": 0.19440547148792112,
+  "hf_frac": 0.0009556613560912684
+ },
+ "fluid_videos/subgroup_009/non_conservation_momentum_00": {
+  "flow_energy": 1.2629193629448612,
+  "temporal_grad": 0.001899405033327639,
+  "spatial_grad": 0.20278135306981146,
+  "hf_frac": 0.000990375995170025
+ },
+ "fluid_videos/subgroup_009/phase_transition_00": {
+  "flow_energy": 0.22986468921105066,
+  "temporal_grad": 0.0004636129306163639,
+  "spatial_grad": 0.19356360605784825,
+  "hf_frac": 0.0009443221500148923
+ },
+ "fluid_videos/subgroup_009/self_attracting_00": {
+  "flow_energy": 1.777658298611641,
+  "temporal_grad": 0.004404297564178705,
+  "spatial_grad": 0.2049733154019531,
+  "hf_frac": 0.0010156491095915934
+ },
+ "fluid_videos/subgroup_009/valid_00": {
+  "flow_energy": 3.671414648493131,
+  "temporal_grad": 0.0068925656378269196,
+  "spatial_grad": 0.1994601804382947,
+  "hf_frac": 0.0009249231376301866
+ },
+ "pendulum_videos/subgroup_000/break_conservation_energy_00": {
+  "flow_energy": 0.9194575684765974,
+  "temporal_grad": 0.0029979131650179625,
+  "spatial_grad": 0.150447065732917,
+  "hf_frac": 0.001177630505371078
+ },
+ "pendulum_videos/subgroup_000/break_continuity_00": {
+  "flow_energy": 0.9724570736289024,
+  "temporal_grad": 0.0027871534693986177,
+  "spatial_grad": 0.1501628862959998,
+  "hf_frac": 0.001168336150012696
+ },
+ "pendulum_videos/subgroup_000/disappearing_bob_00": {
+  "flow_energy": 0.6278382856398821,
+  "temporal_grad": 0.0021342274267226458,
+  "spatial_grad": 0.14807480573654175,
+  "hf_frac": 0.0011558642721733025
+ },
+ "pendulum_videos/subgroup_000/path_deviation_00": {
+  "flow_energy": 0.7431539688259363,
+  "temporal_grad": 0.0013820742024108768,
+  "spatial_grad": 0.14032089801467196,
+  "hf_frac": 0.0011288753075812206
+ },
+ "pendulum_videos/subgroup_000/reverse_gravity_00": {
+  "flow_energy": 0.8278423054143786,
+  "temporal_grad": 0.0025568774435669184,
+  "spatial_grad": 0.1501441074877369,
+  "hf_frac": 0.0011710212131913218
+ },
+ "pendulum_videos/subgroup_000/valid_00": {
+  "flow_energy": 0.5959860356524587,
+  "temporal_grad": 0.0021614935249090195,
+  "spatial_grad": 0.15012569695102926,
+  "hf_frac": 0.0011655976522080473
+ },
+ "pendulum_videos/subgroup_000/varying_frequency_00": {
+  "flow_energy": 0.904436704547455,
+  "temporal_grad": 0.002927218796685338,
+  "spatial_grad": 0.15023612945663686,
+  "hf_frac": 0.0011667262619266666
+ },
+ "pendulum_videos/subgroup_001/break_conservation_energy_00": {
+  "flow_energy": 0.6894756917220851,
+  "temporal_grad": 0.0022138275671750307,
+  "spatial_grad": 0.16957185980008574,
+  "hf_frac": 0.0013186079746167444
+ },
+ "pendulum_videos/subgroup_001/break_continuity_00": {
+  "flow_energy": 0.5962184839105854,
+  "temporal_grad": 0.002225346164777875,
+  "spatial_grad": 0.1693301447192017,
+  "hf_frac": 0.0013071646702681962
+ },
+ "pendulum_videos/subgroup_001/disappearing_bob_00": {
+  "flow_energy": 0.4701487172860652,
+  "temporal_grad": 0.0015483651077374816,
+  "spatial_grad": 0.16752833158385996,
+  "hf_frac": 0.0012968922964003426
+ },
+ "pendulum_videos/subgroup_001/path_deviation_00": {
+  "flow_energy": 0.6073269069505235,
+  "temporal_grad": 0.0011014435440301895,
+  "spatial_grad": 0.16068517766436752,
+  "hf_frac": 0.001277331539268456
+ },
+ "pendulum_videos/subgroup_001/reverse_gravity_00": {
+  "flow_energy": 0.5376430225248138,
+  "temporal_grad": 0.0019514764426276088,
+  "spatial_grad": 0.16928559328828538,
+  "hf_frac": 0.0013071092413997054
+ },
+ "pendulum_videos/subgroup_001/valid_00": {
+  "flow_energy": 0.4981122043294211,
+  "temporal_grad": 0.0017113011563196778,
+  "spatial_grad": 0.16920214861023183,
+  "hf_frac": 0.0013045710652175072
+ },
+ "pendulum_videos/subgroup_001/varying_frequency_00": {
+  "flow_energy": 0.7006228438694961,
+  "temporal_grad": 0.0023373577278107405,
+  "spatial_grad": 0.16938868438710972,
+  "hf_frac": 0.0013049643433386345
+ },
+ "pendulum_videos/subgroup_002/break_conservation_energy_00": {
+  "flow_energy": 1.1068351678550243,
+  "temporal_grad": 0.003860789118334651,
+  "spatial_grad": 0.15315585477011545,
+  "hf_frac": 0.0011831382953554868
+ },
+ "pendulum_videos/subgroup_002/break_continuity_00": {
+  "flow_energy": 0.9260744523877898,
+  "temporal_grad": 0.003820677986368537,
+  "spatial_grad": 0.1537225212977857,
+  "hf_frac": 0.0011706971276070652
+ },
+ "pendulum_videos/subgroup_002/disappearing_bob_00": {
+  "flow_energy": 0.7238198223834237,
+  "temporal_grad": 0.0025950113777071238,
+  "spatial_grad": 0.1503991916471598,
+  "hf_frac": 0.0011502318647002028
+ },
+ "pendulum_videos/subgroup_002/path_deviation_00": {
+  "flow_energy": 0.8001103081429998,
+  "temporal_grad": 0.0012848249170929193,
+  "spatial_grad": 0.1398816126949933,
+  "hf_frac": 0.00111534139323798
+ },
+ "pendulum_videos/subgroup_002/reverse_gravity_00": {
+  "flow_energy": 0.8404296425481638,
+  "temporal_grad": 0.0033466394525021315,
+  "spatial_grad": 0.1538381238981169,
+  "hf_frac": 0.0011720238295568708
+ },
+ "pendulum_videos/subgroup_002/valid_00": {
+  "flow_energy": 0.8357141554976503,
+  "temporal_grad": 0.0032005731482058764,
+  "spatial_grad": 0.1538070963353527,
+  "hf_frac": 0.0011755238885968518
+ },
+ "pendulum_videos/subgroup_002/varying_frequency_00": {
+  "flow_energy": 1.100218335011353,
+  "temporal_grad": 0.003969117533415556,
+  "spatial_grad": 0.1536996255115587,
+  "hf_frac": 0.0011686494847963109
+ },
+ "pendulum_videos/subgroup_003/break_conservation_energy_00": {
+  "flow_energy": 1.2899151676489662,
+  "temporal_grad": 0.004531595390290022,
+  "spatial_grad": 0.12771929374762944,
+  "hf_frac": 0.0010869689741169815
+ },
+ "pendulum_videos/subgroup_003/break_continuity_00": {
+  "flow_energy": 1.2870547135050099,
+  "temporal_grad": 0.004059574566781521,
+  "spatial_grad": 0.12773810570337335,
+  "hf_frac": 0.0010761855227765015
+ },
+ "pendulum_videos/subgroup_003/disappearing_bob_00": {
+  "flow_energy": 0.8565614633262157,
+  "temporal_grad": 0.0032364141661673784,
+  "spatial_grad": 0.12518974028679788,
+  "hf_frac": 0.0010647826364564594
+ },
+ "pendulum_videos/subgroup_003/path_deviation_00": {
+  "flow_energy": 0.8965371313194433,
+  "temporal_grad": 0.0014999922132119536,
+  "spatial_grad": 0.11287115818383742,
+  "hf_frac": 0.0009996404472183552
+ },
+ "pendulum_videos/subgroup_003/reverse_gravity_00": {
+  "flow_energy": 1.0845713351542752,
+  "temporal_grad": 0.0037797901313751936,
+  "spatial_grad": 0.12797386548957046,
+  "hf_frac": 0.001080507614701341
+ },
+ "pendulum_videos/subgroup_003/valid_00": {
+  "flow_energy": 0.8293990741173426,
+  "temporal_grad": 0.0033587226644158363,
+  "spatial_grad": 0.1278658328311784,
+  "hf_frac": 0.0010744513067609443
+ },
+ "pendulum_videos/subgroup_003/varying_frequency_00": {
+  "flow_energy": 1.2135199270366381,
+  "temporal_grad": 0.004152666311711073,
+  "spatial_grad": 0.12787693145931983,
+  "hf_frac": 0.0010769258961405674
+ },
+ "pendulum_videos/subgroup_004/break_conservation_energy_00": {
+  "flow_energy": 1.2693710010498762,
+  "temporal_grad": 0.004757241811603308,
+  "spatial_grad": 0.1703122255145287,
+  "hf_frac": 0.001310982544620524
+ },
+ "pendulum_videos/subgroup_004/break_continuity_00": {
+  "flow_energy": 1.0869240816682577,
+  "temporal_grad": 0.0048135994002223015,
+  "spatial_grad": 0.1704021202666419,
+  "hf_frac": 0.0012964394125934892
+ },
+ "pendulum_videos/subgroup_004/disappearing_bob_00": {
+  "flow_energy": 0.7921209881703059,
+  "temporal_grad": 0.00302786473184824,
+  "spatial_grad": 0.16693248219636023,
+  "hf_frac": 0.0012739962615567865
+ },
+ "pendulum_videos/subgroup_004/path_deviation_00": {
+  "flow_energy": 0.7368036589274803,
+  "temporal_grad": 0.0011851058807224035,
+  "spatial_grad": 0.15693415093178653,
+  "hf_frac": 0.001239344094100765
+ },
+ "pendulum_videos/subgroup_004/reverse_gravity_00": {
+  "flow_energy": 0.9713390168423454,
+  "temporal_grad": 0.0040411134250462055,
+  "spatial_grad": 0.1705965664313764,
+  "hf_frac": 0.0012990921141780652
+ },
+ "pendulum_videos/subgroup_004/valid_00": {
+  "flow_energy": 0.8428655196912587,
+  "temporal_grad": 0.0033167607616633177,
+  "spatial_grad": 0.1704170919802724,
+  "hf_frac": 0.0012949134258879288
+ },
+ "pendulum_videos/subgroup_004/varying_frequency_00": {
+  "flow_energy": 1.2013386872907479,
+  "temporal_grad": 0.004684218671172857,
+  "spatial_grad": 0.17048047969535907,
+  "hf_frac": 0.0012945774938934432
+ },
+ "pendulum_videos/subgroup_005/break_conservation_energy_00": {
+  "flow_energy": 0.7093707298239073,
+  "temporal_grad": 0.0024754598271101713,
+  "spatial_grad": 0.15130650905930265,
+  "hf_frac": 0.001167146048892476
+ },
+ "pendulum_videos/subgroup_005/break_continuity_00": {
+  "flow_energy": 0.6665608016774058,
+  "temporal_grad": 0.0024509953800588846,
+  "spatial_grad": 0.15080732502499405,
+  "hf_frac": 0.001156526783619944
+ },
+ "pendulum_videos/subgroup_005/disappearing_bob_00": {
+  "flow_energy": 0.5074036869530877,
+  "temporal_grad": 0.0017425254918634892,
+  "spatial_grad": 0.14875685043480932,
+  "hf_frac": 0.001146260347681654
+ },
+ "pendulum_videos/subgroup_005/path_deviation_00": {
+  "flow_energy": 0.6081722819556793,
+  "temporal_grad": 0.0012674347963184118,
+  "spatial_grad": 0.14033387266859718,
+  "hf_frac": 0.0011257863643169086
+ },
+ "pendulum_videos/subgroup_005/reverse_gravity_00": {
+  "flow_energy": 0.5981165766716003,
+  "temporal_grad": 0.0021641417406499386,
+  "spatial_grad": 0.1507850493095359,
+  "hf_frac": 0.001157049152226447
+ },
+ "pendulum_videos/subgroup_005/valid_00": {
+  "flow_energy": 0.47341378265991807,
+  "temporal_grad": 0.0016902900533750653,
+  "spatial_grad": 0.1509193698970639,
+  "hf_frac": 0.001152636815120351
+ },
+ "pendulum_videos/subgroup_005/varying_frequency_00": {
+  "flow_energy": 0.7389733541446427,
+  "temporal_grad": 0.002616520971059799,
+  "spatial_grad": 0.15091664541740807,
+  "hf_frac": 0.0011553564550086685
+ },
+ "pendulum_videos/subgroup_006/break_conservation_energy_00": {
+  "flow_energy": 1.1925384839996696,
+  "temporal_grad": 0.00487408647313714,
+  "spatial_grad": 0.14853534224082013,
+  "hf_frac": 0.0011832292916971333
+ },
+ "pendulum_videos/subgroup_006/break_continuity_00": {
+  "flow_energy": 1.1655662613920867,
+  "temporal_grad": 0.004701090510934591,
+  "spatial_grad": 0.14891144329187822,
+  "hf_frac": 0.0011736872786617608
+ },
+ "pendulum_videos/subgroup_006/disappearing_bob_00": {
+  "flow_energy": 0.7827012518731257,
+  "temporal_grad": 0.00333441817201674,
+  "spatial_grad": 0.145119525644244,
+  "hf_frac": 0.001154057541166551
+ },
+ "pendulum_videos/subgroup_006/path_deviation_00": {
+  "flow_energy": 0.7835253374651074,
+  "temporal_grad": 0.0015055086696520448,
+  "spatial_grad": 0.1322883933174367,
+  "hf_frac": 0.0011180671803290557
+ },
+ "pendulum_videos/subgroup_006/reverse_gravity_00": {
+  "flow_energy": 0.9735484157378475,
+  "temporal_grad": 0.004162418656051159,
+  "spatial_grad": 0.14909252493965383,
+  "hf_frac": 0.001176729640452955
+ },
+ "pendulum_videos/subgroup_006/valid_00": {
+  "flow_energy": 0.8430470768362284,
+  "temporal_grad": 0.0037852090317755938,
+  "spatial_grad": 0.14908445520060404,
+  "hf_frac": 0.0011754070143052751
+ },
+ "pendulum_videos/subgroup_006/varying_frequency_00": {
+  "flow_energy": 1.1163564761421487,
+  "temporal_grad": 0.004580364562571049,
+  "spatial_grad": 0.14909691834936337,
+  "hf_frac": 0.0011743274228444712
+ },
+ "pendulum_videos/subgroup_007/break_conservation_energy_00": {
+  "flow_energy": 0.8501125049466888,
+  "temporal_grad": 0.0029837472829967737,
+  "spatial_grad": 0.15348211356571742,
+  "hf_frac": 0.00118018018979806
+ },
+ "pendulum_videos/subgroup_007/break_continuity_00": {
+  "flow_energy": 0.7734616249799728,
+  "temporal_grad": 0.002979246899485588,
+  "spatial_grad": 0.15315426156228903,
+  "hf_frac": 0.0011705872052783597
+ },
+ "pendulum_videos/subgroup_007/disappearing_bob_00": {
+  "flow_energy": 0.5842923242598772,
+  "temporal_grad": 0.0020512761548161507,
+  "spatial_grad": 0.1506737209096247,
+  "hf_frac": 0.0011590886860049542
+ },
+ "pendulum_videos/subgroup_007/path_deviation_00": {
+  "flow_energy": 0.6842308131357034,
+  "temporal_grad": 0.0012969671515747905,
+  "spatial_grad": 0.14162529640051782,
+  "hf_frac": 0.0011372401329698678
+ },
+ "pendulum_videos/subgroup_007/reverse_gravity_00": {
+  "flow_energy": 0.714803077125301,
+  "temporal_grad": 0.0026012358721345663,
+  "spatial_grad": 0.15310958575229255,
+  "hf_frac": 0.0011711684323920171
+ },
+ "pendulum_videos/subgroup_007/valid_00": {
+  "flow_energy": 0.5671024831632773,
+  "temporal_grad": 0.002125188009813428,
+  "spatial_grad": 0.15309921849747093,
+  "hf_frac": 0.001168363487413551
+ },
+ "pendulum_videos/subgroup_007/varying_frequency_00": {
+  "flow_energy": 0.8704511815837274,
+  "temporal_grad": 0.0031190013978630304,
+  "spatial_grad": 0.15322690502721437,
+  "hf_frac": 0.0011683374734274728
+ },
+ "pendulum_videos/subgroup_008/break_conservation_energy_00": {
+  "flow_energy": 0.7304869890213013,
+  "temporal_grad": 0.0030433107167482376,
+  "spatial_grad": 0.13000010136438875,
+  "hf_frac": 0.0010802217913119104
+ },
+ "pendulum_videos/subgroup_008/break_continuity_00": {
+  "flow_energy": 1.1042528708154957,
+  "temporal_grad": 0.003282583551481366,
+  "spatial_grad": 0.129365047021788,
+  "hf_frac": 0.0010709986660380562
+ },
+ "pendulum_videos/subgroup_008/disappearing_bob_00": {
+  "flow_energy": 0.5501310538190106,
+  "temporal_grad": 0.0021086251363158226,
+  "spatial_grad": 0.12629186057922792,
+  "hf_frac": 0.0010589201369934065
+ },
+ "pendulum_videos/subgroup_008/path_deviation_00": {
+  "flow_energy": 0.5484630136440197,
+  "temporal_grad": 0.0010331564117223024,
+  "spatial_grad": 0.11170467369410457,
+  "hf_frac": 0.0009836139150264638
+ },
+ "pendulum_videos/subgroup_008/reverse_gravity_00": {
+  "flow_energy": 0.75320834647088,
+  "temporal_grad": 0.002738218056038022,
+  "spatial_grad": 0.12930647633513626,
+  "hf_frac": 0.0010714701636109468
+ },
+ "pendulum_videos/subgroup_008/valid_00": {
+  "flow_energy": 0.5189884298791488,
+  "temporal_grad": 0.00214390829205513,
+  "spatial_grad": 0.12964209488459996,
+  "hf_frac": 0.0010733047740197994
+ },
+ "pendulum_videos/subgroup_008/varying_frequency_00": {
+  "flow_energy": 0.7777163120917976,
+  "temporal_grad": 0.0032446468248963356,
+  "spatial_grad": 0.12953758270156626,
+  "hf_frac": 0.0010708119503268537
+ },
+ "pendulum_videos/subgroup_009/break_conservation_energy_00": {
+  "flow_energy": 1.1802084636874497,
+  "temporal_grad": 0.0034488942474126816,
+  "spatial_grad": 0.1711573500414284,
+  "hf_frac": 0.0013367135078741542
+ },
+ "pendulum_videos/subgroup_009/break_continuity_00": {
+  "flow_energy": 0.9193543038175752,
+  "temporal_grad": 0.0032283812761306763,
+  "spatial_grad": 0.1715385187037137,
+  "hf_frac": 0.0013255448957786918
+ },
+ "pendulum_videos/subgroup_009/disappearing_bob_00": {
+  "flow_energy": 0.7801876993228992,
+  "temporal_grad": 0.0025200708769261837,
+  "spatial_grad": 0.16970377400213357,
+  "hf_frac": 0.0013124367642001512
+ },
+ "pendulum_videos/subgroup_009/path_deviation_00": {
+  "flow_energy": 0.7750719437996546,
+  "temporal_grad": 0.0014175066025927663,
+  "spatial_grad": 0.16286413827720952,
+  "hf_frac": 0.001290303882720862
+ },
+ "pendulum_videos/subgroup_009/reverse_gravity_00": {
+  "flow_energy": 0.9005138425466915,
+  "temporal_grad": 0.0029943780973553658,
+  "spatial_grad": 0.17190464145066786,
+  "hf_frac": 0.0013290297453468908
+ },
+ "pendulum_videos/subgroup_009/valid_00": {
+  "flow_energy": 0.7222620119961599,
+  "temporal_grad": 0.00250401278026402,
+  "spatial_grad": 0.17147474264612003,
+  "hf_frac": 0.0013205174728761683
+ },
+ "pendulum_videos/subgroup_009/varying_frequency_00": {
+  "flow_energy": 1.0552099795216539,
+  "temporal_grad": 0.0032060807570815086,
+  "spatial_grad": 0.17158927570800392,
+  "hf_frac": 0.0013262754805457061
+ },
+ "pyramid_videos/subgroup_000/invalid_anti_gravity_00": {
+  "flow_energy": 0.6258437259918234,
+  "temporal_grad": 0.003158936509862542,
+  "spatial_grad": 0.14322007751586485,
+  "hf_frac": 0.0018055983320605367
+ },
+ "pyramid_videos/subgroup_000/invalid_momentum_multiplication_00": {
+  "flow_energy": 1.7292437419916193,
+  "temporal_grad": 0.015231281518936157,
+  "spatial_grad": 0.2701388503215751,
+  "hf_frac": 0.002686105375262458
+ },
+ "pyramid_videos/subgroup_000/invalid_phase_shifting_00": {
+  "flow_energy": 3.2254218251133957,
+  "temporal_grad": 0.010004710406064987,
+  "spatial_grad": 0.16876551965061498,
+  "hf_frac": 0.0018600869847778079
+ },
+ "pyramid_videos/subgroup_000/invalid_sphere_fusion_00": {
+  "flow_energy": 4.262802692130208,
+  "temporal_grad": 0.02738761343061924,
+  "spatial_grad": 0.2697842911798127,
+  "hf_frac": 0.002798613359914415
+ },
+ "pyramid_videos/subgroup_000/invalid_teleporting_spheres_00": {
+  "flow_energy": 5.344875417339305,
+  "temporal_grad": 0.0265397559851408,
+  "spatial_grad": 0.16411292492126933,
+  "hf_frac": 0.0019426121043584728
+ },
+ "pyramid_videos/subgroup_000/valid_00": {
+  "flow_energy": 1.242864009924233,
+  "temporal_grad": 0.011591878719627857,
+  "spatial_grad": 0.2531814915793283,
+  "hf_frac": 0.002559025365490434
+ },
+ "pyramid_videos/subgroup_001/invalid_anti_gravity_00": {
+  "flow_energy": 0.3299215901643038,
+  "temporal_grad": 0.0032390195410698652,
+  "spatial_grad": 0.14114842503046504,
+  "hf_frac": 0.0015177605120133258
+ },
+ "pyramid_videos/subgroup_001/invalid_momentum_multiplication_00": {
+  "flow_energy": 3.9573285716275373,
+  "temporal_grad": 0.025904523208737373,
+  "spatial_grad": 0.2709260543390196,
+  "hf_frac": 0.0022558862180645867
+ },
+ "pyramid_videos/subgroup_001/invalid_phase_shifting_00": {
+  "flow_energy": 1.1747439360866945,
+  "temporal_grad": 0.010521571151912212,
+  "spatial_grad": 0.14316690378651328,
+  "hf_frac": 0.0014418371585807233
+ },
+ "pyramid_videos/subgroup_001/invalid_sphere_fusion_00": {
+  "flow_energy": 4.15173790200303,
+  "temporal_grad": 0.0224097091704607,
+  "spatial_grad": 0.207362635099158,
+  "hf_frac": 0.0018339176075411478
+ },
+ "pyramid_videos/subgroup_001/invalid_teleporting_spheres_00": {
+  "flow_energy": 3.1603582926715412,
+  "temporal_grad": 0.02020823396742344,
+  "spatial_grad": 0.14932311159007403,
+  "hf_frac": 0.0014705436486921318
+ },
+ "pyramid_videos/subgroup_001/valid_00": {
+  "flow_energy": 1.5861967292924721,
+  "temporal_grad": 0.015087519772350788,
+  "spatial_grad": 0.26218397063868387,
+  "hf_frac": 0.0021251054154380455
+ },
+ "pyramid_videos/subgroup_002/invalid_anti_gravity_00": {
+  "flow_energy": 0.5202631381107494,
+  "temporal_grad": 0.002494853688403964,
+  "spatial_grad": 0.14949117524891484,
+  "hf_frac": 0.0017460428356736828
+ },
+ "pyramid_videos/subgroup_002/invalid_momentum_multiplication_00": {
+  "flow_energy": 1.5229407865554094,
+  "temporal_grad": 0.014324568212032318,
+  "spatial_grad": 0.2681541783469064,
+  "hf_frac": 0.002590956089831947
+ },
+ "pyramid_videos/subgroup_002/invalid_phase_shifting_00": {
+  "flow_energy": 0.9384493374576172,
+  "temporal_grad": 0.00942192506045103,
+  "spatial_grad": 0.1695921497077358,
+  "hf_frac": 0.001853824940175086
+ },
+ "pyramid_videos/subgroup_002/invalid_sphere_fusion_00": {
+  "flow_energy": 5.2004948336010175,
+  "temporal_grad": 0.03755485266447067,
+  "spatial_grad": 0.28842534398546027,
+  "hf_frac": 0.0028457317836969027
+ },
+ "pyramid_videos/subgroup_002/invalid_teleporting_spheres_00": {
+  "flow_energy": 3.1181230961034694,
+  "temporal_grad": 0.017917776480317116,
+  "spatial_grad": 0.14201885750707316,
+  "hf_frac": 0.0017346097657923764
+ },
+ "pyramid_videos/subgroup_002/valid_00": {
+  "flow_energy": 1.0811127697428067,
+  "temporal_grad": 0.01119298581033945,
+  "spatial_grad": 0.27423830117498127,
+  "hf_frac": 0.002704798322054736
+ },
+ "pyramid_videos/subgroup_003/invalid_anti_gravity_00": {
+  "flow_energy": 2.121342030353844,
+  "temporal_grad": 0.004197679925709963,
+  "spatial_grad": 0.14465053045019813,
+  "hf_frac": 0.0015853430966611586
+ },
+ "pyramid_videos/subgroup_003/invalid_momentum_multiplication_00": {
+  "flow_energy": 4.467349990891914,
+  "temporal_grad": 0.023578627035021782,
+  "spatial_grad": 0.28648499505860464,
+  "hf_frac": 0.002507259116525324
+ },
+ "pyramid_videos/subgroup_003/invalid_phase_shifting_00": {
+  "flow_energy": 2.2733678023020425,
+  "temporal_grad": 0.01062439102679491,
+  "spatial_grad": 0.1564206649758378,
+  "hf_frac": 0.001570594298132735
+ },
+ "pyramid_videos/subgroup_003/invalid_sphere_fusion_00": {
+  "flow_energy": 5.067961829869698,
+  "temporal_grad": 0.02356751263141632,
+  "spatial_grad": 0.2216024061246794,
+  "hf_frac": 0.0019867504290777436
+ },
+ "pyramid_videos/subgroup_003/invalid_teleporting_spheres_00": {
+  "flow_energy": 4.480844670285781,
+  "temporal_grad": 0.023961829021573067,
+  "spatial_grad": 0.1533544125909708,
+  "hf_frac": 0.0016060400383706265
+ },
+ "pyramid_videos/subgroup_003/valid_00": {
+  "flow_energy": 2.2721574467917285,
+  "temporal_grad": 0.01374517846852541,
+  "spatial_grad": 0.2612603501397736,
+  "hf_frac": 0.0022400000838121705
+ },
+ "pyramid_videos/subgroup_004/invalid_anti_gravity_00": {
+  "flow_energy": 0.45480549791439745,
+  "temporal_grad": 0.002657661447301507,
+  "spatial_grad": 0.1389483570748446,
+  "hf_frac": 0.001665283068255093
+ },
+ "pyramid_videos/subgroup_004/invalid_momentum_multiplication_00": {
+  "flow_energy": 2.529446424295505,
+  "temporal_grad": 0.018621200695633888,
+  "spatial_grad": 0.25644866392320514,
+  "hf_frac": 0.00251501268728063
+ },
+ "pyramid_videos/subgroup_004/invalid_phase_shifting_00": {
+  "flow_energy": 1.2947946519901354,
+  "temporal_grad": 0.009234796278178692,
+  "spatial_grad": 0.14337926403600343,
+  "hf_frac": 0.0015661285245651367
+ },
+ "pyramid_videos/subgroup_004/invalid_sphere_fusion_00": {
+  "flow_energy": 3.357960016466677,
+  "temporal_grad": 0.020884938538074493,
+  "spatial_grad": 0.20961180755070277,
+  "hf_frac": 0.0021519767942080235
+ },
+ "pyramid_videos/subgroup_004/invalid_teleporting_spheres_00": {
+  "flow_energy": 4.41988246430022,
+  "temporal_grad": 0.02391882985830307,
+  "spatial_grad": 0.14283740961430025,
+  "hf_frac": 0.0016501457124467468
+ },
+ "pyramid_videos/subgroup_004/valid_00": {
+  "flow_energy": 1.370205791046222,
+  "temporal_grad": 0.010889013297855854,
+  "spatial_grad": 0.24814696123405378,
+  "hf_frac": 0.0023795041717683306
+ },
+ "pyramid_videos/subgroup_005/invalid_anti_gravity_00": {
+  "flow_energy": 1.1060870238919354,
+  "temporal_grad": 0.003319759853184223,
+  "spatial_grad": 0.1428077838250569,
+  "hf_frac": 0.0016003941328155255
+ },
+ "pyramid_videos/subgroup_005/invalid_momentum_multiplication_00": {
+  "flow_energy": 3.533549795858562,
+  "temporal_grad": 0.025092637166380882,
+  "spatial_grad": 0.27991474830374424,
+  "hf_frac": 0.002376783703515477
+ },
+ "pyramid_videos/subgroup_005/invalid_phase_shifting_00": {
+  "flow_energy": 1.5471366997808218,
+  "temporal_grad": 0.009500064887106419,
+  "spatial_grad": 0.1479060162543034,
+  "hf_frac": 0.0015563162444695827
+ },
+ "pyramid_videos/subgroup_005/invalid_sphere_fusion_00": {
+  "flow_energy": 4.994836234798034,
+  "temporal_grad": 0.03525327518582344,
+  "spatial_grad": 0.2832729159569254,
+  "hf_frac": 0.002564812635519655
+ },
+ "pyramid_videos/subgroup_005/invalid_teleporting_spheres_00": {
+  "flow_energy": 3.5618178648874164,
+  "temporal_grad": 0.016764117404818535,
+  "spatial_grad": 0.1423014042784973,
+  "hf_frac": 0.001611542392600281
+ },
+ "pyramid_videos/subgroup_005/valid_00": {
+  "flow_energy": 2.196889651628832,
+  "temporal_grad": 0.014180089347064495,
+  "spatial_grad": 0.2639551177924993,
+  "hf_frac": 0.0023037891454500414
+ },
+ "pyramid_videos/subgroup_006/invalid_anti_gravity_00": {
+  "flow_energy": 0.6938515474157612,
+  "temporal_grad": 0.004349792376160622,
+  "spatial_grad": 0.09686112951259224,
+  "hf_frac": 0.0005542334812574431
+ },
+ "pyramid_videos/subgroup_006/invalid_momentum_multiplication_00": {
+  "flow_energy": 2.14008546837916,
+  "temporal_grad": 0.016663996502757072,
+  "spatial_grad": 0.20906135652746474,
+  "hf_frac": 0.0011405398241331737
+ },
+ "pyramid_videos/subgroup_006/invalid_phase_shifting_00": {
+  "flow_energy": 1.4263935051082324,
+  "temporal_grad": 0.011002124287188053,
+  "spatial_grad": 0.1046901887700874,
+  "hf_frac": 0.0005612572833177763
+ },
+ "pyramid_videos/subgroup_006/invalid_sphere_fusion_00": {
+  "flow_energy": 2.3731019779418907,
+  "temporal_grad": 0.014033928513526917,
+  "spatial_grad": 0.14775329159230602,
+  "hf_frac": 0.0007755676571202209
+ },
+ "pyramid_videos/subgroup_006/invalid_teleporting_spheres_00": {
+  "flow_energy": 3.440320431254804,
+  "temporal_grad": 0.019739879295229912,
+  "spatial_grad": 0.13066156299746767,
+  "hf_frac": 0.0007091559589416743
+ },
+ "pyramid_videos/subgroup_006/valid_00": {
+  "flow_energy": 1.944643948848049,
+  "temporal_grad": 0.015545216389000416,
+  "spatial_grad": 0.2071598269501511,
+  "hf_frac": 0.0010538240385123117
+ },
+ "pyramid_videos/subgroup_007/invalid_anti_gravity_00": {
+  "flow_energy": 0.4937557387165725,
+  "temporal_grad": 0.002219753572717309,
+  "spatial_grad": 0.1639148831671598,
+  "hf_frac": 0.001901785046811036
+ },
+ "pyramid_videos/subgroup_007/invalid_momentum_multiplication_00": {
+  "flow_energy": 1.717038465042909,
+  "temporal_grad": 0.0167930256575346,
+  "spatial_grad": 0.32698128782972996,
+  "hf_frac": 0.003064859209571897
+ },
+ "pyramid_videos/subgroup_007/invalid_phase_shifting_00": {
+  "flow_energy": 1.1118317251093686,
+  "temporal_grad": 0.013968780636787415,
+  "spatial_grad": 0.2434942935194288,
+  "hf_frac": 0.0024156493274479452
+ },
+ "pyramid_videos/subgroup_007/invalid_sphere_fusion_00": {
+  "flow_energy": 4.051346875571956,
+  "temporal_grad": 0.03718581423163414,
+  "spatial_grad": 0.3583339501400383,
+  "hf_frac": 0.003693363089046152
+ },
+ "pyramid_videos/subgroup_007/invalid_teleporting_spheres_00": {
+  "flow_energy": 3.8656799256180725,
+  "temporal_grad": 0.021671732887625694,
+  "spatial_grad": 0.18413998505898885,
+  "hf_frac": 0.002049734458300044
+ },
+ "pyramid_videos/subgroup_007/valid_00": {
+  "flow_energy": 0.9512397921644151,
+  "temporal_grad": 0.011184219270944595,
+  "spatial_grad": 0.3053206612869185,
+  "hf_frac": 0.002959087978327853
+ },
+ "pyramid_videos/subgroup_008/invalid_anti_gravity_00": {
+  "flow_energy": 13.767559917410836,
+  "temporal_grad": 0.0023791033308953047,
+  "spatial_grad": 0.14658191891349093,
+  "hf_frac": 0.0017017649766815513
+ },
+ "pyramid_videos/subgroup_008/invalid_momentum_multiplication_00": {
+  "flow_energy": 3.1717439725374184,
+  "temporal_grad": 0.02108190953731537,
+  "spatial_grad": 0.28250619282527845,
+  "hf_frac": 0.0025444140559191778
+ },
+ "pyramid_videos/subgroup_008/invalid_phase_shifting_00": {
+  "flow_energy": 3.44263528380543,
+  "temporal_grad": 0.008683787658810616,
+  "spatial_grad": 0.15175358799039101,
+  "hf_frac": 0.0016620729215161595
+ },
+ "pyramid_videos/subgroup_008/invalid_sphere_fusion_00": {
+  "flow_energy": 4.40195214189589,
+  "temporal_grad": 0.0302957221865654,
+  "spatial_grad": 0.2707885482481548,
+  "hf_frac": 0.0025861654335014644
+ },
+ "pyramid_videos/subgroup_008/invalid_teleporting_spheres_00": {
+  "flow_energy": 3.6672050409639874,
+  "temporal_grad": 0.021003248170018196,
+  "spatial_grad": 0.15552396266436092,
+  "hf_frac": 0.0017428196411253202
+ },
+ "pyramid_videos/subgroup_008/valid_00": {
+  "flow_energy": 2.0784078994765878,
+  "temporal_grad": 0.011540752835571766,
+  "spatial_grad": 0.25800519086876694,
+  "hf_frac": 0.002364568861215809
+ },
+ "pyramid_videos/subgroup_009/invalid_anti_gravity_00": {
+  "flow_energy": 0.5524451780753831,
+  "temporal_grad": 0.0020887372083961964,
+  "spatial_grad": 0.15876436279136308,
+  "hf_frac": 0.0017122423745138866
+ },
+ "pyramid_videos/subgroup_009/invalid_momentum_multiplication_00": {
+  "flow_energy": 3.129152878187597,
+  "temporal_grad": 0.02823127992451191,
+  "spatial_grad": 0.32289315121514456,
+  "hf_frac": 0.002737629331144588
+ },
+ "pyramid_videos/subgroup_009/invalid_phase_shifting_00": {
+  "flow_energy": 1.5542665772760909,
+  "temporal_grad": 0.011387195438146591,
+  "spatial_grad": 0.17207348468352338,
+  "hf_frac": 0.001732117813188673
+ },
+ "pyramid_videos/subgroup_009/invalid_sphere_fusion_00": {
+  "flow_energy": 6.301529963500798,
+  "temporal_grad": 0.05230999365448952,
+  "spatial_grad": 0.3539219900053375,
+  "hf_frac": 0.003131724104572817
+ },
+ "pyramid_videos/subgroup_009/invalid_teleporting_spheres_00": {
+  "flow_energy": 4.369731939087312,
+  "temporal_grad": 0.024087266996502876,
+  "spatial_grad": 0.17942951269903962,
+  "hf_frac": 0.001864396519841559
+ },
+ "pyramid_videos/subgroup_009/valid_00": {
+  "flow_energy": 1.544858422440787,
+  "temporal_grad": 0.015605364926159382,
+  "spatial_grad": 0.3027745266349948,
+  "hf_frac": 0.0026250208753657283
+ },
+ "river_videos/subgroup_000/fracturing_fluid_00": {
+  "flow_energy": 0.48543252764890593,
+  "temporal_grad": 0.0015375573420897126,
+  "spatial_grad": 0.1113111639813501,
+  "hf_frac": 0.0002746711246889291
+ },
+ "river_videos/subgroup_000/invisible_wall_00": {
+  "flow_energy": 0.39915928555031616,
+  "temporal_grad": 0.0014158947160467505,
+  "spatial_grad": 0.09754771815270794,
+  "hf_frac": 0.0002540331408956863
+ },
+ "river_videos/subgroup_000/negative_viscosity_00": {
+  "flow_energy": 0.10254132375121117,
+  "temporal_grad": 0.0005124210147187114,
+  "spatial_grad": 0.10457045995459265,
+  "hf_frac": 0.00025141683219690245
+ },
+ "river_videos/subgroup_000/non_conservation_fluid_00": {
+  "flow_energy": 1.5965654813529302,
+  "temporal_grad": 0.004354930017143488,
+  "spatial_grad": 0.09511263607716074,
+  "hf_frac": 0.000299486249545477
+ },
+ "river_videos/subgroup_000/phase_shifting_fluid_00": {
+  "flow_energy": 2.0652028303593397,
+  "temporal_grad": 0.007289647590368986,
+  "spatial_grad": 0.1038937016713376,
+  "hf_frac": 0.0003055860139830347
+ },
+ "river_videos/subgroup_000/teleporting_fluid_00": {
+  "flow_energy": 1.490474735153839,
+  "temporal_grad": 0.004426886793226004,
+  "spatial_grad": 0.09643009411437171,
+  "hf_frac": 0.00030420412628974047
+ },
+ "river_videos/subgroup_000/valid_00": {
+  "flow_energy": 1.6274835765361786,
+  "temporal_grad": 0.0034200677182525396,
+  "spatial_grad": 0.09147434438369711,
+  "hf_frac": 0.0002834830301840374
+ },
+ "river_videos/subgroup_001/fracturing_fluid_00": {
+  "flow_energy": 0.8135069406901797,
+  "temporal_grad": 0.0015138465678319335,
+  "spatial_grad": 0.11143159349353945,
+  "hf_frac": 0.00027336126507758246
+ },
+ "river_videos/subgroup_001/invisible_wall_00": {
+  "flow_energy": 0.46579862595535815,
+  "temporal_grad": 0.0013251729542389512,
+  "spatial_grad": 0.09321285191239143,
+  "hf_frac": 0.00026440309556832785
+ },
+ "river_videos/subgroup_001/negative_viscosity_00": {
+  "flow_energy": 0.12486104139437278,
+  "temporal_grad": 0.0005418151267804205,
+  "spatial_grad": 0.10411288072260058,
+  "hf_frac": 0.000254751855564377
+ },
+ "river_videos/subgroup_001/non_conservation_fluid_00": {
+  "flow_energy": 2.0593030440310636,
+  "temporal_grad": 0.004564720205962658,
+  "spatial_grad": 0.0867335779630408,
+  "hf_frac": 0.0003157970079481204
+ },
+ "river_videos/subgroup_001/phase_shifting_fluid_00": {
+  "flow_energy": 2.685642315618073,
+  "temporal_grad": 0.008528045378625393,
+  "spatial_grad": 0.10334070589469403,
+  "hf_frac": 0.0003559869047833518
+ },
+ "river_videos/subgroup_001/teleporting_fluid_00": {
+  "flow_energy": 1.8796634265842538,
+  "temporal_grad": 0.004466038662940264,
+  "spatial_grad": 0.08886175192132288,
+  "hf_frac": 0.0003271638172887848
+ },
+ "river_videos/subgroup_001/valid_00": {
+  "flow_energy": 1.9724689374367397,
+  "temporal_grad": 0.003730532480403781,
+  "spatial_grad": 0.08502666013581413,
+  "hf_frac": 0.0003014428056537164
+ },
+ "river_videos/subgroup_002/fracturing_fluid_00": {
+  "flow_energy": 1.0690327797395487,
+  "temporal_grad": 0.001839549746364355,
+  "spatial_grad": 0.11020928317186784,
+  "hf_frac": 0.0002579513753741197
+ },
+ "river_videos/subgroup_002/invisible_wall_00": {
+  "flow_energy": 0.7455199718630562,
+  "temporal_grad": 0.0016177111538127065,
+  "spatial_grad": 0.09601357244715399,
+  "hf_frac": 0.000236945947393246
+ },
+ "river_videos/subgroup_002/negative_viscosity_00": {
+  "flow_energy": 0.12586254122046134,
+  "temporal_grad": 0.0005170917720533907,
+  "spatial_grad": 0.10051935090094197,
+  "hf_frac": 0.00022379747760363896
+ },
+ "river_videos/subgroup_002/non_conservation_fluid_00": {
+  "flow_energy": 1.9139406601898372,
+  "temporal_grad": 0.004406341351568699,
+  "spatial_grad": 0.0938103408837805,
+  "hf_frac": 0.0002911299136936529
+ },
+ "river_videos/subgroup_002/phase_shifting_fluid_00": {
+  "flow_energy": 2.8534074717899784,
+  "temporal_grad": 0.008107315748929977,
+  "spatial_grad": 0.10177397956045306,
+  "hf_frac": 0.00029764603754792336
+ },
+ "river_videos/subgroup_002/teleporting_fluid_00": {
+  "flow_energy": 1.5967999647837132,
+  "temporal_grad": 0.00422447407618165,
+  "spatial_grad": 0.0947841966942865,
+  "hf_frac": 0.0003173044159820073
+ },
+ "river_videos/subgroup_002/valid_00": {
+  "flow_energy": 1.967124234031265,
+  "temporal_grad": 0.003708063857629895,
+  "spatial_grad": 0.08905349595814335,
+  "hf_frac": 0.00027302897865749893
+ },
+ "river_videos/subgroup_003/fracturing_fluid_00": {
+  "flow_energy": 1.0257808317740758,
+  "temporal_grad": 0.0014952869387343526,
+  "spatial_grad": 0.11359796171285669,
+  "hf_frac": 0.00029097711373337703
+ },
+ "river_videos/subgroup_003/invisible_wall_00": {
+  "flow_energy": 0.44135596230626106,
+  "temporal_grad": 0.0013818214647471905,
+  "spatial_grad": 0.09735257528266128,
+  "hf_frac": 0.0002846956218997232
+ },
+ "river_videos/subgroup_003/negative_viscosity_00": {
+  "flow_energy": 0.11696085954705875,
+  "temporal_grad": 0.0005354854511097074,
+  "spatial_grad": 0.10606367156213643,
+  "hf_frac": 0.0002668750073600696
+ },
+ "river_videos/subgroup_003/non_conservation_fluid_00": {
+  "flow_energy": 1.885311922058463,
+  "temporal_grad": 0.004030046984553337,
+  "spatial_grad": 0.09000492460873662,
+  "hf_frac": 0.0003308657134369381
+ },
+ "river_videos/subgroup_003/phase_shifting_fluid_00": {
+  "flow_energy": 2.444849248820295,
+  "temporal_grad": 0.007815158925950527,
+  "spatial_grad": 0.1029360578680525,
+  "hf_frac": 0.00034588846314759924
+ },
+ "river_videos/subgroup_003/teleporting_fluid_00": {
+  "flow_energy": 1.9142989365694423,
+  "temporal_grad": 0.004229553509503603,
+  "spatial_grad": 0.08975240056003843,
+  "hf_frac": 0.00033589987613842116
+ },
+ "river_videos/subgroup_003/valid_00": {
+  "flow_energy": 1.7688907095386337,
+  "temporal_grad": 0.0035701747983694077,
+  "spatial_grad": 0.08753026398468991,
+  "hf_frac": 0.0003156196605259704
+ },
+ "river_videos/subgroup_004/fracturing_fluid_00": {
+  "flow_energy": 0.6253778220464786,
+  "temporal_grad": 0.0015399394324049354,
+  "spatial_grad": 0.11163952809815504,
+  "hf_frac": 0.0002881829855156373
+ },
+ "river_videos/subgroup_004/invisible_wall_00": {
+  "flow_energy": 0.4285979294218123,
+  "temporal_grad": 0.0013559762155637145,
+  "spatial_grad": 0.09205174324463825,
+  "hf_frac": 0.0002707242670221525
+ },
+ "river_videos/subgroup_004/negative_viscosity_00": {
+  "flow_energy": 0.11736276031782229,
+  "temporal_grad": 0.0004961150698363781,
+  "spatial_grad": 0.1034586662236525,
+  "hf_frac": 0.00027830907141337935
+ },
+ "river_videos/subgroup_004/non_conservation_fluid_00": {
+  "flow_energy": 1.8395520546473563,
+  "temporal_grad": 0.004588006529957056,
+  "spatial_grad": 0.0870556362277391,
+  "hf_frac": 0.00031602842558846696
+ },
+ "river_videos/subgroup_004/phase_shifting_fluid_00": {
+  "flow_energy": 2.881443545765554,
+  "temporal_grad": 0.008280044421553612,
+  "spatial_grad": 0.1013143774198026,
+  "hf_frac": 0.0003479965050088088
+ },
+ "river_videos/subgroup_004/teleporting_fluid_00": {
+  "flow_energy": 1.5964403556038935,
+  "temporal_grad": 0.004297060426324606,
+  "spatial_grad": 0.08895380962259915,
+  "hf_frac": 0.00033314149508473917
+ },
+ "river_videos/subgroup_004/valid_00": {
+  "flow_energy": 1.993295918063571,
+  "temporal_grad": 0.0038100385572761297,
+  "spatial_grad": 0.0844561736650613,
+  "hf_frac": 0.0003024966842423399
+ },
+ "river_videos/subgroup_005/fracturing_fluid_00": {
+  "flow_energy": 0.49400708622609574,
+  "temporal_grad": 0.0014693218981847167,
+  "spatial_grad": 0.11667519366862822,
+  "hf_frac": 0.0002912473096348513
+ },
+ "river_videos/subgroup_005/invisible_wall_00": {
+  "flow_energy": 0.3674462065876772,
+  "temporal_grad": 0.0015798249514773488,
+  "spatial_grad": 0.10762272364630991,
+  "hf_frac": 0.0002789476831686872
+ },
+ "river_videos/subgroup_005/negative_viscosity_00": {
+  "flow_energy": 0.10086867760401219,
+  "temporal_grad": 0.0005153482197783887,
+  "spatial_grad": 0.11027417225497109,
+  "hf_frac": 0.00026196838519082055
+ },
+ "river_videos/subgroup_005/non_conservation_fluid_00": {
+  "flow_energy": 1.0636408754313986,
+  "temporal_grad": 0.004333483520895243,
+  "spatial_grad": 0.10642303845712117,
+  "hf_frac": 0.0003342696596814016
+ },
+ "river_videos/subgroup_005/phase_shifting_fluid_00": {
+  "flow_energy": 1.6293282321809481,
+  "temporal_grad": 0.00659398315474391,
+  "spatial_grad": 0.11003904014217611,
+  "hf_frac": 0.00033522591548069297
+ },
+ "river_videos/subgroup_005/teleporting_fluid_00": {
+  "flow_energy": 0.971019115143766,
+  "temporal_grad": 0.004196541383862495,
+  "spatial_grad": 0.10681759277168586,
+  "hf_frac": 0.0003426832173036111
+ },
+ "river_videos/subgroup_005/valid_00": {
+  "flow_energy": 1.0882391321162384,
+  "temporal_grad": 0.003629632294178009,
+  "spatial_grad": 0.10169150634687774,
+  "hf_frac": 0.0003070970804742592
+ },
+ "river_videos/subgroup_006/fracturing_fluid_00": {
+  "flow_energy": 0.9408597916675111,
+  "temporal_grad": 0.0018372595077380538,
+  "spatial_grad": 0.11617169954947063,
+  "hf_frac": 0.00027805383837185534
+ },
+ "river_videos/subgroup_006/invisible_wall_00": {
+  "flow_energy": 0.7619178304448724,
+  "temporal_grad": 0.0017340155318379402,
+  "spatial_grad": 0.10157341859778579,
+  "hf_frac": 0.000255257378655646
+ },
+ "river_videos/subgroup_006/negative_viscosity_00": {
+  "flow_energy": 0.13233268606321266,
+  "temporal_grad": 0.0005631308886222541,
+  "spatial_grad": 0.10624435498398177,
+  "hf_frac": 0.00024331491327769295
+ },
+ "river_videos/subgroup_006/non_conservation_fluid_00": {
+  "flow_energy": 1.3727121433087934,
+  "temporal_grad": 0.004177482333034277,
+  "spatial_grad": 0.09625226259231567,
+  "hf_frac": 0.0002973392013397713
+ },
+ "river_videos/subgroup_006/phase_shifting_fluid_00": {
+  "flow_energy": 2.4746890782844275,
+  "temporal_grad": 0.007595450151711702,
+  "spatial_grad": 0.10447619764172301,
+  "hf_frac": 0.0003098658281981691
+ },
+ "river_videos/subgroup_006/teleporting_fluid_00": {
+  "flow_energy": 1.3248079106366883,
+  "temporal_grad": 0.004042448475956917,
+  "spatial_grad": 0.09765413388305781,
+  "hf_frac": 0.0003123644561326403
+ },
+ "river_videos/subgroup_006/valid_00": {
+  "flow_energy": 1.502176593368252,
+  "temporal_grad": 0.003307187929749489,
+  "spatial_grad": 0.0917979717558744,
+  "hf_frac": 0.00027697416275335786
+ },
+ "river_videos/subgroup_007/fracturing_fluid_00": {
+  "flow_energy": 0.8717238701259097,
+  "temporal_grad": 0.0016859034076333046,
+  "spatial_grad": 0.11738530500810973,
+  "hf_frac": 0.00029825233917998194
+ },
+ "river_videos/subgroup_007/invisible_wall_00": {
+  "flow_energy": 0.4496036477697392,
+  "temporal_grad": 0.001382494461722672,
+  "spatial_grad": 0.09846734863762953,
+  "hf_frac": 0.0002819991691751361
+ },
+ "river_videos/subgroup_007/negative_viscosity_00": {
+  "flow_energy": 0.11878108326345682,
+  "temporal_grad": 0.0005481693660840392,
+  "spatial_grad": 0.11023918797775191,
+  "hf_frac": 0.0002855862178949238
+ },
+ "river_videos/subgroup_007/non_conservation_fluid_00": {
+  "flow_energy": 1.6693388225200276,
+  "temporal_grad": 0.004441135097295046,
+  "spatial_grad": 0.09045434880013369,
+  "hf_frac": 0.0003245096563845779
+ },
+ "river_videos/subgroup_007/phase_shifting_fluid_00": {
+  "flow_energy": 2.259370727542167,
+  "temporal_grad": 0.007598786149173975,
+  "spatial_grad": 0.10540888762595702,
+  "hf_frac": 0.00034921700497113947
+ },
+ "river_videos/subgroup_007/teleporting_fluid_00": {
+  "flow_energy": 2.009536328492686,
+  "temporal_grad": 0.004834979306906462,
+  "spatial_grad": 0.09386710412040049,
+  "hf_frac": 0.0003409483372688745
+ },
+ "river_videos/subgroup_007/valid_00": {
+  "flow_energy": 1.7050740984268486,
+  "temporal_grad": 0.0037651408929377794,
+  "spatial_grad": 0.08957932296456123,
+  "hf_frac": 0.00031463656048799307
+ },
+ "river_videos/subgroup_008/fracturing_fluid_00": {
+  "flow_energy": 0.980184662155807,
+  "temporal_grad": 0.0017320389160886407,
+  "spatial_grad": 0.1125841072323371,
+  "hf_frac": 0.00028937699223490843
+ },
+ "river_videos/subgroup_008/invisible_wall_00": {
+  "flow_energy": 0.5899462510909265,
+  "temporal_grad": 0.0014297451125457883,
+  "spatial_grad": 0.09386136458844554,
+  "hf_frac": 0.00027777278786017735
+ },
+ "river_videos/subgroup_008/negative_viscosity_00": {
+  "flow_energy": 0.13078696785184243,
+  "temporal_grad": 0.0005946009187027812,
+  "spatial_grad": 0.10344907398126563,
+  "hf_frac": 0.0002588874875080145
+ },
+ "river_videos/subgroup_008/non_conservation_fluid_00": {
+  "flow_energy": 1.4162638288301725,
+  "temporal_grad": 0.00403165677562356,
+  "spatial_grad": 0.08550223358431641,
+  "hf_frac": 0.00031920647001680585
+ },
+ "river_videos/subgroup_008/phase_shifting_fluid_00": {
+  "flow_energy": 2.892498765839264,
+  "temporal_grad": 0.008119725622236729,
+  "spatial_grad": 0.09981057975365192,
+  "hf_frac": 0.00033212530590302314
+ },
+ "river_videos/subgroup_008/teleporting_fluid_00": {
+  "flow_energy": 1.7735552455609043,
+  "temporal_grad": 0.0042563616298139095,
+  "spatial_grad": 0.08803252997447034,
+  "hf_frac": 0.0003320990917994271
+ },
+ "river_videos/subgroup_008/valid_00": {
+  "flow_energy": 1.637872154242359,
+  "temporal_grad": 0.0036575719714164734,
+  "spatial_grad": 0.08553231583566082,
+  "hf_frac": 0.00031139835212693606
+ },
+ "river_videos/subgroup_009/fracturing_fluid_00": {
+  "flow_energy": 0.6193729654575387,
+  "temporal_grad": 0.0014312496641650796,
+  "spatial_grad": 0.11517760096764078,
+  "hf_frac": 0.00029279844027504834
+ },
+ "river_videos/subgroup_009/invisible_wall_00": {
+  "flow_energy": 0.4477905105644216,
+  "temporal_grad": 0.0015400191769003868,
+  "spatial_grad": 0.10251565323192247,
+  "hf_frac": 0.00027930828647204566
+ },
+ "river_videos/subgroup_009/negative_viscosity_00": {
+  "flow_energy": 0.10155869174438219,
+  "temporal_grad": 0.0005240845493972301,
+  "spatial_grad": 0.10779396003606367,
+  "hf_frac": 0.00027038661178202745
+ },
+ "river_videos/subgroup_009/non_conservation_fluid_00": {
+  "flow_energy": 1.356904689843456,
+  "temporal_grad": 0.00397110590711236,
+  "spatial_grad": 0.0974875918152381,
+  "hf_frac": 0.00031054996254365424
+ },
+ "river_videos/subgroup_009/phase_shifting_fluid_00": {
+  "flow_energy": 2.1317131764565906,
+  "temporal_grad": 0.007485652342438698,
+  "spatial_grad": 0.106636607069142,
+  "hf_frac": 0.0003283783077885106
+ },
+ "river_videos/subgroup_009/teleporting_fluid_00": {
+  "flow_energy": 1.4540168120680999,
+  "temporal_grad": 0.003961833659559488,
+  "spatial_grad": 0.09568052434799623,
+  "hf_frac": 0.00029978518050404195
+ },
+ "river_videos/subgroup_009/valid_00": {
+  "flow_energy": 1.4401372657933582,
+  "temporal_grad": 0.0033970435615628958,
+  "spatial_grad": 0.09553263564499057,
+  "hf_frac": 0.0002978165844315133
+ },
+ "shadow_camera_videos/subgroup_000/impossible_reflection_00": {
+  "flow_energy": 2.0203787249823413,
+  "temporal_grad": 0.010435744188725948,
+  "spatial_grad": 0.10237993710503286,
+  "hf_frac": 0.0013417897454923813
+ },
+ "shadow_camera_videos/subgroup_000/no_shadow_00": {
+  "flow_energy": 1.9133398300036788,
+  "temporal_grad": 0.00842673797160387,
+  "spatial_grad": 0.07862030456260759,
+  "hf_frac": 0.001097531716227297
+ },
+ "shadow_camera_videos/subgroup_000/shadow_disconnection_00": {
+  "flow_energy": 2.25747514081498,
+  "temporal_grad": 0.01275370642542839,
+  "spatial_grad": 0.10392230019277456,
+  "hf_frac": 0.0016132911705185758
+ },
+ "shadow_camera_videos/subgroup_000/sudden_disappearance_00": {
+  "flow_energy": 2.225152959736685,
+  "temporal_grad": 0.011672222055494785,
+  "spatial_grad": 0.09154907036192562,
+  "hf_frac": 0.0015027127169376208
+ },
+ "shadow_camera_videos/subgroup_000/valid_00": {
+  "flow_energy": 2.1056812231739364,
+  "temporal_grad": 0.010209190659224987,
+  "spatial_grad": 0.09193051895316766,
+  "hf_frac": 0.0014681038578328264
+ },
+ "shadow_camera_videos/subgroup_000/varying_size_00": {
+  "flow_energy": 2.30031389494737,
+  "temporal_grad": 0.009869984351098537,
+  "spatial_grad": 0.08801573849454218,
+  "hf_frac": 0.0012355780009921412
+ },
+ "shadow_camera_videos/subgroup_001/impossible_reflection_00": {
+  "flow_energy": 1.6075041958441336,
+  "temporal_grad": 0.010480868630111217,
+  "spatial_grad": 0.07928166325603213,
+  "hf_frac": 0.0016746442636221925
+ },
+ "shadow_camera_videos/subgroup_001/no_shadow_00": {
+  "flow_energy": 1.5486779051522415,
+  "temporal_grad": 0.008488621562719345,
+  "spatial_grad": 0.0801139937675729,
+  "hf_frac": 0.0014160099777739438
+ },
+ "shadow_camera_videos/subgroup_001/shadow_disconnection_00": {
+  "flow_energy": 1.5040637974937756,
+  "temporal_grad": 0.010090796276926994,
+  "spatial_grad": 0.09492790972699924,
+  "hf_frac": 0.0007365509827730514
+ },
+ "shadow_camera_videos/subgroup_001/sudden_disappearance_00": {
+  "flow_energy": 1.9256877315541108,
+  "temporal_grad": 0.011719118803739548,
+  "spatial_grad": 0.10379076733881114,
+  "hf_frac": 0.0006828041039599477
+ },
+ "shadow_camera_videos/subgroup_001/valid_00": {
+  "flow_energy": 1.249781205629309,
+  "temporal_grad": 0.006495241541415453,
+  "spatial_grad": 0.06683113190288446,
+  "hf_frac": 0.0011900095752603171
+ },
+ "shadow_camera_videos/subgroup_001/varying_size_00": {
+  "flow_energy": 2.0049338030318418,
+  "temporal_grad": 0.009827001951634884,
+  "spatial_grad": 0.08777717987493593,
+  "hf_frac": 0.0015374534986353338
+ },
+ "shadow_camera_videos/subgroup_002/impossible_reflection_00": {
+  "flow_energy": 2.1155469057460627,
+  "temporal_grad": 0.012531421147286892,
+  "spatial_grad": 0.11313759125008875,
+  "hf_frac": 0.0006579667955941763
+ },
+ "shadow_camera_videos/subgroup_002/no_shadow_00": {
+  "flow_energy": 1.353187148148815,
+  "temporal_grad": 0.008867375552654266,
+  "spatial_grad": 0.08961805138660937,
+  "hf_frac": 0.000978051945126462
+ },
+ "shadow_camera_videos/subgroup_002/shadow_disconnection_00": {
+  "flow_energy": 1.6786000498880942,
+  "temporal_grad": 0.009526153095066547,
+  "spatial_grad": 0.09388242601131906,
+  "hf_frac": 0.0007054391992915501
+ },
+ "shadow_camera_videos/subgroup_002/sudden_disappearance_00": {
+  "flow_energy": 1.4253185242414474,
+  "temporal_grad": 0.008351347409188747,
+  "spatial_grad": 0.08192381141137103,
+  "hf_frac": 0.0006980769377336908
+ },
+ "shadow_camera_videos/subgroup_002/valid_00": {
+  "flow_energy": 1.5432669337218006,
+  "temporal_grad": 0.007574410643428564,
+  "spatial_grad": 0.06757552800129871,
+  "hf_frac": 0.0013759995421983935
+ },
+ "shadow_camera_videos/subgroup_002/varying_size_00": {
+  "flow_energy": 2.34075994292895,
+  "temporal_grad": 0.012844368815422058,
+  "spatial_grad": 0.10367265358871343,
+  "hf_frac": 0.001209383138649502
+ },
+ "shadow_camera_videos/subgroup_003/impossible_reflection_00": {
+  "flow_energy": 2.2011984139680862,
+  "temporal_grad": 0.012690366245806217,
+  "spatial_grad": 0.0906990457858358,
+  "hf_frac": 0.0007649581833024337
+ },
+ "shadow_camera_videos/subgroup_003/no_shadow_00": {
+  "flow_energy": 2.121312585969766,
+  "temporal_grad": 0.012290168553590775,
+  "spatial_grad": 0.08563647920988043,
+  "hf_frac": 0.0007203545096060293
+ },
+ "shadow_camera_videos/subgroup_003/shadow_disconnection_00": {
+  "flow_energy": 2.312559522688389,
+  "temporal_grad": 0.01219308003783226,
+  "spatial_grad": 0.08716367443605345,
+  "hf_frac": 0.0011981202006822603
+ },
+ "shadow_camera_videos/subgroup_003/sudden_disappearance_00": {
+  "flow_energy": 2.0549674505988755,
+  "temporal_grad": 0.013025824911892414,
+  "spatial_grad": 0.0897192752787045,
+  "hf_frac": 0.0006095341322196125
+ },
+ "shadow_camera_videos/subgroup_003/valid_00": {
+  "flow_energy": 2.232888581852118,
+  "temporal_grad": 0.011614303104579449,
+  "spatial_grad": 0.07984656658099622,
+  "hf_frac": 0.0011151689414071618
+ },
+ "shadow_camera_videos/subgroup_003/varying_size_00": {
+  "flow_energy": 2.226227767765522,
+  "temporal_grad": 0.012472458183765411,
+  "spatial_grad": 0.08788205820078752,
+  "hf_frac": 0.0007364052401083455
+ },
+ "shadow_camera_videos/subgroup_004/impossible_reflection_00": {
+  "flow_energy": 2.5726379876335463,
+  "temporal_grad": 0.013766043819487095,
+  "spatial_grad": 0.09788462139514027,
+  "hf_frac": 0.0006730652408449152
+ },
+ "shadow_camera_videos/subgroup_004/no_shadow_00": {
+  "flow_energy": 1.9577363977829616,
+  "temporal_grad": 0.01056536566466093,
+  "spatial_grad": 0.0792652808737998,
+  "hf_frac": 0.0005988839574892893
+ },
+ "shadow_camera_videos/subgroup_004/shadow_disconnection_00": {
+  "flow_energy": 2.235590254267057,
+  "temporal_grad": 0.010540463961660862,
+  "spatial_grad": 0.06660158126329889,
+  "hf_frac": 0.0011264320897407245
+ },
+ "shadow_camera_videos/subgroup_004/sudden_disappearance_00": {
+  "flow_energy": 2.24360861380895,
+  "temporal_grad": 0.012669234536588192,
+  "spatial_grad": 0.08837829522636471,
+  "hf_frac": 0.0008977694615131033
+ },
+ "shadow_camera_videos/subgroup_004/valid_00": {
+  "flow_energy": 1.8270863567789395,
+  "temporal_grad": 0.008423934690654278,
+  "spatial_grad": 0.06601496451363272,
+  "hf_frac": 0.0011558444073776226
+ },
+ "shadow_camera_videos/subgroup_004/varying_size_00": {
+  "flow_energy": 2.3914191300670304,
+  "temporal_grad": 0.01376719493418932,
+  "spatial_grad": 0.0871049135315175,
+  "hf_frac": 0.0007460364354724468
+ },
+ "shadow_camera_videos/subgroup_005/impossible_reflection_00": {
+  "flow_energy": 2.1355792557199798,
+  "temporal_grad": 0.014794868417084217,
+  "spatial_grad": 0.1089149400287745,
+  "hf_frac": 0.0008804261185906986
+ },
+ "shadow_camera_videos/subgroup_005/no_shadow_00": {
+  "flow_energy": 1.6672972291707993,
+  "temporal_grad": 0.008928777649998665,
+  "spatial_grad": 0.06393202120552258,
+  "hf_frac": 0.0013024377085147992
+ },
+ "shadow_camera_videos/subgroup_005/shadow_disconnection_00": {
+  "flow_energy": 1.2202075993021329,
+  "temporal_grad": 0.0071776551194489,
+  "spatial_grad": 0.0813153433252354,
+  "hf_frac": 0.0010622635579537107
+ },
+ "shadow_camera_videos/subgroup_005/sudden_disappearance_00": {
+  "flow_energy": 2.3493134702245393,
+  "temporal_grad": 0.013781807385385036,
+  "spatial_grad": 0.09326205630691684,
+  "hf_frac": 0.0007420068287808628
+ },
+ "shadow_camera_videos/subgroup_005/valid_00": {
+  "flow_energy": 1.2313870539267857,
+  "temporal_grad": 0.007819384336471558,
+  "spatial_grad": 0.07746224683158252,
+  "hf_frac": 0.0011504458570189
+ },
+ "shadow_camera_videos/subgroup_005/varying_size_00": {
+  "flow_energy": 1.8007514029741287,
+  "temporal_grad": 0.009274161420762539,
+  "spatial_grad": 0.0655070882366628,
+  "hf_frac": 0.0013106439694549118
+ },
+ "shadow_camera_videos/subgroup_006/impossible_reflection_00": {
+  "flow_energy": 1.802919904390971,
+  "temporal_grad": 0.011018198914825916,
+  "spatial_grad": 0.07934325066756229,
+  "hf_frac": 0.0011308211529850746
+ },
+ "shadow_camera_videos/subgroup_006/no_shadow_00": {
+  "flow_energy": 1.7534365331133206,
+  "temporal_grad": 0.01053901482373476,
+  "spatial_grad": 0.07941701088328751,
+  "hf_frac": 0.0011402744214828312
+ },
+ "shadow_camera_videos/subgroup_006/shadow_disconnection_00": {
+  "flow_energy": 1.3689406737685204,
+  "temporal_grad": 0.008061887696385384,
+  "spatial_grad": 0.0716978890859351,
+  "hf_frac": 0.0010110917437103999
+ },
+ "shadow_camera_videos/subgroup_006/sudden_disappearance_00": {
+  "flow_energy": 1.8014092457791169,
+  "temporal_grad": 0.010637332685291767,
+  "spatial_grad": 0.08330898549483746,
+  "hf_frac": 0.000753850784229711
+ },
+ "shadow_camera_videos/subgroup_006/valid_00": {
+  "flow_energy": 1.8931190023819606,
+  "temporal_grad": 0.012404903769493103,
+  "spatial_grad": 0.09562370363546878,
+  "hf_frac": 0.000634530210966727
+ },
+ "shadow_camera_videos/subgroup_006/varying_size_00": {
+  "flow_energy": 1.757169456531604,
+  "temporal_grad": 0.010556456632912159,
+  "spatial_grad": 0.07980547860568883,
+  "hf_frac": 0.001149714000221476
+ },
+ "shadow_camera_videos/subgroup_007/impossible_reflection_00": {
+  "flow_energy": 2.7914607475201287,
+  "temporal_grad": 0.01488142367452383,
+  "spatial_grad": 0.09379120535996495,
+  "hf_frac": 0.0015479904587886015
+ },
+ "shadow_camera_videos/subgroup_007/no_shadow_00": {
+  "flow_energy": 2.2225430781642594,
+  "temporal_grad": 0.01229348499327898,
+  "spatial_grad": 0.09974849680248572,
+  "hf_frac": 0.0006844126003264044
+ },
+ "shadow_camera_videos/subgroup_007/shadow_disconnection_00": {
+  "flow_energy": 2.5875090857346854,
+  "temporal_grad": 0.01349507924169302,
+  "spatial_grad": 0.08569642597315263,
+  "hf_frac": 0.0013565395330457338
+ },
+ "shadow_camera_videos/subgroup_007/sudden_disappearance_00": {
+  "flow_energy": 1.326163549325429,
+  "temporal_grad": 0.008214058354496956,
+  "spatial_grad": 0.07164218056262756,
+  "hf_frac": 0.0009509510279244956
+ },
+ "shadow_camera_videos/subgroup_007/valid_00": {
+  "flow_energy": 2.7737425714731216,
+  "temporal_grad": 0.01485860999673605,
+  "spatial_grad": 0.11645952657777436,
+  "hf_frac": 0.0010906433760898583
+ },
+ "shadow_camera_videos/subgroup_007/varying_size_00": {
+  "flow_energy": 2.3873290196061134,
+  "temporal_grad": 0.013365603983402252,
+  "spatial_grad": 0.10194787687184859,
+  "hf_frac": 0.0007121280287927369
+ },
+ "shadow_camera_videos/subgroup_008/impossible_reflection_00": {
+  "flow_energy": 2.3552787403265634,
+  "temporal_grad": 0.013712644577026367,
+  "spatial_grad": 0.10941013967504307,
+  "hf_frac": 0.0008563480989816139
+ },
+ "shadow_camera_videos/subgroup_008/no_shadow_00": {
+  "flow_energy": 1.8733815557012956,
+  "temporal_grad": 0.009735947474837303,
+  "spatial_grad": 0.06808338770452811,
+  "hf_frac": 0.0012239364057259245
+ },
+ "shadow_camera_videos/subgroup_008/shadow_disconnection_00": {
+  "flow_energy": 2.080520324409008,
+  "temporal_grad": 0.011051780544221401,
+  "spatial_grad": 0.08009183893398363,
+  "hf_frac": 0.0009366083970902772
+ },
+ "shadow_camera_videos/subgroup_008/sudden_disappearance_00": {
+  "flow_energy": 2.2376305094609656,
+  "temporal_grad": 0.009864352643489838,
+  "spatial_grad": 0.06900819094509494,
+  "hf_frac": 0.001568693145955249
+ },
+ "shadow_camera_videos/subgroup_008/valid_00": {
+  "flow_energy": 2.3254250194877386,
+  "temporal_grad": 0.013075869530439377,
+  "spatial_grad": 0.11105768291317687,
+  "hf_frac": 0.0007396136765872979
+ },
+ "shadow_camera_videos/subgroup_008/varying_size_00": {
+  "flow_energy": 2.1800247617065907,
+  "temporal_grad": 0.010685359127819538,
+  "spatial_grad": 0.07322247752121516,
+  "hf_frac": 0.0012895630664297426
+ },
+ "shadow_camera_videos/subgroup_009/impossible_reflection_00": {
+  "flow_energy": 2.535832203924656,
+  "temporal_grad": 0.01308517437428236,
+  "spatial_grad": 0.11337169077323407,
+  "hf_frac": 0.0017173662280970737
+ },
+ "shadow_camera_videos/subgroup_009/no_shadow_00": {
+  "flow_energy": 2.3591152826944985,
+  "temporal_grad": 0.010152405127882957,
+  "spatial_grad": 0.08116221914486009,
+  "hf_frac": 0.0013379118690073123
+ },
+ "shadow_camera_videos/subgroup_009/shadow_disconnection_00": {
+  "flow_energy": 2.5388418783744178,
+  "temporal_grad": 0.012229700572788715,
+  "spatial_grad": 0.11304165240453214,
+  "hf_frac": 0.0013162937520093902
+ },
+ "shadow_camera_videos/subgroup_009/sudden_disappearance_00": {
+  "flow_energy": 2.4844321558872857,
+  "temporal_grad": 0.011841216124594212,
+  "spatial_grad": 0.09042468195667072,
+  "hf_frac": 0.0017343230577618312
+ },
+ "shadow_camera_videos/subgroup_009/valid_00": {
+  "flow_energy": 2.267308642466863,
+  "temporal_grad": 0.009728175587952137,
+  "spatial_grad": 0.0819296589007183,
+  "hf_frac": 0.0013246361893947335
+ },
+ "shadow_camera_videos/subgroup_009/varying_size_00": {
+  "flow_energy": 2.711029107371966,
+  "temporal_grad": 0.011946440674364567,
+  "spatial_grad": 0.09171914993500223,
+  "hf_frac": 0.0014434559243658403
+ },
+ "shadow_videos/subgroup_000/inverted_shadow_00": {
+  "flow_energy": 0.9997965755561987,
+  "temporal_grad": 0.01489489059895277,
+  "spatial_grad": 0.07481435093344474,
+  "hf_frac": 0.0018595653868523393
+ },
+ "shadow_videos/subgroup_000/no_object_00": {
+  "flow_energy": 2.9084032674630484,
+  "temporal_grad": 0.018840385600924492,
+  "spatial_grad": 0.06974717906239081,
+  "hf_frac": 0.0009674392621940253
+ },
+ "shadow_videos/subgroup_000/no_shadow_00": {
+  "flow_energy": 0.3002608275661866,
+  "temporal_grad": 0.012570798397064209,
+  "spatial_grad": 0.06936928401796186,
+  "hf_frac": 0.0007504414652473232
+ },
+ "shadow_videos/subgroup_000/valid_00": {
+  "flow_energy": 2.102662260333697,
+  "temporal_grad": 0.017849983647465706,
+  "spatial_grad": 0.07356965009655271,
+  "hf_frac": 0.0009832696327803977
+ },
+ "shadow_videos/subgroup_000/varying_object_00": {
+  "flow_energy": 4.59366071720918,
+  "temporal_grad": 0.026909656822681427,
+  "spatial_grad": 0.07990040911399589,
+  "hf_frac": 0.0012132041372624077
+ },
+ "shadow_videos/subgroup_000/wrong_shadow_shape_00": {
+  "flow_energy": 2.6271043494343758,
+  "temporal_grad": 0.018987666815519333,
+  "spatial_grad": 0.08180039680125761,
+  "hf_frac": 0.0011206897170480197
+ },
+ "shadow_videos/subgroup_001/inverted_shadow_00": {
+  "flow_energy": 0.9254744290374219,
+  "temporal_grad": 0.030948886647820473,
+  "spatial_grad": 0.06969091326606516,
+  "hf_frac": 0.0016611172686691804
+ },
+ "shadow_videos/subgroup_001/no_object_00": {
+  "flow_energy": 0.9489401686005294,
+  "temporal_grad": 0.0261300727725029,
+  "spatial_grad": 0.06575514847526745,
+  "hf_frac": 0.0012164030869493466
+ },
+ "shadow_videos/subgroup_001/no_shadow_00": {
+  "flow_energy": 0.33332787089360255,
+  "temporal_grad": 0.0268524419516325,
+  "spatial_grad": 0.05471374565849499,
+  "hf_frac": 0.0010362744199628638
+ },
+ "shadow_videos/subgroup_001/valid_00": {
+  "flow_energy": 0.7493967929234108,
+  "temporal_grad": 0.028518356382846832,
+  "spatial_grad": 0.05607779331657351,
+  "hf_frac": 0.001095592052760986
+ },
+ "shadow_videos/subgroup_001/varying_object_00": {
+  "flow_energy": 2.7923118136823177,
+  "temporal_grad": 0.03271093592047691,
+  "spatial_grad": 0.06948127369491422,
+  "hf_frac": 0.0011854232745938025
+ },
+ "shadow_videos/subgroup_001/wrong_shadow_shape_00": {
+  "flow_energy": 0.6088927215896547,
+  "temporal_grad": 0.02723631262779236,
+  "spatial_grad": 0.07229049024837357,
+  "hf_frac": 0.0011999162549842833
+ },
+ "shadow_videos/subgroup_002/inverted_shadow_00": {
+  "flow_energy": 1.483551310064892,
+  "temporal_grad": 0.021366624161601067,
+  "spatial_grad": 0.07627462686932816,
+  "hf_frac": 0.001731976068933746
+ },
+ "shadow_videos/subgroup_002/no_object_00": {
+  "flow_energy": 3.887384773542484,
+  "temporal_grad": 0.024090677499771118,
+  "spatial_grad": 0.07114643010557914,
+  "hf_frac": 0.0009548234706786905
+ },
+ "shadow_videos/subgroup_002/no_shadow_00": {
+  "flow_energy": 0.41510157675171894,
+  "temporal_grad": 0.01784149371087551,
+  "spatial_grad": 0.06761674636176654,
+  "hf_frac": 0.0008004351726307298
+ },
+ "shadow_videos/subgroup_002/valid_00": {
+  "flow_energy": 2.7392375332613788,
+  "temporal_grad": 0.02359764464199543,
+  "spatial_grad": 0.07071306860568571,
+  "hf_frac": 0.000953427653115417
+ },
+ "shadow_videos/subgroup_002/varying_object_00": {
+  "flow_energy": 5.540073148906231,
+  "temporal_grad": 0.03287392482161522,
+  "spatial_grad": 0.07929868897309109,
+  "hf_frac": 0.0012215377358050798
+ },
+ "shadow_videos/subgroup_002/wrong_shadow_shape_00": {
+  "flow_energy": 3.1055518202483654,
+  "temporal_grad": 0.024135993793606758,
+  "spatial_grad": 0.07686469407410038,
+  "hf_frac": 0.0009983305892286162
+ },
+ "shadow_videos/subgroup_003/inverted_shadow_00": {
+  "flow_energy": 1.238953429274261,
+  "temporal_grad": 0.020732421427965164,
+  "spatial_grad": 0.07153949430402444,
+  "hf_frac": 0.0014631425280368581
+ },
+ "shadow_videos/subgroup_003/no_object_00": {
+  "flow_energy": 1.938311357051134,
+  "temporal_grad": 0.02065802738070488,
+  "spatial_grad": 0.06921203670148947,
+  "hf_frac": 0.0008097606943819616
+ },
+ "shadow_videos/subgroup_003/no_shadow_00": {
+  "flow_energy": 0.22935749062647423,
+  "temporal_grad": 0.01686502806842327,
+  "spatial_grad": 0.06731285877069648,
+  "hf_frac": 0.0007442586631761306
+ },
+ "shadow_videos/subgroup_003/valid_00": {
+  "flow_energy": 1.49832122027874,
+  "temporal_grad": 0.020663192495703697,
+  "spatial_grad": 0.06802615500530418,
+  "hf_frac": 0.0007705573011213148
+ },
+ "shadow_videos/subgroup_003/varying_object_00": {
+  "flow_energy": 2.762928731739521,
+  "temporal_grad": 0.025301752611994743,
+  "spatial_grad": 0.07920252546972158,
+  "hf_frac": 0.0008998751818119919
+ },
+ "shadow_videos/subgroup_003/wrong_shadow_shape_00": {
+  "flow_energy": 1.61703629217421,
+  "temporal_grad": 0.02077779360115528,
+  "spatial_grad": 0.07816666167001335,
+  "hf_frac": 0.000849619580423946
+ },
+ "shadow_videos/subgroup_004/inverted_shadow_00": {
+  "flow_energy": 0.7996788096303741,
+  "temporal_grad": 0.031395506113767624,
+  "spatial_grad": 0.06713356070068417,
+  "hf_frac": 0.0017722095076733166
+ },
+ "shadow_videos/subgroup_004/no_object_00": {
+  "flow_energy": 1.0919126082832615,
+  "temporal_grad": 0.025309352204203606,
+  "spatial_grad": 0.06463215560937415,
+  "hf_frac": 0.0012282020277557433
+ },
+ "shadow_videos/subgroup_004/no_shadow_00": {
+  "flow_energy": 0.32857619939992827,
+  "temporal_grad": 0.02558765560388565,
+  "spatial_grad": 0.05666116587057406,
+  "hf_frac": 0.0010863540314864902
+ },
+ "shadow_videos/subgroup_004/valid_00": {
+  "flow_energy": 0.8632309495781859,
+  "temporal_grad": 0.027461141347885132,
+  "spatial_grad": 0.0583620973843701,
+  "hf_frac": 0.0011766166554597122
+ },
+ "shadow_videos/subgroup_004/varying_object_00": {
+  "flow_energy": 2.7267069642742476,
+  "temporal_grad": 0.0322171226143837,
+  "spatial_grad": 0.07195180251586195,
+  "hf_frac": 0.0012576649399437402
+ },
+ "shadow_videos/subgroup_004/wrong_shadow_shape_00": {
+  "flow_energy": 0.8675945624709129,
+  "temporal_grad": 0.02685330994427204,
+  "spatial_grad": 0.07047626315330972,
+  "hf_frac": 0.0012428407827454416
+ },
+ "shadow_videos/subgroup_005/inverted_shadow_00": {
+  "flow_energy": 1.0924685293187697,
+  "temporal_grad": 0.020107973366975784,
+  "spatial_grad": 0.07499065675905772,
+  "hf_frac": 0.0017955090971539015
+ },
+ "shadow_videos/subgroup_005/no_object_00": {
+  "flow_energy": 2.8119309370716414,
+  "temporal_grad": 0.023240314796566963,
+  "spatial_grad": 0.06776126162434111,
+  "hf_frac": 0.0008484597626714695
+ },
+ "shadow_videos/subgroup_005/no_shadow_00": {
+  "flow_energy": 0.2632053950801492,
+  "temporal_grad": 0.016893012449145317,
+  "spatial_grad": 0.05889216225062098,
+  "hf_frac": 0.0007507140734159593
+ },
+ "shadow_videos/subgroup_005/valid_00": {
+  "flow_energy": 2.2018855661153793,
+  "temporal_grad": 0.022209813818335533,
+  "spatial_grad": 0.06723082035171743,
+  "hf_frac": 0.0008858668431916057
+ },
+ "shadow_videos/subgroup_005/varying_object_00": {
+  "flow_energy": 5.416928954422474,
+  "temporal_grad": 0.03125894069671631,
+  "spatial_grad": 0.07661828315075563,
+  "hf_frac": 0.0010548263852211608
+ },
+ "shadow_videos/subgroup_005/wrong_shadow_shape_00": {
+  "flow_energy": 2.4723085512717566,
+  "temporal_grad": 0.02346629649400711,
+  "spatial_grad": 0.0788126534649304,
+  "hf_frac": 0.0009226268803539752
+ },
+ "shadow_videos/subgroup_006/inverted_shadow_00": {
+  "flow_energy": 1.4426359062393506,
+  "temporal_grad": 0.021083889529109,
+  "spatial_grad": 0.07888782708620538,
+  "hf_frac": 0.0017286519593333468
+ },
+ "shadow_videos/subgroup_006/no_object_00": {
+  "flow_energy": 3.823837069173654,
+  "temporal_grad": 0.024103032425045967,
+  "spatial_grad": 0.07082782845411982,
+  "hf_frac": 0.000984675775905568
+ },
+ "shadow_videos/subgroup_006/no_shadow_00": {
+  "flow_energy": 0.4529311591759324,
+  "temporal_grad": 0.017769087105989456,
+  "spatial_grad": 0.06372209182199166,
+  "hf_frac": 0.0007991534006995351
+ },
+ "shadow_videos/subgroup_006/valid_00": {
+  "flow_energy": 2.5972536193827787,
+  "temporal_grad": 0.02324000932276249,
+  "spatial_grad": 0.06891719084613178,
+  "hf_frac": 0.0009853314990724473
+ },
+ "shadow_videos/subgroup_006/varying_object_00": {
+  "flow_energy": 5.530171640217304,
+  "temporal_grad": 0.03245990723371506,
+  "spatial_grad": 0.07809960066663976,
+  "hf_frac": 0.0011989020577213602
+ },
+ "shadow_videos/subgroup_006/wrong_shadow_shape_00": {
+  "flow_energy": 3.068918064236641,
+  "temporal_grad": 0.024082183837890625,
+  "spatial_grad": 0.0768507835360206,
+  "hf_frac": 0.0010448142493484857
+ },
+ "shadow_videos/subgroup_007/inverted_shadow_00": {
+  "flow_energy": 1.4836180272201698,
+  "temporal_grad": 0.02136596478521824,
+  "spatial_grad": 0.07627453221654405,
+  "hf_frac": 0.00173145872091184
+ },
+ "shadow_videos/subgroup_007/no_object_00": {
+  "flow_energy": 4.075497570137183,
+  "temporal_grad": 0.02403433620929718,
+  "spatial_grad": 0.07150684015787377,
+  "hf_frac": 0.0009094117720866352
+ },
+ "shadow_videos/subgroup_007/no_shadow_00": {
+  "flow_energy": 0.40639858320355415,
+  "temporal_grad": 0.01746886782348156,
+  "spatial_grad": 0.06807920351928594,
+  "hf_frac": 0.0007634418723949441
+ },
+ "shadow_videos/subgroup_007/valid_00": {
+  "flow_energy": 2.7729302973796925,
+  "temporal_grad": 0.02363503910601139,
+  "spatial_grad": 0.07214356092165927,
+  "hf_frac": 0.0009074985138660062
+ },
+ "shadow_videos/subgroup_007/varying_object_00": {
+  "flow_energy": 5.623242606719335,
+  "temporal_grad": 0.03333783894777298,
+  "spatial_grad": 0.08075166417627919,
+  "hf_frac": 0.0011783954113895785
+ },
+ "shadow_videos/subgroup_007/wrong_shadow_shape_00": {
+  "flow_energy": 3.1616214948395887,
+  "temporal_grad": 0.024080030620098114,
+  "spatial_grad": 0.07755635253020696,
+  "hf_frac": 0.0009547924850963941
+ },
+ "shadow_videos/subgroup_008/inverted_shadow_00": {
+  "flow_energy": 0.6815872431422273,
+  "temporal_grad": 0.01411931961774826,
+  "spatial_grad": 0.07433488478465956,
+  "hf_frac": 0.0021095939789904546
+ },
+ "shadow_videos/subgroup_008/no_object_00": {
+  "flow_energy": 2.0814994424581528,
+  "temporal_grad": 0.017987722530961037,
+  "spatial_grad": 0.06951282416679422,
+  "hf_frac": 0.0009065693559903793
+ },
+ "shadow_videos/subgroup_008/no_shadow_00": {
+  "flow_energy": 0.11790497601032257,
+  "temporal_grad": 0.011666583828628063,
+  "spatial_grad": 0.05896473881237361,
+  "hf_frac": 0.0007663015386086806
+ },
+ "shadow_videos/subgroup_008/valid_00": {
+  "flow_energy": 1.7382654324173927,
+  "temporal_grad": 0.017043061554431915,
+  "spatial_grad": 0.06840171330437368,
+  "hf_frac": 0.0009269702987449839
+ },
+ "shadow_videos/subgroup_008/varying_object_00": {
+  "flow_energy": 4.989422316352527,
+  "temporal_grad": 0.028778599575161934,
+  "spatial_grad": 0.07641417198643392,
+  "hf_frac": 0.0014690227197410874
+ },
+ "shadow_videos/subgroup_008/wrong_shadow_shape_00": {
+  "flow_energy": 1.9066429001589615,
+  "temporal_grad": 0.018059493973851204,
+  "spatial_grad": 0.08140096144408596,
+  "hf_frac": 0.000979066868692772
+ },
+ "shadow_videos/subgroup_009/inverted_shadow_00": {
+  "flow_energy": 0.9982109305759271,
+  "temporal_grad": 0.015001202933490276,
+  "spatial_grad": 0.07216369041374751,
+  "hf_frac": 0.0017084178865131956
+ },
+ "shadow_videos/subgroup_009/no_object_00": {
+  "flow_energy": 2.796556537350019,
+  "temporal_grad": 0.018348313868045807,
+  "spatial_grad": 0.06847999419788925,
+  "hf_frac": 0.0010161650945565257
+ },
+ "shadow_videos/subgroup_009/no_shadow_00": {
+  "flow_energy": 0.30671799276024103,
+  "temporal_grad": 0.012398403137922287,
+  "spatial_grad": 0.06831652769932942,
+  "hf_frac": 0.0008202661172762725
+ },
+ "shadow_videos/subgroup_009/valid_00": {
+  "flow_energy": 2.021084450185299,
+  "temporal_grad": 0.017325980588793755,
+  "spatial_grad": 0.07141373481373398,
+  "hf_frac": 0.0010301040370884606
+ },
+ "shadow_videos/subgroup_009/varying_object_00": {
+  "flow_energy": 4.368255225320657,
+  "temporal_grad": 0.02711101621389389,
+  "spatial_grad": 0.07855962140827763,
+  "hf_frac": 0.0013091861351291626
+ },
+ "shadow_videos/subgroup_009/wrong_shadow_shape_00": {
+  "flow_energy": 2.549808733165264,
+  "temporal_grad": 0.0183817520737648,
+  "spatial_grad": 0.08017854605402265,
+  "hf_frac": 0.0011674005116505482
+ }
+}
