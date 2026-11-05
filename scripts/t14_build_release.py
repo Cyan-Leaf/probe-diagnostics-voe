@@ -46,7 +46,12 @@ RESULT_GLOBS = ["results/**/*.json", "results/**/*.md", "results/T13_figures/*.p
 # "__pycache__" is not cosmetic: .pyc files embed the absolute source path of the build box,
 # so shipping them leaked $WORKDIR through 33 files that no text scan of the
 # .py sources would ever have caught (found 2026-11-05 by grepping the built tree, not the source).
-EXCLUDE_DIRS = {"raw", "superseded", "export", "clips", "filled", "__pycache__", ".ipynb_checkpoints"}
+EXCLUDE_DIRS = {"raw", "superseded", "export", "clips", "filled", "__pycache__",
+                ".ipynb_checkpoints",
+                # E20-ext's build artefact: per-(cell, seed, arm) out-of-fold scores kept so a
+                # rerun does not refit. Not a deliverable -- the numbers it produces ship as
+                # E20ext_cells.json.
+                "oof_cache"}
 EXCLUDE_SUFFIX = {".pt", ".npy", ".mp4", ".html", ".pdf", ".db", ".log", ".bak",
                   ".pyc", ".pyo"}
 # The sensitive-info scan is itself a catalogue of every internal path in the repo, and the

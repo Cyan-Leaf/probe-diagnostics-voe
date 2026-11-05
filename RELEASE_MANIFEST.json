@@ -1,5 +1,5 @@
 {
-  "n_copied": 425,
+  "n_copied": 429,
   "n_files_sanitised": 40,
   "n_substitutions": 67,
   "sanitised": [
@@ -110,6 +110,7 @@
     "clips",
     "export",
     "filled",
+    "oof_cache",
     "raw",
     "superseded"
   ],

@@ -49,6 +49,7 @@ REPORTS = {
     # E20 quotes E8's delivered D1 values beside its own intervals, so it is audited against
     # results/ as a whole for the same reason E19 is.
     "results/E20_bootstrap_ci/E20_REPORT.md": ("results", None),
+    "results/E20_bootstrap_ci/E20ext_REPORT.md": ("results", None),
     # E21 quotes E8's IntPhys 2 reference AUC (0.6458) as its comparison baseline.
     "results/E21_physics_iq_real/E21_REPORT.md": ("results", None),
     # The round summary quotes numbers from every task, so it is audited against results/ as a
@@ -175,6 +176,14 @@ def main() -> int:
         #                    examined a single number in a 200-line report.
         nums = set(re.findall(r"\b0\.\d{3,4}\b", text))
         pcts = set(re.findall(r"\b(\d{1,3}\.\d)%", text))
+        # Interval bounds: `[87.54, 97.99]` quotes two percentages WITHOUT the % sign, so the
+        # pattern above missed them entirely -- E20ext_REPORT.md had 18 numeric tokens and the
+        # audit examined 10, i.e. precisely the interval endpoints it exists to check. Bounds
+        # may exceed 100 (a ratio whose denominator is small), hence the wider first group.
+        # Interval bounds are tracked SEPARATELY because they are quoted to 2 decimals while
+        # single percentages are quoted to 1; one tolerance cannot serve both.
+        bounds = set(re.findall(r"\[\s*(-?\d{1,4}\.\d{1,2})\s*,", text))
+        bounds |= set(re.findall(r",\s*(-?\d{1,4}\.\d{1,2})\s*\]", text))
         name = Path(rep).name
         # A quoted percentage is usually the ROUNDED form of a stored ratio (0.928581 -> 92.9%),
         # so exact string matching is wrong here. Accept it if any stored value, scaled to
@@ -182,19 +191,30 @@ def main() -> int:
         pct_nums = [float(f"{v}") for v in
                     {x for x in re.findall(r"[-+]?\d+\.\d+", " ".join(pool))}]
 
-        def pct_in_pool(v: str) -> bool:
-            """Stored either as a ratio (0.473 -> 47.3%) or already as a percent (47.299 -> 47.3%)."""
+        def pct_in_pool(v: str, dp: int = 1) -> bool:
+            """Stored either as a ratio (0.473 -> 47.3%) or already as a percent (47.299 -> 47.3%).
+
+            `dp` is how many decimals the report quoted, so an interval bound of 87.54 matches a
+            stored 87.5412 while a single quoted 87.5 does not accidentally match 87.54.
+            """
             want = float(v)
-            return any(abs(round(x * 100, 1) - want) < 1e-9
-                       or abs(round(x, 1) - want) < 1e-9 for x in pct_nums)
+            return any(abs(round(x * 100, dp) - want) < 1e-9
+                       or abs(round(x, dp) - want) < 1e-9 for x in pct_nums)
 
         missing = sorted([n for n in nums
                           if n not in pool and (name, n) not in ALLOWED]
                          + [f"{v}%" for v in sorted(pcts)
-                            if not pct_in_pool(v) and (name, f"{v}%") not in ALLOWED])
+                            if not pct_in_pool(v, 1) and (name, f"{v}%") not in ALLOWED]
+                         + [f"[{v}]" for v in sorted(bounds)
+                            if not pct_in_pool(v, 2) and (name, f"[{v}]") not in ALLOWED])
         if missing:
             bad += 1
-        print(f"{'OK' if not missing else 'MISSING':8s} {name:20s} {len(nums):3d} numbers, "
+        # Report ALL three token classes. Printing only `len(nums)` made E20ext look like it had
+        # 10 numbers when it had 60 (10 AUC + 50 interval bounds), i.e. the audit looked far
+        # weaker than it was -- a reporting defect, not an audit one.
+        n_checked = len(nums) + len(pcts) + len(bounds)
+        print(f"{'OK' if not missing else 'MISSING':8s} {name:20s} {n_checked:3d} numbers "
+              f"({len(nums)} auc, {len(pcts)} pct, {len(bounds)} bounds), "
               f"{len([1 for _ in glob.glob(f'{d}/**/*.json', recursive=True)])} jsons"
               + (f"  -> {missing}" if missing else ""))
 

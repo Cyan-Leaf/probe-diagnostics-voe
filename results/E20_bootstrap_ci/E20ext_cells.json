@@ -1,0 +1,1486 @@
+{
+ "task": "E20-ext: cluster-bootstrap CI for the 22 cells E20 did not cover",
+ "created": "2026-11-05 21:04:40",
+ "prereg": "results/E20_bootstrap_ci/E20_PREREG.md",
+ "method_note": "Same out-of-fold score bootstrap as E20 (see E20_REPORT.md \u00a72): the frozen probe is fit once per (cell, seed) and the resampling acts on the held-out scores. Interval omits the refit component (E16: 2.51 pp).",
+ "protocol": {
+  "B": 300,
+  "draw_seed": 20261105,
+  "feature_seeds": [
+   0,
+   1,
+   2
+  ],
+  "seeds_by_family": {
+   "vjepa": [
+    0
+   ],
+   "cogvideox_clean": [
+    0
+   ]
+  },
+  "threads": 8,
+  "ci": [
+   2.5,
+   97.5
+  ],
+  "resample_unit": "cluster (scene_index / scenario-subgroup)"
+ },
+ "cells": {
+  "E13vithD2|likephys|vith|likephys|L16|D1": {
+   "cell": "E13vithD2|likephys|vith|likephys|L16|D1",
+   "backbone": "E13vithD2|likephys|vith|likephys|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.9509788359788359,
+   "auc_random_point": 0.6814285714285714,
+   "d1_pct_point": 59.770047515691914,
+   "d1_pct_per_seed": [
+    59.77
+   ],
+   "d1_pct_ci95": [
+    50.92438453778962,
+    69.711583292318
+   ],
+   "d1_pct_ci_width": 18.78719875452837,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.007213570984006323,
+    "hi_disagree": 0.0025639440486906473,
+    "width": 0.18169865326285206,
+    "fraction": 0.039700739958545
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13vithD2|likephys|vith|likephys|L16"
+  },
+  "E13vithD2|likephys|vith|likephys|L16|D2": {
+   "cell": "E13vithD2|likephys|vith|likephys|L16|D2",
+   "backbone": "E13vithD2|likephys|vith|likephys|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.9509788359788359,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.049021164021164076,
+   "gap_ci95": [
+    0.025072820077749133,
+    0.0747006204350064
+   ],
+   "gap_ci_width": 0.049627800357257265,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.002430668007363232,
+    "hi_disagree": 0.002199010123221115,
+    "width": 0.0464528736088978,
+    "fraction": 0.0523254605910462
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13vithD2|likephys|vith|likephys|L16"
+  },
+  "E13vithD2|likephys|vith|likephys|L17|D1": {
+   "cell": "E13vithD2|likephys|vith|likephys|L17|D1",
+   "backbone": "E13vithD2|likephys|vith|likephys|L17",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.950925925925926,
+   "auc_random_point": 0.6815740740740741,
+   "d1_pct_point": 59.733059548254616,
+   "d1_pct_per_seed": [
+    59.73
+   ],
+   "d1_pct_ci95": [
+    50.72609855422652,
+    69.97544585164125
+   ],
+   "d1_pct_ci_width": 19.249347297414744,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0051787814159804935,
+    "hi_disagree": 0.0022401768738404826,
+    "width": 0.19694358705746162,
+    "fraction": 0.026295760594984473
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13vithD2|likephys|vith|likephys|L17"
+  },
+  "E13vithD2|likephys|vith|likephys|L17|D2": {
+   "cell": "E13vithD2|likephys|vith|likephys|L17|D2",
+   "backbone": "E13vithD2|likephys|vith|likephys|L17",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.950925925925926,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.04907407407407405,
+   "gap_ci95": [
+    0.024793209568410895,
+    0.07533293438320204
+   ],
+   "gap_ci_width": 0.050539724814791145,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0013357817784775648,
+    "hi_disagree": 0.0018803464566927858,
+    "width": 0.048677703915541826,
+    "fraction": 0.0386284952954083
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13vithD2|likephys|vith|likephys|L17"
+  },
+  "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0|D1": {
+   "cell": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0|D1",
+   "backbone": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6092658844849943,
+   "auc_random_point": 0.5272461685075537,
+   "d1_pct_point": 75.06434086359732,
+   "d1_pct_per_seed": [
+    75.06
+   ],
+   "d1_pct_ci95": [
+    56.295462566967636,
+    93.87294773099417
+   ],
+   "d1_pct_ci_width": 37.577485164026534,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.03383966629594448,
+    "hi_disagree": 0.00878723575124829,
+    "width": 0.3545333159887094,
+    "fraction": 0.0954484804949111
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0"
+  },
+  "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0|D2": {
+   "cell": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0|D2",
+   "backbone": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6092658844849943,
+   "auc_appearance_point": 0.9999726600946742,
+   "gap_point": 0.3907067756096799,
+   "gap_ci95": [
+    0.3601971011888953,
+    0.4176402927713291
+   ],
+   "gap_ci_width": 0.05744319158243377,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.001754538424284191,
+    "hi_disagree": 0.0017762150635067808,
+    "width": 0.05699989454607951,
+    "fraction": 0.031161725432156086
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0"
+  },
+  "E13|intphys2|vith|intphys2|L16|D1": {
+   "cell": "E13|intphys2|vith|intphys2|L16|D1",
+   "backbone": "E13|intphys2|vith|intphys2|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6569076223656048,
+   "auc_random_point": 0.5272032057991844,
+   "d1_pct_point": 82.66291631403398,
+   "d1_pct_per_seed": [
+    82.66
+   ],
+   "d1_pct_ci95": [
+    74.73615087251865,
+    90.26674355000145
+   ],
+   "d1_pct_ci_width": 15.530592677482801,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.006106188810990232,
+    "hi_disagree": 0.0019813312730529997,
+    "width": 0.14724655489563765,
+    "fraction": 0.04146914551120092
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vith|intphys2|L16"
+  },
+  "E13|intphys2|vith|intphys2|L16|D2": {
+   "cell": "E13|intphys2|vith|intphys2|L16|D2",
+   "backbone": "E13|intphys2|vith|intphys2|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6569076223656048,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.34309237763439515,
+   "gap_ci95": [
+    0.3103287233045353,
+    0.36860685606711563
+   ],
+   "gap_ci_width": 0.058278132762580315,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0004474956646721706,
+    "hi_disagree": 0.0003715297848740362,
+    "width": 0.058323341248886995,
+    "fraction": 0.0076726685249828746
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vith|intphys2|L16"
+  },
+  "E13|intphys2|vith|intphys2|L17|D1": {
+   "cell": "E13|intphys2|vith|intphys2|L17|D1",
+   "backbone": "E13|intphys2|vith|intphys2|L17",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.67959974378603,
+   "auc_random_point": 0.5210556328016374,
+   "d1_pct_point": 88.2763569937369,
+   "d1_pct_per_seed": [
+    88.28
+   ],
+   "d1_pct_ci95": [
+    81.48130218890066,
+    94.01641685996267
+   ],
+   "d1_pct_ci_width": 12.53511467106202,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.009717645960798493,
+    "hi_disagree": 0.0110494082655066,
+    "width": 0.1301897224893641,
+    "fraction": 0.08487158628369673
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vith|intphys2|L17"
+  },
+  "E13|intphys2|vith|intphys2|L17|D2": {
+   "cell": "E13|intphys2|vith|intphys2|L17|D2",
+   "backbone": "E13|intphys2|vith|intphys2|L17",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.67959974378603,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.32040025621396995,
+   "gap_ci95": [
+    0.2876105313315316,
+    0.3475249574278616
+   ],
+   "gap_ci_width": 0.05991442609633002,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.004661453858051112,
+    "hi_disagree": 0.00042611195300662486,
+    "width": 0.055504694652314446,
+    "fraction": 0.08398305561810235
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vith|intphys2|L17"
+  },
+  "E13|intphys2|vjepa|intphys2|L13|flat|D1": {
+   "cell": "E13|intphys2|vjepa|intphys2|L13|flat|D1",
+   "backbone": "E13|intphys2|vjepa|intphys2|L13|flat",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.7036158977643769,
+   "auc_random_point": 0.5242075333156275,
+   "d1_pct_point": 88.11117718143976,
+   "d1_pct_per_seed": [
+    88.11
+   ],
+   "d1_pct_ci95": [
+    81.39243229019661,
+    93.28696506112203
+   ],
+   "d1_pct_ci_width": 11.894532770925426,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.00302570291125992,
+    "hi_disagree": 0.007624794140638769,
+    "width": 0.11384194451665408,
+    "fraction": 0.06697701952484945
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L13|flat"
+  },
+  "E13|intphys2|vjepa|intphys2|L13|flat|D2": {
+   "cell": "E13|intphys2|vjepa|intphys2|L13|flat|D2",
+   "backbone": "E13|intphys2|vjepa|intphys2|L13|flat",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.7036158977643769,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.29638410223562306,
+   "gap_ci95": [
+    0.2638479549750815,
+    0.329321462606821
+   ],
+   "gap_ci_width": 0.06547350763173948,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0034929658329297952,
+    "hi_disagree": 0.0020255940570857445,
+    "width": 0.06679548969676152,
+    "fraction": 0.05229343850591077
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L13|flat"
+  },
+  "E13|intphys2|vjepa|intphys2|L13|timeavg|D1": {
+   "cell": "E13|intphys2|vjepa|intphys2|L13|timeavg|D1",
+   "backbone": "E13|intphys2|vjepa|intphys2|L13|timeavg",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6566459404146292,
+   "auc_random_point": 0.5176772016435189,
+   "d1_pct_point": 88.71518687510905,
+   "d1_pct_per_seed": [
+    88.72
+   ],
+   "d1_pct_ci95": [
+    79.80322415156999,
+    96.03550312718149
+   ],
+   "d1_pct_ci_width": 16.232278975611493,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.006225939638333955,
+    "hi_disagree": 0.007469275576072243,
+    "width": 0.15064253380543458,
+    "fraction": 0.04958277975939609
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L13|timeavg"
+  },
+  "E13|intphys2|vjepa|intphys2|L13|timeavg|D2": {
+   "cell": "E13|intphys2|vjepa|intphys2|L13|timeavg|D2",
+   "backbone": "E13|intphys2|vjepa|intphys2|L13|timeavg",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6566459404146292,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3433540595853708,
+   "gap_ci95": [
+    0.31051033838991393,
+    0.3734894702307487
+   ],
+   "gap_ci_width": 0.06297913184083476,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.003490134199878092,
+    "hi_disagree": 0.007074102860535392,
+    "width": 0.06073345154587628,
+    "fraction": 0.11647786648831937
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L13|timeavg"
+  },
+  "E13|intphys2|vjepa|intphys2|L16|flat|D1": {
+   "cell": "E13|intphys2|vjepa|intphys2|L16|flat|D1",
+   "backbone": "E13|intphys2|vjepa|intphys2|L16|flat",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.7231873642768986,
+   "auc_random_point": 0.5158141823806028,
+   "d1_pct_point": 92.91439171216571,
+   "d1_pct_per_seed": [
+    92.91
+   ],
+   "d1_pct_ci95": [
+    87.53994405486252,
+    97.99264168245182
+   ],
+   "d1_pct_ci_width": 10.452697627589302,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.006188090875553831,
+    "hi_disagree": 0.0015820848726437742,
+    "width": 0.09895591334205756,
+    "fraction": 0.06253381598493934
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L16|flat"
+  },
+  "E13|intphys2|vjepa|intphys2|L16|flat|D2": {
+   "cell": "E13|intphys2|vjepa|intphys2|L16|flat|D2",
+   "backbone": "E13|intphys2|vjepa|intphys2|L16|flat",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.7231873642768986,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.27681263572310144,
+   "gap_ci95": [
+    0.2470822462466215,
+    0.3092057366932775
+   ],
+   "gap_ci_width": 0.06212349044665599,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.010958810479776343,
+    "hi_disagree": 0.0020353583089877114,
+    "width": 0.07162859910325109,
+    "fraction": 0.15299490171487862
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L16|flat"
+  },
+  "E13|intphys2|vjepa|intphys2|L16|timeavg|D1": {
+   "cell": "E13|intphys2|vjepa|intphys2|L16|timeavg|D1",
+   "backbone": "E13|intphys2|vjepa|intphys2|L16|timeavg",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6541697261322627,
+   "auc_random_point": 0.5089635832461059,
+   "d1_pct_point": 94.18589922225325,
+   "d1_pct_per_seed": [
+    94.19
+   ],
+   "d1_pct_ci95": [
+    83.88414691959376,
+    102.23164492440262
+   ],
+   "d1_pct_ci_width": 18.34749800480886,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.04072210025936529,
+    "hi_disagree": 0.0036877929862491055,
+    "width": 0.1519414699040058,
+    "fraction": 0.26801175666585864
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L16|timeavg"
+  },
+  "E13|intphys2|vjepa|intphys2|L16|timeavg|D2": {
+   "cell": "E13|intphys2|vjepa|intphys2|L16|timeavg|D2",
+   "backbone": "E13|intphys2|vjepa|intphys2|L16|timeavg",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6541697261322627,
+   "auc_appearance_point": 0.9999921885984784,
+   "gap_point": 0.34582246246621573,
+   "gap_ci95": [
+    0.3164721953162837,
+    0.37387711103126126
+   ],
+   "gap_ci_width": 0.05740491571497758,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.002983271883641503,
+    "hi_disagree": 0.002273996625474506,
+    "width": 0.05880901513849618,
+    "fraction": 0.05072813881708186
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E13|intphys2|vjepa|intphys2|L16|timeavg"
+  },
+  "E14|intphys2|L16|D1": {
+   "cell": "E14|intphys2|L16|D1",
+   "backbone": "E14|intphys2|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6158248579626823,
+   "auc_random_point": 0.5236138667999812,
+   "d1_pct_point": 79.61243621158646,
+   "d1_pct_per_seed": [
+    78.36,
+    79.14,
+    81.31
+   ],
+   "d1_pct_ci95": [
+    67.39357153213658,
+    88.83759985642197
+   ],
+   "d1_pct_ci_width": 21.4440283242854,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.035083189701690665,
+    "hi_disagree": 0.009358841179382571,
+    "width": 0.20046355722060705,
+    "fraction": 0.17501031203932071
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E14|intphys2|L16"
+  },
+  "E14|intphys2|L16|D2": {
+   "cell": "E14|intphys2|L16|D2",
+   "backbone": "E14|intphys2|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6158248579626823,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.38417514203731773,
+   "gap_ci95": [
+    0.3605429184437606,
+    0.40415341983158615
+   ],
+   "gap_ci_width": 0.04361050138782557,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0025405607024012733,
+    "hi_disagree": 0.001312640930702491,
+    "width": 0.04481967379587248,
+    "fraction": 0.05668405160582043
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E14|intphys2|L16"
+  },
+  "E14|intphys2|Lrel|D1": {
+   "cell": "E14|intphys2|Lrel|D1",
+   "backbone": "E14|intphys2|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6239890744530717,
+   "auc_random_point": 0.5257476813156483,
+   "d1_pct_point": 79.2339111899787,
+   "d1_pct_per_seed": [
+    74.1,
+    76.33,
+    86.39
+   ],
+   "d1_pct_ci95": [
+    68.57203703243746,
+    88.05768207883001
+   ],
+   "d1_pct_ci_width": 19.485645046392552,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.023380275796209937,
+    "hi_disagree": 0.027085659875892065,
+    "width": 0.19678849502567886,
+    "fraction": 0.13763843192335848
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E14|intphys2|Lrel"
+  },
+  "E14|intphys2|Lrel|D2": {
+   "cell": "E14|intphys2|Lrel|D2",
+   "backbone": "E14|intphys2|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6239890744530717,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3760109255469283,
+   "gap_ci95": [
+    0.348926160123316,
+    0.39757019846167463
+   ],
+   "gap_ci_width": 0.04864403833835862,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0008367312929952742,
+    "hi_disagree": 0.0011300494201336164,
+    "width": 0.04633388143334005,
+    "fraction": 0.0243892673174684
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E14|intphys2|Lrel"
+  },
+  "E15-hunyuan|likephys|L16|D1": {
+   "cell": "E15-hunyuan|likephys|L16|D1",
+   "backbone": "E15-hunyuan|likephys|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.9345546737213404,
+   "auc_random_point": 0.820458553791887,
+   "d1_pct_point": 26.255872236370852,
+   "d1_pct_per_seed": [
+    29.63,
+    25.97,
+    23.27
+   ],
+   "d1_pct_ci95": [
+    19.768466120584826,
+    34.63168898848907
+   ],
+   "d1_pct_ci_width": 14.863222867904241,
+   "threshold_pct": 50.0,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.004452675095205361,
+    "hi_disagree": 0.005229336294325815,
+    "width": 0.14329018214437209,
+    "fraction": 0.03649472850175454
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-hunyuan|likephys|L16"
+  },
+  "E15-hunyuan|likephys|L16|D2": {
+   "cell": "E15-hunyuan|likephys|L16|D2",
+   "backbone": "E15-hunyuan|likephys|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.9345546737213404,
+   "auc_appearance_point": 0.9949444444444445,
+   "gap_point": 0.06038977072310414,
+   "gap_ci95": [
+    0.033675965978658004,
+    0.0936761990578655
+   ],
+   "gap_ci_width": 0.0600002330792075,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0002459266298460924,
+    "hi_disagree": 0.010461935061567354,
+    "width": 0.05421529808310644,
+    "fraction": 0.19297016582903023
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-hunyuan|likephys|L16"
+  },
+  "E15-hunyuan|likephys|Lrel|D1": {
+   "cell": "E15-hunyuan|likephys|Lrel|D1",
+   "backbone": "E15-hunyuan|likephys|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.9501322751322752,
+   "auc_random_point": 0.8184126984126984,
+   "d1_pct_point": 29.262415515721436,
+   "d1_pct_per_seed": [
+    29.92,
+    28.93,
+    28.97
+   ],
+   "d1_pct_ci95": [
+    22.686962297713734,
+    37.20442114995555
+   ],
+   "d1_pct_ci_width": 14.517458852241813,
+   "threshold_pct": 50.0,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.005833997987003264,
+    "hi_disagree": 0.00874602439198996,
+    "width": 0.1424737149196925,
+    "fraction": 0.061386932999675
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-hunyuan|likephys|Lrel"
+  },
+  "E15-hunyuan|likephys|Lrel|D2": {
+   "cell": "E15-hunyuan|likephys|Lrel|D2",
+   "backbone": "E15-hunyuan|likephys|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.9501322751322752,
+   "auc_appearance_point": 0.9977777777777778,
+   "gap_point": 0.0476455026455026,
+   "gap_ci95": [
+    0.02646392811065533,
+    0.07095870504594719
+   ],
+   "gap_ci_width": 0.04449477693529186,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0006787864161325319,
+    "hi_disagree": 0.002472328574026142,
+    "width": 0.042320604897695756,
+    "fraction": 0.058419027327294974
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-hunyuan|likephys|Lrel"
+  },
+  "E15-vjepa|likephys|L13|D1": {
+   "cell": "E15-vjepa|likephys|L13|D1",
+   "backbone": "E15-vjepa|likephys|L13",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.9411772486772486,
+   "auc_random_point": 0.7043783068783068,
+   "d1_pct_point": 53.67433214403502,
+   "d1_pct_per_seed": [
+    53.67
+   ],
+   "d1_pct_ci95": [
+    43.521114153900825,
+    64.28520438527637
+   ],
+   "d1_pct_ci_width": 20.764090231375548,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": true,
+   "monte_carlo": {
+    "lo_disagree": 0.020272751479963824,
+    "hi_disagree": 0.03099938852253914,
+    "width": 0.19130358686752302,
+    "fraction": 0.1620429027502035
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-vjepa|likephys|L13"
+  },
+  "E15-vjepa|likephys|L13|D2": {
+   "cell": "E15-vjepa|likephys|L13|D2",
+   "backbone": "E15-vjepa|likephys|L13",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.9411772486772486,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.05882275132275139,
+   "gap_ci95": [
+    0.02822122919139015,
+    0.08975307684154746
+   ],
+   "gap_ci_width": 0.061531847650157304,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.00947473480788269,
+    "hi_disagree": 0.0004637841490429673,
+    "width": 0.05402618706187738,
+    "fraction": 0.17537300563208483
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-vjepa|likephys|L13"
+  },
+  "E15-vjepa|likephys|L16|D1": {
+   "cell": "E15-vjepa|likephys|L16|D1",
+   "backbone": "E15-vjepa|likephys|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.9451851851851851,
+   "auc_random_point": 0.7130555555555554,
+   "d1_pct_point": 52.14226289517473,
+   "d1_pct_per_seed": [
+    52.14
+   ],
+   "d1_pct_ci95": [
+    41.79419483014584,
+    62.41114876177003
+   ],
+   "d1_pct_ci_width": 20.616953931624188,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": true,
+   "monte_carlo": {
+    "lo_disagree": 0.023999467045953182,
+    "hi_disagree": 0.0036812255915553704,
+    "width": 0.21342233482252337,
+    "fraction": 0.11245058801324863
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-vjepa|likephys|L16"
+  },
+  "E15-vjepa|likephys|L16|D2": {
+   "cell": "E15-vjepa|likephys|L16|D2",
+   "backbone": "E15-vjepa|likephys|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.9451851851851851,
+   "auc_appearance_point": 0.999,
+   "gap_point": 0.05381481481481487,
+   "gap_ci95": [
+    0.025501820328155043,
+    0.08189234255850719
+   ],
+   "gap_ci_width": 0.05639052223035215,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.004335071518899183,
+    "hi_disagree": 0.0023279810528644834,
+    "width": 0.054415768607037465,
+    "fraction": 0.07966572245271086
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E15-vjepa|likephys|L16"
+  },
+  "E17|intphys2|a14b|high|L16|D1": {
+   "cell": "E17|intphys2|a14b|high|L16|D1",
+   "backbone": "E17|intphys2|a14b|high|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6547868268524738,
+   "auc_random_point": 0.5018148489535327,
+   "d1_pct_point": 98.82751717931242,
+   "d1_pct_per_seed": [
+    100.72,
+    89.86,
+    106.12
+   ],
+   "d1_pct_ci95": [
+    90.18131513230026,
+    109.60169386461764
+   ],
+   "d1_pct_ci_width": 19.42037873231739,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.009469709487641587,
+    "hi_disagree": 0.03176986869791154,
+    "width": 0.16257845085085798,
+    "fraction": 0.19541254410804887
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|high|L16"
+  },
+  "E17|intphys2|a14b|high|L16|D2": {
+   "cell": "E17|intphys2|a14b|high|L16|D2",
+   "backbone": "E17|intphys2|a14b|high|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6547868268524738,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3452131731475262,
+   "gap_ci95": [
+    0.3214642667437392,
+    0.3714054533997823
+   ],
+   "gap_ci_width": 0.049941186656043135,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0010639128872502734,
+    "hi_disagree": 0.004035012003520355,
+    "width": 0.046248541871715954,
+    "fraction": 0.08724625340000249
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|high|L16"
+  },
+  "E17|intphys2|a14b|high|Lrel|D1": {
+   "cell": "E17|intphys2|a14b|high|Lrel|D1",
+   "backbone": "E17|intphys2|a14b|high|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.648637951954673,
+   "auc_random_point": 0.5065003879662756,
+   "d1_pct_point": 95.6266970307436,
+   "d1_pct_per_seed": [
+    103.07,
+    89.42,
+    94.02
+   ],
+   "d1_pct_ci95": [
+    85.84326745822368,
+    106.45844482103253
+   ],
+   "d1_pct_ci_width": 20.615177362808843,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.030866180879093097,
+    "hi_disagree": 0.0018073388256711898,
+    "width": 0.18247026401431599,
+    "fraction": 0.16915732021230287
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|high|Lrel"
+  },
+  "E17|intphys2|a14b|high|Lrel|D2": {
+   "cell": "E17|intphys2|a14b|high|Lrel|D2",
+   "backbone": "E17|intphys2|a14b|high|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.648637951954673,
+   "auc_appearance_point": 0.9999947923989856,
+   "gap_point": 0.3513568404443126,
+   "gap_ci95": [
+    0.328160200128107,
+    0.37499928395486054
+   ],
+   "gap_ci_width": 0.04683908382675356,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.002881821306378818,
+    "hi_disagree": 0.0005622256245216839,
+    "width": 0.04871329943185082,
+    "fraction": 0.0591588198703404
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|high|Lrel"
+  },
+  "E17|intphys2|a14b|low|L16|D1": {
+   "cell": "E17|intphys2|a14b|low|L16|D1",
+   "backbone": "E17|intphys2|a14b|low|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6644104735271603,
+   "auc_random_point": 0.5018148489535327,
+   "d1_pct_point": 98.89614760264475,
+   "d1_pct_per_seed": [
+    100.75,
+    90.99,
+    105.44
+   ],
+   "d1_pct_ci95": [
+    90.56694196412509,
+    108.61838137359092
+   ],
+   "d1_pct_ci_width": 18.05143940946583,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.007455832918298877,
+    "hi_disagree": 0.018716869336192987,
+    "width": 0.16141359048645887,
+    "fraction": 0.11595596925751529
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|low|L16"
+  },
+  "E17|intphys2|a14b|low|L16|D2": {
+   "cell": "E17|intphys2|a14b|low|L16|D2",
+   "backbone": "E17|intphys2|a14b|low|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6644104735271603,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3355895264728397,
+   "gap_ci95": [
+    0.3094063920698652,
+    0.36158082587344487
+   ],
+   "gap_ci_width": 0.05217443380357967,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.002772494232581857,
+    "hi_disagree": 0.004485925156358261,
+    "width": 0.051115077567217115,
+    "fraction": 0.0877612902075557
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|low|L16"
+  },
+  "E17|intphys2|a14b|low|Lrel|D1": {
+   "cell": "E17|intphys2|a14b|low|Lrel|D1",
+   "backbone": "E17|intphys2|a14b|low|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6498734552953492,
+   "auc_random_point": 0.5065003879662756,
+   "d1_pct_point": 95.6627489814887,
+   "d1_pct_per_seed": [
+    102.87,
+    89.66,
+    93.6
+   ],
+   "d1_pct_ci95": [
+    86.00707385375365,
+    106.36352293765965
+   ],
+   "d1_pct_ci_width": 20.356449083906003,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.02207835212695708,
+    "hi_disagree": 0.003945533530830492,
+    "width": 0.18576283663938198,
+    "fraction": 0.1188523631872471
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|low|Lrel"
+  },
+  "E17|intphys2|a14b|low|Lrel|D2": {
+   "cell": "E17|intphys2|a14b|low|Lrel|D2",
+   "backbone": "E17|intphys2|a14b|low|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6498734552953492,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.35012654470465077,
+   "gap_ci95": [
+    0.32577424008082195,
+    0.37623859535377846
+   ],
+   "gap_ci_width": 0.05046435527295651,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.005769012951303665,
+    "hi_disagree": 0.004429683065402201,
+    "width": 0.05385118368771058,
+    "fraction": 0.10712880490722093
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E17|intphys2|a14b|low|Lrel"
+  },
+  "E18-ownband|intphys2|a14b|high@900|L16|D1": {
+   "cell": "E18-ownband|intphys2|a14b|high@900|L16|D1",
+   "backbone": "E18-ownband|intphys2|a14b|high@900|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.5946012800283292,
+   "auc_random_point": 0.5024853275841418,
+   "d1_pct_point": 97.37283937025217,
+   "d1_pct_per_seed": [
+    65.14,
+    95.3,
+    130.18
+   ],
+   "d1_pct_ci95": [
+    79.13327975980013,
+    119.68335875342895
+   ],
+   "d1_pct_ci_width": 40.550078993628816,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0449297492757571,
+    "hi_disagree": 0.004477693328133858,
+    "width": 0.42570309788928395,
+    "fraction": 0.10554245317576323
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|high@900|L16"
+  },
+  "E18-ownband|intphys2|a14b|high@900|L16|D2": {
+   "cell": "E18-ownband|intphys2|a14b|high@900|L16|D2",
+   "backbone": "E18-ownband|intphys2|a14b|high@900|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.5946012800283292,
+   "auc_appearance_point": 0.9999973961994928,
+   "gap_point": 0.40539611617116356,
+   "gap_ci95": [
+    0.38342990178464487,
+    0.4243473574028652
+   ],
+   "gap_ci_width": 0.040917455618220355,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0011792937972264772,
+    "hi_disagree": 0.003759497362350206,
+    "width": 0.043574048180724634,
+    "fraction": 0.08627835877808693
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|high@900|L16"
+  },
+  "E18-ownband|intphys2|a14b|high@900|Lrel|D1": {
+   "cell": "E18-ownband|intphys2|a14b|high@900|Lrel|D1",
+   "backbone": "E18-ownband|intphys2|a14b|high@900|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6108073343852687,
+   "auc_random_point": 0.5038093601420633,
+   "d1_pct_point": 96.56217689632484,
+   "d1_pct_per_seed": [
+    75.82,
+    103.49,
+    111.14
+   ],
+   "d1_pct_ci95": [
+    81.01890372377663,
+    114.648185442331
+   ],
+   "d1_pct_ci_width": 33.629281718554374,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.02700971931797158,
+    "hi_disagree": 0.007714203794858987,
+    "width": 0.3454037193840148,
+    "fraction": 0.07819753465926801
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|high@900|Lrel"
+  },
+  "E18-ownband|intphys2|a14b|high@900|Lrel|D2": {
+   "cell": "E18-ownband|intphys2|a14b|high@900|Lrel|D2",
+   "backbone": "E18-ownband|intphys2|a14b|high@900|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6108073343852687,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3891926656147313,
+   "gap_ci95": [
+    0.36914301113905856,
+    0.4084842561202331
+   ],
+   "gap_ci_width": 0.03934124498117453,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0022134908111879348,
+    "hi_disagree": 0.0021752474912382636,
+    "width": 0.039614253464356486,
+    "fraction": 0.055876120780101436
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|high@900|Lrel"
+  },
+  "E18-ownband|intphys2|a14b|low@300|L16|D1": {
+   "cell": "E18-ownband|intphys2|a14b|low@300|L16|D1",
+   "backbone": "E18-ownband|intphys2|a14b|low@300|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6297486811750431,
+   "auc_random_point": 0.5156787847542272,
+   "d1_pct_point": 87.91603535986998,
+   "d1_pct_per_seed": [
+    90.76,
+    77.02,
+    95.46
+   ],
+   "d1_pct_ci95": [
+    77.26365108605044,
+    98.89116880941586
+   ],
+   "d1_pct_ci_width": 21.62751772336542,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.01490958999223202,
+    "hi_disagree": 0.022999269510538878,
+    "width": 0.20918884166645102,
+    "fraction": 0.1099450110594853
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|low@300|L16"
+  },
+  "E18-ownband|intphys2|a14b|low@300|L16|D2": {
+   "cell": "E18-ownband|intphys2|a14b|low@300|L16|D2",
+   "backbone": "E18-ownband|intphys2|a14b|low@300|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6297486811750431,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3702513188249569,
+   "gap_ci95": [
+    0.34681773266259436,
+    0.3933133101074328
+   ],
+   "gap_ci_width": 0.046495577444838454,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0015053221682367335,
+    "hi_disagree": 0.0019353723695105796,
+    "width": 0.045779239377795766,
+    "fraction": 0.042276201959993466
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|low@300|L16"
+  },
+  "E18-ownband|intphys2|a14b|low@300|Lrel|D1": {
+   "cell": "E18-ownband|intphys2|a14b|low@300|Lrel|D1",
+   "backbone": "E18-ownband|intphys2|a14b|low@300|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.6098191920927787,
+   "auc_random_point": 0.5117861029959329,
+   "d1_pct_point": 89.26772017592737,
+   "d1_pct_per_seed": [
+    95.76,
+    73.67,
+    99.48
+   ],
+   "d1_pct_ci95": [
+    76.49622893641053,
+    105.6250658533086
+   ],
+   "d1_pct_ci_width": 29.12883691689806,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.02526364659509528,
+    "hi_disagree": 0.0250656980621895,
+    "width": 0.29844486945663906,
+    "fraction": 0.08465096632785582
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|low@300|Lrel"
+  },
+  "E18-ownband|intphys2|a14b|low@300|Lrel|D2": {
+   "cell": "E18-ownband|intphys2|a14b|low@300|Lrel|D2",
+   "backbone": "E18-ownband|intphys2|a14b|low@300|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.6098191920927787,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.3901808079072213,
+   "gap_ci95": [
+    0.36495746691871456,
+    0.4112146338796107
+   ],
+   "gap_ci_width": 0.04625716696089616,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.004354856348325997,
+    "hi_disagree": 0.0023321264717980905,
+    "width": 0.04594913736089201,
+    "fraction": 0.0947755844494369
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E18-ownband|intphys2|a14b|low@300|Lrel"
+  },
+  "E19-h3|intphys2|h3|L16|D1": {
+   "cell": "E19-h3|intphys2|h3|L16|D1",
+   "backbone": "E19-h3|intphys2|h3|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.5719130643086648,
+   "auc_random_point": 0.528360595124644,
+   "d1_pct_point": 60.56266632872885,
+   "d1_pct_per_seed": [
+    60.76,
+    47.76,
+    73.36
+   ],
+   "d1_pct_ci95": [
+    42.29806113912129,
+    76.33949886953057
+   ],
+   "d1_pct_ci_width": 34.04143773040929,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": true,
+   "monte_carlo": {
+    "lo_disagree": 0.0006400122333105607,
+    "hi_disagree": 0.01872033054558353,
+    "width": 0.32737365800418683,
+    "fraction": 0.057183374678680204
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E19-h3|intphys2|h3|L16"
+  },
+  "E19-h3|intphys2|h3|L16|D2": {
+   "cell": "E19-h3|intphys2|h3|L16|D2",
+   "backbone": "E19-h3|intphys2|h3|L16",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.5719130643086648,
+   "auc_appearance_point": 0.9999947923989856,
+   "gap_point": 0.42808172809032075,
+   "gap_ci95": [
+    0.41410638217542317,
+    0.44232585131257585
+   ],
+   "gap_ci_width": 0.028219469137152675,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.003371628729293419,
+    "hi_disagree": 0.0006116978341587642,
+    "width": 0.028902185630145794,
+    "fraction": 0.11665653153153632
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E19-h3|intphys2|h3|L16"
+  },
+  "E19-h3|intphys2|h3|Lrel|D1": {
+   "cell": "E19-h3|intphys2|h3|Lrel|D1",
+   "backbone": "E19-h3|intphys2|h3|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "auc_real_point": 0.638278731636697,
+   "auc_random_point": 0.5282655564061304,
+   "d1_pct_point": 79.55899936919212,
+   "d1_pct_per_seed": [
+    79.78,
+    71.24,
+    86.95
+   ],
+   "d1_pct_ci95": [
+    68.4455698272659,
+    88.1331740686614
+   ],
+   "d1_pct_ci_width": 19.687604241395494,
+   "threshold_pct": 50.0,
+   "verdict_point": "pass",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.0014122499135944544,
+    "hi_disagree": 0.013271949558274931,
+    "width": 0.18941105867032026,
+    "fraction": 0.07006956009561957
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E19-h3|intphys2|h3|Lrel"
+  },
+  "E19-h3|intphys2|h3|Lrel|D2": {
+   "cell": "E19-h3|intphys2|h3|Lrel|D2",
+   "backbone": "E19-h3|intphys2|h3|Lrel",
+   "dataset": "ext",
+   "layer": 16,
+   "timestep": 600,
+   "n_draws_used": 300,
+   "appearance_arm": "appearance",
+   "auc_physics_point": 0.638278731636697,
+   "auc_appearance_point": 1.0,
+   "gap_point": 0.361721268363303,
+   "gap_ci95": [
+    0.3378158735490322,
+    0.38520455456784713
+   ],
+   "gap_ci_width": 0.04738868101881494,
+   "verdict_point": "fail",
+   "verdict_fragile": false,
+   "monte_carlo": {
+    "lo_disagree": 0.00449848849380563,
+    "hi_disagree": 0.002514620339848117,
+    "width": 0.04756785504121813,
+    "fraction": 0.09456992521331127
+   },
+   "method": "out-of-fold score bootstrap, 3-seed mean (see module docstring)",
+   "source_cell": "E19-h3|intphys2|h3|Lrel"
+  }
+ },
+ "self_check": {},
+ "elapsed_min": 10.5
+}

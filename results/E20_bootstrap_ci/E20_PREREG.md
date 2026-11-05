@@ -171,6 +171,19 @@ results/E20_bootstrap_ci/
     manifest.json            env, threads, probe source, cache checksums
 ```
 
+## 7.1 Deliverable amendment (2026-11-05, after the run)
+
+The list in §7 names two `E20_draws_*.npz` files. **They were deleted**, and this is recorded
+rather than silently dropped: the method amendment in §2 (out-of-fold score bootstrap instead
+of a refit per draw) means the draw sets are regenerated from `draw_seed` at scoring time and
+no longer need to be frozen to disk. Keeping the files would have implied a reproducibility
+role they no longer play. The seed, `B`, and the resampling unit are all recorded in
+`E20_cells.json.protocol`, which is what actually pins the draws.
+
+`oof_cache/` is a **build artefact, not a deliverable**: it holds the per-(cell, seed, arm)
+out-of-fold scores so a rerun after a downstream fix does not refit (added after the first
+extension run crashed after an hour of fitting). It is excluded from the published release.
+
 ## 8. Discipline inherited from the rest of the project
 
 - **`probe` is imported, never re-implemented** (`import e8_analyse.probe`) — E11 measured a

@@ -1,0 +1,44 @@
+{
+ "task": "E20-ext: cluster-bootstrap CI for the 22 cells E20 did not cover",
+ "created": "2026-11-05 21:04:40",
+ "B": 300,
+ "method": "Same out-of-fold score bootstrap as E20 (see E20_REPORT.md \u00a72): the frozen probe is fit once per (cell, seed) and the resampling acts on the held-out scores. Interval omits the refit component (E16: 2.51 pp).",
+ "d1": {
+  "cells": 25,
+  "robust": 22,
+  "fragile": 3,
+  "fragile_cells": [
+   {
+    "cell": "E15-vjepa|likephys|L13|D1",
+    "d1_pct_point": 53.67433214403502,
+    "ci95": [
+     43.521114153900825,
+     64.28520438527637
+    ]
+   },
+   {
+    "cell": "E15-vjepa|likephys|L16|D1",
+    "d1_pct_point": 52.14226289517473,
+    "ci95": [
+     41.79419483014584,
+     62.41114876177003
+    ]
+   },
+   {
+    "cell": "E19-h3|intphys2|h3|L16|D1",
+    "d1_pct_point": 60.56266632872885,
+    "ci95": [
+     42.29806113912129,
+     76.33949886953057
+    ]
+   }
+  ]
+ },
+ "d2": {
+  "cells": 25,
+  "robust": 25,
+  "fragile": 0,
+  "fragile_cells": []
+ },
+ "why": "fragile = the 95% interval straddles the decision boundary. The point-estimate verdicts in D1_TALLY/D2_TALLY are NOT retracted by this file."
+}

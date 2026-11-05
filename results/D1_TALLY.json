@@ -264,8 +264,17 @@
    "d1_pct": 92.85813274019496,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 92.91,
+    "ci95_pct": [
+     87.54,
+     97.99
+    ],
+    "ci_width_pct": 10.45,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L13|flat|physics",
@@ -274,8 +283,17 @@
    "d1_pct": 88.26281933266934,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 88.11,
+    "ci95_pct": [
+     81.39,
+     93.29
+    ],
+    "ci_width_pct": 11.89,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L16|timeavg|physics",
@@ -284,8 +302,17 @@
    "d1_pct": 94.63465545625037,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 94.19,
+    "ci95_pct": [
+     83.88,
+     102.23
+    ],
+    "ci_width_pct": 18.35,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L13|timeavg|physics",
@@ -294,8 +321,17 @@
    "d1_pct": 88.4816234618288,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 88.72,
+    "ci95_pct": [
+     79.8,
+     96.04
+    ],
+    "ci_width_pct": 16.23,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0",
@@ -304,8 +340,17 @@
    "d1_pct": 78.4010702836585,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 75.06,
+    "ci95_pct": [
+     56.3,
+     93.87
+    ],
+    "ci_width_pct": 37.58,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13h|intphys2|L16",
@@ -314,8 +359,17 @@
    "d1_pct": 83.24502814739942,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 82.66,
+    "ci95_pct": [
+     74.74,
+     90.27
+    ],
+    "ci_width_pct": 15.53,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13h|intphys2|L17",
@@ -324,8 +378,17 @@
    "d1_pct": 85.43458674199914,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 88.28,
+    "ci95_pct": [
+     81.48,
+     94.02
+    ],
+    "ci_width_pct": 12.54,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E14|intphys2|L16",
@@ -334,8 +397,17 @@
    "d1_pct": 77.08573138293883,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 79.61,
+    "ci95_pct": [
+     67.39,
+     88.84
+    ],
+    "ci_width_pct": 21.44,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E14|intphys2|Lrel",
@@ -344,8 +416,17 @@
    "d1_pct": 75.01975780754702,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 79.23,
+    "ci95_pct": [
+     68.57,
+     88.06
+    ],
+    "ci_width_pct": 19.49,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|low|L16",
@@ -354,8 +435,17 @@
    "d1_pct": 99.11662078955406,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 98.9,
+    "ci95_pct": [
+     90.57,
+     108.62
+    ],
+    "ci_width_pct": 18.05,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|low|Lrel",
@@ -364,8 +454,17 @@
    "d1_pct": 95.32556469991204,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 95.66,
+    "ci95_pct": [
+     86.01,
+     106.36
+    ],
+    "ci_width_pct": 20.36,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|high|L16",
@@ -374,8 +473,17 @@
    "d1_pct": 99.0570905840531,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 98.83,
+    "ci95_pct": [
+     90.18,
+     109.6
+    ],
+    "ci_width_pct": 19.42,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|high|Lrel",
@@ -384,8 +492,17 @@
    "d1_pct": 95.35781694738127,
    "interpretable": true,
    "verdict": "pass",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 95.63,
+    "ci95_pct": [
+     85.84,
+     106.46
+    ],
+    "ci_width_pct": 20.62,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E15-vjepa|likephys|L16",
@@ -397,8 +514,17 @@
    "interpretable": true,
    "verdict": "at_threshold",
    "why": "D1 straddles 50% across probe partitions; judged on the 6-seed mean and its +-1sd band, not on seed 1000",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 52.14,
+    "ci95_pct": [
+     41.79,
+     62.41
+    ],
+    "ci_width_pct": 20.62,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": true
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E15-vjepa|likephys|L13",
@@ -410,8 +536,17 @@
    "interpretable": true,
    "verdict": "at_threshold",
    "why": "D1 straddles 50% across probe partitions; judged on the 6-seed mean and its +-1sd band, not on seed 1000",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 53.67,
+    "ci95_pct": [
+     43.52,
+     64.29
+    ],
+    "ci_width_pct": 20.76,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": true
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E15-hunyuan|likephys|L16",
@@ -420,8 +555,17 @@
    "d1_pct": 27.001405299693054,
    "interpretable": true,
    "verdict": "fail",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 26.26,
+    "ci95_pct": [
+     19.77,
+     34.63
+    ],
+    "ci_width_pct": 14.86,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E15-hunyuan|likephys|Lrel",
@@ -430,8 +574,17 @@
    "d1_pct": 28.143827412591467,
    "interpretable": true,
    "verdict": "fail",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 29.26,
+    "ci95_pct": [
+     22.69,
+     37.2
+    ],
+    "ci_width_pct": 14.52,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18-ownband|intphys2|a14b|low@300|L16",
@@ -444,8 +597,17 @@
    "verdict": "pass",
    "d1_comparable_across_t": false,
    "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 87.92,
+    "ci95_pct": [
+     77.26,
+     98.89
+    ],
+    "ci_width_pct": 21.63,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18-ownband|intphys2|a14b|low@300|Lrel",
@@ -458,8 +620,17 @@
    "verdict": "pass",
    "d1_comparable_across_t": false,
    "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 89.27,
+    "ci95_pct": [
+     76.5,
+     105.63
+    ],
+    "ci_width_pct": 29.13,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18-ownband|intphys2|a14b|high@900|L16",
@@ -472,8 +643,17 @@
    "verdict": "pass",
    "d1_comparable_across_t": false,
    "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 97.37,
+    "ci95_pct": [
+     79.13,
+     119.68
+    ],
+    "ci_width_pct": 40.55,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18-ownband|intphys2|a14b|high@900|Lrel",
@@ -486,8 +666,17 @@
    "verdict": "pass",
    "d1_comparable_across_t": false,
    "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 96.56,
+    "ci95_pct": [
+     81.02,
+     114.65
+    ],
+    "ci_width_pct": 33.63,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E19-h3|intphys2|h3|L16",
@@ -500,8 +689,17 @@
    "verdict": "pass",
    "comparable_across_cells": false,
    "why": "L16 real AUC 0.574 < 0.6 -> weak signal (E8 \u00a715.2)",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 60.56,
+    "ci95_pct": [
+     42.3,
+     76.34
+    ],
+    "ci_width_pct": 34.04,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": true
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E19-h3|intphys2|h3|Lrel",
@@ -514,9 +712,18 @@
    "verdict": "pass",
    "comparable_across_cells": true,
    "why": "above the 0.6 weak-signal line",
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "d1_pct_point_e20ext": 79.56,
+    "ci95_pct": [
+     68.45,
+     88.13
+    ],
+    "ci_width_pct": 19.69,
+    "verdict_point_e20ext": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   }
  ],
- "ci95_D1_note": "12 of 35 rows carry a 95% cluster-bootstrap interval from E20; 23 do not. A row without an interval is not weaker evidence \u2014 it simply was not resampled. Intervals condition on the fitted probe (see E20_REPORT.md \u00a72). The point-estimate verdicts are unchanged."
+ "ci95_D1_note": "35 of 35 rows carry a 95% cluster-bootstrap interval from E20; 0 do not. A row without an interval is not weaker evidence \u2014 it simply was not resampled. Intervals condition on the fitted probe (see E20_REPORT.md \u00a72). The point-estimate verdicts are unchanged."
 }

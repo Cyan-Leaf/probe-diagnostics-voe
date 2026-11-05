@@ -256,7 +256,14 @@ def compose(bb, dataset, arms_res, draws) -> dict:
 
     out = {}
     real, rand = arms_res["real"], arms_res["random"]
-    app_key = "cj" if dataset == "intphys2" else "appearance_native"
+    # The appearance arm is keyed by the caller: E20 itself uses "cj" on IntPhys 2 and
+    # "appearance_native" on LikePhys (E8's arm names), while e20_extend uses one name for both
+    # because the construction is unified there. Resolve by what is present rather than by
+    # dataset, so a caller cannot get a KeyError for a naming difference.
+    app_key = next((k for k in ("cj", "appearance_native", "appearance")
+                    if k in arms_res), None)
+    if app_key is None:
+        raise KeyError(f"no appearance arm in {sorted(arms_res)}")
     app = arms_res[app_key]
 
     def draw_curves(arm_res):

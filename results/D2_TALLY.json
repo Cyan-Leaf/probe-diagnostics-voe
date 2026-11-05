@@ -292,8 +292,17 @@
    "verdict": "fail",
    "auc_physics": 0.615262604126618,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3842,
+    "ci95_gap": [
+     0.3605,
+     0.4042
+    ],
+    "ci_width": 0.0436,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E14|intphys2|Lrel",
@@ -301,8 +310,17 @@
    "verdict": "fail",
    "auc_physics": 0.6241452851467385,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.376,
+    "ci95_gap": [
+     0.3489,
+     0.3976
+    ],
+    "ci_width": 0.0486,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L16|flat|physics",
@@ -310,8 +328,17 @@
    "verdict": "fail",
    "auc_physics": 0.724105013456363,
    "auc_appearance": 0.9999807766243751,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.2768,
+    "ci95_gap": [
+     0.2471,
+     0.3092
+    ],
+    "ci_width": 0.0621,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L13|flat|physics",
@@ -319,8 +346,17 @@
    "verdict": "fail",
    "auc_physics": 0.7023166166858901,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.2964,
+    "ci95_gap": [
+     0.2638,
+     0.3293
+    ],
+    "ci_width": 0.0655,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L16|timeavg|physics",
@@ -328,8 +364,17 @@
    "verdict": "fail",
    "auc_physics": 0.6624091426374472,
    "auc_appearance": 0.999923106497501,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3458,
+    "ci95_gap": [
+     0.3165,
+     0.3739
+    ],
+    "ci_width": 0.0574,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vjepa|intphys2|L13|timeavg|physics",
@@ -337,8 +382,17 @@
    "verdict": "fail",
    "auc_physics": 0.6583796155324876,
    "auc_appearance": 0.999923106497501,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3434,
+    "ci95_gap": [
+     0.3105,
+     0.3735
+    ],
+    "ci_width": 0.063,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vith|intphys2|L16",
@@ -346,8 +400,17 @@
    "verdict": "fail",
    "auc_physics": 0.6583524183006537,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3431,
+    "ci95_gap": [
+     0.3103,
+     0.3686
+    ],
+    "ci_width": 0.0583,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13|intphys2|vith|intphys2|L17",
@@ -355,8 +418,17 @@
    "verdict": "fail",
    "auc_physics": 0.6817649058054596,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3204,
+    "ci95_gap": [
+     0.2876,
+     0.3475
+    ],
+    "ci_width": 0.0599,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13vithD2|likephys|vith|likephys|L16",
@@ -364,8 +436,17 @@
    "verdict": "fail",
    "auc_physics": 0.9474855800349122,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.049,
+    "ci95_gap": [
+     0.0251,
+     0.0747
+    ],
+    "ci_width": 0.0496,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E13vithD2|likephys|vith|likephys|L17",
@@ -373,8 +454,17 @@
    "verdict": "fail",
    "auc_physics": 0.9486324029311689,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.0491,
+    "ci95_gap": [
+     0.0248,
+     0.0753
+    ],
+    "ci_width": 0.0505,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|low|L16",
@@ -382,8 +472,17 @@
    "verdict": "fail",
    "auc_physics": 0.6663076560297321,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3356,
+    "ci95_gap": [
+     0.3094,
+     0.3616
+    ],
+    "ci_width": 0.0522,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|low|Lrel",
@@ -391,8 +490,17 @@
    "verdict": "fail",
    "auc_physics": 0.6491626835832373,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3501,
+    "ci95_gap": [
+     0.3258,
+     0.3762
+    ],
+    "ci_width": 0.0505,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|high|L16",
@@ -400,8 +508,17 @@
    "verdict": "fail",
    "auc_physics": 0.6558078892733563,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3452,
+    "ci95_gap": [
+     0.3215,
+     0.3714
+    ],
+    "ci_width": 0.0499,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E17|intphys2|a14b|high|Lrel",
@@ -409,8 +526,17 @@
    "verdict": "fail",
    "auc_physics": 0.6501990132000514,
    "auc_appearance": 0.9999733333333333,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3514,
+    "ci95_gap": [
+     0.3282,
+     0.375
+    ],
+    "ci_width": 0.0468,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18|intphys2|a14b|low@300|L16",
@@ -418,8 +544,17 @@
    "verdict": "fail",
    "auc_physics": 0.6326315212097912,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3703,
+    "ci95_gap": [
+     0.3468,
+     0.3933
+    ],
+    "ci_width": 0.0465,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18|intphys2|a14b|low@300|Lrel",
@@ -427,8 +562,17 @@
    "verdict": "fail",
    "auc_physics": 0.6118851826220685,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3902,
+    "ci95_gap": [
+     0.365,
+     0.4112
+    ],
+    "ci_width": 0.0463,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18|intphys2|a14b|high@900|L16",
@@ -436,8 +580,17 @@
    "verdict": "fail",
    "auc_physics": 0.5954756350121748,
    "auc_appearance": 0.9999866666666667,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.4054,
+    "ci95_gap": [
+     0.3834,
+     0.4243
+    ],
+    "ci_width": 0.0409,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E18|intphys2|a14b|high@900|Lrel",
@@ -445,8 +598,17 @@
    "verdict": "fail",
    "auc_physics": 0.6125031885172371,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3892,
+    "ci95_gap": [
+     0.3691,
+     0.4085
+    ],
+    "ci_width": 0.0393,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E19|intphys2|h3|L16",
@@ -454,8 +616,17 @@
    "verdict": "fail",
    "auc_physics": 0.5738744072792515,
    "auc_appearance": 0.9999933333333333,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.4281,
+    "ci95_gap": [
+     0.4141,
+     0.4423
+    ],
+    "ci_width": 0.0282,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E19|intphys2|h3|Lrel",
@@ -463,8 +634,17 @@
    "verdict": "fail",
    "auc_physics": 0.6413840369088812,
    "auc_appearance": 1.0,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.3617,
+    "ci95_gap": [
+     0.3378,
+     0.3852
+    ],
+    "ci_width": 0.0474,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E15D2|likephys|vjepa2_vitl",
@@ -472,8 +652,17 @@
    "verdict": "fail",
    "auc_physics": 0.96855577385411,
    "auc_appearance": 0.9974999999999999,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.0538,
+    "ci95_gap": [
+     0.0255,
+     0.0819
+    ],
+    "ci_width": 0.0564,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   },
   {
    "cell": "E15D2|likephys|hunyuan",
@@ -481,9 +670,18 @@
    "verdict": "fail",
    "auc_physics": 0.9422454381036761,
    "auc_appearance": 0.996969696969697,
-   "ci95": null,
-   "ci95_source": "not measured in E20"
+   "ci95": {
+    "gap_point_e20ext": 0.0604,
+    "ci95_gap": [
+     0.0337,
+     0.0937
+    ],
+    "ci_width": 0.06,
+    "verdict_point_e20ext": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci/E20ext_cells.json (cluster bootstrap, B=300)"
   }
  ],
- "ci95_D2_note": "12 of 34 rows carry a 95% cluster-bootstrap interval from E20; 22 do not. A row without an interval is not weaker evidence \u2014 it simply was not resampled. Intervals condition on the fitted probe (see E20_REPORT.md \u00a72). The point-estimate verdicts are unchanged."
+ "ci95_D2_note": "34 of 34 rows carry a 95% cluster-bootstrap interval from E20; 0 do not. A row without an interval is not weaker evidence \u2014 it simply was not resampled. Intervals condition on the fitted probe (see E20_REPORT.md \u00a72). The point-estimate verdicts are unchanged."
 }

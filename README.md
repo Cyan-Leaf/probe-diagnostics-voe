@@ -55,13 +55,15 @@ Two later results sharpen the scope:
   records every scene twice, so `take-1`/`take-2` are two *legal* performances, not a
   possible/impossible pair. That task does not exist in this data.
 
-- **Every verdict now carries a cluster-bootstrap interval.** D1 is a *ratio*, and in the
-  weak-signal region its denominator was observed as low as 0.096, which can turn an AUC gap of
-  0.0116 into ~10 pp of training share. Across the 12 cells measured: **D2 is robust in 12/12**
-  (smallest lower bound +0.0225, still clear of 0); **D1 is robust in 9/12**, and the three
-  fragile cells all sit on the 50% boundary — CogVideoX-2b/5b on LikePhys have intervals
-  reaching 54.06% and 51.75%, so their `fail` cannot be told apart from "exactly half".
-  (`results/E20_bootstrap_ci/`)
+- **Every verdict now carries a cluster-bootstrap interval**, across all 69 cells. D1 is a
+  *ratio*, and in the weak-signal region its denominator was observed as low as 0.096, which can
+  turn an AUC gap of 0.0116 into ~10 pp of training share. Result: **D2 is robust in 37/37**
+  (smallest lower bound **+0.0225**, still clear of 0); **D1 is robust in 31/37**. All six
+  fragile cells sit on the 50% boundary — CogVideoX-2b/5b on LikePhys reach 54.06% and 51.75%;
+  MiniMax-H3's L16 cell, reported as a pass at 63.87%, has the interval [42.30, 76.34] and so
+  cannot be separated from a coin flip on this evidence. That cell had already been flagged as
+  weak-signal in E19; the interval confirms it from an independent axis.
+  (`results/E20_bootstrap_ci/`, `E20ext_REPORT.md`)
 
 ---
 
