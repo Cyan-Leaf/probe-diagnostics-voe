@@ -1,0 +1,162 @@
+{
+ "model": "Wan-AI/Wan2.2-T2V-A14B-Diffusers@5be7df9619b5",
+ "design": "diagonal cells only: each expert measured inside its own noise band",
+ "boundary_ratio": 0.875,
+ "own_band": {
+  "low": {
+   "t": 300,
+   "sigma": 0.3,
+   "in_range": true
+  },
+  "high": {
+   "t": 900,
+   "sigma": 0.9,
+   "in_range": true
+  }
+ },
+ "cross_band_reference": {
+  "t": 600,
+  "source": "results/E17_moe_experts/E17_cells.json",
+  "note": "E17's cells, NOT recomputed here; read by e18_verdict.py"
+ },
+ "cells": {
+  "a14b|low@300|L16": {
+   "expert": "low",
+   "t": 300,
+   "sigma": 0.3,
+   "layer": 16,
+   "auc_real": 0.6326315212097912,
+   "auc_random": 0.5140645059592465,
+   "auc_appearance": 1.0,
+   "d1": 0.8939580438273056,
+   "d1_pct": 89.39580438273056,
+   "floor": 0.004985230670424892,
+   "floor_real": 0.004985230670424892,
+   "floor_random": 0.0025978673476581555,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.631397016532103,
+    0.6283795309496348,
+    0.6381180161476355
+   ],
+   "per_feature_seed_random": [
+    0.5134412072279894,
+    0.516917324106113,
+    0.5118349865436371
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.36736847879020884
+  },
+  "a14b|low@300|Lrel": {
+   "expert": "low",
+   "t": 300,
+   "sigma": 0.3,
+   "layer": 21,
+   "auc_real": 0.6118851826220685,
+   "auc_random": 0.5147867743175701,
+   "auc_appearance": 1.0,
+   "d1": 0.8678397445395637,
+   "d1_pct": 86.78397445395638,
+   "floor": 0.013613676206638453,
+   "floor_real": 0.010995177401632554,
+   "floor_random": 0.013613676206638453,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.5991977085736255,
+    0.6186350326797386,
+    0.6178228066128412
+   ],
+   "per_feature_seed_random": [
+    0.5053270049980777,
+    0.5303894117647059,
+    0.5086439061899269
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.3881148173779315
+  },
+  "a14b|high@900|L16": {
+   "expert": "high",
+   "t": 900,
+   "sigma": 0.9,
+   "layer": 16,
+   "auc_real": 0.5954756350121748,
+   "auc_random": 0.5024730078175061,
+   "auc_appearance": 0.9999866666666667,
+   "d1": 0.9740980217917294,
+   "d1_pct": 97.40980217917294,
+   "floor": 0.030096284261403452,
+   "floor_real": 0.006570840426422335,
+   "floor_random": 0.030096284261403452,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.5963561476355249,
+    0.5885089350249904,
+    0.6015618223760092
+   ],
+   "per_feature_seed_random": [
+    0.5310130949634757,
+    0.5053751480199923,
+    0.4710307804690504
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    0.9999600000000001
+   ],
+   "gap_appearance_minus_physics": 0.40451103165449187
+  },
+  "a14b|high@900|Lrel": {
+   "expert": "high",
+   "t": 900,
+   "sigma": 0.9,
+   "layer": 21,
+   "auc_real": 0.6125031885172371,
+   "auc_random": 0.506322655388953,
+   "auc_appearance": 1.0,
+   "d1": 0.9438002116003643,
+   "d1_pct": 94.38002116003643,
+   "floor": 0.022417399073412433,
+   "floor_real": 0.007000285124103112,
+   "floor_random": 0.022417399073412433,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.6127577547097272,
+    0.6193727181853134,
+    0.6053790926566707
+   ],
+   "per_feature_seed_random": [
+    0.5267923029603999,
+    0.5098095271049596,
+    0.4823661361014994
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.38749681148276294
+  }
+ },
+ "elapsed_s": 1290.4,
+ "threads": 4
+}

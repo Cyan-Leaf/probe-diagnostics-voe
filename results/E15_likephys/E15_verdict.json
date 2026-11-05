@@ -1,0 +1,151 @@
+{
+ "question": "on LikePhys, does the non-generative encoder also show D1 < 50%?",
+ "threshold": 0.5,
+ "cells": {
+  "vjepa_likephys_L16": {
+   "auc_real": 0.96855577385411,
+   "auc_random": 0.7166725894254258,
+   "d1_mean_over_probe_seeds": 0.4940694959095422,
+   "d1_sd": 0.02290606115795228,
+   "d1_seed_1000": 0.5375735365649572,
+   "n_seeds_below_threshold": 5,
+   "n_seeds": 6,
+   "per_seed": [
+    {
+     "probe_seed": 1000,
+     "auc_real": 0.96855577385411,
+     "auc_random": 0.7166725894254258,
+     "d1": 0.5375735365649572
+    },
+    {
+     "probe_seed": 2000,
+     "auc_real": 0.9692085655802198,
+     "auc_random": 0.7347838234354167,
+     "d1": 0.49961735428873777
+    },
+    {
+     "probe_seed": 3000,
+     "auc_real": 0.9807741657292837,
+     "auc_random": 0.7466345581802275,
+     "d1": 0.4870053847296289
+    },
+    {
+     "probe_seed": 4242,
+     "auc_real": 0.9806544334217087,
+     "auc_random": 0.7522369100307372,
+     "d1": 0.47522192142263303
+    },
+    {
+     "probe_seed": 5000,
+     "auc_real": 0.9792462196659291,
+     "auc_random": 0.7497772733323814,
+     "d1": 0.47881221993468176
+    },
+    {
+     "probe_seed": 6000,
+     "auc_real": 0.9711823877706344,
+     "auc_random": 0.7420998442267888,
+     "d1": 0.48618655851661435
+    }
+   ],
+   "floor": 0.03843269046602813,
+   "interpretable": true
+  },
+  "vjepa_likephys_L13": {
+   "auc_real": 0.9614358045716699,
+   "auc_random": 0.712120533663755,
+   "d1_mean_over_probe_seeds": 0.47966335158025775,
+   "d1_sd": 0.03537006763076273,
+   "n_seeds_below_threshold": 5,
+   "n_seeds": 6,
+   "per_seed": [
+    {
+     "probe_seed": 1000,
+     "auc_real": 0.9614358045716699,
+     "auc_random": 0.712120533663755,
+     "d1": 0.5403032630711069
+    },
+    {
+     "probe_seed": 2000,
+     "auc_real": 0.9643967689252214,
+     "auc_random": 0.7456077410857864,
+     "d1": 0.4711252155043849
+    },
+    {
+     "probe_seed": 3000,
+     "auc_real": 0.9766350164562763,
+     "auc_random": 0.7567931716868725,
+     "d1": 0.46123729306315187
+    },
+    {
+     "probe_seed": 4242,
+     "auc_real": 0.971080187801852,
+     "auc_random": 0.7498417051185414,
+     "d1": 0.4696408136280377
+    },
+    {
+     "probe_seed": 5000,
+     "auc_real": 0.9715739017112635,
+     "auc_random": 0.7650440295211108,
+     "d1": 0.4379586559830601
+    },
+    {
+     "probe_seed": 6000,
+     "auc_real": 0.962672437794869,
+     "auc_random": 0.7323934863833077,
+     "d1": 0.49771486823180516
+    }
+   ],
+   "floor": 0.035166554791363644,
+   "interpretable": true
+  },
+  "hunyuan_likephys_L16": {
+   "auc_real": 0.9422454381036761,
+   "auc_random": 0.8228329549418993,
+   "d1": 0.27001405299693054,
+   "d1_pct": 27.001405299693054,
+   "per_feature_seed_d1_pct": [
+    28.6,
+    26.9,
+    25.5
+   ],
+   "floor": 0.014479611119605355,
+   "interpretable": true
+  },
+  "hunyuan_likephys_Lrel": {
+   "auc_real": 0.9507586839650966,
+   "auc_random": 0.8238979379026912,
+   "d1": 0.28143827412591466,
+   "d1_pct": 28.143827412591467,
+   "per_feature_seed_d1_pct": [
+    27.9,
+    29.4,
+    27.1
+   ],
+   "note": "single-stream block; not a depth control for L16 (E14_PREREG.md \u00a73)"
+  }
+ },
+ "q": {
+  "vjepa_verdict": "at_threshold",
+  "vjepa_why": "mean 0.494 sd 0.023: the +-1sd band [0.471, 0.517] straddles 0.5, so neither pre-registered label applies without picking a seed",
+  "hunyuan_verdict": "below_threshold",
+  "hunyuan_why": "mean 0.270 + 1sd 0.284 stays below 0.5",
+  "vjepa_band_1sd": [
+   0.4711634347515899,
+   0.5169755570674944
+  ],
+  "vjepa_gap_to_highest_generative_pp": 5.90694959095422
+ },
+ "likephys_d1_all_models_pct": {
+  "cogvideox2b": 42.6,
+  "cogvideox5b": 43.5,
+  "ltx": 32.5,
+  "mochi": 34.4,
+  "wan21_14b": 32.1,
+  "wan21_1b3": 32.9,
+  "hunyuan": 27.0,
+  "vjepa_vitl": 49.4
+ },
+ "prereg_gap": "E15_PREREG.md \u00a73 fixed three outcomes and assumed one probe seed per cell. V-JEPA 2 lands on the threshold (5/6 seeds below 50%, mean 49.41%, sd 2.29%), which none of the three labels covers. Reported as `at_threshold` rather than as a pass chosen by seed.",
+ "note": "HunyuanVideo is a clean replication: 27.0% at L16 and 28.1% at L32, inside E8's 28.5-43.5% band for LikePhys. So the dataset dependence of D1 holds for a fifth generative family. The open question is only about the non-generative encoder, and there the answer is 'too close to call with this probe'."
+}

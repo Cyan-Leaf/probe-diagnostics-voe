@@ -1,0 +1,44 @@
+{
+ "task": "E20: cluster-bootstrap 95% CI for the D1/D2 verdicts",
+ "created": "2026-11-05 13:53:00",
+ "B": 300,
+ "method": "Out-of-fold score bootstrap: the frozen probe is fit once per cell and the resampling acts on the held-out scores. PREREG \u00a72/\u00a73 implied a refit-per-draw bootstrap, which measured infeasible (13-30 s per fit). Consequence: intervals omit the refit component of the variance (E16 puts that at 2.51 pp). See the module docstring and E20_REPORT.",
+ "d1": {
+  "cells": 12,
+  "robust": 9,
+  "fragile": 3,
+  "fragile_cells": [
+   {
+    "cell": "ltx|intphys2|D1",
+    "d1_pct_point": 50.23793650428742,
+    "ci95": [
+     24.06320523908021,
+     76.07949637802037
+    ]
+   },
+   {
+    "cell": "cogvideox2b|likephys|D1",
+    "d1_pct_point": 44.86153191941742,
+    "ci95": [
+     37.86760199257756,
+     54.06017553471829
+    ]
+   },
+   {
+    "cell": "cogvideox5b|likephys|D1",
+    "d1_pct_point": 43.789815817984824,
+    "ci95": [
+     36.581958126604185,
+     51.748598044578095
+    ]
+   }
+  ]
+ },
+ "d2": {
+  "cells": 12,
+  "robust": 12,
+  "fragile": 0,
+  "fragile_cells": []
+ },
+ "why": "fragile = the 95% interval straddles the decision boundary. The point-estimate verdicts in D1_TALLY/D2_TALLY are NOT retracted by this file."
+}

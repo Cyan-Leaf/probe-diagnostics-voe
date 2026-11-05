@@ -1,0 +1,111 @@
+{
+ "task": "E11: does a STRONGER non-linear readout overturn D1? (zero GPU)",
+ "created": "2026-10-30 21:37:23",
+ "threads": 4,
+ "threads_why": "Same requirement as E16: the probe is not bit-reproducible across BLAS thread counts. The linear arm imports e8_analyse.probe verbatim, so 4 threads is the only setting in which its output can be compared to E8's delivered numbers.",
+ "readouts": {
+  "linear": "e8_analyse.probe, imported verbatim (frozen reference)",
+  "nystrom": "RBF Nystrom map (512 comps, gamma from the training fold) + L2 logistic",
+  "mlp": "2-layer, 256 hidden, FULL input (no PCA), max_iter 5000, convergence checked"
+ },
+ "noninferiority_margin": 0.01,
+ "gate_why": "A readout more than 0.01 AUC below the linear baseline is barred from the verdict (E11_PREREG.md Q2). Without this gate the MLP would appear to 'prove' capacity matters (D1 77-87%) when it is actually over-fitting on n~750 (all folds converged, so this is generalisation failure, not an optimisation failure): AUC_random collapses to 0.50-0.60 while AUC_real barely moves, which shrinks D1's denominator and raises D1 mechanically.",
+ "selfcheck": {
+  "rule": "the linear arm must reproduce E8's delivered D1 on every cell",
+  "all_cells_reproduce": true,
+  "detail": {
+   "wan21_1b3|likephys": {
+    "linear_pct": 32.898061789202515,
+    "e8_pct": 32.9,
+    "d1_source": "three feature seeds, seed 1000",
+    "reproduces": true
+   },
+   "hunyuan|likephys": {
+    "linear_pct": 27.00951252871096,
+    "e8_pct": 27.0,
+    "d1_source": "three feature seeds, seed 1000",
+    "reproduces": true
+   },
+   "vjepa|likephys": {
+    "linear_pct": 49.36366597132891,
+    "e8_pct": 49.4,
+    "d1_source": "six-probe-partition means",
+    "reproduces": true
+   },
+   "wan21_1b3|intphys2": {
+    "linear_pct": 91.20788389737415,
+    "e8_pct": 91.2,
+    "d1_source": "three feature seeds, seed 1000",
+    "reproduces": true
+   }
+  },
+  "verdict": "PASS"
+ },
+ "verdict": {
+  "q1": "robust_to_readout",
+  "cells": 4,
+  "per_cell": {
+   "wan21_1b3|likephys": {
+    "linear": 32.898061789202515,
+    "strongest": 25.27929128611185,
+    "arm": "nystrom",
+    "verdict": "robust_to_readout"
+   },
+   "hunyuan|likephys": {
+    "linear": 27.00951252871096,
+    "strongest": 35.10588281387744,
+    "arm": "nystrom",
+    "verdict": "robust_to_readout"
+   },
+   "vjepa|likephys": {
+    "linear": 49.36366597132891,
+    "strongest": 45.160676637142465,
+    "arm": "nystrom",
+    "verdict": "robust_to_readout"
+   },
+   "wan21_1b3|intphys2": {
+    "linear": 91.20788389737415,
+    "strongest": 85.86582740907805,
+    "arm": "nystrom",
+    "verdict": "robust_to_readout"
+   }
+  }
+ },
+ "vjepa_special_case": {
+  "why": "V-JEPA's LikePhys D1 is not a single-seed quantity: E15/E16 measured 43.8-54.0% across probe partitions. Its cells are read from the six-partition means, so the linear baseline reproduces the delivered 49.4%.",
+  "six_partition_means": {
+   "linear": {
+    "d1_mean_pct": 49.36366597132891,
+    "d1_sd_pct": 2.2525030482283346,
+    "n_below_50": 5,
+    "n_seeds": 6
+   },
+   "nystrom": {
+    "d1_mean_pct": 45.160676637142465,
+    "d1_sd_pct": 3.7047318606688866,
+    "n_below_50": 5,
+    "n_seeds": 6
+   }
+  },
+  "single_seed_would_have_been": "linear 51.11% at seed 1000 (E11_cells.json), which would NOT have reproduced E8's delivered 49.4%; the six-partition mean is what makes the comparison valid"
+ },
+ "scope_limits": [
+  "only 4 cells, chosen because capacity can only flip a verdict near the 50% bar",
+  "only ONE non-linear family (Nystrom) survives the gate; the strongest readout class (temporal attention probe, Punzo et al. 2606.09646) is NOT tested",
+  "no cross-model comparison is drawn from these numbers"
+ ],
+ "scripts": {
+  "scripts/e11_manifest.py": "d4f3355648d69076",
+  "scripts/e11_readout.py": "5fc338070af03857",
+  "scripts/e11_verdict.py": "f6cf1116bc32f3a9"
+ },
+ "deliverables": [
+  "E11_PREREG.md",
+  "E11_cells.json",
+  "E11_verdict.json",
+  "E11_vjepa_probe_seeds.json",
+  "E11_REPORT.md",
+  "manifest.json"
+ ],
+ "runtime_s": 3865.2
+}

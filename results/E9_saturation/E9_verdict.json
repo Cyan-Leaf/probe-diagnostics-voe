@@ -1,0 +1,63 @@
+{
+ "q1": "still_below_threshold",
+ "q1_detail": {
+  "d1_all_pct": 32.898061789202515,
+  "d1_drop_pct": 35.82984912445413,
+  "threshold_pct": 50.0,
+  "note": "removing the ceiling scenarios moves D1 from 32.90% to 35.83%; the LikePhys D1 verdict (< 50%) does not depend on the saturated scenarios"
+ },
+ "q2": {
+  "delta_pp": 2.931787335251613,
+  "probe_sd_pp": 2.51,
+  "within_noise": false,
+  "note": "+2.93 pp is 1.17x the E16 probe-partition sd, so it is a real but small movement in the expected direction \u2014 the bias is measurable, just far too small to matter. It also cannot be attributed cleanly: dropping clips changes the group set and therefore the folds."
+ },
+ "q3": {
+  "n_saturated": 2,
+  "saturated": [
+   "cloth_drape",
+   "fluid"
+  ],
+  "n_clips_dropped": 120,
+  "n_clips_total": 750,
+  "fraction_dropped": 0.16,
+  "note": "16.0% of clips dropped; under the prereg's 30% concern line, so the kept estimate is not sample-starved"
+ },
+ "count_discrepancy": {
+  "claim": "NEXT_STEPS_AND_DIVISION.md \u00a71: '12 \u573a\u666f\u4e2d 5 \u4e2a real-random=0'",
+  "measured_at_L16_t600": 2,
+  "status": "not_reproduced_and_not_refuted",
+  "why": "at L16/t=600 only 2 scenarios reach 1.000 on BOTH arms and exactly 2 have a zero gap, so '5' does not reproduce here. The 5/12 figure in EXPERIMENTS.md \u00a75.6 (D3) was measured on the L14/t=400 best cell, whose features are NOT in cache, so it cannot be re-derived on this machine \u2014 it is neither confirmed nor refuted by E9, and must not be silently replaced by the L16/t=600 count."
+ },
+ "below_chance_scenarios": {
+  "shadow_camera": 0.36620370370370364
+ },
+ "near_saturated_gaps": {
+  "ball_drop": 0.00520833333333337,
+  "faucet": 0.014880952380952439,
+  "flag": 0.061111111111111005,
+  "pendulum": 0.19598765432098764,
+  "pyramid": 0.012500000000000067,
+  "river": 0.05092592592592593
+ },
+ "effectively_uninformative": [
+  "ball_drop",
+  "faucet",
+  "pyramid"
+ ],
+ "per_scenario_mean": {
+  "all": 15.403978957718193,
+  "n_all": 11,
+  "drop_saturated": 18.827085392766683,
+  "n_kept": 9,
+  "undefined_scenarios": [
+   "shadow_camera"
+  ],
+  "undefined_reason": "AUC_real < 0.5 \u2014 the training-share denominator (A-0.5) is negative, so D1 is undefined rather than small. Excluded from BOTH means so the two sides average over the same scenario set."
+ },
+ "caveats": [
+  "the two means (pooled vs per-scenario) are different quantities and are reported separately per E9_PREREG.md \u00a73; neither is promoted to 'the' main result",
+  "shadow_camera has AUC_real 0.3662 and is excluded from both per-scenario means: D1's denominator is negative there, so it is undefined rather than small",
+  "the per-scenario spread is enormous (0.00% to 63.82% on 50-80 clips each), which is the real finding: LikePhys is not one task"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "task": "E19: MiniMax-H3 (33.1B) under the E8 protocol -- the size axis, plus a new text encoder (Qwen3-VL-32B) and a new VAE layout (24ch, f16t4d24)",
+ "created": "2026-11-01 20:38:19",
+ "prereg": "results/E19_h3_scale/E19_PREREG.md",
+ "model": {
+  "repo": "MiniMaxAI/MiniMax-H3",
+  "local_root": "$HF_HOME/minimax_h3",
+  "transformer": {
+   "dir": "transformer",
+   "format": "diffusers (sharded)",
+   "params_b": 33.1,
+   "layers": 50,
+   "hidden": 5376,
+   "heads": "56 x 128",
+   "packed_sequence": true,
+   "note": "dense single-stream Omni Transformer; text/audio/video share one sequence"
+  },
+  "vae": {
+   "dir": "vae",
+   "format": "diffusers AutoencoderKLMiniMaxH3",
+   "latent_channels": 24,
+   "compression": "f16t4d24",
+   "frames": "17*n+5 pixel frames -> 5*n+2 latent frames"
+  },
+  "text_encoder": {
+   "dir": "text_encoder",
+   "model": "Qwen3-VL-32B",
+   "note": "downloaded; NOT used for E19 -- the probe conditions on a single dummy text row, as all backbones do"
+  },
+  "raw_checkpoint_also_on_disk": {
+   "dir": "FL2VA",
+   "why": "the original checkpoint. Its transformer keys are `blocks.*` / `final_layer.*` and diffusers cannot load it, so `transformer/` (diffusers format) is what E19 uses. Kept because the FL2VA video_vae wrapper is the fallback loader in e19_extract.py."
+  }
+ },
+ "design": {
+  "reference_cell": {
+   "layer": 16,
+   "t": 600
+  },
+  "relative_depth_cell": {
+   "layer": 27,
+   "why": "16/30 of the stack, E8's convention, on 50 layers"
+  },
+  "frame_geometry": {
+   "pixel_frames": 39,
+   "groups": [
+    17,
+    17,
+    5
+   ],
+   "latent_frames": 12,
+   "why_not_49": "49 is not encodable: the VAE accepts 17*n+5 frames only, and 49 would snap to 56 (17 latents), changing temporal resolution relative to E8. 39 gives 12 latents, matching the 13 the other backbones get."
+  },
+  "source_frame_request": 49,
+  "pixel_convention": "ImageNet-normalised RGB over [0,1], NOT Wan's [-1,1]. The extractor converts; `raw_pixel_32` still uses [-1,1] because the pixel arm is recomputed in the analysis on H3's own 17/17/5 binning.",
+  "vae_posterior": "sampled under a fixed generator (seed 42), then fp16-rounded - the released recipe"
+ },
+ "data": {
+  "dataset": "IntPhys2 Main",
+  "n_plain": 1012,
+  "n_cj": 506
+ },
+ "extraction_counts": {
+  "minimax_h3_feats_real_intphys2": 1012,
+  "minimax_h3_feats_real_intphys2_cj": 506,
+  "minimax_h3_feats_random_intphys2": 1012,
+  "minimax_h3_feats_random_intphys2_cj": 506
+ },
+ "sizes_gb": {
+  "transformer": 61.73,
+  "vae": 9.7,
+  "text_encoder": null
+ },
+ "probe": {
+  "folds": 5,
+  "inner_folds": 3,
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "grouping": "intphys2 scene_index",
+  "feature_seeds": [
+   0,
+   1,
+   2
+  ],
+  "threads": 4,
+  "implementation": "imported from e12_analyse.probe_oof / auc_of and e8_verdict.interpretable -- never re-implemented (E11 lesson)"
+ },
+ "env": {
+  "e19_interpreter": ".venv_h3/bin/python",
+  "e19_versions": {
+   "python": "Python 3.12.3",
+   "torch": "2.9.0a0+145a3a7bda.nv25.10",
+   "diffusers": "0.42.1",
+   "transformers": "5.22.1",
+   "hub": "2.4.0"
+  },
+  "system_python_versions": {
+   "why_recorded": "E8-E18 ran here; the two sets of versions are incompatible by design",
+   "torch": "2.9.0a0+145a3a7bda.nv25.10",
+   "diffusers": "0.36.0"
+  },
+  "gpu": "4x NVIDIA B200 (183 GB each)",
+  "peak_vram_gb": {
+   "real": 119.8,
+   "random": 133.4,
+   "note": "one process per GPU; two would OOM"
+  }
+ },
+ "scripts": {
+  "scripts/e19_analyse.py": "878cf49ec1bc445e",
+  "scripts/e19_extract.py": "94365a931026d1f3",
+  "scripts/e19_manifest.py": "b6d741fb7d2a9235",
+  "scripts/e19_verdict.py": "a0eac78af457d589",
+  "scripts/e19_queue.sh": "2a263e94f1b708fa",
+  "scripts/piq_par_download.py": "c625da0fdf7e5f70"
+ },
+ "download": {
+  "tool": "scripts/piq_par_download.py",
+  "why": "single-stream throughput to HF's Xet CDN through the proxy was 65 KB/s (120 GB would take ~3 weeks). Measured scaling: 8 streams 0.7 MB/s, 32 -> 2.7, 96 -> 5.5-6.3. Chunked range requests with resume.",
+  "throughput_mb_s": 6.3
+ },
+ "deliverables": [
+  "E19_PREREG.md",
+  "E19_cells.json",
+  "E19_verdict.json",
+  "E19_REPORT.md",
+  "manifest.json"
+ ]
+}

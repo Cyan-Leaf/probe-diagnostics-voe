@@ -1,0 +1,75 @@
+{
+  "dataset": "likephys",
+  "wan_reference": {
+    "real": 0.9686,
+    "random": 0.8353,
+    "vae_latent": 0.82,
+    "raw_pixel": 0.7854,
+    "d1_pct": 28.5,
+    "appearance": 1.0,
+    "d1_verdict": "fail",
+    "d2_verdict": "fail"
+  },
+  "d1_threshold": 50.0,
+  "note_on_timesteps": "Both timesteps are reported. t=600 is PREREG.md's reference cell verbatim; t=298 has the SNR that Wan's t=600 has (E8_PREREG.md §2). On a VP schedule the two differ by ~20x in SNR, so agreement between them is evidence and disagreement is a finding, not a bug.",
+  "backbones": {
+    "mochi": {
+      "label": "Mochi-1-preview",
+      "params_b": 10.0,
+      "n_layers": 48,
+      "cells": {
+        "L16|t600": {
+          "layer": 16,
+          "timestep": 600,
+          "real_auc": 0.948540364044628,
+          "random_auc": 0.7942670017484686,
+          "real_dprime": 2.116396886525925,
+          "random_dprime": 1.045770572453055,
+          "floor": 0.015024663851933445,
+          "d1_training_share": 0.34394532724999033,
+          "d1_pct": 34.39453272499903,
+          "interpretable": true,
+          "interpretable_because": "effect and denominator both clear 2x floor",
+          "verdict": "fail",
+          "n": 750,
+          "ordering": {
+            "trained_gt_random": true,
+            "random_gt_chance": true
+          }
+        },
+        "L16|d2": {
+          "physics_auc": 0.948540364044628,
+          "appearance_auc": 0.9975829725829727,
+          "gap": 0.049042608538344634,
+          "passed": false,
+          "verdict": "fail",
+          "n_appearance": 170
+        },
+        "lb|vae_latent": {
+          "auc_mean": 0.7570557901585312,
+          "n": 750
+        },
+        "lb|raw_pixel": {
+          "auc_mean": 0.774025513855572,
+          "n": 750
+        }
+      },
+      "ordering_check": {
+        "cell_used": "L16|t600",
+        "trained": 0.948540364044628,
+        "random": 0.7942670017484686,
+        "non_dit": 0.774025513855572,
+        "trained_gt_random": true,
+        "random_gt_nondit": true,
+        "trained_gt_nondit": true,
+        "full_ordering_reproduces": true,
+        "wan_trained": 0.9686,
+        "wan_random": 0.8353,
+        "wan_nondit": 0.82,
+        "wan_random_gt_nondit": true,
+        "wan_full_ordering": true,
+        "same_pattern_as_wan": true
+      }
+    }
+  }
+}

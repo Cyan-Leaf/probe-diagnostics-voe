@@ -1,0 +1,192 @@
+{
+ "task": "E12: is LTX's weak real AUC caused by its token budget?",
+ "created": "2026-10-29 02:31:37",
+ "models": {
+  "ltx": {
+   "repo": "Lightricks/LTX-Video",
+   "revision": "8984fa25007f376c1a299016d0957a37a2f797bb",
+   "layers": 28,
+   "vae": "32x spatial / 8x temporal, 128 ch",
+   "patch": 1,
+   "n_params_b": 2.0
+  },
+  "cogvideox2b": {
+   "repo": "zai-org/CogVideoX-2b",
+   "revision": "1137dacfc2c9c012bed6a0793f4ecf2ca8e7ba01",
+   "layers": 30,
+   "vae": "8x spatial / 4x temporal, 16 ch",
+   "patch": 2,
+   "n_params_b": 2.0
+  }
+ },
+ "ladders": {
+  "ltx_temporal": [
+   {
+    "tag": "BASE",
+    "size": 512,
+    "frames": 49,
+    "tokens": 1792
+   },
+   {
+    "tag": "S512F97",
+    "size": 512,
+    "frames": 97,
+    "tokens": 3328
+   },
+   {
+    "tag": "S512F193",
+    "size": 512,
+    "frames": 193,
+    "tokens": 6400
+   },
+   {
+    "tag": "S512F289",
+    "size": 512,
+    "frames": 289,
+    "tokens": 9472
+   },
+   {
+    "tag": "S512F337",
+    "size": 512,
+    "frames": 337,
+    "tokens": 11008
+   },
+   {
+    "tag": "S512F393",
+    "size": 512,
+    "frames": 393,
+    "tokens": 12800
+   }
+  ],
+  "cog_spatial": [
+   {
+    "tag": "BASE",
+    "size": 512,
+    "frames": 49,
+    "tokens": 13312
+   },
+   {
+    "tag": "S384F49",
+    "size": 384,
+    "frames": 49,
+    "tokens": 7488
+   },
+   {
+    "tag": "S256F49",
+    "size": 256,
+    "frames": 49,
+    "tokens": 3328
+   },
+   {
+    "tag": "S192F49",
+    "size": 192,
+    "frames": 49,
+    "tokens": 1872
+   }
+  ]
+ },
+ "geometry_note": "LTX ladder varies frames at fixed size, so BOTH the token count and the feature dimension (F_lat*D) change — reported under two calibers, flat and timeavg, and only the dimension-controlled one can attribute a change to the budget (E12_PREREG.md §4.4). CogVideoX ladder varies size at fixed frames, so the feature dimension is constant and tokens are the only thing moving — but spatial detail changes with it (§4.2).",
+ "deviations": [
+  {
+   "what": "1024-size LTX rung is upsampled, not native",
+   "why": "IntPhys2 is natively 512; 1024 gives 4 tokens per real pixel",
+   "consequence": "used only for the Q2 crossover at ~13300 tokens, never for the Q1 slope (E12_PREREG.md §4.3)"
+  },
+  {
+   "what": "CogVideoX S=192 rung is downsampled",
+   "why": "deliberate, to reach ~1800 tokens for the Q2 crossover",
+   "consequence": "excluded from any slope fit; it measures lost detail, not budget (§4.2)"
+  },
+  {
+   "what": "LikePhys not covered",
+   "why": "LikePhys clips are 56-61 frames, so LTX's 8x temporal compression caps F_lat at 8 and no temporal ladder exists",
+   "consequence": "E8's LikePhys LTX cell stands unchanged"
+  }
+ ],
+ "probe": {
+  "folds": 5,
+  "inner_folds": 3,
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "grouping": "intphys2 scene_index",
+  "feature_seeds": [
+   0,
+   1,
+   2
+  ],
+  "threads": 4,
+  "threads_note": "must be 4; the probe is not bit-reproducible across BLAS thread counts (E16 found this). E12's BASE rungs reproduce E8 exactly at 4 threads, confirming the setting."
+ },
+ "bootstrap": {
+  "n_boot": 1000,
+  "resamples": "scenes with replacement, per fold",
+  "limitation": "resamples evaluation units on frozen out-of-fold predictions; it does NOT include refit noise, so the true CI is wider and the fail_token verdict is conservative"
+ },
+ "extraction_counts": {
+  "ltx_feats_real_intphys2": 1012,
+  "ltx_feats_real_intphys2_cj": 506,
+  "ltx_feats_random_intphys2": 1012,
+  "ltx_feats_random_intphys2_cj": 506,
+  "ltx_feats_real_intphys2_S512F97": 1012,
+  "ltx_feats_real_intphys2_cj_S512F97": 506,
+  "ltx_feats_random_intphys2_S512F97": 1012,
+  "ltx_feats_random_intphys2_cj_S512F97": 506,
+  "ltx_feats_real_intphys2_S512F193": 1012,
+  "ltx_feats_real_intphys2_cj_S512F193": 506,
+  "ltx_feats_random_intphys2_S512F193": 1012,
+  "ltx_feats_random_intphys2_cj_S512F193": 506,
+  "ltx_feats_real_intphys2_S512F289": 1012,
+  "ltx_feats_real_intphys2_cj_S512F289": 506,
+  "ltx_feats_random_intphys2_S512F289": 1012,
+  "ltx_feats_random_intphys2_cj_S512F289": 506,
+  "ltx_feats_real_intphys2_S512F337": 1012,
+  "ltx_feats_real_intphys2_cj_S512F337": 506,
+  "ltx_feats_random_intphys2_S512F337": 1012,
+  "ltx_feats_random_intphys2_cj_S512F337": 506,
+  "ltx_feats_real_intphys2_S512F393": 1012,
+  "ltx_feats_real_intphys2_cj_S512F393": 506,
+  "ltx_feats_random_intphys2_S512F393": 1012,
+  "ltx_feats_random_intphys2_cj_S512F393": 506,
+  "cogvideox_feats_real_intphys2": 1012,
+  "cogvideox_feats_real_intphys2_cj": 506,
+  "cogvideox_feats_random_intphys2": 1012,
+  "cogvideox_feats_random_intphys2_cj": 506,
+  "cogvideox_feats_real_intphys2_S384F49": 1012,
+  "cogvideox_feats_real_intphys2_cj_S384F49": 506,
+  "cogvideox_feats_random_intphys2_S384F49": 1012,
+  "cogvideox_feats_random_intphys2_cj_S384F49": 506,
+  "cogvideox_feats_real_intphys2_S256F49": 1012,
+  "cogvideox_feats_real_intphys2_cj_S256F49": 506,
+  "cogvideox_feats_random_intphys2_S256F49": 1012,
+  "cogvideox_feats_random_intphys2_cj_S256F49": 506,
+  "cogvideox_feats_real_intphys2_S192F49": 1012,
+  "cogvideox_feats_real_intphys2_cj_S192F49": 506,
+  "cogvideox_feats_random_intphys2_S192F49": 1012,
+  "cogvideox_feats_random_intphys2_cj_S192F49": 506
+ },
+ "env": {
+  "python": "Python 3.12.3",
+  "torch": "2.9.0a0+145a3a7bda.nv25.10",
+  "diffusers": "0.36.0",
+  "gpu": "4x NVIDIA B200 (183 GB each)"
+ },
+ "scripts": {
+  "scripts/e12_analyse.py": "31ea443ec3b4a80f",
+  "scripts/e12_extract.py": "cde02cd4f9eda074",
+  "scripts/e12_manifest.py": "aadd9014abd2319a",
+  "scripts/e12_verdict.py": "0c63af10d698d473"
+ },
+ "deliverables": [
+  "E12_PREREG.md",
+  "E12_cells_ltx.json",
+  "E12_cells_cogvideox2b.json",
+  "E12_verdict.json",
+  "E12_REPORT.md",
+  "manifest.json"
+ ]
+}

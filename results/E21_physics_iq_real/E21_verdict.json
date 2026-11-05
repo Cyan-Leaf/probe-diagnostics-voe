@@ -1,0 +1,42 @@
+{
+ "task": "E21 verdict",
+ "created": "2026-11-05 12:24:37",
+ "prereg": "results/E21_physics_iq_real/E21_PREREG.md",
+ "rule_amendment": {
+  "what": "verdicts use separation max(AUC, 1-AUC) instead of the raw AUC",
+  "why": "PREREG §4 wrote the rule as AUC >= threshold, which assumes a fixed direction between take-1 and take-2. Nothing fixes that direction, so a lower-tail AUC would have been scored 'refuted' while showing a stronger take signal. Registered as an amendment; it does not change E21's outcome because the measured AUC is near chance either way.",
+  "when": "2026-11-05, after the first analysis run, before the report was written"
+ },
+ "reference": {
+  "e8_intphys2_wan21_1b3_physics_auc": 0.6458156939638602,
+  "source": "results/E8_second_backbone/E8_cells_intphys2.json",
+  "note": "quoted read-only; E21 does not recompute it"
+ },
+ "d_take_1": {
+  "rule": "separation(take) >= 0.60",
+  "separation": 0.5201112989574529,
+  "raw_auc": 0.4891314119336097,
+  "threshold": 0.6,
+  "verdict": "refuted"
+ },
+ "d_take_2": {
+  "rule": "separation(take) >= AUC_physics_E8 - 0.05",
+  "separation": 0.5201112989574529,
+  "reference": 0.6458156939638602,
+  "threshold": 0.5958156939638601,
+  "verdict": "refuted"
+ },
+ "d_take_3": {
+  "rule": "AUC_perspective >= 0.95",
+  "value": 0.9716695849937608,
+  "threshold": 0.95,
+  "verdict": "hold",
+  "why": "positive control: an obvious real-world difference must be learnable"
+ },
+ "lower_bounds_separation": {
+  "random_init_dit": 0.5070054385988452,
+  "vae_latent": 0.5306423226752898,
+  "raw_pixel": 0.5082032944670308
+ },
+ "interpretation_guard": "take-1/take-2 are two legal recordings of one scene, NOT a possible/impossible pair. This measures whether a physics-irrelevant real-world contrast is linearly readable; it does NOT measure violation detection and must not be reported as physics understanding on real video."
+}

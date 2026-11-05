@@ -1,0 +1,117 @@
+{
+ "purpose": "decompose E18's \u0394_own into a random-arm level effect and a real-arm effect, and propagate the feature-seed noise through the D1 ratio",
+ "status": "exploratory, does not modify E18_verdict.json",
+ "threshold_pp": 2.51,
+ "layers": {
+  "L16": {
+   "delivered_delta_own_pp": -8.013997796442382,
+   "amplification": {
+    "low": 7.539685821881214,
+    "high": 10.473876396553765
+   },
+   "decomposition_pp": {
+    "random_arm_level_effect": -10.440208649055634,
+    "real_arm_effect_shared_denominator": 2.4262108526132664,
+    "sum": -8.013997796442368,
+    "note": "the two terms do not sum exactly to the delivered number because D1 is a ratio nonlinear in both arms; they are a linearisation, and the point is which term dominates"
+   },
+   "random_arms": {
+    "auc_low": 0.5140645059592465,
+    "auc_high": 0.5024730078175061,
+    "gap": 0.01159149814174032,
+    "low_seed_spread": 0.0025978673476581555,
+    "high_seed_spread": 0.030096284261403452,
+    "e17_arms_bit_identical": true,
+    "why_gap_is_new": "z_t=(1-sigma)z0+sigma*eps makes t=300 and t=900 different probe inputs; E17's two arms shared one draw at t=600"
+   },
+   "real_arms": {
+    "auc_low": 0.6326315212097912,
+    "auc_high": 0.5954756350121748,
+    "gap": 0.03715588619761634,
+    "low_seed_spread": 0.004985230670424892,
+    "high_seed_spread": 0.006570840426422335,
+    "gap_within_seed_spread": false
+   },
+   "seed_propagation": {
+    "n_pairs": 9,
+    "min_pp": -41.7013163263306,
+    "max_pp": 23.617152402422434,
+    "mean_pp": -7.413541661318305,
+    "sd_pp": 26.450821004125775,
+    "delivered_inside_range": true,
+    "sd_vs_threshold": 10.538175698854891,
+    "reading": "the feature-seed spread of \u0394_own itself is an order of magnitude larger than the 2.51 pp threshold, so that threshold cannot resolve these cells"
+   },
+   "weak_signal_gate": {
+    "auc_real_below_0.6": [
+     "high@900"
+    ],
+    "warning": "E8 \u00a715.2: D1 ratios are not comparable across cells with real AUC below 0.6; E12 reproduced this on six token budgets"
+   }
+  },
+  "Lrel": {
+   "delivered_delta_own_pp": -7.59604670608006,
+   "amplification": {
+    "low": 8.937733992693666,
+    "high": 8.888636963802906
+   },
+   "decomposition_pp": {
+    "random_arm_level_effect": -7.544226192071631,
+    "real_arm_effect_shared_denominator": -0.051820514008440455,
+    "sum": -7.596046706080071,
+    "note": "the two terms do not sum exactly to the delivered number because D1 is a ratio nonlinear in both arms; they are a linearisation, and the point is which term dominates"
+   },
+   "random_arms": {
+    "auc_low": 0.5147867743175701,
+    "auc_high": 0.506322655388953,
+    "gap": 0.008464118928617093,
+    "low_seed_spread": 0.013613676206638453,
+    "high_seed_spread": 0.022417399073412433,
+    "e17_arms_bit_identical": true,
+    "why_gap_is_new": "z_t=(1-sigma)z0+sigma*eps makes t=300 and t=900 different probe inputs; E17's two arms shared one draw at t=600"
+   },
+   "real_arms": {
+    "auc_low": 0.6118851826220685,
+    "auc_high": 0.6125031885172371,
+    "gap": -0.000618005895168583,
+    "low_seed_spread": 0.010995177401632554,
+    "high_seed_spread": 0.007000285124103112,
+    "gap_within_seed_spread": true
+   },
+   "seed_propagation": {
+    "n_pairs": 9,
+    "min_pp": -42.34962399524542,
+    "max_pp": 18.390851700026545,
+    "mean_pp": -7.692523702601221,
+    "sd_pp": 20.161481456144852,
+    "delivered_inside_range": true,
+    "sd_vs_threshold": 8.032462731531814,
+    "reading": "the feature-seed spread of \u0394_own itself is an order of magnitude larger than the 2.51 pp threshold, so that threshold cannot resolve these cells"
+   },
+   "weak_signal_gate": {
+    "auc_real_below_0.6": [],
+    "warning": "E8 \u00a715.2: D1 ratios are not comparable across cells with real AUC below 0.6; E12 reproduced this on six token budgets"
+   }
+  }
+ },
+ "conclusion": {
+  "verdict": "delta_own_is_a_denominator_artefact",
+  "verdict_reason": "The delivered \u0394_own decomposes almost entirely into the two random arms sitting at different levels: the random-arm term alone carries the whole \u22127.81 pp, while the real-arm term is +2.43 pp on L16 and \u22120.05 pp on Lrel \u2014 inside, or at, the 2.51 pp band. The cause is structural: t enters the noise draw z_t=(1\u2212\u03c3)z\u2080+\u03c3\u03b5, so t=300 and t=900 are different probe inputs even with identical random weights, and E17's bit-identical-random-arm structure does not survive a change of sigma. D1's denominator of 0.096\u20130.133 then magnifies a 0.0116 AUC gap into ~10 pp.",
+  "decomposition_closes": true,
+  "random_arm_effect_dominates": true,
+  "threshold_too_small_for_these_cells": true,
+  "real_arm_gap_within_seed_spread": {
+   "L16": false,
+   "Lrel": true
+  },
+  "retraction_deferred_not_executed": true,
+  "note_on_retraction": "E18_PREREG.md \u00a73 said |\u0394_own| >= 2.51 requires retracting E17 \u00a75. That instruction presumed E17's shared-denominator structure, which does not survive a change of sigma, and it was also written as a two-sided test on a statistic whose sign is set by which arm got the higher random draw. The retraction is therefore deferred, not executed; E18_verdict.json keeps the pre-registered verdict unedited.",
+  "prereg_internal_inconsistency": "E18_PREREG.md \u00a73 computes \u0394_own across t=300 vs t=900 while \u00a76 forbids comparing D1 across different sigma ('\u03c3 \u76f8\u5dee 3 \u500d\uff0c\u4e0d\u662f\u540c\u4e00\u96be\u5ea6'). The statistic as written is exactly what \u00a76 prohibits, and the observed \u22128 pp is that difficulty difference showing up, not an expert difference.",
+  "what_would_settle_it": "probe both experts at ONE sigma while holding the noise draw fixed (so the random arm is shared, as in E17), and vary a different axis; or measure each expert across a sigma ladder so the random-arm level is modelled rather than assumed equal"
+ },
+ "denominator_scale": {
+  "real_minus_half_min": 0.0955,
+  "real_minus_half_max": 0.1326,
+  "note": "the D1 denominator across all four own-band cells; small values are what amplify a random-arm level difference into a large D1 difference"
+ }
+}

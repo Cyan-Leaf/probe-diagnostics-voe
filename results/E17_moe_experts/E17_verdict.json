@@ -1,0 +1,76 @@
+{
+ "model": "Wan-AI/Wan2.2-T2V-A14B-Diffusers@5be7df9619b5",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "experts": {
+  "low": {
+   "subfolder": "transformer_2",
+   "in_range_at_t600": true
+  },
+  "high": {
+   "subfolder": "transformer",
+   "in_range_at_t600": false,
+   "caveat": "E17_PREREG.md \u00a74.1: the high-noise expert only runs above sigma 0.875; at t=600 (sigma 0.600) it is OUT OF RANGE, so its AUC describes 'a 14B denoiser trained on another noise band', not this expert's competence in its own regime"
+  }
+ },
+ "threshold": 0.5,
+ "cells": {
+  "low_expert_L16": {
+   "auc_real": 0.6663076560297321,
+   "auc_random": 0.5014691272587466,
+   "auc_appearance": 1.0,
+   "d1": 0.9911662078955407,
+   "d1_pct": 99.11662078955406,
+   "floor": 0.013646765272396957,
+   "interpretable": true,
+   "n": 1012,
+   "in_range_at_t600": true
+  },
+  "low_expert_Lrel": {
+   "layer": 21,
+   "d1_pct": 95.32556469991204,
+   "auc_real": 0.6491626835832373,
+   "interpretable": true
+  },
+  "high_expert_L16": {
+   "auc_real": 0.6558078892733563,
+   "auc_random": 0.5014691272587466,
+   "auc_appearance": 1.0,
+   "d1": 0.990570905840531,
+   "d1_pct": 99.0570905840531,
+   "floor": 0.013646765272396957,
+   "interpretable": true,
+   "in_range_at_t600": false
+  },
+  "high_expert_Lrel": {
+   "layer": 21,
+   "d1_pct": 95.35781694738127,
+   "auc_real": 0.6501990132000514,
+   "interpretable": true,
+   "in_range_at_t600": false
+  }
+ },
+ "q1": {
+  "verdict": "both_above_threshold",
+  "low_pass": true,
+  "high_pass": true,
+  "note": "both experts are trained 14B denoisers on the same data; a split verdict would mean the D1 call depends on which noise band the expert specialises in"
+ },
+ "q2": {
+  "delta_low_minus_high_L16": 0.05953020550096255,
+  "delta_low_minus_high_Lrel": -0.03225224746923061,
+  "mean_delta": 0.01363897901586597,
+  "probe_sd_threshold_pp": 2.509114605178866,
+  "threshold_source": "E16 probe-partition sd, median over IntPhys2 cells",
+  "verdict": "within_noise",
+  "note": "|delta| < threshold => the expert-to-expert difference is inside the noise this probe already has; the model cannot be used to argue that noise-band specialisation changes D1"
+ },
+ "q3": {
+  "low_expert_d2": "fail",
+  "high_expert_d2": "fail",
+  "both_low_expert_layers_fail": true
+ },
+ "note": "Q2's delta mixes two things that this design cannot separate: how much each expert specialises in its noise band, and how well either generalises to a band it did not train on (E17_PREREG.md \u00a74.2). Reported as a bound, not as an attribution."
+}

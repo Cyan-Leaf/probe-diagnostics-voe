@@ -1,0 +1,30 @@
+{
+ "model": "facebook/vjepa2-vith-fpc64-256@b5eac8703e3e",
+ "note": "scale axis for E13; same geometry as ViT-L so only width/depth change",
+ "cells": {
+  "vith|intphys2|L16": {
+   "layer": 16,
+   "auc_real": 0.6583524183006537,
+   "auc_random": 0.5265319031141868,
+   "auc_appearance": 1.0,
+   "d1": 0.8324502814739942,
+   "d1_pct": 83.24502814739942,
+   "floor": 0.016732072598644718,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012
+  },
+  "vith|intphys2|L17": {
+   "layer": 17,
+   "auc_real": 0.6817649058054596,
+   "auc_random": 0.5264748096885812,
+   "auc_appearance": 1.0,
+   "d1": 0.8543458674199914,
+   "d1_pct": 85.43458674199914,
+   "floor": 0.01756805670569741,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012
+  }
+ }
+}

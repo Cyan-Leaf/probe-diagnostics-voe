@@ -1,0 +1,62 @@
+{
+ "model": "hunyuanvideo-community/HunyuanVideo@e8c2aaa66fe3",
+ "dataset": "likephys",
+ "cells": {
+  "hunyuan|likephys|L16": {
+   "layer": 16,
+   "auc_real": 0.9422454381036761,
+   "auc_random": 0.8228329549418993,
+   "d1": 0.27001405299693054,
+   "d1_pct": 27.001405299693054,
+   "floor": 0.014479611119605355,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "per_seed": [
+    {
+     "seed": 0,
+     "real": 0.9299910136589145,
+     "random": 0.8067987347859941
+    },
+    {
+     "seed": 1,
+     "real": 0.9471904666164196,
+     "random": 0.8267467765619234
+    },
+    {
+     "seed": 2,
+     "real": 0.9495548340356941,
+     "random": 0.8349533534777805
+    }
+   ],
+   "n": 750
+  },
+  "hunyuan|likephys|Lrel": {
+   "layer": 32,
+   "auc_real": 0.9507586839650966,
+   "auc_random": 0.8238979379026912,
+   "d1": 0.28143827412591466,
+   "d1_pct": 28.143827412591467,
+   "floor": 0.01650602256946796,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "per_seed": [
+    {
+     "seed": 0,
+     "real": 0.9317265786702187,
+     "random": 0.811355577025564
+    },
+    {
+     "seed": 1,
+     "real": 0.9611596134951006,
+     "random": 0.8253502431772407
+    },
+    {
+     "seed": 2,
+     "real": 0.9593898597299703,
+     "random": 0.8349879935052685
+    }
+   ],
+   "n": 750
+  }
+ }
+}

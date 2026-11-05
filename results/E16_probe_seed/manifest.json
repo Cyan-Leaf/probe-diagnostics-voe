@@ -1,0 +1,51 @@
+{
+ "task": "E16: probe-partition sensitivity of E8's D1 (zero GPU, re-reads E8 cache)",
+ "created": "2026-10-29 01:55:49",
+ "probe_seed_offsets": [
+  1000,
+  2000,
+  3000,
+  4242,
+  5000,
+  6000
+ ],
+ "feature_seeds": [
+  0,
+  1,
+  2
+ ],
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "threads": 4,
+ "threads_why": "The probe is not bit-reproducible across BLAS thread counts. Measured on cogvideox2b|intphys2 random, offset 1000: 0.5212671690375497 at 4 threads (identical to E8), 0.5213261335383826 at 1 thread, 0.520435 at 3. The 3-thread run is kept as E16_cells.threads3_superseded.json rather than deleted, because it is the evidence for this note.",
+ "selfcheck": {
+  "rule": "offset 1000 must reproduce E8_cells_*.json",
+  "cells_checked": 12,
+  "max_abs_diff_pct": 0.0,
+  "verdict": "PASS",
+  "note": "diff is exactly 0.0000 on all 12 cells, not merely below a tolerance"
+ },
+ "cells_measured": 12,
+ "verdict_stable": 11,
+ "verdict_flips": [
+  "ltx|intphys2"
+ ],
+ "scripts": {
+  "scripts/e16_manifest.py": "f91d21c365efa62b",
+  "scripts/e16_probe_seed.py": "fa5fd3a2cce44ce5"
+ },
+ "deliverables": [
+  "E16_PREREG.md",
+  "E16_cells.json",
+  "E16_REPORT.md",
+  "manifest.json",
+  "E16_cells.threads3_superseded.json (evidence for the thread note)"
+ ],
+ "superseded": {
+  "file": "E16_cells.threads3_superseded.json",
+  "why": "produced before the thread-count requirement was discovered; its self-check failed by 0.6-6.2pp, which is how the requirement was found"
+ },
+ "runtime_s": 1404.3
+}

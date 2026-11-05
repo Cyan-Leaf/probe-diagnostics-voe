@@ -1,0 +1,88 @@
+{
+  "subset": {
+    "scenes": 24,
+    "repeat": 5,
+    "seed": 0
+  },
+  "runs": [
+    {
+      "seed": 0,
+      "n_clips": 96,
+      "physics_trained": 0.609375,
+      "physics_random": 0.53425,
+      "appearance_trained": 1.0,
+      "d1_share": 0.6868571428571428
+    },
+    {
+      "seed": 1,
+      "n_clips": 96,
+      "physics_trained": 0.5665,
+      "physics_random": 0.47462499999999996,
+      "appearance_trained": 1.0,
+      "d1_share": 1.3815789473684217
+    },
+    {
+      "seed": 2,
+      "n_clips": 96,
+      "physics_trained": 0.53225,
+      "physics_random": 0.55275,
+      "appearance_trained": 1.0,
+      "d1_share": -0.635658914728681
+    },
+    {
+      "seed": 3,
+      "n_clips": 96,
+      "physics_trained": 0.524,
+      "physics_random": 0.48674999999999996,
+      "appearance_trained": 1.0,
+      "d1_share": 1.5520833333333346
+    },
+    {
+      "seed": 4,
+      "n_clips": 96,
+      "physics_trained": 0.56675,
+      "physics_random": 0.503125,
+      "appearance_trained": 1.0,
+      "d1_share": 0.9531835205992503
+    }
+  ],
+  "summary": {
+    "physics_trained": {
+      "mean": 0.5597749999999999,
+      "sd": 0.03388035013101252,
+      "min": 0.524,
+      "max": 0.609375
+    },
+    "physics_random": {
+      "mean": 0.5103,
+      "sd": 0.03261285693557067,
+      "min": 0.47462499999999996,
+      "max": 0.55275
+    },
+    "appearance_trained": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "d1_share": {
+      "mean": 0.7876088058858937,
+      "sd": 0.8660944983643006,
+      "min": -0.635658914728681,
+      "max": 1.5520833333333346
+    }
+  },
+  "qualitative_checks": {
+    "appearance_above_physics": true,
+    "physics_above_chance": true,
+    "random_below_trained": true
+  },
+  "all_checks_pass": true,
+  "full_set_reference": {
+    "physics_trained": 0.6458,
+    "physics_random": 0.5168,
+    "appearance_trained": 1.0,
+    "d1_share": 0.885
+  },
+  "note": "L0 reproduces the ORDERING, not the decimals. Subset AUCs differ from the full-set values; see T14_REPRO.md for the measured tolerance."
+}

@@ -1,0 +1,104 @@
+{
+ "task": "E18: each Wan2.2-T2V-A14B expert measured inside its own noise band -- does noise-band specialisation change D1?",
+ "created": "2026-10-31 23:44:12",
+ "prereg": "results/E18_own_band/E18_PREREG.md",
+ "model": {
+  "repo": "Wan-AI/Wan2.2-T2V-A14B-Diffusers",
+  "revision": "5be7df9619b54f4e2667b2755bc6a756675b5cd7",
+  "experts": {
+   "high": {
+    "subfolder": "transformer",
+    "params_b": 14.0,
+    "layers": 40,
+    "noise_band": "sigma >= 0.875"
+   },
+   "low": {
+    "subfolder": "transformer_2",
+    "params_b": 14.0,
+    "layers": 40,
+    "noise_band": "sigma < 0.875"
+   }
+  },
+  "boundary_ratio": 0.875,
+  "boundary_source": "model_index.json, verified on disk"
+ },
+ "design": {
+  "cells": {
+   "low": {
+    "t": 300,
+    "sigma": 0.3,
+    "in_own_band": true
+   },
+   "high": {
+    "t": 900,
+    "sigma": 0.9,
+    "in_own_band": true
+   }
+  },
+  "why_diagonal_only": "E18_PREREG.md §2: the off-diagonal cells answer generalisation, and one point per expert cannot describe a generalisation curve"
+ },
+ "data": {
+  "dataset": "IntPhys2 Main",
+  "n_plain": 1012,
+  "n_cj": 506
+ },
+ "extraction_counts": {
+  "wan22a14b_low_feats_real_intphys2_t300": 1012,
+  "wan22a14b_low_feats_real_intphys2_cj_t300": 506,
+  "wan22a14b_low_feats_random_intphys2_t300": 1012,
+  "wan22a14b_low_feats_random_intphys2_cj_t300": 506,
+  "wan22a14b_high_feats_real_intphys2_t900": 1012,
+  "wan22a14b_high_feats_real_intphys2_cj_t900": 506,
+  "wan22a14b_high_feats_random_intphys2_t900": 1012,
+  "wan22a14b_high_feats_random_intphys2_cj_t900": 506
+ },
+ "probe": {
+  "folds": 5,
+  "inner_folds": 3,
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "grouping": "intphys2 scene_index",
+  "feature_seeds": [
+   0,
+   1,
+   2
+  ],
+  "threads": 4,
+  "implementation": "imported from e12_analyse.probe_oof / auc_of and e8_verdict.interpretable -- not re-implemented (E11 lesson)"
+ },
+ "timestep_discipline": {
+  "t600": "E17's delivered cells, read from results/E17_moe_experts/E17_cells.json, never recomputed here",
+  "t300_t900": "new; cache dirs carry a _t<t> suffix so E17's features are untouched"
+ },
+ "comparison": {
+  "delta_own": "D1(low@t=300) - D1(high@t=900)",
+  "delta_cross": "D1(low@t=600) - D1(high@t=600), from E17",
+  "threshold_pp": 2.51,
+  "threshold_source": "E16 probe-partition sd median (IntPhys2)"
+ },
+ "env": {
+  "python": "Python 3.12.3",
+  "torch": "2.9.0a0+145a3a7bda.nv25.10",
+  "diffusers": "0.36.0",
+  "gpu": "4x NVIDIA B200 (183 GB each)"
+ },
+ "scripts": {
+  "scripts/e18_analyse.py": "b2fab313577bcf07",
+  "scripts/e18_confound_check.py": "fafac4882077bcf4",
+  "scripts/e18_manifest.py": "431ad79ca613bb14",
+  "scripts/e18_verdict.py": "c590eeaade8e6652",
+  "scripts/e18_queue.sh": "cc9f1b834d3aa35b"
+ },
+ "deliverables": [
+  "E18_PREREG.md",
+  "E18_cells.json",
+  "E18_verdict.json",
+  "E18_REPORT.md",
+  "manifest.json"
+ ]
+}

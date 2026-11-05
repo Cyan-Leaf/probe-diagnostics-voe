@@ -1,0 +1,172 @@
+{
+ "task": "E21: real-world video (Physics-IQ) take contrast",
+ "created": "2026-11-05 12:24:37",
+ "prereg": "results/E21_physics_iq_real/E21_PREREG.md",
+ "protocol": {
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "layer": 16,
+  "t": 600,
+  "folds": 5,
+  "grouping": "scene (both takes + 3 perspectives stay in one fold)",
+  "threads": 8,
+  "readout": "AUC and d'"
+ },
+ "cells": {
+  "real|take|dit_L16": {
+   "backbone": "real",
+   "task": "take",
+   "field": "dit_L16",
+   "layer": 16,
+   "timestep": 600,
+   "n": 396,
+   "n_pos": 198,
+   "n_groups": 66,
+   "auc_mean": 0.4891314119336097,
+   "auc_seed_spread": 0.030879686418604405,
+   "dprime_mean": 0.01889646061367725,
+   "per_seed_auc": [
+    0.5086550201934817,
+    0.505209046143112,
+    0.4535301694642354
+   ],
+   "small_unit": false
+  },
+  "real|take|vae_latent_pooled": {
+   "backbone": "real",
+   "task": "take",
+   "field": "vae_latent_pooled",
+   "layer": -1,
+   "timestep": -1,
+   "n": 396,
+   "n_pos": 198,
+   "n_groups": 66,
+   "auc_mean": 0.5306423226752898,
+   "auc_seed_spread": 0.007580594216195138,
+   "dprime_mean": 0.08027387482492758,
+   "per_seed_auc": [
+    0.5393876880140617,
+    0.5259466113861718,
+    0.5265926686256357
+   ],
+   "small_unit": false
+  },
+  "real|take|raw_pixel_32": {
+   "backbone": "real",
+   "task": "take",
+   "field": "raw_pixel_32",
+   "layer": -1,
+   "timestep": -1,
+   "n": 396,
+   "n_pos": 198,
+   "n_groups": 66,
+   "auc_mean": 0.5049613796866544,
+   "auc_seed_spread": 0.008619001032064706,
+   "dprime_mean": 0.023193071276536543,
+   "per_seed_auc": [
+    0.5112519958673805,
+    0.5084950153631472,
+    0.4951371278294355
+   ],
+   "small_unit": false
+  },
+  "random|take|dit_L16": {
+   "backbone": "random",
+   "task": "take",
+   "field": "dit_L16",
+   "layer": 16,
+   "timestep": 600,
+   "n": 396,
+   "n_pos": 198,
+   "n_groups": 66,
+   "auc_mean": 0.5070054385988452,
+   "auc_seed_spread": 0.005406684812573548,
+   "dprime_mean": 0.031441394328976614,
+   "per_seed_auc": [
+    0.5108551704705551,
+    0.5093369695018046,
+    0.5008241758241758
+   ],
+   "small_unit": false
+  },
+  "real|perspective|dit_L16": {
+   "backbone": "real",
+   "task": "perspective",
+   "field": "dit_L16",
+   "layer": 16,
+   "timestep": 600,
+   "n": 264,
+   "n_pos": 132,
+   "n_groups": 66,
+   "auc_mean": 0.9716695849937608,
+   "auc_seed_spread": 0.012617067020966738,
+   "dprime_mean": 3.2537800558496297,
+   "per_seed_auc": [
+    0.9796673107112668,
+    0.978216700881536,
+    0.9571247433884796
+   ],
+   "small_unit": false
+  },
+  "real|perspective|vae_latent_pooled": {
+   "backbone": "real",
+   "task": "perspective",
+   "field": "vae_latent_pooled",
+   "layer": -1,
+   "timestep": -1,
+   "n": 264,
+   "n_pos": 132,
+   "n_groups": 66,
+   "auc_mean": 0.7556540071649961,
+   "auc_seed_spread": 0.02120084515134892,
+   "dprime_mean": 0.9749426261818122,
+   "per_seed_auc": [
+    0.741165016302379,
+    0.7799873203719357,
+    0.7458096848206738
+   ],
+   "small_unit": false
+  },
+  "real|perspective|raw_pixel_32": {
+   "backbone": "real",
+   "task": "perspective",
+   "field": "raw_pixel_32",
+   "layer": -1,
+   "timestep": -1,
+   "n": 264,
+   "n_pos": 132,
+   "n_groups": 66,
+   "auc_mean": 0.8751172362436099,
+   "auc_seed_spread": 0.02684212708050502,
+   "dprime_mean": 1.6688273416680914,
+   "per_seed_auc": [
+    0.8998082960995049,
+    0.8789971017992997,
+    0.846546310832025
+   ],
+   "small_unit": false
+  },
+  "random|perspective|dit_L16": {
+   "backbone": "random",
+   "task": "perspective",
+   "field": "dit_L16",
+   "layer": 16,
+   "timestep": 600,
+   "n": 264,
+   "n_pos": 132,
+   "n_groups": 66,
+   "auc_mean": 0.922097270861007,
+   "auc_seed_spread": 0.012702065583415915,
+   "dprime_mean": 2.1186801789237646,
+   "per_seed_auc": [
+    0.915861610916556,
+    0.936712051684579,
+    0.9137181499818862
+   ],
+   "small_unit": false
+  }
+ }
+}

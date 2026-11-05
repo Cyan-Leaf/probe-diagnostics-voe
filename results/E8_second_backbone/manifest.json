@@ -1,0 +1,253 @@
+{
+ "task": "E8 second backbone(s): does the D1/D2 verdict depend on the video diffusion model?",
+ "created": "2026-10-24 02:43:35",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600,
+  "why_layer_16": "PREREG.md fixes layer 16 / t=600. CogVideoX-2b and the two 30-layer Wan models make layer 16 = 53.3% depth, so the cell means the same thing there. For the 40- and 42-layer models a 53.3%-depth cell (L21 / L22) is reported alongside, because layer 16 sits at 40% and 38% depth respectively."
+ },
+ "models": {
+  "wan22_5b": {
+   "repo": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+   "rev": "b8fff7315c768468a5333511427288870b2e9635",
+   "params": 5.0,
+   "layers": 30,
+   "sched": "flow matching",
+   "latent_ch": 48,
+   "grid": [
+    13,
+    32,
+    32
+   ],
+   "tokens": 13312,
+   "role": "E7 reference (reused read-only)"
+  },
+  "wan21_1b3": {
+   "repo": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+   "rev": "0fad780a534b6463e45facd96134c9f345acfa5b",
+   "params": 1.3,
+   "layers": 30,
+   "sched": "flow matching",
+   "latent_ch": 16,
+   "grid": [
+    13,
+    32,
+    32
+   ],
+   "tokens": 13312,
+   "role": "Wan size axis, low end"
+  },
+  "wan21_14b": {
+   "repo": "Wan-AI/Wan2.1-T2V-14B-Diffusers",
+   "rev": "38ec498cb3208fb688890f8cc7e94ede2cbd7f68",
+   "params": 14.0,
+   "layers": 40,
+   "sched": "flow matching",
+   "latent_ch": 16,
+   "grid": [
+    13,
+    32,
+    32
+   ],
+   "tokens": 13312,
+   "role": "Wan size axis, high end"
+  },
+  "cogvideox2b": {
+   "repo": "zai-org/CogVideoX-2b",
+   "rev": "1137dacfc2c9c012bed6a0793f4ecf2ca8e7ba01",
+   "params": 2.0,
+   "layers": 30,
+   "sched": "VP/DDIM (rescale_zero_snr, shift 3.0)",
+   "latent_ch": 16,
+   "grid": [
+    13,
+    32,
+    32
+   ],
+   "tokens": 13312,
+   "role": "second family"
+  },
+  "cogvideox5b": {
+   "repo": "zai-org/CogVideoX-5b",
+   "rev": "8fc5b281006c82b82d34fd2543d2f0ebb4e7e321",
+   "params": 5.0,
+   "layers": 42,
+   "sched": "VP/DDIM (rescale_zero_snr, shift 3.0)",
+   "latent_ch": 16,
+   "grid": [
+    13,
+    32,
+    32
+   ],
+   "tokens": 13312,
+   "role": "CogVideoX size axis"
+  },
+  "ltx": {
+   "repo": "Lightricks/LTX-Video",
+   "rev": "8984fa25007f376c1a299016d0957a37a2f797bb",
+   "params": 2.0,
+   "layers": 28,
+   "sched": "flow matching",
+   "latent_ch": 128,
+   "grid": [
+    7,
+    16,
+    16
+   ],
+   "tokens": 1792,
+   "role": "third family, 32x spatial / 8x temporal VAE; D1 NOT interpretable on IntPhys 2"
+  },
+  "mochi": {
+   "repo": "genmo/mochi-1-preview",
+   "rev": "cd1d0fe89aa8382fcd9ae760bc3d7afe6183579f",
+   "params": 10.0,
+   "layers": 48,
+   "sched": "flow matching",
+   "latent_ch": 12,
+   "grid": [
+    9,
+    32,
+    32
+   ],
+   "tokens": 9216,
+   "role": "fourth family, 8x spatial / 6x temporal VAE, patch_size=2"
+  }
+ },
+ "input_geometry": {
+  "height": 512,
+  "width": 512,
+  "frames": 49,
+  "note": "frames and resolution are held fixed across families; the token count is NOT, because it is set by each model's patchify rule and VAE compression — see models[*].tokens"
+ },
+ "data": {
+  "intphys2": {
+   "manifest": "results/E7_intphys2/manifest.json",
+   "grouping": "SceneIndex",
+   "n_clips": 1012,
+   "appearance_control": "self-made per-frame-constant HSV shift (hue +0.35, sat x1.4)"
+  },
+  "likephys": {
+   "manifest": "results/T3_null_floor/manifest.json",
+   "grouping": "(scenario, subgroup)",
+   "n_physics_clips": 750,
+   "appearance_control": "the dataset's own color_change group (50 clips)"
+  }
+ },
+ "probe": {
+  "readouts": [
+   "auc",
+   "dprime"
+  ],
+  "folds": 5,
+  "grouped": true,
+  "feature_seeds": [
+   0,
+   1,
+   2
+  ],
+  "floor": "definition A (seed spread), per PREREG.md D4",
+  "d1_threshold_pct": 50,
+  "t10_gate": "effect > 2x floor AND auc_real - 0.5 > 2x floor, else NOT interpretable",
+  "threads": 4,
+  "threads_note": "The probe is NOT bit-reproducible across BLAS thread counts: LBFGS on the 300x300 Gram problem has no unique solution and the thread count changes the last iterate. E16 re-ran every cell at 4 threads and reproduced these cells bit-for-bit (12/12, diff 0.0000), which is how 4 was confirmed — it was never recorded at analysis time."
+ },
+ "extraction_counts": {
+  "cogvideox5b_feats_random_intphys2": 1012,
+  "cogvideox5b_feats_random_intphys2_cj": 506,
+  "cogvideox5b_feats_random_likephys": 920,
+  "cogvideox5b_feats_real_intphys2": 1012,
+  "cogvideox5b_feats_real_intphys2_cj": 506,
+  "cogvideox5b_feats_real_likephys": 920,
+  "cogvideox_feats_random_intphys2": 1012,
+  "cogvideox_feats_random_intphys2_cj": 506,
+  "cogvideox_feats_random_intphys2_sweep": 1012,
+  "cogvideox_feats_random_likephys": 920,
+  "cogvideox_feats_real_intphys2": 1012,
+  "cogvideox_feats_real_intphys2_cj": 506,
+  "cogvideox_feats_real_intphys2_sweep": 1012,
+  "cogvideox_feats_real_likephys": 920,
+  "ltx_feats_random_intphys2": 1012,
+  "ltx_feats_random_intphys2_cj": 506,
+  "ltx_feats_random_likephys": 920,
+  "ltx_feats_real_intphys2": 1012,
+  "ltx_feats_real_intphys2_cj": 506,
+  "ltx_feats_real_likephys": 920,
+  "mochi_feats_random_intphys2": 1012,
+  "mochi_feats_random_intphys2_cj": 506,
+  "mochi_feats_random_likephys": 920,
+  "mochi_feats_real_intphys2": 1012,
+  "mochi_feats_real_intphys2_cj": 506,
+  "mochi_feats_real_likephys": 920,
+  "wan21_14b_feats_random_intphys2": 1012,
+  "wan21_14b_feats_random_intphys2_cj": 506,
+  "wan21_14b_feats_random_likephys": 920,
+  "wan21_14b_feats_real_intphys2": 1012,
+  "wan21_14b_feats_real_intphys2_cj": 506,
+  "wan21_14b_feats_real_likephys": 920,
+  "wan21_1b3_feats_random_intphys2": 1012,
+  "wan21_1b3_feats_random_intphys2_cj": 506,
+  "wan21_1b3_feats_random_likephys": 920,
+  "wan21_1b3_feats_real_intphys2": 1012,
+  "wan21_1b3_feats_real_intphys2_cj": 506,
+  "wan21_1b3_feats_real_likephys": 920
+ },
+ "weights_sha256": {},
+ "deviations": [
+  {
+   "where": "random-init control (all models)",
+   "what": "norm-aware initialisation: 1-D params ending in 'norm.weight' set to 1.0; floating buffers N(0,0.02)",
+   "why": "wan_probe_lib zeroes every 1-D parameter, harmless on Wan because its modulation is a 2-D scale_shift_table. On CogVideoX/LTX the affine norm weight is the normaliser, so zeroing it makes norm(x)=0 and the block ignores its input. Measured: between-clip feature std exactly 0.000000 under the Wan rule.",
+   "consequence": "random-DiT AUC is not numerically comparable to Wan's E7 number; ordering and verdict direction are."
+  },
+  {
+   "where": "timestep",
+   "what": "t=298 (SNR-matched to Wan's t=600) reported alongside t=600 for VP models only",
+   "why": "CogVideoX is VP/DDIM, so at t=600 the effective noise is sigma_eff=0.977 vs Wan's 0.600. t=298 has the same SNR as Wan's t=600 (0.4449 vs 0.4444). Flow-matching models have t=600 as their own SNR match, so they report a single cell.",
+   "consequence": "both are reported for VP models; no cell selected after seeing a result."
+  },
+  {
+   "where": "CogVideoX-5b entire first pass",
+   "what": "discarded and re-extracted after the RoPE bug",
+   "why": "CogVideoX-5b has use_rotary_positional_embeddings=True and builds position encoding from an externally supplied image_rotary_emb. Omitting it does not raise: the model runs position-blind, ALL layer physics AUC land at chance (0.513-0.524) while the appearance control still reaches 0.9975. Fixed in cogvideox_probe_lib._rotary_embeds(); verified by re-extraction (real AUC 0.5153 -> 0.6333 on a 217-clip subset, 0.6030 on the full set).",
+   "consequence": "only the 5b cells were affected; 2b uses learned positional embeddings and Wan builds RoPE internally."
+  },
+  {
+   "where": "text encoder",
+   "what": "T5LayerNorm fallback (apex blocked) for the CogVideoX/LTX T5 embeddings",
+   "why": "the installed apex lacks fused_layer_norm_cuda and transformers binds T5LayerNorm to it at import time",
+   "consequence": "same normalisation; no numerical difference expected."
+  },
+  {
+   "where": "D2 on IntPhys 2",
+   "what": "appearance AUC saturates at 1.0000 for 4 of 5 models",
+   "why": "the HSV shift is a large global colour change, trivially linearly separable",
+   "consequence": "reported anyway; the gap direction is unchanged by the physics AUC varying 0.55-0.97, so the D2 verdict does not rest on the saturated statistic's resolution"
+  }
+ ],
+ "env": {
+  "python": "3.12.3",
+  "cuda_visible_devices": null,
+  "platform": "Linux-5.14.0-3.0.3.kwai.x86_64-x86_64-with-glibc2.39",
+  "torch": "2.9.0a0+145a3a7bda.nv25.10",
+  "diffusers": "0.36.0",
+  "transformers": "4.57.0",
+  "cuda": "13.0",
+  "gpu": "NVIDIA B200",
+  "repo": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+  "revision": "b8fff7315c768468a5333511427288870b2e9635",
+  "code_rev": ""
+ },
+ "scripts": [
+  "scripts/cogvideox_probe_lib.py",
+  "scripts/e8_backbones.py",
+  "scripts/e8_extract.py",
+  "scripts/e8_extract_generic.py",
+  "scripts/e8_extract_ltx.py",
+  "scripts/e8_extract_mochi.py",
+  "scripts/e8_analyse.py",
+  "scripts/e8_verdict.py"
+ ],
+ "runlog": "results/E8_second_backbone/RUNLOG.md",
+ "report": "results/E8_second_backbone/E8_REPORT.md",
+ "prereg": "results/E8_second_backbone/E8_PREREG.md"
+}

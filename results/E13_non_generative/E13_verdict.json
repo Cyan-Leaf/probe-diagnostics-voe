@@ -1,0 +1,67 @@
+{
+ "model": "facebook/vjepa2-vitl-fpc64-256@b3c1679b7c34d3255ef3547f27c7b226aefab26f",
+ "reference_cell": {
+  "layer": 16,
+  "t": null,
+  "why_null": "non-generative: no noising step"
+ },
+ "geometry": {
+  "height": 256,
+  "width": 256,
+  "frames": 64,
+  "tokens": 8192
+ },
+ "lower_bounds": {
+  "raw_pixel": 0.556946735870819,
+  "random_vit": 0.5160052825836217,
+  "trained_vit": 0.724105013456363,
+  "missing": "vae_latent \u2014 model has no VAE (E13_PREREG.md \u00a73.3)"
+ },
+ "q1": {
+  "d1_vjepa": 0.9285813274019497,
+  "d1_pct_vjepa": 92.85813274019496,
+  "d1_cogvideox_t0": 0.7840107028365849,
+  "d1_pct_cogvideox_t0": 78.4010702836585,
+  "threshold": 0.5,
+  "verdict": "both_above_threshold",
+  "note": "both put >= 50% on training: on CLEAN input, training carries most of the readable signal in both a generative and a non-generative encoder. Whatever makes the share drop below 50% elsewhere, it is not 'generative training' and not 'clean input'"
+ },
+ "q2": {
+  "auc_physics": 0.724105013456363,
+  "auc_appearance": 0.9999807766243751,
+  "gap": 0.2758757631680121,
+  "verdict": "fail",
+  "threshold": "appearance >= physics -> fail (PREREG.md D2)"
+ },
+ "sensitivity": {
+  "L13_flat": {
+   "d1_pct": 88.26281933266934,
+   "auc_real": 0.7023166166858901,
+   "verdict_same": true
+  },
+  "L16_timeavg": {
+   "d1_pct": 94.63465545625037,
+   "auc_real": 0.6624091426374472,
+   "verdict_same": true
+  }
+ },
+ "comparability": "D1 is NOT numerically comparable to E8's D1: E8 reads a noised latent at t=600, this reads clean video, and the floor definition differs (permutation within scenes here, seed-spread there). D2 IS comparable \u2014 it depends only on the perturbation and the readout.",
+ "floor_definition": "permutation within scenes (PREREG.md D4 definition B)",
+ "note": "Geometry is the model's own (256x256, 64 frames) because the position encoding is built for it; that is a smaller field of view than E8's 512, so AUC_real here is not the same quantity as E8's even before the noising difference.",
+ "scale_axis": {
+  "vitl_L16": {
+   "auc_real": 0.724105013456363,
+   "d1_pct": 92.85813274019496
+  },
+  "vith_L16": {
+   "auc_real": 0.6583524183006537,
+   "d1_pct": 83.24502814739942
+  },
+  "vith_L17": {
+   "auc_real": 0.6817649058054596,
+   "d1_pct": 85.43458674199914
+  },
+  "delta_auc_real_vith_minus_vitl": -0.0657525951557093,
+  "note": "larger model is weaker: the difference is 6.5x the larger perm floor (0.0167)"
+ }
+}

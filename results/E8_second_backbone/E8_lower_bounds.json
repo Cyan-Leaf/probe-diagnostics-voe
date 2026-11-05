@@ -1,0 +1,627 @@
+{
+  "models": {
+    "cogvideox2b": {
+      "repo": "zai-org/CogVideoX-2b",
+      "revision": "1137dacfc2c9c012bed6a0793f4ecf2ca8e7ba01",
+      "params_b": 2.0,
+      "n_layers": 30,
+      "schedule": "VP/DDIM",
+      "rel_depth_layer": 16
+    },
+    "wan21_1b3": {
+      "repo": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+      "revision": "0fad780a534b6463e45facd96134c9f345acfa5b",
+      "params_b": 1.3,
+      "n_layers": 30,
+      "schedule": "flow matching",
+      "rel_depth_layer": 16
+    },
+    "wan21_14b": {
+      "repo": "Wan-AI/Wan2.1-T2V-14B-Diffusers",
+      "revision": "38ec498cb3208fb688890f8cc7e94ede2cbd7f68",
+      "params_b": 14.0,
+      "n_layers": 40,
+      "schedule": "flow matching",
+      "rel_depth_layer": 21
+    },
+    "cogvideox5b": {
+      "repo": "zai-org/CogVideoX-5b",
+      "revision": "8fc5b281006c82b82d34fd2543d2f0ebb4e7e321",
+      "params_b": 5.0,
+      "n_layers": 42,
+      "schedule": "VP/DDIM",
+      "rel_depth_layer": 22
+    },
+    "ltx": {
+      "repo": "Lightricks/LTX-Video",
+      "revision": "8984fa25007f376c1a299016d0957a37a2f797bb",
+      "params_b": 2.0,
+      "n_layers": 28,
+      "schedule": "flow matching",
+      "rel_depth_layer": 15
+    },
+    "mochi": {
+      "repo": "genmo/mochi-1-preview",
+      "revision": "cd1d0fe89aa8382fcd9ae760bc3d7afe6183579f",
+      "params_b": 10.0,
+      "n_layers": 48,
+      "schedule": "flow matching",
+      "rel_depth_layer": 26
+    }
+  },
+  "reference_cell": {
+    "layer": 16,
+    "t": 600
+  },
+  "note_secondary_cell": "t=298 is the timestep whose SNR equals Wan's t=600. Modeled only for VP schedules (CogVideoX); flow-matching models have t=600 as their own SNR match, so they report one cell.",
+  "n_feature_seeds": 3,
+  "datasets": {
+    "intphys2": {
+      "grouping": "SceneIndex",
+      "models": {
+        "cogvideox2b": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.6442857234397027,
+                  "auc_seed_spread": 0.018424950807426704,
+                  "dprime": 0.4794520127832838
+                },
+                "random_dit": {
+                  "auc": 0.5212671690375497,
+                  "auc_seed_spread": 0.016638574800801727,
+                  "dprime": 0.0692432298578594
+                },
+                "n": 1012
+              },
+              "298": {
+                "trained_dit": {
+                  "auc": 0.6591654286812765,
+                  "auc_seed_spread": 0.010483052619511131,
+                  "dprime": 0.502493867202699
+                },
+                "random_dit": {
+                  "auc": 0.5119164757144689,
+                  "auc_seed_spread": 0.004839658489178912,
+                  "dprime": 0.0455418863279316
+                },
+                "n": 1012
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.538083065487633,
+              "auc_seed_spread": 0.0033672733951991543,
+              "dprime": 0.11905442178139869
+            },
+            "raw_pixel": {
+              "auc": 0.5470643111623734,
+              "auc_seed_spread": 0.010311584431519076,
+              "dprime": 0.1119886103876636
+            }
+          }
+        },
+        "cogvideox5b": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.6030214686658977,
+                  "auc_seed_spread": 0.0025151438729655983,
+                  "dprime": 0.36393680829543795
+                },
+                "random_dit": {
+                  "auc": 0.5043003306420607,
+                  "auc_seed_spread": 0.01272267830987223,
+                  "dprime": 0.016782621874529603
+                },
+                "n": 1012
+              },
+              "298": {
+                "trained_dit": {
+                  "auc": 0.6838451262334999,
+                  "auc_seed_spread": 0.013919114330826675,
+                  "dprime": 0.5944596193274486
+                },
+                "random_dit": {
+                  "auc": 0.5146315186466743,
+                  "auc_seed_spread": 0.012506127237697635,
+                  "dprime": 0.04918361475763248
+                },
+                "n": 1012
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.5806123542227348,
+                  "auc_seed_spread": 0.002631854404266334,
+                  "dprime": 0.25997220656777414
+                },
+                "random_dit": {
+                  "auc": 0.506942942458029,
+                  "auc_seed_spread": 0.007993468769600786,
+                  "dprime": 0.020913949049585073
+                },
+                "n": 1012
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.5387081148276304,
+              "auc_seed_spread": 0.0029572773678629115,
+              "dprime": 0.11856881758857823
+            },
+            "raw_pixel": {
+              "auc": 0.5470643111623734,
+              "auc_seed_spread": 0.010311584431519076,
+              "dprime": 0.1119886103876636
+            }
+          }
+        },
+        "ltx": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.5506289837242085,
+                  "auc_seed_spread": 0.007890002489756087,
+                  "dprime": 0.13755917997615916
+                },
+                "random_dit": {
+                  "auc": 0.5260881507112649,
+                  "auc_seed_spread": 0.014991869871531576,
+                  "dprime": 0.0812734605523231
+                },
+                "n": 1012
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.5524493092400359,
+                  "auc_seed_spread": 0.009400322026388136,
+                  "dprime": 0.14089440513108384
+                },
+                "random_dit": {
+                  "auc": 0.5206354504677688,
+                  "auc_seed_spread": 0.012799834427595096,
+                  "dprime": 0.06872140579356384
+                },
+                "n": 1012
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.5181197231833911,
+              "auc_seed_spread": 0.004593545930028101,
+              "dprime": 0.058592338441727426
+            },
+            "raw_pixel": {
+              "auc": 0.5489689734717417,
+              "auc_seed_spread": 0.014839642669030957,
+              "dprime": 0.10431403297126252
+            }
+          }
+        },
+        "mochi": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.615740153787005,
+                  "auc_seed_spread": 0.008340011080746234,
+                  "dprime": 0.3316765643085711
+                },
+                "random_dit": {
+                  "auc": 0.5238668563373061,
+                  "auc_seed_spread": 0.006950670285945187,
+                  "dprime": 0.02982673685977423
+                },
+                "n": 1012
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.6496251621171344,
+                  "auc_seed_spread": 0.0024629656311369297,
+                  "dprime": 0.4619138072775546
+                },
+                "random_dit": {
+                  "auc": 0.5102453953607586,
+                  "auc_seed_spread": 0.004321827730116368,
+                  "dprime": 0.016916359986857428
+                },
+                "n": 1012
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.5218151454568756,
+              "auc_seed_spread": 0.002369891574797116,
+              "dprime": 0.07292885741606274
+            },
+            "raw_pixel": {
+              "auc": 0.5463740843265411,
+              "auc_seed_spread": 0.015258586563478447,
+              "dprime": 0.10035434870725853
+            }
+          }
+        },
+        "wan21_14b": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.6667404075355633,
+                  "auc_seed_spread": 0.002603718657651187,
+                  "dprime": 0.5399594745669026
+                },
+                "random_dit": {
+                  "auc": 0.5014691272587466,
+                  "auc_seed_spread": 0.013646765272396957,
+                  "dprime": 0.018737135505863006
+                },
+                "n": 1012
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.6443152992438805,
+                  "auc_seed_spread": 0.002100466943950858,
+                  "dprime": 0.4608172734447953
+                },
+                "random_dit": {
+                  "auc": 0.5069725131359734,
+                  "auc_seed_spread": 0.012489844373251058,
+                  "dprime": 0.033409517286421525
+                },
+                "n": 1012
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.5287521876201461,
+              "auc_seed_spread": 0.005565483512767384,
+              "dprime": 0.09815042710020529
+            },
+            "raw_pixel": {
+              "auc": 0.5470643111623734,
+              "auc_seed_spread": 0.010311584431519076,
+              "dprime": 0.1119886103876636
+            }
+          }
+        },
+        "wan21_1b3": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.6501511803152634,
+                  "auc_seed_spread": 0.004287916453752684,
+                  "dprime": 0.44996399454306185
+                },
+                "random_dit": {
+                  "auc": 0.5132014661027811,
+                  "auc_seed_spread": 0.015182875677673013,
+                  "dprime": 0.03930340626986325
+                },
+                "n": 1012
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.5287521876201461,
+              "auc_seed_spread": 0.005565483512767384,
+              "dprime": 0.09815042710020529
+            },
+            "raw_pixel": {
+              "auc": 0.5470643111623734,
+              "auc_seed_spread": 0.010311584431519076,
+              "dprime": 0.1119886103876636
+            }
+          }
+        }
+      }
+    },
+    "likephys": {
+      "grouping": "(scenario, subgroup)",
+      "models": {
+        "cogvideox2b": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.9271093711755919,
+                  "auc_seed_spread": 0.007789298690840294,
+                  "dprime": 2.0576701671540625
+                },
+                "random_dit": {
+                  "auc": 0.7449569855894737,
+                  "auc_seed_spread": 0.023800351317302588,
+                  "dprime": 0.9451818203458705
+                },
+                "n": 750
+              },
+              "298": {
+                "trained_dit": {
+                  "auc": 0.9227194608564914,
+                  "auc_seed_spread": 0.013173267126378476,
+                  "dprime": 1.8665723475004017
+                },
+                "random_dit": {
+                  "auc": 0.8102648710158187,
+                  "auc_seed_spread": 0.013392201226897466,
+                  "dprime": 1.1320028862217695
+                },
+                "n": 750
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.7856719993910279,
+              "auc_seed_spread": 0.01835711836404664,
+              "dprime": 0.9427262615744233
+            },
+            "raw_pixel": {
+              "auc": 0.7787365093185278,
+              "auc_seed_spread": 0.024462711739057903,
+              "dprime": 0.9848391662429631
+            }
+          }
+        },
+        "cogvideox5b": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.9231996539495387,
+                  "auc_seed_spread": 0.010488637121646497,
+                  "dprime": 1.8785473116897726
+                },
+                "random_dit": {
+                  "auc": 0.7391331811454295,
+                  "auc_seed_spread": 0.03018257940699655,
+                  "dprime": 0.9293785414396586
+                },
+                "n": 750
+              },
+              "298": {
+                "trained_dit": {
+                  "auc": 0.9245620778714921,
+                  "auc_seed_spread": 0.012652336937773123,
+                  "dprime": 1.860157164631442
+                },
+                "random_dit": {
+                  "auc": 0.7647419929387563,
+                  "auc_seed_spread": 0.011508448789226824,
+                  "dprime": 0.9931168071211108
+                },
+                "n": 750
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.897687320764272,
+                  "auc_seed_spread": 0.011958232240106078,
+                  "dprime": 1.6051625014739381
+                },
+                "random_dit": {
+                  "auc": 0.7414965258398541,
+                  "auc_seed_spread": 0.026237925484479594,
+                  "dprime": 0.9415597422453024
+                },
+                "n": 750
+              },
+              "298": {
+                "trained_dit": {
+                  "auc": 0.9083874161162369,
+                  "auc_seed_spread": 0.015391624125965836,
+                  "dprime": 1.6751160770575086
+                },
+                "random_dit": {
+                  "auc": 0.7727465450459664,
+                  "auc_seed_spread": 0.0023389519709926467,
+                  "dprime": 1.0286103197569056
+                },
+                "n": 750
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.7850017014725027,
+              "auc_seed_spread": 0.0181627249900846,
+              "dprime": 0.9419692155381609
+            },
+            "raw_pixel": {
+              "auc": 0.7787365093185278,
+              "auc_seed_spread": 0.024462711739057903,
+              "dprime": 0.9848391662429631
+            }
+          }
+        },
+        "ltx": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.8371511149396961,
+                  "auc_seed_spread": 0.010256277764297841,
+                  "dprime": 1.187942186781722
+                },
+                "random_dit": {
+                  "auc": 0.7277097389327668,
+                  "auc_seed_spread": 0.006177641228400947,
+                  "dprime": 0.8415332738648583
+                },
+                "n": 750
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.8425563496734645,
+                  "auc_seed_spread": 0.011029050674139769,
+                  "dprime": 1.2053152948169112
+                },
+                "random_dit": {
+                  "auc": 0.7244029339550271,
+                  "auc_seed_spread": 0.006709452969688983,
+                  "dprime": 0.8394997629957
+                },
+                "n": 750
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.7916917245752605,
+              "auc_seed_spread": 0.009613530363795142,
+              "dprime": 1.039687260525238
+            },
+            "raw_pixel": {
+              "auc": 0.7663543193652251,
+              "auc_seed_spread": 0.021969502849416882,
+              "dprime": 0.9484688870273376
+            }
+          }
+        },
+        "mochi": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.948540364044628,
+                  "auc_seed_spread": 0.0057280931810007275,
+                  "dprime": 2.116396886525925
+                },
+                "random_dit": {
+                  "auc": 0.7942670017484686,
+                  "auc_seed_spread": 0.015024663851933445,
+                  "dprime": 1.045770572453055
+                },
+                "n": 750
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.9540943903327258,
+                  "auc_seed_spread": 0.003573564687901232,
+                  "dprime": 2.245202514959636
+                },
+                "random_dit": {
+                  "auc": 0.7875844440706038,
+                  "auc_seed_spread": 0.01569887401412472,
+                  "dprime": 1.0276907120297405
+                },
+                "n": 750
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.7570557901585312,
+              "auc_seed_spread": 0.006756109600342249,
+              "dprime": 0.9252877102612738
+            },
+            "raw_pixel": {
+              "auc": 0.774025513855572,
+              "auc_seed_spread": 0.021296965381231242,
+              "dprime": 0.9798359733489349
+            }
+          }
+        },
+        "wan21_14b": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.9653892686059439,
+                  "auc_seed_spread": 0.013823975492783783,
+                  "dprime": 2.565276645743008
+                },
+                "random_dit": {
+                  "auc": 0.8159802260018778,
+                  "auc_seed_spread": 0.013332424185505547,
+                  "dprime": 1.108782398212065
+                },
+                "n": 750
+              }
+            },
+            "Lrel": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.9623015864582604,
+                  "auc_seed_spread": 0.011231976359602809,
+                  "dprime": 2.3189476051499667
+                },
+                "random_dit": {
+                  "auc": 0.8098816624745003,
+                  "auc_seed_spread": 0.013813871201172433,
+                  "dprime": 1.111143423471037
+                },
+                "n": 750
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.7838861925250978,
+              "auc_seed_spread": 0.009663764226773716,
+              "dprime": 0.9612165164103569
+            },
+            "raw_pixel": {
+              "auc": 0.7787365093185278,
+              "auc_seed_spread": 0.024462711739057903,
+              "dprime": 0.9848391662429631
+            }
+          }
+        },
+        "wan21_1b3": {
+          "layers": {
+            "L16": {
+              "600": {
+                "trained_dit": {
+                  "auc": 0.9388724188268168,
+                  "auc_seed_spread": 0.015630330197304622,
+                  "dprime": 2.037528266785895
+                },
+                "random_dit": {
+                  "auc": 0.794491899305403,
+                  "auc_seed_spread": 0.01504869951491954,
+                  "dprime": 1.0210946164860109
+                },
+                "n": 750
+              }
+            }
+          },
+          "non_dit": {
+            "vae_latent": {
+              "auc": 0.7838861925250978,
+              "auc_seed_spread": 0.009663764226773716,
+              "dprime": 0.9612165164103569
+            },
+            "raw_pixel": {
+              "auc": 0.7787365093185278,
+              "auc_seed_spread": 0.024462711739057903,
+              "dprime": 0.9848391662429631
+            }
+          }
+        }
+      }
+    }
+  }
+}

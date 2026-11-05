@@ -1,0 +1,522 @@
+{
+ "cells": 35,
+ "verdicts_all": {
+  "pass": 24,
+  "NOT interpretable": 1,
+  "fail": 8,
+  "at_threshold": 2
+ },
+ "by_dataset": {
+  "intphys2": {
+   "cells": 25,
+   "pass": 24,
+   "NOT interpretable": 1
+  },
+  "likephys": {
+   "cells": 10,
+   "fail": 8,
+   "at_threshold": 2
+  }
+ },
+ "by_source": {
+  "E8": 12,
+  "E13": 7,
+  "E14": 2,
+  "E17": 4,
+  "E15": 4,
+  "E18": 4,
+  "E19": 2
+ },
+ "why": "Counted from the delivered JSONs, not by hand. A cell is one (model, dataset, layer) D1 evaluation; 'NOT interpretable' means the frozen T10 gate refused the ratio, so it is neither a pass nor a fail.",
+ "rows": [
+  {
+   "cell": "E8|intphys2|cogvideox2b",
+   "dataset": "intphys2",
+   "source": "E8",
+   "d1_pct": 85.26037882990049,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": {
+    "d1_pct_point_e20": 85.62,
+    "ci95_pct": [
+     73.76,
+     98.4
+    ],
+    "ci_width_pct": 24.64,
+    "verdict_point_e20": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|intphys2|cogvideox5b",
+   "dataset": "intphys2",
+   "source": "E8",
+   "d1_pct": 95.82579175219601,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": {
+    "d1_pct_point_e20": 96.81,
+    "ci95_pct": [
+     81.41,
+     109.67
+    ],
+    "ci_width_pct": 28.26,
+    "verdict_point_e20": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|intphys2|ltx",
+   "dataset": "intphys2",
+   "source": "E8",
+   "d1_pct": 48.47190523638595,
+   "interpretable": false,
+   "verdict": "NOT interpretable",
+   "ci95": {
+    "d1_pct_point_e20": 50.24,
+    "ci95_pct": [
+     24.06,
+     76.08
+    ],
+    "ci_width_pct": 52.02,
+    "verdict_point_e20": "pass",
+    "verdict_fragile": true
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|intphys2|mochi",
+   "dataset": "intphys2",
+   "source": "E8",
+   "d1_pct": 79.37893154934979,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": {
+    "d1_pct_point_e20": 80.86,
+    "ci95_pct": [
+     66.95,
+     93.23
+    ],
+    "ci_width_pct": 26.28,
+    "verdict_point_e20": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|intphys2|wan21_14b",
+   "dataset": "intphys2",
+   "source": "E8",
+   "d1_pct": 99.1189134772666,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": {
+    "d1_pct_point_e20": 99.48,
+    "ci95_pct": [
+     89.77,
+     110.22
+    ],
+    "ci_width_pct": 20.45,
+    "verdict_point_e20": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|intphys2|wan21_1b3",
+   "dataset": "intphys2",
+   "source": "E8",
+   "d1_pct": 91.20788389737415,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": {
+    "d1_pct_point_e20": 94.48,
+    "ci95_pct": [
+     82.46,
+     106.45
+    ],
+    "ci_width_pct": 23.99,
+    "verdict_point_e20": "pass",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|likephys|cogvideox2b",
+   "dataset": "likephys",
+   "source": "E8",
+   "d1_pct": 42.64771458531925,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": {
+    "d1_pct_point_e20": 44.86,
+    "ci95_pct": [
+     37.87,
+     54.06
+    ],
+    "ci_width_pct": 16.19,
+    "verdict_point_e20": "fail",
+    "verdict_fragile": true
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|likephys|cogvideox5b",
+   "dataset": "likephys",
+   "source": "E8",
+   "d1_pct": 43.49400361892945,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": {
+    "d1_pct_point_e20": 43.79,
+    "ci95_pct": [
+     36.58,
+     51.75
+    ],
+    "ci_width_pct": 15.17,
+    "verdict_point_e20": "fail",
+    "verdict_fragile": true
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|likephys|ltx",
+   "dataset": "likephys",
+   "source": "E8",
+   "d1_pct": 32.46063001348944,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": {
+    "d1_pct_point_e20": 34.16,
+    "ci95_pct": [
+     24.86,
+     42.87
+    ],
+    "ci_width_pct": 18.01,
+    "verdict_point_e20": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|likephys|mochi",
+   "dataset": "likephys",
+   "source": "E8",
+   "d1_pct": 34.39453272499903,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": {
+    "d1_pct_point_e20": 37.94,
+    "ci95_pct": [
+     29.85,
+     47.51
+    ],
+    "ci_width_pct": 17.66,
+    "verdict_point_e20": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|likephys|wan21_14b",
+   "dataset": "likephys",
+   "source": "E8",
+   "d1_pct": 32.10410137982237,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": {
+    "d1_pct_point_e20": 37.59,
+    "ci95_pct": [
+     30.71,
+     44.88
+    ],
+    "ci_width_pct": 14.17,
+    "verdict_point_e20": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E8|likephys|wan21_1b3",
+   "dataset": "likephys",
+   "source": "E8",
+   "d1_pct": 32.898061789202515,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": {
+    "d1_pct_point_e20": 36.67,
+    "ci95_pct": [
+     29.26,
+     44.16
+    ],
+    "ci_width_pct": 14.91,
+    "verdict_point_e20": "fail",
+    "verdict_fragile": false
+   },
+   "ci95_source": "results/E20_bootstrap_ci (cluster bootstrap, B=300)"
+  },
+  {
+   "cell": "E13|intphys2|vjepa|intphys2|L16|flat|physics",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 92.85813274019496,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E13|intphys2|vjepa|intphys2|L13|flat|physics",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 88.26281933266934,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E13|intphys2|vjepa|intphys2|L16|timeavg|physics",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 94.63465545625037,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E13|intphys2|vjepa|intphys2|L13|timeavg|physics",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 88.4816234618288,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E13|intphys2|cogvideox2b|intphys2|L16|flat|t0",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 78.4010702836585,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E13h|intphys2|L16",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 83.24502814739942,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E13h|intphys2|L17",
+   "dataset": "intphys2",
+   "source": "E13",
+   "d1_pct": 85.43458674199914,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E14|intphys2|L16",
+   "dataset": "intphys2",
+   "source": "E14",
+   "d1_pct": 77.08573138293883,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E14|intphys2|Lrel",
+   "dataset": "intphys2",
+   "source": "E14",
+   "d1_pct": 75.01975780754702,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E17|intphys2|a14b|low|L16",
+   "dataset": "intphys2",
+   "source": "E17",
+   "d1_pct": 99.11662078955406,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E17|intphys2|a14b|low|Lrel",
+   "dataset": "intphys2",
+   "source": "E17",
+   "d1_pct": 95.32556469991204,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E17|intphys2|a14b|high|L16",
+   "dataset": "intphys2",
+   "source": "E17",
+   "d1_pct": 99.0570905840531,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E17|intphys2|a14b|high|Lrel",
+   "dataset": "intphys2",
+   "source": "E17",
+   "d1_pct": 95.35781694738127,
+   "interpretable": true,
+   "verdict": "pass",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E15-vjepa|likephys|L16",
+   "dataset": "likephys",
+   "source": "E15",
+   "d1_pct": 49.40694959095422,
+   "d1_mean_over_6_probe_seeds_pct": 49.40694959095422,
+   "single_seed_d1_pct": 53.757353656495724,
+   "interpretable": true,
+   "verdict": "at_threshold",
+   "why": "D1 straddles 50% across probe partitions; judged on the 6-seed mean and its +-1sd band, not on seed 1000",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E15-vjepa|likephys|L13",
+   "dataset": "likephys",
+   "source": "E15",
+   "d1_pct": 47.96633515802577,
+   "d1_mean_over_6_probe_seeds_pct": 47.96633515802577,
+   "single_seed_d1_pct": 54.030326307110684,
+   "interpretable": true,
+   "verdict": "at_threshold",
+   "why": "D1 straddles 50% across probe partitions; judged on the 6-seed mean and its +-1sd band, not on seed 1000",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E15-hunyuan|likephys|L16",
+   "dataset": "likephys",
+   "source": "E15",
+   "d1_pct": 27.001405299693054,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E15-hunyuan|likephys|Lrel",
+   "dataset": "likephys",
+   "source": "E15",
+   "d1_pct": 28.143827412591467,
+   "interpretable": true,
+   "verdict": "fail",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E18-ownband|intphys2|a14b|low@300|L16",
+   "dataset": "intphys2",
+   "source": "E18",
+   "d1_pct": 89.39580438273056,
+   "auc_real": 0.6326315212097912,
+   "auc_random": 0.5140645059592465,
+   "interpretable": true,
+   "verdict": "pass",
+   "d1_comparable_across_t": false,
+   "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E18-ownband|intphys2|a14b|low@300|Lrel",
+   "dataset": "intphys2",
+   "source": "E18",
+   "d1_pct": 86.78397445395638,
+   "auc_real": 0.6118851826220685,
+   "auc_random": 0.5147867743175701,
+   "interpretable": true,
+   "verdict": "pass",
+   "d1_comparable_across_t": false,
+   "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E18-ownband|intphys2|a14b|high@900|L16",
+   "dataset": "intphys2",
+   "source": "E18",
+   "d1_pct": 97.40980217917294,
+   "auc_real": 0.5954756350121748,
+   "auc_random": 0.5024730078175061,
+   "interpretable": true,
+   "verdict": "pass",
+   "d1_comparable_across_t": false,
+   "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E18-ownband|intphys2|a14b|high@900|Lrel",
+   "dataset": "intphys2",
+   "source": "E18",
+   "d1_pct": 94.38002116003643,
+   "auc_real": 0.6125031885172371,
+   "auc_random": 0.506322655388953,
+   "interpretable": true,
+   "verdict": "pass",
+   "d1_comparable_across_t": false,
+   "why": "not comparable across t: both the real-arm AUC and the random-arm level shift with sigma (see E18_confound_check.json)",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E19-h3|intphys2|h3|L16",
+   "dataset": "intphys2",
+   "source": "E19",
+   "d1_pct": 63.87045704511463,
+   "auc_real": 0.5738744072792515,
+   "auc_random": 0.5266904857106242,
+   "interpretable": true,
+   "verdict": "pass",
+   "comparable_across_cells": false,
+   "why": "L16 real AUC 0.574 < 0.6 -> weak signal (E8 \u00a715.2)",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  },
+  {
+   "cell": "E19-h3|intphys2|h3|Lrel",
+   "dataset": "intphys2",
+   "source": "E19",
+   "d1_pct": 80.96680186005392,
+   "auc_real": 0.6413840369088812,
+   "auc_random": 0.5269099038831219,
+   "interpretable": true,
+   "verdict": "pass",
+   "comparable_across_cells": true,
+   "why": "above the 0.6 weak-signal line",
+   "ci95": null,
+   "ci95_source": "not measured in E20"
+  }
+ ],
+ "ci95_D1_note": "12 of 35 rows carry a 95% cluster-bootstrap interval from E20; 23 do not. A row without an interval is not weaker evidence \u2014 it simply was not resampled. Intervals condition on the fitted probe (see E20_REPORT.md \u00a72). The point-estimate verdicts are unchanged."
+}

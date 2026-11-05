@@ -1,0 +1,119 @@
+{
+ "model": "MiniMaxAI/MiniMax-H3 (33.1B dense single-stream Omni Transformer)",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "design": "E8 protocol: four lower bounds + D1 + D2, IntPhys 2 only",
+ "frame_geometry": {
+  "pixel_frames": 39,
+  "groups": [
+   17,
+   17,
+   5
+  ],
+  "latent_frames": 12,
+  "note": "39 = 17+17+5 pixel frames -> 12 latent frames"
+ },
+ "cells": {
+  "h3|L16": {
+   "layer": 16,
+   "layer_slot": 0,
+   "t": 600,
+   "auc_real": 0.5738744072792515,
+   "auc_random": 0.5266904857106242,
+   "auc_appearance": 0.9999933333333333,
+   "d1": 0.6387045704511463,
+   "d1_pct": 63.87045704511463,
+   "floor": 0.011237737816489431,
+   "floor_real": 0.0022882130475066057,
+   "floor_random": 0.011237737816489431,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.5718238369857748,
+    0.576342706651288,
+    0.573456678200692
+   ],
+   "per_feature_seed_random": [
+    0.5254866512879661,
+    0.5384816762783545,
+    0.5161031295655517
+   ],
+   "per_feature_seed_appearance": [
+    0.9999800000000001,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.42611892605408175
+  },
+  "h3|Lrel": {
+   "layer": 27,
+   "layer_slot": 1,
+   "t": 600,
+   "auc_real": 0.6413840369088812,
+   "auc_random": 0.5269099038831219,
+   "auc_appearance": 1.0,
+   "d1": 0.8096680186005392,
+   "d1_pct": 80.96680186005392,
+   "floor": 0.01109216352130305,
+   "floor_real": 0.007153952005340142,
+   "floor_random": 0.01109216352130305,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.6369463360246058,
+    0.637568888888889,
+    0.6496368858131488
+   ],
+   "per_feature_seed_random": [
+    0.5251759707804691,
+    0.538766920415225,
+    0.5167868204536716
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.35861596309111876
+  }
+ },
+ "lower_bound_details": {
+  "vae_latent": {
+   "auc_mean": 0.5334459566833268,
+   "per_feature_seed_auc": [
+    0.5320490119184929,
+    0.534702583621684,
+    0.533586274509804
+   ]
+  },
+  "raw_pixel": {
+   "auc_mean": 0.5453810841983852,
+   "per_feature_seed_auc": [
+    0.5496987773933103,
+    0.5411018531334102,
+    0.5453426220684353
+   ]
+  }
+ },
+ "lower_bounds": {
+  "trained_dit": 0.5738744072792515,
+  "random_dit": 0.5266904857106242,
+  "vae_latent": 0.5334459566833268,
+  "raw_pixel": 0.5453810841983852
+ },
+ "lower_bound_order": [
+  "trained_dit",
+  "raw_pixel",
+  "vae_latent",
+  "random_dit"
+ ],
+ "order_reproduces": true,
+ "elapsed_s": 854.2,
+ "threads": 4
+}

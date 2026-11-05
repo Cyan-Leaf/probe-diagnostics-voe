@@ -1,0 +1,117 @@
+{
+ "task": "E13: does the D1/D2 pattern survive on a NON-generative video encoder?",
+ "created": "2026-10-28 15:35:28",
+ "model": {
+  "repo": "facebook/vjepa2-vitl-fpc64-256",
+  "revision": "b3c1679b7c34d3255ef3547f27c7b226aefab26f",
+  "params_b": 0.326,
+  "layers": 24,
+  "hidden": 1024,
+  "patch": 16,
+  "tubelet": 2,
+  "training_objective": "joint-embedding prediction (JEPA), not denoising",
+  "has_vae": false,
+  "has_noising_step": false
+ },
+ "geometry": {
+  "height": 256,
+  "width": 256,
+  "frames": 64,
+  "resize_shortest_edge": 292,
+  "tokens": 8192,
+  "why": "position encoding is fixed at 64 frames x 256; feeding anything else either errors or silently interpolates (cf. the CogVideoX-5b RoPE bug, E8 §12)"
+ },
+ "data": {
+  "dataset": "IntPhys2 Main",
+  "n_plain": 1012,
+  "n_cj": 506,
+  "manifest": "results/E7_intphys2/manifest.json"
+ },
+ "extraction_counts": {
+  "vjepa_feats_real_intphys2": 1012,
+  "vjepa_feats_real_intphys2_cj": 506,
+  "vjepa_feats_random_intphys2": 1012,
+  "vjepa_feats_random_intphys2_cj": 506,
+  "cogvideox_feats_real_intphys2_T0": 1012,
+  "cogvideox_feats_real_intphys2_cj_T0": 506,
+  "cogvideox_feats_random_intphys2_T0": 1012,
+  "cogvideox_feats_random_intphys2_cj_T0": 506
+ },
+ "probe": {
+  "folds": 5,
+  "inner_folds": 3,
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "grouping": "intphys2 scene_index",
+  "seed": "feature seed fixed at 0 (deterministic forward)"
+ },
+ "floors": {
+  "vjepa": "permutation within scenes, 20 draws (PREREG.md D4 definition B)",
+  "why_not_seed_spread": "a ViT forward has no noise draw, so the E8 seed-spread floor does not exist",
+  "diffusion_cells": "seed-spread, definition A, as in E8"
+ },
+ "deviations": [
+  {
+   "what": "no timestep",
+   "why": "model has no noising schedule",
+   "consequence": "D1 is defined on clean video and is NOT numerically comparable to E8's noised D1; only verdict directions are compared"
+  },
+  {
+   "what": "no VAE latent bound",
+   "why": "model has no VAE",
+   "consequence": "three lower bounds instead of four; recorded as null, not substituted"
+  },
+  {
+   "what": "256x256 instead of 512",
+   "why": "position encoding is fixed",
+   "consequence": "smaller pixel bandwidth for the physical evidence than E8; stated in Limitations"
+  },
+  {
+   "what": "floor definition differs",
+   "why": "no feature seeds exist",
+   "consequence": "E13 floors are not comparable to E8 floors"
+  }
+ ],
+ "env": {
+  "python": "Python 3.12.3",
+  "torch": "2.9.0a0+145a3a7bda.nv25.10",
+  "transformers": "4.57.0",
+  "gpu": "4x NVIDIA B200 (183 GB each)"
+ },
+ "scripts": {
+  "scripts/e13_analyse.py": "308626fe77d14d7e",
+  "scripts/e13_extract.py": "461ba3cfa6d485d8",
+  "scripts/e13_manifest.py": "af869c7f9d4d8db7",
+  "scripts/e13_verdict.py": "68e3cb427bcb40c9",
+  "scripts/e12_analyse.py": "d7cdd3e320bd8218",
+  "scripts/e12_extract.py": "cde02cd4f9eda074"
+ },
+ "deliverables": [
+  "E13_PREREG.md",
+  "E13_cells.json",
+  "E13_verdict.json",
+  "E13_REPORT.md",
+  "manifest.json"
+ ],
+ "random_init_check": {
+  "real": {
+   "between_clip_std": 0.5244140625,
+   "mean_abs": 1.0927734375,
+   "n": 50,
+   "layer": 16,
+   "why": "floor for the random-init collapse check: a zero here would mean the norm-aware init degenerated the ViT to a constant output (the CogVideoX failure mode, E8_PREREG.md §3)"
+  },
+  "random": {
+   "between_clip_std": 4.203125,
+   "mean_abs": 6.75390625,
+   "n": 50,
+   "layer": 16,
+   "why": "floor for the random-init collapse check: a zero here would mean the norm-aware init degenerated the ViT to a constant output (the CogVideoX failure mode, E8_PREREG.md §3)"
+  }
+ }
+}

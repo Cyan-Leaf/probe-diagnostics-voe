@@ -1,0 +1,183 @@
+{
+ "model": "Wan-AI/Wan2.2-T2V-A14B-Diffusers@5be7df9619b5",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "relative_depth_cell": {
+  "layer": 21,
+  "depth": 0.5333333333333333
+ },
+ "boundary_ratio": 0.875,
+ "experts": {
+  "low": "transformer_2 (in range at t=600, sigma 0.600 < 0.875)",
+  "high": "transformer (OUT of range at t=600; E17_PREREG.md \u00a74.1)"
+ },
+ "cells": {
+  "a14b|low|L16": {
+   "expert": "low",
+   "layer": 16,
+   "auc_real": 0.6663135460720235,
+   "auc_random": 0.50124718441625,
+   "auc_appearance": 1.0,
+   "d1": 0.9925010052054933,
+   "d1_pct": 99.25010052054934,
+   "floor": 0.013962860850628563,
+   "floor_real": 0.00259524517440825,
+   "floor_random": 0.013962860850628563,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.6675159246443675,
+    0.6680895424836601,
+    0.6633351710880431
+   ],
+   "per_feature_seed_random": [
+    0.4864908342945021,
+    0.514251111111111,
+    0.5029996078431372
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.33368645392797647
+  },
+  "a14b|low|Lrel": {
+   "expert": "low",
+   "layer": 21,
+   "auc_real": 0.649156534666154,
+   "auc_random": 0.5070440343457644,
+   "auc_appearance": 1.0,
+   "d1": 0.9527742156149542,
+   "d1_pct": 95.27742156149543,
+   "floor": 0.013040482567916756,
+   "floor_real": 0.013040482567916756,
+   "floor_random": 0.012570818787302013,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.663069696270665,
+    0.6471871510957323,
+    0.6372127566320647
+   ],
+   "per_feature_seed_random": [
+    0.4925329950019224,
+    0.5139868435217224,
+    0.5146122645136486
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.350843465333846
+  },
+  "a14b|low|raw_pixel": {
+   "auc": 0.5470320133282071,
+   "seed_spread": 0.01037418830402151,
+   "per_feature_seed_auc": [
+    0.550513325643983,
+    0.5353649211841599,
+    0.5552177931564783
+   ]
+  },
+  "a14b|low|vae_latent": {
+   "auc": 0.5287724464949378,
+   "seed_spread": 0.005574670125161909,
+   "per_feature_seed_auc": [
+    0.5339301960784313,
+    0.5228581314878893,
+    0.5295290119184928
+   ]
+  },
+  "a14b|high|L16": {
+   "expert": "high",
+   "layer": 16,
+   "auc_real": 0.6558012226066897,
+   "auc_random": 0.50124718441625,
+   "auc_appearance": 1.0,
+   "d1": 0.9919950280531592,
+   "d1_pct": 99.19950280531592,
+   "floor": 0.013962860850628563,
+   "floor_real": 0.011138467158217138,
+   "floor_random": 0.013962860850628563,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.6674287351018838,
+    0.6547483660130718,
+    0.6452265667051134
+   ],
+   "per_feature_seed_random": [
+    0.4864908342945021,
+    0.514251111111111,
+    0.5029996078431372
+   ],
+   "per_feature_seed_appearance": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.3441987773933103
+  },
+  "a14b|high|Lrel": {
+   "expert": "high",
+   "layer": 21,
+   "auc_real": 0.6501931231577598,
+   "auc_random": 0.5070440343457644,
+   "auc_appearance": 0.9999733333333333,
+   "d1": 0.9531001540039521,
+   "d1_pct": 95.31001540039522,
+   "floor": 0.012570818787302013,
+   "floor_real": 0.003806898080037153,
+   "floor_random": 0.012570818787302013,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_feature_seed_real": [
+    0.6481652056901192,
+    0.654584675124952,
+    0.6478294886582084
+   ],
+   "per_feature_seed_random": [
+    0.4925329950019224,
+    0.5139868435217224,
+    0.5146122645136486
+   ],
+   "per_feature_seed_appearance": [
+    0.99992,
+    1.0,
+    1.0
+   ],
+   "gap_appearance_minus_physics": 0.3497802101755735
+  },
+  "a14b|high|raw_pixel": {
+   "auc": 0.5470320133282071,
+   "seed_spread": 0.01037418830402151,
+   "per_feature_seed_auc": [
+    0.550513325643983,
+    0.5353649211841599,
+    0.5552177931564783
+   ]
+  },
+  "a14b|high|vae_latent": {
+   "auc": 0.5287724464949378,
+   "seed_spread": 0.005574670125161909,
+   "per_feature_seed_auc": [
+    0.5339301960784313,
+    0.5228581314878893,
+    0.5295290119184928
+   ]
+  }
+ },
+ "elapsed_s": 1891.1
+}

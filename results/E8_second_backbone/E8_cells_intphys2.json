@@ -1,0 +1,2086 @@
+{
+  "args": {
+    "backbones": [
+      "cogvideox5b"
+    ],
+    "dataset": "intphys2",
+    "timesteps": [
+      600
+    ],
+    "run_tag": "",
+    "base_tag": "",
+    "threads": 4,
+    "workers": 2,
+    "merge_tags": [],
+    "layers": [
+      22
+    ],
+    "perm_draws": 20
+  },
+  "dataset": "intphys2",
+  "grouping": "scene_index",
+  "env": {
+    "python": "3.12.3",
+    "cuda_visible_devices": null,
+    "platform": "Linux-5.14.0-3.0.3.kwai.x86_64-x86_64-with-glibc2.39",
+    "torch": "2.9.0a0+145a3a7bda.nv25.10",
+    "diffusers": "0.36.0",
+    "transformers": "4.57.0",
+    "cuda": "13.0",
+    "gpu": "NVIDIA B200",
+    "repo": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "revision": "b8fff7315c768468a5333511427288870b2e9635",
+    "code_rev": ""
+  },
+  "preflight": {
+    "device": "cuda:0",
+    "physical_device": "physical cuda:0 (CUDA_VISIBLE_DEVICES unset)",
+    "n": 16777216,
+    "max_abs_diff": 0.0,
+    "n_wrong": 0,
+    "healthy": true
+  },
+  "prereg": "results/E8_second_backbone/E8_PREREG.md",
+  "protocol": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "readouts": [
+      "auc",
+      "dprime"
+    ],
+    "folds": 5,
+    "timesteps": [
+      600
+    ],
+    "rel_depth": 0.5333333333333333
+  },
+  "started": "2026-10-24 02:47:37",
+  "cells": {
+    "cogvideox2b|intphys2|t600|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6442857234397027,
+      "auc_seed_spread": 0.018424950807426704,
+      "dprime_mean": 0.4794520127832838,
+      "dprime_seed_spread": 0.06103052084737538,
+      "per_seed_auc": [
+        0.6471524029219531,
+        0.6611093118031527,
+        0.6245954555940023
+      ],
+      "per_seed_dprime": [
+        0.4971814400504179,
+        0.5296548454969832,
+        0.41151975280245023
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t600|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5212671690375497,
+      "auc_seed_spread": 0.016638574800801727,
+      "dprime_mean": 0.0692432298578594,
+      "dprime_seed_spread": 0.052091263506077665,
+      "per_seed_auc": [
+        0.5290551941560938,
+        0.5325834217608613,
+        0.502162891195694
+      ],
+      "per_seed_dprime": [
+        0.07605611639528033,
+        0.11759283132240486,
+        0.014080741855892972
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t298|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 298,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6591654286812765,
+      "auc_seed_spread": 0.010483052619511131,
+      "dprime_mean": 0.502493867202699,
+      "dprime_seed_spread": 0.03723722012355846,
+      "per_seed_auc": [
+        0.6696536255286429,
+        0.6591551326412919,
+        0.6486875278738947
+      ],
+      "per_seed_dprime": [
+        0.5352676992892208,
+        0.5102112559679925,
+        0.4620026463508836
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t298|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 298,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5119164757144689,
+      "auc_seed_spread": 0.004839658489178912,
+      "dprime_mean": 0.0455418863279316,
+      "dprime_seed_spread": 0.011928102597275033,
+      "per_seed_auc": [
+        0.5168684044598232,
+        0.5071975009611689,
+        0.5116835217224145
+      ],
+      "per_seed_dprime": [
+        0.05922387389235323,
+        0.040072768555562126,
+        0.03732901653587943
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t600|Lrel|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6442857234397027,
+      "auc_seed_spread": 0.018424950807426704,
+      "dprime_mean": 0.4794520127832838,
+      "dprime_seed_spread": 0.06103052084737538,
+      "per_seed_auc": [
+        0.6471524029219531,
+        0.6611093118031527,
+        0.6245954555940023
+      ],
+      "per_seed_dprime": [
+        0.4971814400504179,
+        0.5296548454969832,
+        0.41151975280245023
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t600|Lrel|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5212671690375497,
+      "auc_seed_spread": 0.016638574800801727,
+      "dprime_mean": 0.0692432298578594,
+      "dprime_seed_spread": 0.052091263506077665,
+      "per_seed_auc": [
+        0.5290551941560938,
+        0.5325834217608613,
+        0.502162891195694
+      ],
+      "per_seed_dprime": [
+        0.07605611639528033,
+        0.11759283132240486,
+        0.014080741855892972
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t298|Lrel|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 298,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6591654286812765,
+      "auc_seed_spread": 0.010483052619511131,
+      "dprime_mean": 0.502493867202699,
+      "dprime_seed_spread": 0.03723722012355846,
+      "per_seed_auc": [
+        0.6696536255286429,
+        0.6591551326412919,
+        0.6486875278738947
+      ],
+      "per_seed_dprime": [
+        0.5352676992892208,
+        0.5102112559679925,
+        0.4620026463508836
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|t298|Lrel|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 298,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5119164757144689,
+      "auc_seed_spread": 0.004839658489178912,
+      "dprime_mean": 0.0455418863279316,
+      "dprime_seed_spread": 0.011928102597275033,
+      "per_seed_auc": [
+        0.5168684044598232,
+        0.5071975009611689,
+        0.5116835217224145
+      ],
+      "per_seed_dprime": [
+        0.05922387389235323,
+        0.040072768555562126,
+        0.03732901653587943
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|L16|real|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999607766243752,
+      "auc_seed_spread": 3.398840940302795e-05,
+      "dprime_mean": 4.4923613286507535,
+      "dprime_seed_spread": 0.2372104902001895,
+      "per_seed_auc": [
+        1.0,
+        0.9999423298731257,
+        0.9999399999999999
+      ],
+      "per_seed_dprime": [
+        4.759997747314856,
+        4.308076524282934,
+        4.40900971435447
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|L16|random|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999666666666668,
+      "auc_seed_spread": 4.1633319989319844e-05,
+      "dprime_mean": 3.268746742978814,
+      "dprime_seed_spread": 0.05549023454230875,
+      "per_seed_auc": [
+        0.99992,
+        1.0,
+        0.9999800000000001
+      ],
+      "per_seed_dprime": [
+        3.204687635508294,
+        3.301996621310532,
+        3.2995559721176155
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|Lrel|real|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999607766243752,
+      "auc_seed_spread": 3.398840940302795e-05,
+      "dprime_mean": 4.4923613286507535,
+      "dprime_seed_spread": 0.2372104902001895,
+      "per_seed_auc": [
+        1.0,
+        0.9999423298731257,
+        0.9999399999999999
+      ],
+      "per_seed_dprime": [
+        4.759997747314856,
+        4.308076524282934,
+        4.40900971435447
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|Lrel|random|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999666666666668,
+      "auc_seed_spread": 4.1633319989319844e-05,
+      "dprime_mean": 3.268746742978814,
+      "dprime_seed_spread": 0.05549023454230875,
+      "per_seed_auc": [
+        0.99992,
+        1.0,
+        0.9999800000000001
+      ],
+      "per_seed_dprime": [
+        3.204687635508294,
+        3.301996621310532,
+        3.2995559721176155
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|vae_latent": {
+      "tag": "vae_latent",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.538083065487633,
+      "auc_seed_spread": 0.0033672733951991543,
+      "dprime_mean": 0.11905442178139869,
+      "dprime_seed_spread": 0.00468533702336985,
+      "per_seed_auc": [
+        0.5371977623990772,
+        0.535246889657824,
+        0.5418045444059977
+      ],
+      "small_unit": false
+    },
+    "cogvideox2b|intphys2|raw_pixel": {
+      "tag": "raw_pixel",
+      "backbone": "cogvideox2b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5470643111623734,
+      "auc_seed_spread": 0.010311584431519076,
+      "dprime_mean": 0.1119886103876636,
+      "dprime_seed_spread": 0.022135634394852725,
+      "per_seed_auc": [
+        0.5505525490196078,
+        0.5354610380622837,
+        0.5551793464052288
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|t600|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6501511803152634,
+      "auc_seed_spread": 0.004287916453752684,
+      "dprime_mean": 0.44996399454306185,
+      "dprime_seed_spread": 0.04019636578965332,
+      "per_seed_auc": [
+        0.6458156939638602,
+        0.6502479584775087,
+        0.6543898885044214
+      ],
+      "per_seed_dprime": [
+        0.40405901515468734,
+        0.47885765190112595,
+        0.4669753165733722
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|t600|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5132014661027811,
+      "auc_seed_spread": 0.015182875677673013,
+      "dprime_mean": 0.03930340626986325,
+      "dprime_seed_spread": 0.03921369902236601,
+      "per_seed_auc": [
+        0.5006992387543253,
+        0.5300963783160324,
+        0.5088087812379853
+      ],
+      "per_seed_dprime": [
+        0.012651159446878484,
+        0.08433059426098344,
+        0.020928465101727807
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|t600|Lrel|real|physics": {
+      "tag": "physics",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6501511803152634,
+      "auc_seed_spread": 0.004287916453752684,
+      "dprime_mean": 0.44996399454306185,
+      "dprime_seed_spread": 0.04019636578965332,
+      "per_seed_auc": [
+        0.6458156939638602,
+        0.6502479584775087,
+        0.6543898885044214
+      ],
+      "per_seed_dprime": [
+        0.40405901515468734,
+        0.47885765190112595,
+        0.4669753165733722
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|t600|Lrel|random|physics": {
+      "tag": "physics",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5132014661027811,
+      "auc_seed_spread": 0.015182875677673013,
+      "dprime_mean": 0.03930340626986325,
+      "dprime_seed_spread": 0.03921369902236601,
+      "per_seed_auc": [
+        0.5006992387543253,
+        0.5300963783160324,
+        0.5088087812379853
+      ],
+      "per_seed_dprime": [
+        0.012651159446878484,
+        0.08433059426098344,
+        0.020928465101727807
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|L16|real|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 4.591575806774565,
+      "dprime_seed_spread": 0.21662714940159095,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        4.72340871774431,
+        4.7097581957912045,
+        4.3415605067881815
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|L16|random|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9993911316160453,
+      "auc_seed_spread": 0.00048395252384757085,
+      "dprime_mean": 2.6598258069659706,
+      "dprime_seed_spread": 0.0179448399526774,
+      "per_seed_auc": [
+        0.9988386389850058,
+        0.9997400000000001,
+        0.9995947558631297
+      ],
+      "per_seed_dprime": [
+        2.67912013386984,
+        2.656721883760442,
+        2.6436354032676306
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|Lrel|real|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 4.591575806774565,
+      "dprime_seed_spread": 0.21662714940159095,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        4.72340871774431,
+        4.7097581957912045,
+        4.3415605067881815
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|Lrel|random|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9993911316160453,
+      "auc_seed_spread": 0.00048395252384757085,
+      "dprime_mean": 2.6598258069659706,
+      "dprime_seed_spread": 0.0179448399526774,
+      "per_seed_auc": [
+        0.9988386389850058,
+        0.9997400000000001,
+        0.9995947558631297
+      ],
+      "per_seed_dprime": [
+        2.67912013386984,
+        2.656721883760442,
+        2.6436354032676306
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|vae_latent": {
+      "tag": "vae_latent",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5287521876201461,
+      "auc_seed_spread": 0.005565483512767384,
+      "dprime_mean": 0.09815042710020529,
+      "dprime_seed_spread": 0.007062673864372115,
+      "per_seed_auc": [
+        0.5338533025759322,
+        0.5228165782391389,
+        0.5295866820453672
+      ],
+      "small_unit": false
+    },
+    "wan21_1b3|intphys2|raw_pixel": {
+      "tag": "raw_pixel",
+      "backbone": "wan21_1b3",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5470643111623734,
+      "auc_seed_spread": 0.010311584431519076,
+      "dprime_mean": 0.1119886103876636,
+      "dprime_seed_spread": 0.022135634394852725,
+      "per_seed_auc": [
+        0.5505525490196078,
+        0.5354610380622837,
+        0.5551793464052288
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|t600|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6667404075355633,
+      "auc_seed_spread": 0.002603718657651187,
+      "dprime_mean": 0.5399594745669026,
+      "dprime_seed_spread": 0.011268782229788697,
+      "per_seed_auc": [
+        0.6666864129181085,
+        0.6693707035755478,
+        0.6641641061130334
+      ],
+      "per_seed_dprime": [
+        0.5269822963045574,
+        0.5456233903064303,
+        0.5472727370897202
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|t600|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5014691272587466,
+      "auc_seed_spread": 0.013646765272396957,
+      "dprime_mean": 0.018737135505863006,
+      "dprime_seed_spread": 0.056030170876387425,
+      "per_seed_auc": [
+        0.4870690888119954,
+        0.5142111111111112,
+        0.5031271818531333
+      ],
+      "per_seed_dprime": [
+        -0.025081771196950303,
+        0.08186924779582894,
+        -0.0005760700812896096
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|t600|L21|real|physics": {
+      "tag": "physics",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6443152992438805,
+      "auc_seed_spread": 0.002100466943950858,
+      "dprime_mean": 0.4608172734447953,
+      "dprime_seed_spread": 0.02222806461253686,
+      "per_seed_auc": [
+        0.6432845982314495,
+        0.6467320184544405,
+        0.6429292810457516
+      ],
+      "per_seed_dprime": [
+        0.4659001032568392,
+        0.4364880067115403,
+        0.48006371036600637
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|t600|L21|random|physics": {
+      "tag": "physics",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5069725131359734,
+      "auc_seed_spread": 0.012489844373251058,
+      "dprime_mean": 0.033409517286421525,
+      "dprime_seed_spread": 0.049368076981103,
+      "per_seed_auc": [
+        0.49255299500192234,
+        0.5139491733948482,
+        0.5144153710111495
+      ],
+      "per_seed_dprime": [
+        -0.019196507091592218,
+        0.07872993398201078,
+        0.040695124968846016
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|L16|real|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 4.468191070551616,
+      "dprime_seed_spread": 0.039686957411604266,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        4.488374138237167,
+        4.4224689680536695,
+        4.493730105364011
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|L16|random|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9996895142893759,
+      "auc_seed_spread": 0.00015023842398701617,
+      "dprime_mean": 2.980135296853522,
+      "dprime_seed_spread": 0.12721223975494825,
+      "per_seed_auc": [
+        0.9995200000000001,
+        0.9997423298731258,
+        0.9998062129950018
+      ],
+      "per_seed_dprime": [
+        2.8516307950552657,
+        2.982760453819407,
+        3.1060146416858943
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|L21|real|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 4.75932505589129,
+      "dprime_seed_spread": 0.029864900441040735,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        4.788747793384383,
+        4.729036807894949,
+        4.76019056639454
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|L21|random|appearance": {
+      "tag": "pooled",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9997095142893758,
+      "auc_seed_spread": 0.00011662215346825458,
+      "dprime_mean": 3.012930060108854,
+      "dprime_seed_spread": 0.1785469733296108,
+      "per_seed_auc": [
+        0.9995799999999999,
+        0.9997423298731258,
+        0.9998062129950018
+      ],
+      "per_seed_dprime": [
+        2.8249892613690655,
+        3.0334994117208813,
+        3.180301507236614
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|vae_latent": {
+      "tag": "vae_latent",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5287521876201461,
+      "auc_seed_spread": 0.005565483512767384,
+      "dprime_mean": 0.09815042710020529,
+      "dprime_seed_spread": 0.007062673864372115,
+      "per_seed_auc": [
+        0.5338533025759322,
+        0.5228165782391389,
+        0.5295866820453672
+      ],
+      "small_unit": false
+    },
+    "wan21_14b|intphys2|raw_pixel": {
+      "tag": "raw_pixel",
+      "backbone": "wan21_14b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5470643111623734,
+      "auc_seed_spread": 0.010311584431519076,
+      "dprime_mean": 0.1119886103876636,
+      "dprime_seed_spread": 0.022135634394852725,
+      "per_seed_auc": [
+        0.5505525490196078,
+        0.5354610380622837,
+        0.5551793464052288
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t600|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6030214686658977,
+      "auc_seed_spread": 0.0025151438729655983,
+      "dprime_mean": 0.36393680829543795,
+      "dprime_seed_spread": 0.022932624353499634,
+      "per_seed_auc": [
+        0.6022487889273356,
+        0.6009833141099576,
+        0.6058323029603998
+      ],
+      "per_seed_dprime": [
+        0.3538585999750107,
+        0.3477691317587546,
+        0.3901826931525484
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t600|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5043003306420607,
+      "auc_seed_spread": 0.01272267830987223,
+      "dprime_mean": 0.016782621874529603,
+      "dprime_seed_spread": 0.051114391237787105,
+      "per_seed_auc": [
+        0.496061568627451,
+        0.5189534025374856,
+        0.4978860207612457
+      ],
+      "per_seed_dprime": [
+        -0.011969551409974246,
+        0.07579798931489659,
+        -0.013480572281333536
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t298|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 298,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6838451262334999,
+      "auc_seed_spread": 0.013919114330826675,
+      "dprime_mean": 0.5944596193274486,
+      "dprime_seed_spread": 0.04713677668537513,
+      "per_seed_auc": [
+        0.6772142483660131,
+        0.6998398923490965,
+        0.6744812379853903
+      ],
+      "per_seed_dprime": [
+        0.5704812614777326,
+        0.648764923812312,
+        0.564132672692301
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t298|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 298,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5146315186466743,
+      "auc_seed_spread": 0.012506127237697635,
+      "dprime_mean": 0.04918361475763248,
+      "dprime_seed_spread": 0.03487634040965564,
+      "per_seed_auc": [
+        0.5097693579392542,
+        0.5288385390234526,
+        0.5052866589773164
+      ],
+      "per_seed_dprime": [
+        0.03410480754093978,
+        0.08906233344934975,
+        0.02438370328260793
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t600|Lrel|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5806123542227348,
+      "auc_seed_spread": 0.002631854404266334,
+      "dprime_mean": 0.25997220656777414,
+      "dprime_seed_spread": 0.006356253723329875,
+      "per_seed_auc": [
+        0.5835551710880431,
+        0.5784840369088811,
+        0.5797978546712803
+      ],
+      "per_seed_dprime": [
+        0.2635367416661808,
+        0.2526336337223767,
+        0.263746244314765
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t600|Lrel|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.506942942458029,
+      "auc_seed_spread": 0.007993468769600786,
+      "dprime_mean": 0.020913949049585073,
+      "dprime_seed_spread": 0.037165965049155564,
+      "per_seed_auc": [
+        0.4983691657054979,
+        0.5082695424836601,
+        0.5141901191849289
+      ],
+      "per_seed_dprime": [
+        -0.021227628635364718,
+        0.03495803662456899,
+        0.04901143915955095
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t298|Lrel|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 22,
+      "timestep": 298,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6318803203895937,
+      "auc_seed_spread": 0.007714766570675304,
+      "dprime_mean": 0.3826909695506506,
+      "dprime_seed_spread": 0.022740434074634483,
+      "per_seed_auc": [
+        0.6323018531334103,
+        0.6393756785851595,
+        0.6239634294502114
+      ],
+      "per_seed_dprime": [
+        0.35740469645475514,
+        0.4014644108701936,
+        0.3892038013270029
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t298|Lrel|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 22,
+      "timestep": 298,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5007013866461617,
+      "auc_seed_spread": 0.024368898715398032,
+      "dprime_mean": 0.011037359098127085,
+      "dprime_seed_spread": 0.06927787627092763,
+      "per_seed_auc": [
+        0.48377705497885426,
+        0.5286319492502883,
+        0.48969515570934263
+      ],
+      "per_seed_dprime": [
+        -0.03931142842343578,
+        0.09004644276180797,
+        -0.017622937043990934
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|L16|real|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999733333333333,
+      "auc_seed_spread": 4.618802153515215e-05,
+      "dprime_mean": 4.210312107356969,
+      "dprime_seed_spread": 0.16423806580974448,
+      "per_seed_auc": [
+        1.0,
+        0.99992,
+        1.0
+      ],
+      "per_seed_dprime": [
+        4.072447442554624,
+        4.39202361740246,
+        4.166465262113821
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|L16|random|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999933333333333,
+      "auc_seed_spread": 1.1547005383739964e-05,
+      "dprime_mean": 3.274141271899962,
+      "dprime_seed_spread": 0.08815470499078878,
+      "per_seed_auc": [
+        0.9999800000000001,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        3.187483061688659,
+        3.3637198955354664,
+        3.2712208584757585
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|Lrel|real|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999871844162502,
+      "auc_seed_spread": 2.219724218338408e-05,
+      "dprime_mean": 3.9184083293784813,
+      "dprime_seed_spread": 0.1975668910237353,
+      "per_seed_auc": [
+        1.0,
+        0.9999615532487505,
+        1.0
+      ],
+      "per_seed_dprime": [
+        3.7055595719356256,
+        4.095925824996405,
+        3.9537395912034135
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|Lrel|random|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 3.4786086118491206,
+      "dprime_seed_spread": 0.12273525570815187,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        3.418255878347258,
+        3.619834983835916,
+        3.3977349733641895
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|vae_latent": {
+      "tag": "vae_latent",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5387081148276304,
+      "auc_seed_spread": 0.0029572773678629115,
+      "dprime_mean": 0.11856881758857823,
+      "dprime_seed_spread": 0.0032782236483419563,
+      "per_seed_auc": [
+        0.5372892195309497,
+        0.5367276662821991,
+        0.5421074586697424
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|raw_pixel": {
+      "tag": "raw_pixel",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5470643111623734,
+      "auc_seed_spread": 0.010311584431519076,
+      "dprime_mean": 0.1119886103876636,
+      "dprime_seed_spread": 0.022135634394852725,
+      "per_seed_auc": [
+        0.5505525490196078,
+        0.5354610380622837,
+        0.5551793464052288
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|t600|L15|real|physics": {
+      "tag": "physics",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 15,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5524493092400359,
+      "auc_seed_spread": 0.009400322026388136,
+      "dprime_mean": 0.14089440513108384,
+      "dprime_seed_spread": 0.03408159244785191,
+      "per_seed_auc": [
+        0.5525364321414841,
+        0.5618057670126874,
+        0.5430057285659362
+      ],
+      "per_seed_dprime": [
+        0.15263813214951857,
+        0.16755127661984698,
+        0.10249380662388599
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|t600|L15|random|physics": {
+      "tag": "physics",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 15,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5206354504677688,
+      "auc_seed_spread": 0.012799834427595096,
+      "dprime_mean": 0.06872140579356384,
+      "dprime_seed_spread": 0.034691903283999334,
+      "per_seed_auc": [
+        0.5313317416378316,
+        0.5241206382160708,
+        0.5064539715494042
+      ],
+      "per_seed_dprime": [
+        0.0962834066390278,
+        0.08011539763522683,
+        0.029765413106436888
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|t600|L21|real|physics": {
+      "tag": "physics",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5382037729078559,
+      "auc_seed_spread": 0.018837337479994186,
+      "dprime_mean": 0.10349815770897632,
+      "dprime_seed_spread": 0.07139136357691378,
+      "per_seed_auc": [
+        0.5350562091503268,
+        0.5584166243752403,
+        0.5211384851980008
+      ],
+      "per_seed_dprime": [
+        0.08437330238130643,
+        0.18250413600851007,
+        0.04361703473711246
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|t600|L21|random|physics": {
+      "tag": "physics",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5215112443931821,
+      "auc_seed_spread": 0.013043975226390154,
+      "dprime_mean": 0.06787208086491797,
+      "dprime_seed_spread": 0.03492316425526457,
+      "per_seed_auc": [
+        0.5363622145328719,
+        0.5162610303729335,
+        0.511910488273741
+      ],
+      "per_seed_dprime": [
+        0.10785385498944411,
+        0.052433193911587,
+        0.043329193693722776
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|L15|real|appearance": {
+      "tag": "pooled",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 15,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9985761783929258,
+      "auc_seed_spread": 0.0005657096955527999,
+      "dprime_mean": 3.446733300948837,
+      "dprime_seed_spread": 0.04028276850671299,
+      "per_seed_auc": [
+        0.9981209688581314,
+        0.9983980545943867,
+        0.9992095117262592
+      ],
+      "per_seed_dprime": [
+        3.400592390266719,
+        3.4647082965820744,
+        3.4748992159977177
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|L15|random|appearance": {
+      "tag": "pooled",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 15,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9993795463283354,
+      "auc_seed_spread": 0.00026250230832758207,
+      "dprime_mean": 2.9750826872713696,
+      "dprime_seed_spread": 0.04391856153375597,
+      "per_seed_auc": [
+        0.9990807766243753,
+        0.9995732026143791,
+        0.9994846597462514
+      ],
+      "per_seed_dprime": [
+        3.0104660779117953,
+        2.98885290221237,
+        2.9259290816899446
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|L21|real|appearance": {
+      "tag": "pooled",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9966572754068949,
+      "auc_seed_spread": 0.0002577012339751751,
+      "dprime_mean": 3.557537783310897,
+      "dprime_seed_spread": 0.0064872467859111264,
+      "per_seed_auc": [
+        0.9963664052287582,
+        0.996748342945021,
+        0.996857078046905
+      ],
+      "per_seed_dprime": [
+        3.5639938267865636,
+        3.557599746047425,
+        3.551019777098702
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|L21|random|appearance": {
+      "tag": "pooled",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 21,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9994046597462513,
+      "auc_seed_spread": 0.0003061616574358449,
+      "dprime_mean": 2.9339579378832514,
+      "dprime_seed_spread": 0.016701159398459203,
+      "per_seed_auc": [
+        0.9990807766243751,
+        0.999689319492503,
+        0.9994438831218762
+      ],
+      "per_seed_dprime": [
+        2.930393801493169,
+        2.952153458612644,
+        2.9193265535439408
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|vae_latent": {
+      "tag": "vae_latent",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5181197231833911,
+      "auc_seed_spread": 0.004593545930028101,
+      "dprime_mean": 0.058592338441727426,
+      "dprime_seed_spread": 0.009963524779360303,
+      "per_seed_auc": [
+        0.5133602306805075,
+        0.5225270511341792,
+        0.5184718877354864
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|raw_pixel": {
+      "tag": "raw_pixel",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5489689734717417,
+      "auc_seed_spread": 0.014839642669030957,
+      "dprime_mean": 0.10431403297126252,
+      "dprime_seed_spread": 0.023868313491571275,
+      "per_seed_auc": [
+        0.5513356401384084,
+        0.5330882199154171,
+        0.5624830603613995
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|t600|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5506289837242085,
+      "auc_seed_spread": 0.007890002489756087,
+      "dprime_mean": 0.13755917997615916,
+      "dprime_seed_spread": 0.026773962338680925,
+      "per_seed_auc": [
+        0.552857600922722,
+        0.5571649750096117,
+        0.5418643752402922
+      ],
+      "per_seed_dprime": [
+        0.1538129273074734,
+        0.15220744259067504,
+        0.10665717003032908
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|t600|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5260881507112649,
+      "auc_seed_spread": 0.014991869871531576,
+      "dprime_mean": 0.0812734605523231,
+      "dprime_seed_spread": 0.04790056709116654,
+      "per_seed_auc": [
+        0.5432983775470973,
+        0.5190992772010765,
+        0.5158667973856209
+      ],
+      "per_seed_dprime": [
+        0.1361745649461012,
+        0.059642348183540805,
+        0.04800346852732727
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|L16|real|appearance": {
+      "tag": "pooled",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9989763731897988,
+      "auc_seed_spread": 0.00046601009360806693,
+      "dprime_mean": 3.5405515206480977,
+      "dprime_seed_spread": 0.03891842029207299,
+      "per_seed_auc": [
+        0.9992031064975009,
+        0.9984403844675125,
+        0.9992856286043829
+      ],
+      "per_seed_dprime": [
+        3.5012404732801174,
+        3.5790650560023236,
+        3.5413490326618513
+      ],
+      "small_unit": false
+    },
+    "ltx|intphys2|L16|random|appearance": {
+      "tag": "pooled",
+      "backbone": "ltx",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9993339151608356,
+      "auc_seed_spread": 0.0003045533420554454,
+      "dprime_mean": 2.9563535481723435,
+      "dprime_seed_spread": 0.0190804006838915,
+      "per_seed_auc": [
+        0.9989823298731257,
+        0.9995163091118802,
+        0.999503106497501
+      ],
+      "per_seed_dprime": [
+        2.9783269921748405,
+        2.943974881754207,
+        2.9467587705879845
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|t600|L16|real|physics": {
+      "tag": "physics",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.615740153787005,
+      "auc_seed_spread": 0.008340011080746234,
+      "dprime_mean": 0.3316765643085711,
+      "dprime_seed_spread": 0.0224197153918101,
+      "per_seed_auc": [
+        0.6067425990003844,
+        0.6232119415609381,
+        0.6172659207996924
+      ],
+      "per_seed_dprime": [
+        0.3135756773752934,
+        0.3567554842287376,
+        0.3246985313216824
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|t600|L16|random|physics": {
+      "tag": "physics",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5238668563373061,
+      "auc_seed_spread": 0.006950670285945187,
+      "dprime_mean": 0.02982673685977423,
+      "dprime_seed_spread": 0.024230358679872235,
+      "per_seed_auc": [
+        0.5311177316416762,
+        0.5232214225297962,
+        0.517261414840446
+      ],
+      "per_seed_dprime": [
+        0.05637382509074795,
+        0.0242049482028689,
+        0.008901437285705843
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|t600|L25|real|physics": {
+      "tag": "physics",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 25,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6517726130975267,
+      "auc_seed_spread": 0.0009108025419425663,
+      "dprime_mean": 0.46003389858987215,
+      "dprime_seed_spread": 0.010522343819833933,
+      "per_seed_auc": [
+        0.6510731949250289,
+        0.6528025221068819,
+        0.6514421222606691
+      ],
+      "per_seed_dprime": [
+        0.4670121991447007,
+        0.46515852857942874,
+        0.447930968045487
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|t600|L25|random|physics": {
+      "tag": "physics",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 25,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5095689504036909,
+      "auc_seed_spread": 0.004646777742869788,
+      "dprime_mean": 0.016983233913064725,
+      "dprime_seed_spread": 0.009849810396596156,
+      "per_seed_auc": [
+        0.5084683583237217,
+        0.5146672202998847,
+        0.5055712725874664
+      ],
+      "per_seed_dprime": [
+        0.024420007755936324,
+        0.020717333889059827,
+        0.005812360094198021
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|vae_latent": {
+      "tag": "vae_latent",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5218151454568756,
+      "auc_seed_spread": 0.002369891574797116,
+      "dprime_mean": 0.07292885741606274,
+      "dprime_seed_spread": 0.0041766497497541305,
+      "per_seed_auc": [
+        0.5213280199923107,
+        0.5197266666666667,
+        0.5243907497116493
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|raw_pixel": {
+      "tag": "raw_pixel",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": -1,
+      "timestep": -1,
+      "weights": "none",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5463740843265411,
+      "auc_seed_spread": 0.015258586563478447,
+      "dprime_mean": 0.10035434870725853,
+      "dprime_seed_spread": 0.019795282308133145,
+      "per_seed_auc": [
+        0.5512523490965014,
+        0.5292728796616686,
+        0.5585970242214533
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|L16|real|appearance": {
+      "tag": "pooled",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 10.072697438768074,
+      "dprime_seed_spread": 0.12233091789386606,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        10.206252025027178,
+        10.045760236497175,
+        9.966080054779871
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|L16|random|appearance": {
+      "tag": "pooled",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 16,
+      "timestep": 600,
+      "weights": "random",
+      "n": 606,
+      "n_pos": 100,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 5.809195969487964,
+      "dprime_seed_spread": 0.11155777989398138,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        5.762696638570972,
+        5.728409595887497,
+        5.936481674005423
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|L25|real|appearance": {
+      "tag": "pooled",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 25,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 9.538088050213828,
+      "dprime_seed_spread": 0.10432358592770972,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        9.651682440280721,
+        9.446568434616513,
+        9.516013275744253
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|L25|random|appearance": {
+      "tag": "pooled",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 25,
+      "timestep": 600,
+      "weights": "random",
+      "n": 683,
+      "n_pos": 177,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 6.01629936140944,
+      "dprime_seed_spread": 0.10841536122298454,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        5.894710629985549,
+        6.102901203599277,
+        6.051286250643493
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|t600|L26|real|physics": {
+      "tag": "physics",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 26,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.6496251621171344,
+      "auc_seed_spread": 0.0024629656311369297,
+      "dprime_mean": 0.4619138072775546,
+      "dprime_seed_spread": 0.022671253611987997,
+      "per_seed_auc": [
+        0.6492931872356786,
+        0.6522372779700115,
+        0.6473450211457131
+      ],
+      "per_seed_dprime": [
+        0.46723087246380157,
+        0.48145397630621484,
+        0.43705657306264756
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|t600|L26|random|physics": {
+      "tag": "physics",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 26,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5102453953607586,
+      "auc_seed_spread": 0.004321827730116368,
+      "dprime_mean": 0.016916359986857428,
+      "dprime_seed_spread": 0.011950386489884399,
+      "per_seed_auc": [
+        0.5093037139561706,
+        0.5149604229142637,
+        0.5064720492118416
+      ],
+      "per_seed_dprime": [
+        0.022609651205968345,
+        0.02495555672313849,
+        0.003183872031465454
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|L26|real|appearance": {
+      "tag": "pooled",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 26,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 9.41329901335711,
+      "dprime_seed_spread": 0.09362499693187423,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        9.519160734016932,
+        9.341378363015204,
+        9.379357943039189
+      ],
+      "small_unit": false
+    },
+    "mochi|intphys2|L26|random|appearance": {
+      "tag": "pooled",
+      "backbone": "mochi",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 26,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 6.577805686634723,
+      "dprime_seed_spread": 0.10603904905901007,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        6.643715285837243,
+        6.634216559833826,
+        6.4554852142331
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t600|L22|real|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.5806123542227348,
+      "auc_seed_spread": 0.002631854404266334,
+      "dprime_mean": 0.25997220656777414,
+      "dprime_seed_spread": 0.006356253723329875,
+      "per_seed_auc": [
+        0.5835551710880431,
+        0.5784840369088811,
+        0.5797978546712803
+      ],
+      "per_seed_dprime": [
+        0.2635367416661808,
+        0.2526336337223767,
+        0.263746244314765
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|t600|L22|random|physics": {
+      "tag": "physics",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.506942942458029,
+      "auc_seed_spread": 0.007993468769600786,
+      "dprime_mean": 0.020913949049585073,
+      "dprime_seed_spread": 0.037165965049155564,
+      "per_seed_auc": [
+        0.4983691657054979,
+        0.5082695424836601,
+        0.5141901191849289
+      ],
+      "per_seed_dprime": [
+        -0.021227628635364718,
+        0.03495803662456899,
+        0.04901143915955095
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|L22|real|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "real",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 0.9999871844162502,
+      "auc_seed_spread": 2.219724218338408e-05,
+      "dprime_mean": 3.9184083293784813,
+      "dprime_seed_spread": 0.1975668910237353,
+      "per_seed_auc": [
+        1.0,
+        0.9999615532487505,
+        1.0
+      ],
+      "per_seed_dprime": [
+        3.7055595719356256,
+        4.095925824996405,
+        3.9537395912034135
+      ],
+      "small_unit": false
+    },
+    "cogvideox5b|intphys2|L22|random|appearance": {
+      "tag": "pooled",
+      "backbone": "cogvideox5b",
+      "dataset": "intphys2",
+      "variant": "plain_vs_cj",
+      "layer": 22,
+      "timestep": 600,
+      "weights": "random",
+      "n": 1012,
+      "n_pos": 506,
+      "auc_mean": 1.0,
+      "auc_seed_spread": 0.0,
+      "dprime_mean": 3.4786086118491206,
+      "dprime_seed_spread": 0.12273525570815187,
+      "per_seed_auc": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_seed_dprime": [
+        3.418255878347258,
+        3.619834983835916,
+        3.3977349733641895
+      ],
+      "small_unit": false
+    }
+  },
+  "finished": "2026-10-24 02:53:32",
+  "merged_from_previous": true,
+  "previous_started": "2026-10-24 02:45:15"
+}

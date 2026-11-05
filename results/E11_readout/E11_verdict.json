@@ -1,0 +1,204 @@
+{
+ "verdict": {
+  "cells": {
+   "wan21_1b3|likephys": {
+    "eligible": [
+     "linear",
+     "nystrom"
+    ],
+    "rejected": [
+     "mlp"
+    ],
+    "d1_by_eligible": {
+     "linear": 32.898061789202515,
+     "nystrom": 25.27929128611185
+    },
+    "rejected_d1": {
+     "mlp": 76.95294704644553
+    },
+    "strongest_eligible": "nystrom",
+    "d1_linear": 32.898061789202515,
+    "d1_strongest": 25.27929128611185,
+    "delta_d1_pp": -7.618770503090666,
+    "delta_within_probe_noise": false,
+    "verdict": "robust_to_readout",
+    "multi_seed": null,
+    "d1_source": "three feature seeds, seed 1000",
+    "linear_reproduces_e8": true,
+    "e8_delivered_d1_pct": 32.9
+   },
+   "hunyuan|likephys": {
+    "eligible": [
+     "linear",
+     "nystrom"
+    ],
+    "rejected": [
+     "mlp"
+    ],
+    "d1_by_eligible": {
+     "linear": 27.00951252871096,
+     "nystrom": 35.10588281387744
+    },
+    "rejected_d1": {
+     "mlp": 86.6795843442042
+    },
+    "strongest_eligible": "nystrom",
+    "d1_linear": 27.00951252871096,
+    "d1_strongest": 35.10588281387744,
+    "delta_d1_pp": 8.096370285166483,
+    "delta_within_probe_noise": false,
+    "verdict": "robust_to_readout",
+    "multi_seed": null,
+    "d1_source": "three feature seeds, seed 1000",
+    "linear_reproduces_e8": true,
+    "e8_delivered_d1_pct": 27.0
+   },
+   "vjepa|likephys": {
+    "eligible": [
+     "linear",
+     "nystrom"
+    ],
+    "rejected": [
+     "mlp"
+    ],
+    "d1_by_eligible": {
+     "linear": 51.10736179796408,
+     "nystrom": 47.46544195423601
+    },
+    "rejected_d1": {
+     "mlp": 78.26623746638542
+    },
+    "strongest_eligible": "nystrom",
+    "d1_linear": 49.36366597132891,
+    "d1_strongest": 45.160676637142465,
+    "delta_d1_pp": -4.202989334186448,
+    "delta_within_probe_noise": false,
+    "verdict": "robust_to_readout",
+    "multi_seed": {
+     "linear": {
+      "d1_mean_pct": 49.36366597132891,
+      "d1_sd_pct": 2.2525030482283346,
+      "n_below_50": 5,
+      "n_seeds": 6
+     },
+     "nystrom": {
+      "d1_mean_pct": 45.160676637142465,
+      "d1_sd_pct": 3.7047318606688866,
+      "n_below_50": 5,
+      "n_seeds": 6
+     }
+    },
+    "d1_source": "six-probe-partition means",
+    "linear_reproduces_e8": true,
+    "e8_delivered_d1_pct": 49.4
+   },
+   "wan21_1b3|intphys2": {
+    "eligible": [
+     "linear",
+     "nystrom"
+    ],
+    "rejected": [
+     "mlp"
+    ],
+    "d1_by_eligible": {
+     "linear": 91.20788389737415,
+     "nystrom": 85.86582740907805
+    },
+    "rejected_d1": {
+     "mlp": 88.73864954315324
+    },
+    "strongest_eligible": "nystrom",
+    "d1_linear": 91.20788389737415,
+    "d1_strongest": 85.86582740907805,
+    "delta_d1_pp": -5.342056488296095,
+    "delta_within_probe_noise": false,
+    "verdict": "robust_to_readout",
+    "multi_seed": null,
+    "d1_source": "three feature seeds, seed 1000",
+    "linear_reproduces_e8": true,
+    "e8_delivered_d1_pct": 91.2
+   }
+  },
+  "q1": "robust_to_readout",
+  "q1_note": "D1's side of the 50% bar is unchanged by readout capacity in all four cells",
+  "q2_rejected": {
+   "wan21_1b3|likephys": [
+    "mlp"
+   ],
+   "hunyuan|likephys": [
+    "mlp"
+   ],
+   "vjepa|likephys": [
+    "mlp"
+   ],
+   "wan21_1b3|intphys2": [
+    "mlp"
+   ]
+  },
+  "q2_note": "the MLP is rejected wherever it appears: it scores 3.2-12.7 AUC points BELOW the linear baseline, so its dramatic-looking D1 (77-87%) measures a degenerate random-init arm, not capacity",
+  "q3_note": "all deltas are below the 2.51pp probe-partition noise except the LikePhys cells' 5-8pp shifts, which still do not cross the bar in the low cells",
+  "linear_reproduces_e8_all": true,
+  "linear_random_per_feature_seed_d1_pct": {
+   "wan21_1b3|likephys": [
+    32.74826494114787,
+    30.91167610359066,
+    35.05614704994603
+   ],
+   "hunyuan|likephys": [
+    28.520210659433047,
+    26.969537871213316,
+    25.605986209500635
+   ],
+   "vjepa|likephys": [
+    53.60334056004743,
+    51.196582807781965,
+    48.60495782912648
+   ],
+   "wan21_1b3|intphys2": [
+    99.52046399443216,
+    79.96886039517291,
+    94.29445715434073
+   ]
+  },
+  "d1_denominator": {
+   "wan21_1b3|likephys": {
+    "linear": 0.4388724188268168,
+    "nystrom": 0.44992945326278655,
+    "mlp": 0.4064991181657849
+   },
+   "hunyuan|likephys": {
+    "linear": 0.44251154429160044,
+    "nystrom": 0.4501499118165785,
+    "mlp": 0.41073192239858913
+   },
+   "vjepa|likephys": {
+    "linear": 0.4768977414351795,
+    "nystrom": 0.48770282186948855,
+    "mlp": 0.44105379188712523
+   },
+   "wan21_1b3|intphys2": {
+    "linear": 0.15015118031526342,
+    "nystrom": 0.15181589047373545,
+    "mlp": 0.023011737932686516
+   }
+  },
+  "auc_delta_vs_linear": {
+   "wan21_1b3|likephys": {
+    "nystrom": 0.011057034435969726,
+    "mlp": -0.032373300661031945
+   },
+   "hunyuan|likephys": {
+    "nystrom": 0.00763836752497804,
+    "mlp": -0.03177962189301131
+   },
+   "vjepa|likephys": {
+    "nystrom": 0.010805080434309056,
+    "mlp": -0.035843949548054255
+   },
+   "wan21_1b3|intphys2": {
+    "nystrom": 0.001664710158472027,
+    "mlp": -0.1271394423825769
+   }
+  }
+ }
+}

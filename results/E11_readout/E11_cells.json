@@ -1,0 +1,285 @@
+{
+ "task": "E11: does a stronger non-linear readout change D1?",
+ "created": "2026-10-30 20:44:35",
+ "seed": 1000,
+ "noninferiority_margin": 0.01,
+ "probe_sd_pp": 2.51,
+ "linear_arm_source": "e8_analyse.probe, imported verbatim",
+ "why_these_cells": {
+  "wan21_1b3|likephys": "low end, closest to the threshold among the low cells",
+  "hunyuan|likephys": "lowest D1 overall; if this crosses 50% the claim inverts",
+  "vjepa|likephys": "already at the threshold (49.4%), any push flips it",
+  "wan21_1b3|intphys2": "high-end control: capacity must not move a far cell"
+ },
+ "cells": {
+  "wan21_1b3|likephys": {
+   "key": "wan21_1b3|likephys",
+   "dataset": "likephys",
+   "layer": 16,
+   "timestep": 600,
+   "n": 750,
+   "n_pos": 630,
+   "n_features": 19968,
+   "n_groups": 120,
+   "group_key": "subgroup_pair",
+   "e8_delivered_d1_pct": 32.9,
+   "why": "low end, closest to the threshold among the low cells",
+   "readouts": {
+    "linear": {
+     "auc_real": 0.9388724188268168,
+     "auc_random": 0.794491899305403,
+     "d1": 0.32898061789202515,
+     "d1_pct": 32.898061789202515,
+     "per_feature_seed_auc_real": [
+      0.921236438591072,
+      0.9510125126336316,
+      0.944368305255747
+     ],
+     "per_feature_seed_auc_random": [
+      0.783288813652612,
+      0.8115969855416575,
+      0.7885898987219393
+     ],
+     "source": "e8_analyse.probe (frozen)"
+    },
+    "nystrom": {
+     "auc_real": 0.9499294532627865,
+     "auc_random": 0.8361904761904763,
+     "d1": 0.2527929128611185,
+     "d1_pct": 25.27929128611185,
+     "per_feature_seed_auc_real": [
+      0.9385185185185185,
+      0.9566931216931217,
+      0.9545767195767195
+     ],
+     "per_feature_seed_auc_random": [
+      0.8294841269841271,
+      0.8444973544973546,
+      0.834589947089947
+     ],
+     "n_components": 512
+    },
+    "mlp": {
+     "auc_real": 0.9064991181657849,
+     "auc_random": 0.5936860670194004,
+     "d1": 0.7695294704644553,
+     "d1_pct": 76.95294704644553,
+     "per_feature_seed_auc_real": [
+      0.9158796296296297,
+      0.9161574074074075,
+      0.8874603174603174
+     ],
+     "per_feature_seed_auc_random": [
+      0.5603439153439155,
+      0.6034920634920635,
+      0.6172222222222221
+     ],
+     "unconverged_folds": 0,
+     "hidden": 256
+    }
+   }
+  },
+  "hunyuan|likephys": {
+   "key": "hunyuan|likephys",
+   "dataset": "likephys",
+   "layer": 16,
+   "timestep": 600,
+   "n": 750,
+   "n_pos": 630,
+   "n_features": 39936,
+   "n_groups": 120,
+   "group_key": "subgroup_pair",
+   "e8_delivered_d1_pct": 27.0,
+   "why": "lowest D1 overall; if this crosses 50% the claim inverts",
+   "readouts": {
+    "linear": {
+     "auc_real": 0.9425115442916004,
+     "auc_random": 0.8229913332951683,
+     "d1": 0.2700951252871096,
+     "d1_pct": 27.00951252871096,
+     "per_feature_seed_auc_real": [
+      0.9300566304568146,
+      0.9473231683822931,
+      0.950154834035694
+     ],
+     "per_feature_seed_auc_random": [
+      0.8074035734956716,
+      0.8266821770787193,
+      0.8348882493111137
+     ],
+     "source": "e8_analyse.probe (frozen)"
+    },
+    "nystrom": {
+     "auc_real": 0.9501499118165785,
+     "auc_random": 0.7921208112874778,
+     "d1": 0.3510588281387744,
+     "d1_pct": 35.10588281387744,
+     "per_feature_seed_auc_real": [
+      0.9367063492063492,
+      0.9598412698412699,
+      0.9539021164021164
+     ],
+     "per_feature_seed_auc_random": [
+      0.786084656084656,
+      0.8034656084656084,
+      0.7868121693121692
+     ],
+     "n_components": 512
+    },
+    "mlp": {
+     "auc_real": 0.9107319223985891,
+     "auc_random": 0.5547111992945327,
+     "d1": 0.866795843442042,
+     "d1_pct": 86.6795843442042,
+     "per_feature_seed_auc_real": [
+      0.9152843915343916,
+      0.9144113756613756,
+      0.9025
+     ],
+     "per_feature_seed_auc_random": [
+      0.5317526455026454,
+      0.5511309523809524,
+      0.58125
+     ],
+     "unconverged_folds": 0,
+     "hidden": 256
+    }
+   }
+  },
+  "vjepa|likephys": {
+   "key": "vjepa|likephys",
+   "dataset": "likephys",
+   "layer": 16,
+   "timestep": "clean",
+   "n": 750,
+   "n_pos": 630,
+   "n_features": 32768,
+   "n_groups": 120,
+   "group_key": "subgroup_pair",
+   "e8_delivered_d1_pct": 49.4,
+   "why": "already at the threshold (49.4%), any push flips it",
+   "readouts": {
+    "linear": {
+     "auc_real": 0.9768977414351795,
+     "auc_random": 0.7331678873135831,
+     "d1": 0.5110736179796408,
+     "d1_pct": 51.10736179796408,
+     "per_feature_seed_auc_real": [
+      0.9668508127939146,
+      0.9810392600678263,
+      0.9828031514437978
+     ],
+     "per_feature_seed_auc_random": [
+      0.7166031817046431,
+      0.73476359694926,
+      0.7481368832868462
+     ],
+     "source": "e8_analyse.probe (frozen)"
+    },
+    "nystrom": {
+     "auc_real": 0.9877028218694885,
+     "auc_random": 0.7562125220458554,
+     "d1": 0.4746544195423601,
+     "d1_pct": 47.46544195423601,
+     "per_feature_seed_auc_real": [
+      0.9811904761904762,
+      0.9902116402116401,
+      0.9917063492063493
+     ],
+     "per_feature_seed_auc_random": [
+      0.7340608465608466,
+      0.7663756613756614,
+      0.7682010582010582
+     ],
+     "n_components": 512
+    },
+    "mlp": {
+     "auc_real": 0.9410537918871252,
+     "auc_random": 0.5958575837742505,
+     "d1": 0.7826623746638541,
+     "d1_pct": 78.26623746638542,
+     "per_feature_seed_auc_real": [
+      0.9107142857142857,
+      0.9521957671957673,
+      0.9602513227513227
+     ],
+     "per_feature_seed_auc_random": [
+      0.593207671957672,
+      0.5513888888888889,
+      0.6429761904761905
+     ],
+     "unconverged_folds": 0,
+     "hidden": 256
+    }
+   }
+  },
+  "wan21_1b3|intphys2": {
+   "key": "wan21_1b3|intphys2",
+   "dataset": "intphys2",
+   "layer": 16,
+   "timestep": 600,
+   "n": 1012,
+   "n_pos": 506,
+   "n_features": 19968,
+   "n_groups": 253,
+   "group_key": "scene_index",
+   "e8_delivered_d1_pct": 91.2,
+   "why": "high-end control: capacity must not move a far cell",
+   "readouts": {
+    "linear": {
+     "auc_real": 0.6501511803152634,
+     "auc_random": 0.5132014661027811,
+     "d1": 0.9120788389737414,
+     "d1_pct": 91.20788389737415,
+     "per_feature_seed_auc_real": [
+      0.6458156939638602,
+      0.6502479584775087,
+      0.6543898885044214
+     ],
+     "per_feature_seed_auc_random": [
+      0.5006992387543253,
+      0.5300963783160324,
+      0.5088087812379853
+     ],
+     "source": "e8_analyse.probe (frozen)"
+    },
+    "nystrom": {
+     "auc_real": 0.6518158904737354,
+     "auc_random": 0.5214579199800028,
+     "d1": 0.8586582740907805,
+     "d1_pct": 85.86582740907805,
+     "per_feature_seed_auc_real": [
+      0.6465340811448388,
+      0.6550094517958412,
+      0.6539041384805262
+     ],
+     "per_feature_seed_auc_random": [
+      0.5140800512427941,
+      0.5299918761424174,
+      0.520301832554797
+     ],
+     "n_components": 512
+    },
+    "mlp": {
+     "auc_real": 0.5230117379326865,
+     "auc_random": 0.502591432454811,
+     "d1": 0.8873864954315325,
+     "d1_pct": 88.73864954315324,
+     "per_feature_seed_auc_real": [
+      0.506626021340749,
+      0.5385883235170054,
+      0.5238208689403052
+     ],
+     "per_feature_seed_auc_random": [
+      0.503940852067678,
+      0.502534799793779,
+      0.5012986455029761
+     ],
+     "unconverged_folds": 0,
+     "hidden": 256
+    }
+   }
+  }
+ },
+ "elapsed_s": 3865.2
+}

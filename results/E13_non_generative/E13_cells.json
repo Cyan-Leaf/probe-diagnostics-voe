@@ -1,0 +1,99 @@
+{
+ "model": "facebook/vjepa2-vitl-fpc64-256@b3c1679b7c34",
+ "reference_cell": {
+  "layer": 16,
+  "t": null,
+  "why_null": "non-generative: no noising step"
+ },
+ "geometry": {
+  "height": 256,
+  "width": 256,
+  "frames": 64,
+  "tokens": 8192
+ },
+ "rel_depth_layer": 13,
+ "floor_definition": "permutation within scenes (PREREG.md D4 definition B)",
+ "cells": {
+  "vjepa|intphys2|L16|flat|physics": {
+   "auc_real": 0.724105013456363,
+   "auc_random": 0.5160052825836217,
+   "auc_appearance": 0.9999807766243751,
+   "d1": 0.9285813274019497,
+   "d1_pct": 92.85813274019496,
+   "floor": 0.018123359743400354,
+   "floor_real": 0.018123359743400354,
+   "floor_random": 0.006939359672606258,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "gap_appearance_minus_physics": 0.2758757631680121
+  },
+  "vjepa|intphys2|L13|flat|physics": {
+   "auc_real": 0.7023166166858901,
+   "auc_random": 0.5237462668204538,
+   "auc_appearance": 1.0,
+   "d1": 0.8826281933266934,
+   "d1_pct": 88.26281933266934,
+   "floor": 0.01904660006452134,
+   "floor_real": 0.01904660006452134,
+   "floor_random": 0.010192620526355297,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "gap_appearance_minus_physics": 0.29768338331410993
+  },
+  "vjepa|intphys2|L16|timeavg|physics": {
+   "auc_real": 0.6624091426374472,
+   "auc_random": 0.5087138100730488,
+   "auc_appearance": 0.999923106497501,
+   "d1": 0.9463465545625037,
+   "d1_pct": 94.63465545625037,
+   "floor": 0.012422100899800859,
+   "floor_real": 0.012422100899800859,
+   "floor_random": 0.0067895314904791,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "gap_appearance_minus_physics": 0.33751396386005383
+  },
+  "vjepa|intphys2|L13|timeavg|physics": {
+   "auc_real": 0.6583796155324876,
+   "auc_random": 0.5182427604767398,
+   "auc_appearance": 0.999923106497501,
+   "d1": 0.8848162346182881,
+   "d1_pct": 88.4816234618288,
+   "floor": 0.010313141072167827,
+   "floor_real": 0.010313141072167827,
+   "floor_random": 0.008652145340514335,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "gap_appearance_minus_physics": 0.34154349096501346
+  },
+  "vjepa|intphys2|raw_pixel": {
+   "auc": 0.556946735870819,
+   "floor": 0.01014303847873427,
+   "n": 1012,
+   "n_pos": 506
+  },
+  "vjepa|intphys2|vae_latent": {
+   "auc": null,
+   "why": "model has no VAE (E13_PREREG.md \u00a73.3)"
+  },
+  "cogvideox2b|intphys2|L16|flat|t0": {
+   "auc_real": 0.6098754017685506,
+   "auc_random": 0.5237319108035371,
+   "d1": 0.7840107028365849,
+   "d1_pct": 78.4010702836585,
+   "floor": 0.012667231945404494,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012
+  }
+ },
+ "elapsed_s": 2878.0
+}

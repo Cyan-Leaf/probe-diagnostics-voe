@@ -1,0 +1,83 @@
+{
+ "model": "hunyuanvideo-community/HunyuanVideo@e8c2aaa66fe3",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "relative_depth_cell": {
+  "layer": 32,
+  "depth": 0.5333333333333333,
+  "stack": "single-stream",
+  "note": "not a depth control for L16: different stack"
+ },
+ "lower_bounds": "per-cell, see `rows[*].lower_bounds`",
+ "d1": "per-cell, see `rows[*].d1`",
+ "d2": "per-cell, see `rows[*].d2`",
+ "rows": [
+  {
+   "cell": "L16",
+   "layer": 16,
+   "stack": "double",
+   "lower_bounds": {
+    "raw_pixel": 0.547012013328207,
+    "vae_latent": 0.5328335306933232,
+    "random_dit": 0.5264115827245931,
+    "trained_dit": 0.615262604126618
+   },
+   "d1": {
+    "training_share": 0.7708573138293883,
+    "verdict": "pass",
+    "threshold": 0.5,
+    "interpretable": true,
+    "floor": 0.0042200655407902505,
+    "why": "effect and denominator both clear 2x floor"
+   },
+   "d2": {
+    "auc_physics": 0.615262604126618,
+    "auc_appearance": 1.0,
+    "gap": 0.38473739587338196,
+    "verdict": "fail"
+   }
+  },
+  {
+   "cell": "Lrel",
+   "layer": 32,
+   "stack": "single",
+   "lower_bounds": {
+    "raw_pixel": 0.547012013328207,
+    "vae_latent": 0.5328335306933232,
+    "random_dit": 0.5310117929001666,
+    "trained_dit": 0.6241452851467385
+   },
+   "d1": {
+    "training_share": 0.7501975780754702,
+    "verdict": "pass",
+    "threshold": 0.5,
+    "interpretable": true,
+    "floor": 0.010455657681532254,
+    "why": "effect and denominator both clear 2x floor"
+   },
+   "d2": {
+    "auc_physics": 0.6241452851467385,
+    "auc_appearance": 1.0,
+    "gap": 0.3758547148532615,
+    "verdict": "fail"
+   }
+  }
+ ],
+ "ordering_reproduces": {
+  "L16": false,
+  "Lrel": false
+ },
+ "note": "L16 (double-stream) and Lrel=32 (single-stream) are NOT a depth contrast: they sit in different block stacks. 13312 tokens, 512x512x49, flow matching t=600, norm-aware random init \u2014 all identical to E8's other backbones, so the numbers are comparable to E8's rows. LikePhys was not run (E14_PREREG.md \u00a75).",
+ "noising": {
+  "schedule": "flow matching",
+  "t": 600,
+  "sigma_at_t600": 0.6,
+  "why": "same convention as Wan/LTX/Mochi, so no SNR-matched cell is needed"
+ },
+ "d2_gaps": {
+  "L16": 0.38473739587338196,
+  "Lrel": 0.3758547148532615
+ }
+}

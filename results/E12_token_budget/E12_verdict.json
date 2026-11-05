@@ -1,0 +1,297 @@
+{
+ "question": "does the token budget explain LTX's weak real AUC on IntPhys 2?",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "ladders": {
+  "ltx_temporal": [
+   {
+    "tag": "BASE",
+    "tokens": 1792,
+    "frames": 49,
+    "auc_real": 0.5506289837242085,
+    "auc_random": 0.5260881507112649,
+    "d1_pct": 48.47190523638595,
+    "floor": 0.014991869871531576,
+    "interpretable": false,
+    "raw_pixel": 0.5489777111367423
+   },
+   {
+    "tag": "S512F97",
+    "tokens": 3328,
+    "frames": 97,
+    "auc_real": 0.5479705344098423,
+    "auc_random": 0.5238533384595668,
+    "d1_pct": 50.275020378608225,
+    "floor": 0.007912464968067943,
+    "interpretable": true,
+    "raw_pixel": 0.5527207638087914
+   },
+   {
+    "tag": "S512F193",
+    "tokens": 6400,
+    "frames": 193,
+    "auc_real": 0.551943414071511,
+    "auc_random": 0.5247851544277841,
+    "d1_pct": 52.284317712228,
+    "floor": 0.014209661629831123,
+    "interpretable": false,
+    "raw_pixel": 0.5571882147891837
+   },
+   {
+    "tag": "S512F289",
+    "tokens": 9472,
+    "frames": 289,
+    "auc_real": 0.5303544303473022,
+    "auc_random": 0.5175899397667564,
+    "d1_pct": 42.0514911151357,
+    "floor": 0.006494006591402421,
+    "interpretable": false,
+    "raw_pixel": 0.5588344329104191
+   },
+   {
+    "tag": "S512F337",
+    "tokens": 11008,
+    "frames": 337,
+    "auc_real": 0.5397283711393054,
+    "auc_random": 0.5206797359989749,
+    "d1_pct": 47.94718382371504,
+    "floor": 0.01018666427144479,
+    "interpretable": false,
+    "raw_pixel": 0.5584077688068692
+   },
+   {
+    "tag": "S512F393",
+    "tokens": 12800,
+    "frames": 393,
+    "auc_real": 0.5307848647955914,
+    "auc_random": 0.5187283993335896,
+    "d1_pct": 39.16361349012114,
+    "floor": 0.014921739032711193,
+    "interpretable": false,
+    "raw_pixel": 0.5593802588747918
+   }
+  ],
+  "cog_spatial": [
+   {
+    "tag": "S192F49",
+    "tokens": 1872,
+    "size": 192,
+    "auc_real": 0.5843506779443803,
+    "auc_random": 0.5313585902857876,
+    "d1_pct": 62.82354682855662,
+    "floor": 0.015094106099703573,
+    "interpretable": true,
+    "raw_pixel": 0.5537452287581699
+   },
+   {
+    "tag": "S256F49",
+    "tokens": 3328,
+    "size": 256,
+    "auc_real": 0.6120318415993848,
+    "auc_random": 0.5187382801486607,
+    "d1_pct": 83.27414788407474,
+    "floor": 0.01677317705454583,
+    "interpretable": true,
+    "raw_pixel": 0.5515136383442266
+   },
+   {
+    "tag": "S384F49",
+    "tokens": 7488,
+    "size": 384,
+    "auc_real": 0.6364881660899654,
+    "auc_random": 0.5026101730103806,
+    "d1_pct": 98.08761954596115,
+    "floor": 0.012506135642196745,
+    "interpretable": true,
+    "raw_pixel": 0.5494645726002819
+   },
+   {
+    "tag": "BASE",
+    "tokens": 13312,
+    "size": 512,
+    "auc_real": 0.6442857234397027,
+    "auc_random": 0.5212671690375497,
+    "d1_pct": 85.26037882990049,
+    "floor": 0.018424950807426704,
+    "interpretable": true,
+    "raw_pixel": 0.5470245700371651
+   }
+  ]
+ },
+ "q1": {
+  "calibers": {
+   "flat": {
+    "slope_real": -0.009620266144300395,
+    "ci95": [
+     -0.030803575266328067,
+     0.00881965143493112
+    ],
+    "slope_random": -0.003762558307549448,
+    "slope_raw_pixel": 0.005341765275028863,
+    "slope_vae_latent": 0.004364085713972491,
+    "delta_slope": -0.0058577078367509465,
+    "delta_ci95": [
+     -0.03586212775286457,
+     0.04443881941235177
+    ],
+    "slope_positive": false,
+    "slope_excludes_rise": true,
+    "delta_positive": false
+   },
+   "timeavg": {
+    "slope_real": -0.011071466327838437,
+    "ci95": [
+     -0.03598841246521979,
+     0.008191712937647424
+    ],
+    "slope_random": -0.008255183195855656,
+    "slope_raw_pixel": 0.001273733718688938,
+    "slope_vae_latent": 0.008149443609214374,
+    "delta_slope": -0.0028162831319827816,
+    "delta_ci95": [
+     -0.036039796527157636,
+     0.04972670911963589
+    ],
+    "slope_positive": false,
+    "slope_excludes_rise": true,
+    "delta_positive": false
+   }
+  },
+  "rise_lowest_to_highest_flat": -0.01984411892861715,
+  "min_rise_required": 0.05,
+  "verdict": "fail_token",
+  "note": "Both calibers must pass: the temporal ladder changes F_lat, so the probe's input dimension moves with the token count (E12_PREREG.md \u00a74.4). A rise only in `flat` would be a capacity effect, not a budget effect."
+ },
+ "q2": {
+  "at_1800": {
+   "ltx_tokens": 1792,
+   "ltx": 0.5506289837242085,
+   "cog_tokens": 1872,
+   "cog": 0.5843506779443803,
+   "gap": -0.033721694220171794
+  },
+  "at_13300": {
+   "ltx_tokens": 12800,
+   "ltx": 0.5307848647955914,
+   "cog_tokens": 13312,
+   "cog": 0.6442857234397027,
+   "gap": -0.1135008586441113
+  },
+  "tolerance": 0.05,
+  "verdict": "mixed",
+  "note": "`budget` would mean matching the token count is enough to match the AUC; `architecture` means LTX stays below CogVideoX at equal budget, so the 32x-spatial VAE / patch-1 design contributes independently.",
+  "cog_spatial_steps": [
+   {
+    "from_tokens": 1872,
+    "to_tokens": 3328,
+    "delta": 0.027681163655004504
+   },
+   {
+    "from_tokens": 3328,
+    "to_tokens": 7488,
+    "delta": 0.02445632449058055
+   },
+   {
+    "from_tokens": 7488,
+    "to_tokens": 13312,
+    "delta": 0.007797557349737305
+   }
+  ],
+  "q1_ci_upper_bounds": {
+   "flat": 0.00881965143493112,
+   "timeavg": 0.008191712937647424
+  },
+  "q1_delta_ci": {
+   "flat": [
+    -0.03586212775286457,
+    0.04443881941235177
+   ],
+   "timeavg": [
+    -0.036039796527157636,
+    0.04972670911963589
+   ]
+  },
+  "cog_spatial_cumulative_from_lowest": [
+   {
+    "tokens": 1872,
+    "auc_real": 0.5843506779443803,
+    "cumulative_delta": 0.0
+   },
+   {
+    "tokens": 3328,
+    "auc_real": 0.6120318415993848,
+    "cumulative_delta": 0.027681163655004504
+   },
+   {
+    "tokens": 7488,
+    "auc_real": 0.6364881660899654,
+    "cumulative_delta": 0.052137488145585054
+   },
+   {
+    "tokens": 13312,
+    "auc_real": 0.6442857234397027,
+    "cumulative_delta": 0.05993504549532236
+   }
+  ]
+ },
+ "q3": {
+  "points": [
+   {
+    "tokens": 1792,
+    "tag": "BASE",
+    "d1_pct": 48.47190523638595,
+    "interpretable": false,
+    "auc_real": 0.5506289837242085
+   },
+   {
+    "tokens": 3328,
+    "tag": "S512F97",
+    "d1_pct": 50.275020378608225,
+    "interpretable": true,
+    "auc_real": 0.5479705344098423
+   },
+   {
+    "tokens": 6400,
+    "tag": "S512F193",
+    "d1_pct": 52.284317712228,
+    "interpretable": false,
+    "auc_real": 0.551943414071511
+   },
+   {
+    "tokens": 9472,
+    "tag": "S512F289",
+    "d1_pct": 42.0514911151357,
+    "interpretable": false,
+    "auc_real": 0.5303544303473022
+   },
+   {
+    "tokens": 11008,
+    "tag": "S512F337",
+    "d1_pct": 47.94718382371504,
+    "interpretable": false,
+    "auc_real": 0.5397283711393054
+   },
+   {
+    "tokens": 12800,
+    "tag": "S512F393",
+    "d1_pct": 39.16361349012114,
+    "interpretable": false,
+    "auc_real": 0.5307848647955914
+   }
+  ],
+  "first_interpretable_token": 3328,
+  "n_interpretable": 1,
+  "n_total": 6,
+  "note": "Interpretability is the frozen T10 gate (effect > 2x floor AND AUC-0.5 > 2x floor). Where it fails the D1 ratio is not read at all, so a 'D1 >= 50%' does not appear there \u2014 that is not a pass."
+ },
+ "crosscheck": {
+  "BASE_ltx_L16_flat_auc_real": 0.5506289837242085,
+  "BASE_ltx_matches_E8": true,
+  "BASE_cog_L16_flat_auc_real": 0.6442857234397027,
+  "BASE_cog_matches_E8": true,
+  "note": "E12_PREREG.md \u00a77 requires the two baseline cells to reproduce E8; both are read from E8's own cache (tag BASE), so a mismatch would mean the analysis path, not the extraction, is wrong."
+ },
+ "note": "LikePhys is not covered: its clips are 56-61 frames, so LTX's 8x temporal compression caps F_lat at 8 and the temporal ladder cannot be built (E12_PREREG.md \u00a74.4). The LikePhys LTX cell stands as E8 reported it."
+}

@@ -26,6 +26,45 @@ support "this representation encodes physical plausibility"**, because the same 
 
 ---
 
+## Where the project stands now (2026-11-05)
+
+The two checks above behave very differently under replication, and that asymmetry is the
+result:
+
+| | Result | Scale |
+|---|---|---|
+| **D2** (the recolour control) | **fails in 34/34 cells, zero exceptions** | 7 model families, 14 variants, 2 datasets |
+| **D1** (the random-init bound) | **dataset-dependent**: 24 pass on IntPhys 2, 8 fail on LikePhys | same cells |
+
+D2 failing everywhere makes "the probe reads the edit, not the physics" **systematic** rather
+than a quirk of one model: it survives a non-generative encoder (V-JEPA 2), a 33 B model with
+a different tokenizer and VAE (MiniMax-H3), a MoE pair of experts, five token budgets, a
+non-linear readout, and both datasets. D1 changing sign between datasets means it **cannot** be
+stated as a universal claim about training — it is a property of the benchmark's construction.
+
+Two later results sharpen the scope:
+
+- **The probe is blind to a natural, physics-irrelevant nuisance in real footage.** On 396 real
+  Physics-IQ clips, separating the two takes of the *same* scene scores AUC **0.4891**
+  (direction-free separation 0.5201, i.e. chance), while a positive control — camera direction —
+  scores **0.9717** on the same features. So D2's
+  failure is not "linear probes read anything"; it is "linear probes read the statistical
+  residue of synthetic editing". (`results/E21_physics_iq_real/`)
+
+  This is **not** a physics-violation benchmark on real video, and the report says so: Physics-IQ
+  records every scene twice, so `take-1`/`take-2` are two *legal* performances, not a
+  possible/impossible pair. That task does not exist in this data.
+
+- **Every verdict now carries a cluster-bootstrap interval.** D1 is a *ratio*, and in the
+  weak-signal region its denominator was observed as low as 0.096, which can turn an AUC gap of
+  0.0116 into ~10 pp of training share. Across the 12 cells measured: **D2 is robust in 12/12**
+  (smallest lower bound +0.0225, still clear of 0); **D1 is robust in 9/12**, and the three
+  fragile cells all sit on the 50% boundary — CogVideoX-2b/5b on LikePhys have intervals
+  reaching 54.06% and 51.75%, so their `fail` cannot be told apart from "exactly half".
+  (`results/E20_bootstrap_ci/`)
+
+---
+
 ## What is here
 
 ```

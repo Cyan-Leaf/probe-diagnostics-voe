@@ -1,0 +1,38 @@
+{
+ "purpose": "Prove e18_analyse.py reproduces E17 exactly, before any E18 extraction exists.",
+ "method": "imported e18_analyse and ran its cell()/appearance() against E17 low-noise expert t=600 caches with --threads 4; compared to delivered E17_cells.json",
+ "threads": 4,
+ "comparison": {
+  "L16.auc_real": {
+   "e18_script": 0.6663076560297321,
+   "e17_delivered": 0.6663076560297321,
+   "bit_identical": true
+  },
+  "L16.auc_random": {
+   "e18_script": 0.5014691272587466,
+   "e17_delivered": 0.5014691272587466,
+   "bit_identical": true
+  },
+  "L16.auc_appearance": {
+   "e18_script": 1.0,
+   "e17_delivered": 1.0,
+   "bit_identical": true
+  },
+  "Lrel.auc_real": {
+   "e18_script": 0.6491626835832373,
+   "e17_delivered": 0.6491626835832373,
+   "bit_identical": true
+  },
+  "Lrel.auc_random": {
+   "e18_script": 0.5069725131359734,
+   "e17_delivered": 0.5069725131359734,
+   "bit_identical": true
+  },
+  "Lrel.auc_appearance": {
+   "e18_script": 1.0,
+   "e17_delivered": 1.0,
+   "bit_identical": true
+  }
+ },
+ "verdict": "reproduces_E17_bit_identically"
+}

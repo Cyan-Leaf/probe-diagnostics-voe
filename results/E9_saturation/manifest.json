@@ -1,0 +1,61 @@
+{
+ "task": "E9: does dropping the saturated scenarios move LikePhys D1? (zero GPU)",
+ "created": "2026-10-30 21:24:27",
+ "reference_cell": {
+  "backbone": "wan21_1b3",
+  "dataset": "likephys",
+  "layer": 16,
+  "t": 600
+ },
+ "feature_seeds": [
+  0,
+  1,
+  2
+ ],
+ "threads": 4,
+ "threads_why": "The probe is not bit-reproducible across BLAS thread counts (first measured in E16). All E9 numbers use 4 so they are comparable to E8's delivered cells; the all-clips D1 here is 32.898%, which is exactly E8's LikePhys L16/t=600 value, and that match is the self-check.",
+ "saturation_definition": {
+  "rule": "AUC >= 1 - 1e-9 on BOTH trained and random",
+  "eps": 1e-09,
+  "why_strict": "AUC = 1.0 is the ceiling of a bounded rank statistic (PROTOCOL_VALIDITY D3/D6). A looser delta would call 0.995 'saturated', which is strong signal rather than a statistical ceiling, and only the latter justifies exclusion."
+ },
+ "selfcheck": {
+  "rule": "all-clips pooled D1 must equal E8's delivered LikePhys L16/t=600 value",
+  "expected_pct": 32.9,
+  "measured_pct": 32.898061789202515,
+  "verdict": "PASS",
+  "note": "matches to the displayed precision; the pooled arm reuses e8_analyse.probe"
+ },
+ "aggregates_reported_separately": [
+  "all_clips",
+  "drop_saturated",
+  "per_scenario_mean"
+ ],
+ "why_two_aggregates": "Pooled D1 recomputes AUC over all clips (E8's convention); the per-scenario mean averages 12 separate D1 values (what 'saturated scenarios drag the mean down' literally describes). They are different quantities and E9_PREREG.md §3 forbids promoting either to 'the' main result.",
+ "verdict": {
+  "q1": "still_below_threshold",
+  "d1_all_pct": 32.898061789202515,
+  "d1_drop_pct": 35.82984912445413,
+  "delta_pp": 2.931787335251613,
+  "within_noise": false,
+  "n_saturated_strict": 2,
+  "fraction_clips_dropped": 0.16
+ },
+ "known_discrepancies": {
+  "saturated_count": "2 at L16/t=600, not the 5 claimed in NEXT_STEPS_AND_DIVISION.md §1. The 5/12 in EXPERIMENTS.md §5.6 (D3) was measured on L14/t=400, whose features are NOT cached on this node (load_X returns None), so it can neither be confirmed nor refuted here. Registered, not overwritten.",
+  "shadow_camera": "AUC_real 0.3662 < 0.5 — the network ranked physics-violating clips ABOVE legal ones. D1 is undefined (negative denominator), not small. Excluded from both per-scenario means so the two sides average over the same scenario set."
+ },
+ "scripts": {
+  "scripts/e9_manifest.py": "4efafdcff128542f",
+  "scripts/e9_saturation.py": "0cb291e55b7ebdad",
+  "scripts/e9_verdict.py": "7d3ef9d0b56987e7"
+ },
+ "deliverables": [
+  "E9_PREREG.md",
+  "E9_cells.json",
+  "E9_verdict.json",
+  "E9_REPORT.md",
+  "manifest.json"
+ ],
+ "runtime_s": 156.5
+}

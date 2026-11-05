@@ -1,0 +1,88 @@
+{
+ "model": "Wan-AI/Wan2.2-T2V-A14B-Diffusers@5be7df9619b5",
+ "design": "diagonal: low@t=300 (sigma 0.300) and high@t=900 (sigma 0.900)",
+ "own_band": {
+  "low": 300,
+  "high": 900
+ },
+ "boundary_ratio": 0.875,
+ "threshold": 0.5,
+ "probe_sd_threshold_pp": 2.509114605178866,
+ "threshold_source": "E16 probe-partition sd, median over IntPhys2 cells (same as E17)",
+ "q": {
+  "verdict": "experts_differ_in_own_band",
+  "delta_own_pp": -7.805022251261221,
+  "delta_cross_pp": 0.01363897901586597,
+  "per_layer": {
+   "L16": {
+    "d_own": -8.013997796442382,
+    "d_cross": 0.05953020550096255,
+    "low_own_band": {
+     "t": 300,
+     "sigma": 0.3,
+     "auc_real": 0.6326315212097912,
+     "auc_random": 0.5140645059592465,
+     "auc_appearance": 1.0,
+     "d1_pct": 89.39580438273056,
+     "floor": 0.004985230670424892,
+     "interpretable": true,
+     "why": "effect and denominator both clear 2x floor",
+     "n": 1012
+    },
+    "high_own_band": {
+     "t": 900,
+     "sigma": 0.9,
+     "auc_real": 0.5954756350121748,
+     "auc_random": 0.5024730078175061,
+     "auc_appearance": 0.9999866666666667,
+     "d1_pct": 97.40980217917294,
+     "floor": 0.030096284261403452,
+     "interpretable": true,
+     "why": "effect and denominator both clear 2x floor",
+     "n": 1012
+    },
+    "both_above_threshold": true
+   },
+   "Lrel": {
+    "d_own": -7.59604670608006,
+    "d_cross": -0.03225224746923061,
+    "low_own_band": {
+     "t": 300,
+     "sigma": 0.3,
+     "auc_real": 0.6118851826220685,
+     "auc_random": 0.5147867743175701,
+     "auc_appearance": 1.0,
+     "d1_pct": 86.78397445395638,
+     "floor": 0.013613676206638453,
+     "interpretable": true,
+     "why": "effect and denominator both clear 2x floor",
+     "n": 1012
+    },
+    "high_own_band": {
+     "t": 900,
+     "sigma": 0.9,
+     "auc_real": 0.6125031885172371,
+     "auc_random": 0.506322655388953,
+     "auc_appearance": 1.0,
+     "d1_pct": 94.38002116003643,
+     "floor": 0.022417399073412433,
+     "interpretable": true,
+     "why": "effect and denominator both clear 2x floor",
+     "n": 1012
+    },
+    "both_above_threshold": true
+   }
+  },
+  "note": "the two experts differ once each is in its own band; E17's t=600 null was produced by measuring the high-noise expert out of range, and E17_REPORT \u00a75 must be retracted"
+ },
+ "home_band_more_sensitive": true,
+ "d2": {
+  "L16": "fail",
+  "Lrel": "fail"
+ },
+ "not_done": [
+  "off-diagonal cells at t=300/900 (E18_PREREG.md \u00a72: one point per expert cannot describe generalisation)",
+  "no trend claim across t: two points, and sigma differs 3x (E18_PREREG.md \u00a76)",
+  "LikePhys: not run here, consistent with E17"
+ ]
+}

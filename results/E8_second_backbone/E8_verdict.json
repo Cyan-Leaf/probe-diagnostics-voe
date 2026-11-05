@@ -1,0 +1,573 @@
+{
+  "reference_cell": {
+    "layer": 16,
+    "t": 600
+  },
+  "d1_threshold": 0.5,
+  "prereg": "results/E8_second_backbone/E8_PREREG.md",
+  "thresholds_from": "PREREG.md D1/D2 + T10 interpretability gate",
+  "datasets": {
+    "intphys2": {
+      "wan22_5b_reference": {
+        "real": 0.6458,
+        "random": 0.5168,
+        "d1_pct": 88.5,
+        "appearance": 0.998
+      },
+      "backbones": {
+        "cogvideox2b": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.6442857234397027,
+            "auc_random": 0.5212671690375497,
+            "training_share": 0.8526037882990048,
+            "d1_training_share": 0.8526037882990048,
+            "d1_pct": 85.26037882990049,
+            "threshold": 0.5,
+            "floor_auc": 0.018424950807426704,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "L16|t298": {
+            "layer": 16,
+            "timestep": 298,
+            "auc_real": 0.6591654286812765,
+            "auc_random": 0.5119164757144689,
+            "training_share": 0.9251315074309812,
+            "d1_training_share": 0.9251315074309812,
+            "d1_pct": 92.51315074309812,
+            "threshold": 0.5,
+            "floor_auc": 0.010483052619511131,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.6442857234397027,
+            "auc_appearance": 0.9999607766243752,
+            "gap": 0.3556750531846725,
+            "n_appearance": 1012,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.538083065487633
+          },
+          "raw_pixel": {
+            "auc": 0.5470643111623734
+          }
+        },
+        "cogvideox5b": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.6030214686658977,
+            "auc_random": 0.5043003306420607,
+            "training_share": 0.9582579175219601,
+            "d1_training_share": 0.9582579175219601,
+            "d1_pct": 95.82579175219601,
+            "threshold": 0.5,
+            "floor_auc": 0.01272267830987223,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "L16|t298": {
+            "layer": 16,
+            "timestep": 298,
+            "auc_real": 0.6838451262334999,
+            "auc_random": 0.5146315186466743,
+            "training_share": 0.9204138888724688,
+            "d1_training_share": 0.9204138888724688,
+            "d1_pct": 92.04138888724688,
+            "threshold": 0.5,
+            "floor_auc": 0.013919114330826675,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 22,
+            "timestep": 600,
+            "auc_real": 0.5806123542227348,
+            "auc_random": 0.506942942458029,
+            "training_share": 0.9138724761859037,
+            "d1_training_share": 0.9138724761859037,
+            "d1_pct": 91.38724761859038,
+            "threshold": 0.5,
+            "floor_auc": 0.007993468769600786,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.6030214686658977,
+            "auc_appearance": 0.9999733333333333,
+            "gap": 0.3969518646674356,
+            "n_appearance": 1012,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.5387081148276304
+          },
+          "raw_pixel": {
+            "auc": 0.5470643111623734
+          }
+        },
+        "ltx": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.5506289837242085,
+            "auc_random": 0.5260881507112649,
+            "training_share": 0.4847190523638595,
+            "d1_training_share": 0.4847190523638595,
+            "d1_pct": 48.47190523638595,
+            "threshold": 0.5,
+            "floor_auc": 0.014991869871531576,
+            "interpretable": false,
+            "verdict": "NOT interpretable",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 15,
+            "timestep": 600,
+            "auc_real": 0.5524493092400359,
+            "auc_random": 0.5206354504677688,
+            "training_share": 0.6065639230188896,
+            "d1_training_share": 0.6065639230188896,
+            "d1_pct": 60.656392301888964,
+            "threshold": 0.5,
+            "floor_auc": 0.012799834427595096,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 15,
+            "auc_physics": 0.5524493092400359,
+            "auc_appearance": 0.9985761783929258,
+            "gap": 0.4461268691528899,
+            "n_appearance": 1012,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.5181197231833911
+          },
+          "raw_pixel": {
+            "auc": 0.5489689734717417
+          }
+        },
+        "mochi": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.615740153787005,
+            "auc_random": 0.5238668563373061,
+            "training_share": 0.7937893154934978,
+            "d1_training_share": 0.7937893154934978,
+            "d1_pct": 79.37893154934979,
+            "threshold": 0.5,
+            "floor_auc": 0.008340011080746234,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 26,
+            "timestep": 600,
+            "auc_real": 0.6496251621171344,
+            "auc_random": 0.5102453953607586,
+            "training_share": 0.9315262539014795,
+            "d1_training_share": 0.9315262539014795,
+            "d1_pct": 93.15262539014795,
+            "threshold": 0.5,
+            "floor_auc": 0.004321827730116368,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.615740153787005,
+            "auc_appearance": 1.0,
+            "gap": 0.384259846212995,
+            "n_appearance": 1012,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.5218151454568756
+          },
+          "raw_pixel": {
+            "auc": 0.5463740843265411
+          }
+        },
+        "wan21_14b": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.6667404075355633,
+            "auc_random": 0.5014691272587466,
+            "training_share": 0.991189134772666,
+            "d1_training_share": 0.991189134772666,
+            "d1_pct": 99.1189134772666,
+            "threshold": 0.5,
+            "floor_auc": 0.013646765272396957,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 21,
+            "timestep": 600,
+            "auc_real": 0.6443152992438805,
+            "auc_random": 0.5069725131359734,
+            "training_share": 0.9516855581320564,
+            "d1_training_share": 0.9516855581320564,
+            "d1_pct": 95.16855581320563,
+            "threshold": 0.5,
+            "floor_auc": 0.012489844373251058,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.6667404075355633,
+            "auc_appearance": 1.0,
+            "gap": 0.3332595924644367,
+            "n_appearance": 1012,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.5287521876201461
+          },
+          "raw_pixel": {
+            "auc": 0.5470643111623734
+          }
+        },
+        "wan21_1b3": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.6501511803152634,
+            "auc_random": 0.5132014661027811,
+            "training_share": 0.9120788389737414,
+            "d1_training_share": 0.9120788389737414,
+            "d1_pct": 91.20788389737415,
+            "threshold": 0.5,
+            "floor_auc": 0.015182875677673013,
+            "interpretable": true,
+            "verdict": "pass",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.6501511803152634,
+            "auc_appearance": 1.0,
+            "gap": 0.3498488196847366,
+            "n_appearance": 1012,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.5287521876201461
+          },
+          "raw_pixel": {
+            "auc": 0.5470643111623734
+          }
+        }
+      }
+    },
+    "likephys": {
+      "wan22_5b_reference": {
+        "real": 0.9686,
+        "random": 0.8353,
+        "d1_pct": 28.5,
+        "appearance": 1.0
+      },
+      "backbones": {
+        "cogvideox2b": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.9271093711755919,
+            "auc_random": 0.7449569855894737,
+            "training_share": 0.4264771458531925,
+            "d1_training_share": 0.4264771458531925,
+            "d1_pct": 42.64771458531925,
+            "threshold": 0.5,
+            "floor_auc": 0.023800351317302588,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "L16|t298": {
+            "layer": 16,
+            "timestep": 298,
+            "auc_real": 0.9227194608564914,
+            "auc_random": 0.8102648710158187,
+            "training_share": 0.26602652646467534,
+            "d1_training_share": 0.26602652646467534,
+            "d1_pct": 26.602652646467533,
+            "threshold": 0.5,
+            "floor_auc": 0.013392201226897466,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.9271093711755919,
+            "auc_appearance": 0.9962265512265512,
+            "gap": 0.06911718005095935,
+            "n_appearance": 170,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.7856719993910279
+          },
+          "raw_pixel": {
+            "auc": 0.7787365093185278
+          }
+        },
+        "cogvideox5b": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.9231996539495387,
+            "auc_random": 0.7391331811454295,
+            "training_share": 0.43494003618929444,
+            "d1_training_share": 0.43494003618929444,
+            "d1_pct": 43.49400361892945,
+            "threshold": 0.5,
+            "floor_auc": 0.03018257940699655,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "L16|t298": {
+            "layer": 16,
+            "timestep": 298,
+            "auc_real": 0.9245620778714921,
+            "auc_random": 0.7647419929387563,
+            "training_share": 0.3764351393180968,
+            "d1_training_share": 0.3764351393180968,
+            "d1_pct": 37.64351393180968,
+            "threshold": 0.5,
+            "floor_auc": 0.012652336937773123,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 22,
+            "timestep": 600,
+            "auc_real": 0.897687320764272,
+            "auc_random": 0.7414965258398541,
+            "training_share": 0.3927477361467089,
+            "d1_training_share": 0.3927477361467089,
+            "d1_pct": 39.27477361467089,
+            "threshold": 0.5,
+            "floor_auc": 0.026237925484479594,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t298": {
+            "layer": 22,
+            "timestep": 298,
+            "auc_real": 0.9083874161162369,
+            "auc_random": 0.7727465450459664,
+            "training_share": 0.33213773421378834,
+            "d1_training_share": 0.33213773421378834,
+            "d1_pct": 33.21377342137883,
+            "threshold": 0.5,
+            "floor_auc": 0.015391624125965836,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.9231996539495387,
+            "auc_appearance": 0.9950532106782107,
+            "gap": 0.071853556728672,
+            "n_appearance": 170,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.7850017014725027
+          },
+          "raw_pixel": {
+            "auc": 0.7787365093185278
+          }
+        },
+        "ltx": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.8371511149396961,
+            "auc_random": 0.7277097389327668,
+            "training_share": 0.32460630013489444,
+            "d1_training_share": 0.32460630013489444,
+            "d1_pct": 32.46063001348944,
+            "threshold": 0.5,
+            "floor_auc": 0.010256277764297841,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 15,
+            "timestep": 600,
+            "auc_real": 0.8425563496734645,
+            "auc_random": 0.7244029339550271,
+            "training_share": 0.3449167292653164,
+            "d1_training_share": 0.3449167292653164,
+            "d1_pct": 34.49167292653164,
+            "threshold": 0.5,
+            "floor_auc": 0.011029050674139769,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 15,
+            "auc_physics": 0.8425563496734645,
+            "auc_appearance": 0.964057955932956,
+            "gap": 0.12150160625949147,
+            "n_appearance": 170,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.7916917245752605
+          },
+          "raw_pixel": {
+            "auc": 0.7663543193652251
+          }
+        },
+        "mochi": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.948540364044628,
+            "auc_random": 0.7942670017484686,
+            "training_share": 0.34394532724999033,
+            "d1_training_share": 0.34394532724999033,
+            "d1_pct": 34.39453272499903,
+            "threshold": 0.5,
+            "floor_auc": 0.015024663851933445,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 26,
+            "timestep": 600,
+            "auc_real": 0.9540943903327258,
+            "auc_random": 0.7875844440706038,
+            "training_share": 0.3666857591878997,
+            "d1_training_share": 0.3666857591878997,
+            "d1_pct": 36.66857591878997,
+            "threshold": 0.5,
+            "floor_auc": 0.01569887401412472,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.948540364044628,
+            "auc_appearance": 0.9975829725829727,
+            "gap": 0.049042608538344634,
+            "n_appearance": 170,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.7570557901585312
+          },
+          "raw_pixel": {
+            "auc": 0.774025513855572
+          }
+        },
+        "wan21_14b": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.9653892686059439,
+            "auc_random": 0.8159802260018778,
+            "training_share": 0.3210410137982237,
+            "d1_training_share": 0.3210410137982237,
+            "d1_pct": 32.10410137982237,
+            "threshold": 0.5,
+            "floor_auc": 0.013823975492783783,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "Lrel|t600": {
+            "layer": 21,
+            "timestep": 600,
+            "auc_real": 0.9623015864582604,
+            "auc_random": 0.8098816624745003,
+            "training_share": 0.329698033596347,
+            "d1_training_share": 0.329698033596347,
+            "d1_pct": 32.969803359634696,
+            "threshold": 0.5,
+            "floor_auc": 0.013813871201172433,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.9653892686059439,
+            "auc_appearance": 1.0,
+            "gap": 0.03461073139405613,
+            "n_appearance": 170,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.7838861925250978
+          },
+          "raw_pixel": {
+            "auc": 0.7787365093185278
+          }
+        },
+        "wan21_1b3": {
+          "L16|t600": {
+            "layer": 16,
+            "timestep": 600,
+            "auc_real": 0.9388724188268168,
+            "auc_random": 0.794491899305403,
+            "training_share": 0.32898061789202515,
+            "d1_training_share": 0.32898061789202515,
+            "d1_pct": 32.898061789202515,
+            "threshold": 0.5,
+            "floor_auc": 0.015630330197304622,
+            "interpretable": true,
+            "verdict": "fail",
+            "note": "D1 reported per PREREG.md; primary cells are L16/t600"
+          },
+          "d2": {
+            "layer": 16,
+            "auc_physics": 0.9388724188268168,
+            "auc_appearance": 1.0,
+            "gap": 0.061127581173183176,
+            "n_appearance": 170,
+            "verdict": "fail"
+          },
+          "vae_latent": {
+            "auc": 0.7838861925250978
+          },
+          "raw_pixel": {
+            "auc": 0.7787365093185278
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+ "model": "MiniMaxAI/MiniMax-H3 (33.1B dense single-stream Omni Transformer)",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "frame_geometry": {
+  "pixel_frames": 39,
+  "groups": [
+   17,
+   17,
+   5
+  ],
+  "latent_frames": 12,
+  "note": "39 = 17+17+5 pixel frames -> 12 latent frames"
+ },
+ "threads": 4,
+ "d1_threshold": 0.5,
+ "weak_signal_auc": 0.6,
+ "q1_d1": {
+  "h3|L16": {
+   "d1_pct": 63.87045704511463,
+   "auc_real": 0.5738744072792515,
+   "auc_random": 0.5266904857106242,
+   "interpretable": true,
+   "verdict": "pass",
+   "why": "effect and denominator both clear 2x floor",
+   "weak_signal": true,
+   "comparable_across_cells": false
+  },
+  "h3|Lrel": {
+   "d1_pct": 80.96680186005392,
+   "auc_real": 0.6413840369088812,
+   "auc_random": 0.5269099038831219,
+   "interpretable": true,
+   "verdict": "pass",
+   "why": "effect and denominator both clear 2x floor",
+   "weak_signal": false,
+   "comparable_across_cells": true
+  }
+ },
+ "q2_d2": {
+  "h3|L16": {
+   "auc_physics": 0.5738744072792515,
+   "auc_appearance": 0.9999933333333333,
+   "gap": 0.42611892605408175,
+   "verdict": "fail"
+  },
+  "h3|Lrel": {
+   "auc_physics": 0.6413840369088812,
+   "auc_appearance": 1.0,
+   "gap": 0.35861596309111876,
+   "verdict": "fail"
+  }
+ },
+ "q3_lower_bounds": {
+  "values": {
+   "trained_dit": 0.5738744072792515,
+   "random_dit": 0.5266904857106242,
+   "vae_latent": 0.5334459566833268,
+   "raw_pixel": 0.5453810841983852
+  },
+  "order_by_auc": [
+   "trained_dit",
+   "raw_pixel",
+   "vae_latent",
+   "random_dit"
+  ],
+  "canonical_order": [
+   "trained_dit",
+   "raw_pixel",
+   "vae_latent",
+   "random_dit"
+  ],
+  "canonical_source": "Read from results/E8_second_backbone/E8_cells_intphys2.json, not from the task sheet. Across E8's six models: **trained beats raw_pixel 6/6 and beats vae_latent 6/6**, while the vae-vs-random order flips by model (cogvideox2b/5b and wan21_14b/1b3 put vae above random, ltx and mochi put random above vae). So the load-bearing claim is 'trained beats both non-DiT arms 6/6'; the three-way order the task sheet sketched ('trained > random > pixel') is NOT what E8 measured -- random_dit never clears raw_pixel in any of the six. E19 is judged on the two claims E8 actually established.",
+  "order_reproduces": true,
+  "two_way_claims": {
+   "reference": "E8 achieved 6/6 on both",
+   "trained_beats_both_non_dit_arms": true,
+   "trained_above_random": true,
+   "trained_above_pixel": true,
+   "trained_above_vae": true
+  },
+  "note": "PREREG-equivalent judgement is the ORDER, not the values: each backbone is measured on its own features and absolute AUC is not comparable across models (E8 \u00a714). A break in the order is a finding, not noise."
+ },
+ "summary": {
+  "d1_pass": 2,
+  "d1_fail": 0,
+  "d1_not_interpretable": 0,
+  "d2_fail": 2,
+  "d2_pass": 0,
+  "order_reproduces": true
+ },
+ "not_done": [
+  "LikePhys: not run (consistent with E17/E18, IntPhys 2 first)",
+  "D3-D6: explicitly out of scope (NEXT_STEPS_AND_DIVISION.md forbids all six)",
+  "t=298 SNR-matched cell: a single-model cell would break comparability",
+  "audio rows: passed to forward at the right length and tag, never read back"
+ ],
+ "carried_forward": [
+  "E18's cross-sigma confound does NOT apply here: every E19 cell is at t=600 and no cross-timestep comparison is made",
+  "E16's threads rule: all probe calls above ran at threads=4"
+ ]
+}

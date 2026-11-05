@@ -1,0 +1,93 @@
+{
+ "task": "E14: fifth model family (HunyuanVideo) under the E8 protocol",
+ "created": "2026-10-28 20:57:46",
+ "model": {
+  "repo": "hunyuanvideo-community/HunyuanVideo",
+  "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+  "transformer_params_b": 12.8,
+  "n_double_blocks": 20,
+  "n_single_blocks": 40,
+  "n_blocks": 60,
+  "hidden": 3072,
+  "heads": 24,
+  "head_dim": 128,
+  "text_encoder": "LlamaModel 8B (4096) + CLIPTextModel (768 pooled)",
+  "vae": "AutoencoderKLHunyuanVideo, 8x spatial / 4x temporal, 16 ch",
+  "has_vae": true,
+  "has_noising_step": true
+ },
+ "geometry": {
+  "height": 512,
+  "width": 512,
+  "frames": 49,
+  "latent_shape": [
+   1,
+   16,
+   13,
+   64,
+   64
+  ],
+  "latent_layout": "B,C,F,H,W (NOT frame-major)",
+  "patch": [
+   2,
+   1
+  ],
+  "tokens": 13312
+ },
+ "data": {
+  "dataset": "IntPhys2 Main",
+  "n_plain": 1012,
+  "n_cj": 506,
+  "manifest": "results/E7_intphys2/manifest.json"
+ },
+ "extraction_counts": {
+  "hunyuan_feats_real_intphys2": 1012,
+  "hunyuan_feats_real_intphys2_cj": 506,
+  "hunyuan_feats_random_intphys2": 1012,
+  "hunyuan_feats_random_intphys2_cj": 506
+ },
+ "probe": {
+  "folds": 5,
+  "inner_folds": 3,
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "grouping": "intphys2 scene_index",
+  "feature_seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "floors": "seed-spread (PREREG.md D4 definition A), same as E8's diffusion backbones",
+ "deviations": [
+  {
+   "what": "L16 and Lrel=32 are in different block stacks",
+   "why": "20 double-stream blocks then 40 single-stream",
+   "consequence": "the two cells are NOT a depth contrast; the report says so every time it shows them together"
+  },
+  {
+   "what": "random DiT falls below raw pixel",
+   "why": "unexplained; one model, posited norm/qk_norm interaction not tested",
+   "consequence": "the trained>random>pixel ordering does not reproduce here; ordering_reproduces is false in E14_verdict.json"
+  }
+ ],
+ "env": {
+  "python": "Python 3.12.3",
+  "torch": "2.9.0a0+145a3a7bda.nv25.10",
+  "diffusers": "0.36.0",
+  "gpu": "4x NVIDIA B200 (183 GB each)"
+ },
+ "scripts": {
+  "scripts/e14_analyse.py": "79f5721d0ccfe2a5",
+  "scripts/e14_extract.py": "05afb4874b679e72",
+  "scripts/e14_manifest.py": "025c4c42fefef545",
+  "scripts/e14_verdict.py": "d83350503f6e87e2"
+ },
+ "peak_vram_gb": 40.4,
+ "s_per_clip": 4.08
+}

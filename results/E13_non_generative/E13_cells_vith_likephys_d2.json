@@ -1,0 +1,25 @@
+{
+ "model": "facebook/vjepa2-vith-fpc64-256@b5eac8703e3e",
+ "dataset": "likephys",
+ "criterion": "AUC(legal vs color_change) >= AUC(legal vs violation) -> fail",
+ "cells": {
+  "vith|likephys|L16": {
+   "layer": 16,
+   "auc_appearance_vs_legal": 1.0,
+   "auc_physics_vs_legal": 0.9474855800349122,
+   "gap": 0.052514419965087766,
+   "n_legal": 120,
+   "n_color_change": 50,
+   "verdict": "fail"
+  },
+  "vith|likephys|L17": {
+   "layer": 17,
+   "auc_appearance_vs_legal": 1.0,
+   "auc_physics_vs_legal": 0.9486324029311689,
+   "gap": 0.051367597068831095,
+   "n_legal": 120,
+   "n_color_change": 50,
+   "verdict": "fail"
+  }
+ }
+}

@@ -1,11 +1,11 @@
 {
-  "n_copied": 230,
-  "n_files_sanitised": 21,
-  "n_substitutions": 45,
+  "n_copied": 425,
+  "n_files_sanitised": 40,
+  "n_substitutions": 67,
   "sanitised": [
     {
       "file": "scripts/t14_build_release.py",
-      "substitutions": 7
+      "substitutions": 8
     },
     {
       "file": "results/T2_env/gpu_health_newbox.json",
@@ -14,6 +14,10 @@
     {
       "file": "results/T2_env/min_chain.json",
       "substitutions": 4
+    },
+    {
+      "file": "scripts/e19_queue.sh",
+      "substitutions": 3
     },
     {
       "file": "scripts/t14_scan_sensitive.py",
@@ -48,6 +52,38 @@
       "substitutions": 1
     },
     {
+      "file": "scripts/e12_queue.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e13_queue.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e14_queue.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e15_queue.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e17_queue.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e18_queue.sh",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e19_extract.py",
+      "substitutions": 1
+    },
+    {
+      "file": "scripts/e19_manifest.py",
+      "substitutions": 1
+    },
+    {
       "file": "scripts/e7_extract.py",
       "substitutions": 1
     },
@@ -66,29 +102,11 @@
     {
       "file": "scripts/t2_min_chain.py",
       "substitutions": 1
-    },
-    {
-      "file": "scripts/t2_prompt_embeds.py",
-      "substitutions": 1
-    },
-    {
-      "file": "scripts/t3t4_pipeline.sh",
-      "substitutions": 1
-    },
-    {
-      "file": "results/E10_shadow_camera/E10_S1_S3.json",
-      "substitutions": 1
-    },
-    {
-      "file": "results/T3_null_floor/manifest_summary.json",
-      "substitutions": 1
-    },
-    {
-      "file": "results/T1_rescan_20260917/C1c_STATUS.md",
-      "substitutions": 1
     }
   ],
   "excluded_dirs": [
+    ".ipynb_checkpoints",
+    "__pycache__",
     "clips",
     "export",
     "filled",
@@ -103,7 +121,9 @@
     ".mp4",
     ".npy",
     ".pdf",
-    ".pt"
+    ".pt",
+    ".pyc",
+    ".pyo"
   ],
   "excluded_names": [
     "ANSWER_KEY.json",

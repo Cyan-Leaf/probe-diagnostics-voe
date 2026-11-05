@@ -1,0 +1,28 @@
+{
+ "model": "facebook/vjepa2-vitl-fpc64-256@b3c1679b7c34",
+ "dataset": "likephys",
+ "cells": {
+  "vjepa|likephys|L16": {
+   "layer": 16,
+   "auc_real": 0.96855577385411,
+   "auc_random": 0.7166725894254258,
+   "d1": 0.5375735365649572,
+   "d1_pct": 53.757353656495724,
+   "floor": 0.03843269046602813,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 750
+  },
+  "vjepa|likephys|L13": {
+   "layer": 13,
+   "auc_real": 0.9614358045716699,
+   "auc_random": 0.712120533663755,
+   "d1": 0.5403032630711069,
+   "d1_pct": 54.030326307110684,
+   "floor": 0.035166554791363644,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 750
+  }
+ }
+}

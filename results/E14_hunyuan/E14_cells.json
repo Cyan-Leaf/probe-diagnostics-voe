@@ -1,0 +1,89 @@
+{
+ "model": "hunyuanvideo-community/HunyuanVideo@e8c2aaa66fe3",
+ "reference_cell": {
+  "layer": 16,
+  "t": 600
+ },
+ "relative_depth_cell": {
+  "layer": 32,
+  "depth": 0.5333333333333333,
+  "stack": "single-stream",
+  "note": "not a depth control for L16: different stack"
+ },
+ "n_blocks": 60,
+ "n_double": 20,
+ "n_single": 40,
+ "cells": {
+  "hunyuan|intphys2|L16|flat|physics": {
+   "layer": 16,
+   "auc_real": 0.615262604126618,
+   "auc_random": 0.5264115827245931,
+   "auc_appearance": 1.0,
+   "d1": 0.7708573138293883,
+   "d1_pct": 77.08573138293883,
+   "floor": 0.0042200655407902505,
+   "floor_real": 0.0007122032215993228,
+   "floor_random": 0.0042200655407902505,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_seed_real": [
+    0.6158932641291811,
+    0.6144901806997309,
+    0.615404367550942
+   ],
+   "per_seed_random": [
+    0.5287538485198,
+    0.5289410303729335,
+    0.5215398692810458
+   ],
+   "gap_appearance_minus_physics": 0.38473739587338196
+  },
+  "hunyuan|intphys2|Lrel|flat|physics": {
+   "layer": 32,
+   "auc_real": 0.6241452851467385,
+   "auc_random": 0.5310117929001666,
+   "auc_appearance": 1.0,
+   "d1": 0.7501975780754702,
+   "d1_pct": 75.01975780754702,
+   "floor": 0.010455657681532254,
+   "floor_real": 0.010455657681532254,
+   "floor_random": 0.006108565265037889,
+   "interpretable": true,
+   "why": "effect and denominator both clear 2x floor",
+   "n": 1012,
+   "n_pos": 506,
+   "per_seed_real": [
+    0.614662429834679,
+    0.6224154402153019,
+    0.6353579853902346
+   ],
+   "per_seed_random": [
+    0.5348989081122645,
+    0.5341655209534795,
+    0.5239709496347559
+   ],
+   "gap_appearance_minus_physics": 0.3758547148532615
+  },
+  "hunyuan|intphys2|raw_pixel": {
+   "auc": 0.547012013328207,
+   "seed_spread": 0.010346329699359851,
+   "per_seed_auc": [
+    0.5504541022683582,
+    0.5353833679354094,
+    0.5551985697808535
+   ]
+  },
+  "hunyuan|intphys2|vae_latent": {
+   "auc": 0.5328335306933232,
+   "seed_spread": 0.002210336777769834,
+   "per_seed_auc": [
+    0.5350981468665899,
+    0.5306817993079586,
+    0.532720645905421
+   ]
+  }
+ },
+ "elapsed_s": 678.1
+}

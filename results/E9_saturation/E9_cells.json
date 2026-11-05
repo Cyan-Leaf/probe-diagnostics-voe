@@ -1,0 +1,213 @@
+{
+ "backbone": "wan21_1b3",
+ "dataset": "likephys",
+ "layer": 16,
+ "t": 600,
+ "sat_eps": 1e-09,
+ "per_scenario": {
+  "ball_collision": {
+   "auc_real": 0.950462962962963,
+   "auc_random": 0.662962962962963,
+   "n": 60,
+   "d1": 0.6382322713257965,
+   "d1_pct": 63.82322713257965,
+   "saturated": false
+  },
+  "ball_drop": {
+   "auc_real": 1.0,
+   "auc_random": 0.9947916666666666,
+   "n": 50,
+   "d1": 0.01041666666666674,
+   "d1_pct": 1.041666666666674,
+   "saturated": false
+  },
+  "block_slide": {
+   "auc_real": 0.9703703703703704,
+   "auc_random": 0.7796296296296297,
+   "n": 60,
+   "d1": 0.40551181102362205,
+   "d1_pct": 40.55118110236221,
+   "saturated": false
+  },
+  "cloth_drape": {
+   "auc_real": 1.0,
+   "auc_random": 1.0,
+   "n": 50,
+   "d1": 0.0,
+   "d1_pct": 0.0,
+   "saturated": true
+  },
+  "faucet": {
+   "auc_real": 1.0,
+   "auc_random": 0.9851190476190476,
+   "n": 80,
+   "d1": 0.029761904761904878,
+   "d1_pct": 2.976190476190488,
+   "saturated": false
+  },
+  "flag": {
+   "auc_real": 1.0,
+   "auc_random": 0.938888888888889,
+   "n": 60,
+   "d1": 0.12222222222222201,
+   "d1_pct": 12.2222222222222,
+   "saturated": false
+  },
+  "fluid": {
+   "auc_real": 1.0,
+   "auc_random": 1.0,
+   "n": 70,
+   "d1": 0.0,
+   "d1_pct": 0.0,
+   "saturated": true
+  },
+  "pendulum": {
+   "auc_real": 1.0,
+   "auc_random": 0.8040123456790124,
+   "n": 70,
+   "d1": 0.3919753086419753,
+   "d1_pct": 39.197530864197525,
+   "saturated": false
+  },
+  "pyramid": {
+   "auc_real": 1.0,
+   "auc_random": 0.9874999999999999,
+   "n": 60,
+   "d1": 0.025000000000000133,
+   "d1_pct": 2.5000000000000133,
+   "saturated": false
+  },
+  "river": {
+   "auc_real": 1.0,
+   "auc_random": 0.9490740740740741,
+   "n": 70,
+   "d1": 0.10185185185185186,
+   "d1_pct": 10.185185185185187,
+   "saturated": false
+  },
+  "shadow": {
+   "auc_real": 0.9851851851851853,
+   "auc_random": 1.0,
+   "n": 60,
+   "d1": -0.030534351145037976,
+   "d1_pct": -3.0534351145037975,
+   "saturated": false
+  },
+  "shadow_camera": {
+   "auc_real": 0.36620370370370364,
+   "auc_random": 0.5143518518518518,
+   "n": 60,
+   "d1": NaN,
+   "d1_pct": NaN,
+   "saturated": false
+  }
+ },
+ "aggregates": {
+  "all_clips": {
+   "auc_real": 0.9388724188268168,
+   "auc_random": 0.794491899305403,
+   "d1": 0.32898061789202515,
+   "d1_pct": 32.898061789202515,
+   "n": 750,
+   "per_feature_seed_real": [
+    0.921236438591072,
+    0.9510125126336316,
+    0.944368305255747
+   ],
+   "per_feature_seed_random": [
+    0.783288813652612,
+    0.8115969855416575,
+    0.7885898987219393
+   ]
+  },
+  "drop_saturated": {
+   "dropped_scenarios": [
+    "cloth_drape",
+    "fluid"
+   ],
+   "kept_scenarios": [
+    "ball_collision",
+    "ball_drop",
+    "block_slide",
+    "faucet",
+    "flag",
+    "pendulum",
+    "pyramid",
+    "river",
+    "shadow",
+    "shadow_camera"
+   ],
+   "auc_real": 0.9272627108924404,
+   "auc_random": 0.7741751262146264,
+   "d1_pct": 35.82984912445413,
+   "n": 630,
+   "n_dropped": 120,
+   "per_feature_seed_real": [
+    0.9185166693581117,
+    0.9281547751570649,
+    0.9351166881621445
+   ],
+   "per_feature_seed_random": [
+    0.7807166201300759,
+    0.7709246573021533,
+    0.77088410121165
+   ]
+  },
+  "per_scenario_mean": {
+   "all": 15.403978957718193,
+   "n_all": 11,
+   "drop_saturated": 18.827085392766683,
+   "n_kept": 9,
+   "undefined_scenarios": [
+    "shadow_camera"
+   ],
+   "undefined_reason": "AUC_real < 0.5 \u2014 the training-share denominator (A-0.5) is negative, so D1 is undefined rather than small. Excluded from BOTH means so the two sides average over the same scenario set."
+  },
+  "count_reconciliation": {
+   "strict_both_arms_1.000": [
+    "cloth_drape",
+    "fluid"
+   ],
+   "n_strict": 2,
+   "real_arm_1.000_only": [
+    "ball_drop",
+    "cloth_drape",
+    "faucet",
+    "flag",
+    "fluid",
+    "pendulum",
+    "pyramid",
+    "river"
+   ],
+   "n_real_only": 8,
+   "exact_zero_gap": [
+    "cloth_drape",
+    "fluid"
+   ],
+   "n_zero_gap": 2,
+   "claim_under_test": "NEXT_STEPS_AND_DIVISION.md \u00a71: '12 \u573a\u666f\u4e2d 5 \u4e2a real-random=0'",
+   "note": "at L16/t=600 only 2 scenarios reach 1.000 on BOTH arms and exactly 2 have a zero gap, so '5' does not reproduce here. The 5/12 figure in EXPERIMENTS.md \u00a75.6 (D3) was measured on the L14/t=400 best cell, whose features are NOT in cache, so it cannot be re-derived on this machine \u2014 it is neither confirmed nor refuted by E9, and must not be silently replaced by the L16/t=600 count."
+  }
+ },
+ "verdict": {
+  "q1": "still_below_threshold",
+  "q1_note": "dropping saturated scenarios does not move D1 past the 50% bar",
+  "q2": {
+   "delta_pp": 2.931787335251613,
+   "probe_sd_pp": 2.51,
+   "within_noise": false
+  },
+  "q3": {
+   "n_saturated": 2,
+   "saturated": [
+    "cloth_drape",
+    "fluid"
+   ],
+   "n_clips_dropped": 120,
+   "n_clips_total": 750,
+   "fraction_dropped": 0.16,
+   "caveat": "filtering clips also changes the group set and therefore the CV folds; the dropped fraction is reported because a large one would make the kept estimate noisy rather than cleaner"
+  },
+  "elapsed_s": 156.5
+ }
+}

@@ -20,21 +20,35 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
 # --- what to copy ----------------------------------------------------------------------
 CODE = ["scripts", "humaneval/serve.py", "humaneval/serve.sh", "humaneval/index.html",
-        "humaneval/transcode.py", "humaneval/README.md"]
+        "humaneval/transcode.py", "humaneval/README.md",
+        # The smoke path and its dependency list are the entry point of the release; leaving
+        # them out of this list silently DELETED them from the published tree on rebuild
+        # (found 2026-11-05: repro/l0_smoke.py, requirements.txt and .gitignore were all being
+        # removed). Anything tracked in the release repo must appear here or under DOCS.
+        "repro/l0_smoke.py", "T14_REPRO.md", "PROPOSAL_v1.0_en.md"]
 DOCS = ["SPEC.md", "PREREG.md", "PROTOCOL_VALIDITY.md", "EXPERIMENTS.md",
-        "research/RELATED_WORK.md", "handoff/PITFALLS.md"]
+        "research/RELATED_WORK.md", "handoff/PITFALLS.md",
+        # Added 2026-11-05: the two new tasks' preregistrations are part of the argument
+        # (they fix the criteria before the runs), so they ship with the code.
+        "results/E20_bootstrap_ci/E20_PREREG.md",
+        "results/E21_physics_iq_real/E21_PREREG.md"]
 RESULT_GLOBS = ["results/**/*.json", "results/**/*.md", "results/T13_figures/*.png",
                 "results/T13_figures/*.pdf"]
 
 # --- what never ships ------------------------------------------------------------------
-EXCLUDE_DIRS = {"raw", "superseded", "export", "clips", "filled"}
-EXCLUDE_SUFFIX = {".pt", ".npy", ".mp4", ".html", ".pdf", ".db", ".log", ".bak"}
+# "__pycache__" is not cosmetic: .pyc files embed the absolute source path of the build box,
+# so shipping them leaked $WORKDIR through 33 files that no text scan of the
+# .py sources would ever have caught (found 2026-11-05 by grepping the built tree, not the source).
+EXCLUDE_DIRS = {"raw", "superseded", "export", "clips", "filled", "__pycache__", ".ipynb_checkpoints"}
+EXCLUDE_SUFFIX = {".pt", ".npy", ".mp4", ".html", ".pdf", ".db", ".log", ".bak",
+                  ".pyc", ".pyo"}
 # The sensitive-info scan is itself a catalogue of every internal path in the repo, and the
 # rating answer key would invalidate the human-eval package. Neither ships.
 EXCLUDE_NAMES = {"ANSWER_KEY.json", "T14_sensitive_scan.json"}
@@ -106,11 +120,45 @@ def main():
     ap.add_argument("--out", default="release")
     args = ap.parse_args()
     dst_root = ROOT / args.out
-    if dst_root.exists():
-        shutil.rmtree(dst_root)
-    dst_root.mkdir(parents=True)
+    # `release/` is a checked-out git repository, so a blind rmtree deletes `.git` and with it
+    # the history of the already-published release. Build into a staging directory instead and
+    # swap the contents in, leaving `.git` untouched.
+    staged = dst_root.with_name(dst_root.name + ".staging")
+    if staged.exists():
+        shutil.rmtree(staged)
+    staged.mkdir(parents=True)
 
-    copied, sanitised_files, total_subs, skipped = [], [], 0, []
+    # Some files exist ONLY in the published tree: README.md (written for the public audience,
+    # not copied from the repo root), .gitignore, requirements.txt, the submitted proposal and
+    # RELEASE_MANIFEST.json. They are tracked in git but have no source file here, so a rebuild
+    # that mirrors only the repo would delete them — which is exactly what happened once.
+    # Carry them forward instead of relying on anyone remembering.
+    # The authoritative copies now live in `release_src/` in the working repo, so the public
+    # README is editable and version-controlled instead of existing only inside the published
+    # tree. When a source copy is missing, fall back to the published file so an older checkout
+    # does not lose it.
+    SRC = {"README.md": "release_src/README.md",
+           "requirements.txt": "release_src/requirements.txt",
+           ".gitignore": "release_src/gitignore.txt"}
+    RELEASE_ONLY = {".gitignore", "README.md", "requirements.txt",
+                    "PROPOSAL_v1.0_zh.md", "PROPOSAL_v1.0_zh_submitted.md",
+                    "RELEASE_MANIFEST.json"}
+    if dst_root.exists():
+        for entry in dst_root.iterdir():
+            if entry.name == ".git":
+                continue
+            if entry.name in RELEASE_ONLY and entry.is_file():
+                shutil.copy2(entry, staged / entry.name)
+                continue
+            shutil.rmtree(entry) if entry.is_dir() else entry.unlink()
+    for name, src in SRC.items():
+        if (ROOT / src).exists():
+            shutil.copy2(ROOT / src, staged / name)
+    dst_root = staged
+
+    # Carry-forward files count as copied, otherwise the integrity guard reports a false loss
+    # for exactly the files it just preserved.
+    copied, sanitised_files, total_subs, skipped = sorted(RELEASE_ONLY), [], 0, []
 
     def put(src: Path, rel: Path):
         nonlocal total_subs
@@ -167,12 +215,45 @@ def main():
     (dst_root / "RELEASE_MANIFEST.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False))
 
-    print(f"copied {len(copied)} files into {dst_root.relative_to(ROOT)}/")
+    # Swap the freshly built tree into place, keeping the git metadata that lives in it.
+    final = ROOT / args.out
+    for entry in sorted(dst_root.iterdir()):
+        target = final / entry.name
+        if entry.is_dir():
+            if target.exists():
+                shutil.rmtree(target)
+            shutil.move(str(entry), str(target))
+        else:
+            shutil.move(str(entry), str(target))
+    shutil.rmtree(dst_root)
+
+    # Regression guard: the rebuild DELETES everything not in CODE/DOCS/RESULT_GLOBS, so a
+    # file dropped from those lists disappears from the public repo without any error. Check
+    # the previous commit's tracked files against what exists now and fail loudly on loss.
+    try:
+        # Against HEAD, not the index: the rebuild has already replaced the working tree by
+        # the time this runs, so `git ls-files` would report the NEW files and never notice a loss.
+        prev = subprocess.run(["git", "ls-tree", "-r", "--name-only", "HEAD"], cwd=final,
+                              capture_output=True, text=True, timeout=30).stdout.split()
+    except Exception:
+        prev = []
+    present = set(copied)
+    lost = sorted(set(prev) - present)
+    if lost:
+        print(f"\n!! {len(lost)} previously published files are MISSING after this rebuild:")
+        for f in lost[:20]:
+            print(f"   {f}")
+        print("   Add them to CODE/DOCS or fix the exclusion rules. Do not commit a release "
+              "that silently drops files.")
+    else:
+        print(f"\nintegrity: all {len(prev)} files from the last commit are still present")
+
+    print(f"copied {len(copied)} files into {args.out}/")
     print(f"sanitised {len(sanitised_files)} files, {total_subs} substitutions")
     print("\ntop sanitised:")
     for s in report["sanitised"][:10]:
         print(f"  {s['substitutions']:5d}  {s['file']}")
-    print(f"\nwrote {dst_root.relative_to(ROOT)}/RELEASE_MANIFEST.json")
+    print(f"\nwrote {args.out}/RELEASE_MANIFEST.json")
 
 
 if __name__ == "__main__":
